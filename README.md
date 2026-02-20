@@ -17,6 +17,7 @@ This repository contains a complete static affiliate site for budget van life co
    ```bash
    hugo server -D
    ```
+   This repo includes `config/development/hugo.toml`, so local preview serves correctly at `http://localhost:1313/`.
 4. Open the local URL shown by Hugo (usually `http://localhost:1313`).
 
 ## Install Blowfish as a Submodule (Recommended)
