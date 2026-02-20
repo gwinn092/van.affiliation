@@ -1,9 +1,11 @@
 ---
 title: "Best Budget Solar Power Kits for Van Life"
+date: 2026-01-05
 description: "Compare affordable solar power kits for van life with practical pros, cons, and affiliate-ready recommendations."
 keywords: ["budget solar kit", "van life solar", "portable solar", "affiliate solar gear"]
 categories: ["gear"]
 tags: ["budget", "solar"]
+featureimage: "/img/gear/van-solar-roof.webp"
 ---
 
 Starting solar can feel expensive, but a few well-priced kits can cover lights, charging, and small appliances without overbuilding.

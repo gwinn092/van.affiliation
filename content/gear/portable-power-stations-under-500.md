@@ -1,9 +1,11 @@
 ---
 title: "Portable Power Stations Under $500"
+date: 2026-01-08
 description: "Best-value power stations for van life under $500, including strengths, tradeoffs, and affiliate CTA placeholders."
 keywords: ["power station under 500", "van life battery", "budget power station"]
 categories: ["gear"]
 tags: ["budget", "solar", "remote-work"]
+featureimage: "/img/gear/van-power-station-alt.jpg"
 ---
 
 If you want plug-and-play power without a full electrical build, these units offer the best value for everyday van life.

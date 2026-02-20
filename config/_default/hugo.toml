@@ -9,12 +9,28 @@ defaultContentLanguage = "en"
 description = "Budget-friendly van life gear, setup guides, and affiliate recommendations for building a reliable home on wheels."
 keywords = ["budget van life", "van life gear", "affiliate", "solar", "power stations", "remote work"]
 enableNewsletter = true
+colorScheme = "ocean"
+defaultAppearance = "light"
+autoSwitchAppearance = false
+mainSections = ["gear", "blog"]
+hotlinkFeatureImage = true
+defaultSocialImage = "img/placeholders/social-card.svg"
 
 [params.newsletter]
 enabled = true
 heading = "Get Weekly Budget Van Life Deals"
 text = "Newsletter placeholder: add your email provider form here."
 buttonText = "Subscribe"
+
+[params.author]
+name = "Budget Van Life Affiliate Guide"
+headline = "Practical gear recommendations for affordable van living."
+links = [
+  { instagram = "https://instagram.com/yourprofile" },
+  { youtube = "https://youtube.com/@yourchannel" },
+  { tiktok = "https://tiktok.com/@yourprofile" },
+  { pinterest = "https://pinterest.com/yourprofile" },
+]
 
 [params.social]
   [params.social.instagram]
@@ -29,6 +45,44 @@ buttonText = "Subscribe"
   [params.social.pinterest]
   name = "Pinterest"
   url = "https://pinterest.com/yourprofile"
+
+[params.header]
+layout = "fixed-fill-blur"
+
+[params.footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = false
+showAppearanceSwitcher = false
+showScrollToTop = true
+
+[params.homepage]
+layout = "page"
+showRecent = true
+showRecentItems = 4
+showMoreLink = true
+showMoreLinkDest = "/blog/"
+
+[params.article]
+showAuthor = false
+showTaxonomies = true
+showTableOfContents = false
+showReadingTime = true
+showWordCount = false
+sharingLinks = ["x-twitter", "facebook", "pinterest", "reddit", "whatsapp", "email"]
+
+[params.list]
+showSummary = false
+showCards = true
+groupByYear = false
+cardView = true
+cardViewScreenWidth = true
+
+[params.taxonomy]
+cardView = true
+
+[params.term]
+cardView = true
 
 [taxonomies]
 category = "categories"
@@ -58,3 +112,6 @@ weight = 40
 name = "About"
 pageRef = "/about"
 weight = 50
+
+[markup.goldmark.renderer]
+unsafe = true

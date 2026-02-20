@@ -2,9 +2,14 @@
 title: "Affiliate Partners"
 description: "Trusted affiliate partners for budget van life gear, power systems, connectivity, and cooking equipment."
 keywords: ["van life affiliates", "budget gear partners", "affiliate links"]
+featureimage: "/img/gear/van-workstation.jpg"
 ---
 
 Below are our core affiliate partners. Replace placeholder links with your active tracking URLs.
+
+<div class="disclosure-note">
+Affiliate disclosure: purchases made through links on this page may generate a commission that helps run this site at no extra cost to you.
+</div>
 
 ## Affiliate List
 

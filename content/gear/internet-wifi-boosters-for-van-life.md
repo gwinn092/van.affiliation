@@ -1,9 +1,11 @@
 ---
 title: "Internet and Wi-Fi Boosters for Van Life"
+date: 2026-01-15
 description: "Budget-friendly connectivity gear for van life, from signal boosters to mobile routers with affiliate-ready CTAs."
 keywords: ["van life wifi", "cell booster", "mobile internet van"]
 categories: ["gear"]
 tags: ["wifi", "remote-work", "budget"]
+featureimage: "/img/gear/van-workstation.jpg"
 ---
 
 Reliable internet is critical if you work remotely or stream on the road. These options balance cost and reliability.

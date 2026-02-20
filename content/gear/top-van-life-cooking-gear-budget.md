@@ -1,9 +1,11 @@
 ---
 title: "Top Budget Van Life Cooking Gear"
+date: 2026-01-12
 description: "Affordable van life cooking gear picks with quick pros and cons so you can build a compact kitchen on budget."
 keywords: ["van life cooking gear", "budget camp stove", "van kitchen essentials"]
 categories: ["gear"]
 tags: ["budget", "cooking"]
+featureimage: "/img/gear/van-cook-stove.jpg"
 ---
 
 A simple cooking setup keeps food costs low and gives you more control on long trips.

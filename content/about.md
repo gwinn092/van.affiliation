@@ -2,6 +2,7 @@
 title: "About"
 description: "Learn about the mission behind this budget van life affiliate site and the practical approach to gear recommendations."
 keywords: ["about van life blog", "budget van life mission", "van gear testing"]
+featureimage: "/img/gear/van-camper-interior.jpg"
 ---
 
 I started van life to lower living costs, travel longer, and build a lifestyle around remote work freedom. After overspending on my first setup, I rebuilt everything around one rule: buy fewer, better-value essentials.

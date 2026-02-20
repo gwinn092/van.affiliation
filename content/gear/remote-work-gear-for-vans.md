@@ -1,9 +1,11 @@
 ---
 title: "Remote Work Gear for Vans"
+date: 2026-01-18
 description: "Essential low-cost remote work gear for van life, including productivity upgrades, power accessories, and connectivity tools."
 keywords: ["remote work van life", "digital nomad van gear", "budget remote office"]
 categories: ["gear"]
 tags: ["remote-work", "wifi", "budget"]
+featureimage: "/img/gear/van-remote-work-1.jpg"
 ---
 
 You do not need a luxury build to work online from your van. Focus on power stability, internet uptime, and ergonomic basics.
