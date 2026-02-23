@@ -148,6 +148,11 @@ No. Larger systems reduce urgency, but shared routines still prevent avoidable s
 
 ## Related reads
 
+Use the full system here: [Van Power Recovery Stack](/van-power-recovery-stack/).
+To prevent repeat fights and power drift, set a shared comfort agreement: [Van Power Comfort Budget](/van-power-comfort-budget/).
+To choose today’s refill move together without arguing, use: [Recovery Window Script for Couples](/recovery-window-script-for-couples/).
+
+
 - [Daily Van Power Mode System](/daily-van-power-mode-system/)
 - [Morning Van Power Check](/morning-van-power-check/)
 - [Overnight Van Power Checklist](/overnight-van-power-checklist/)

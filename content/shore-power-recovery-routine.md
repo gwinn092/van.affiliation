@@ -121,6 +121,12 @@ Start with baseline-vs-comfort load separation, then schedule predictable shore 
 
 ## Related reads
 
+For the full ladder, start here: [Van Power Recovery Stack](/van-power-recovery-stack/).
+To choose your best refill move today (shore vs drive vs solar), use: [Recovery Window Priority Map](/recovery-window-priority-map/).
+For a quiet, no-generator strategy, use this condition plan: [Generator-Free Van Power Recovery](/generator-free-van-power-recovery/).
+For a respectful, rules-first refill session plan, use this: [Shore Power Refill Window Plan](/shore-power-refill-window-plan/).
+
+
 - [BLUETTI Fast Charging for Van Life](/bluetti-fast-charging/)
 - [How to Survive a Cloudy Week in Van Life](/cloudy-week-power-recovery-plan/)
 - [Van Power Planning Mistakes](/van-power-planning-mistakes/)

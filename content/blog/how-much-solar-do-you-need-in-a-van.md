@@ -20,6 +20,7 @@ Then match battery capacity to at least one day of use.
 ## Why Oversizing Hurts Budgets
 
 Bigger systems increase cost in every component: wire, controller, battery, and mounting hardware.
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
 
 Related reading:
 - [Best Budget Solar for Van Life](/best-of/van-solar/)

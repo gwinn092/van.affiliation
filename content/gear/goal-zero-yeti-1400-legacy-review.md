@@ -17,6 +17,7 @@ The Goal Zero Yeti 1400 was a meaningful step in 2018 when plug-and-play options
 ## Real-World Use Case
 
 This unit made sense in the early portable-power era for beginners avoiding a full electrical install. It reduced wiring complexity but came with efficiency and lifecycle tradeoffs versus modern units.
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
 
 ## Pros & Cons
 

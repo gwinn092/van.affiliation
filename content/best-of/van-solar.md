@@ -39,6 +39,8 @@ A cheap kit that is hard to expand often becomes expensive in year two.
 
 ## What to Look For in Van Solar
 
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
+
 - **Panel fit before watt goals:** Your roof layout controls what is realistic.
 - **Controller quality:** A good MPPT controller protects battery life and harvest.
 - **Wire and fuse quality:** Reliability matters more than saving $20 on copper.

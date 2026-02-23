@@ -25,6 +25,11 @@ Heat and humidity can make this worse by pushing comfort loads higher. In winter
 
 **Cloudy-week rule:** don’t spend tomorrow’s power tonight.
 
+### CALV Field Notes (real-world experience)
+- Cloudy stretches feel heavier in heat because comfort pressure stays high while recovery windows get weaker.
+- In humid climates, drift often shows up overnight, then compounds by midday if no refill move is chosen.
+- Picking one recovery move early is usually calmer than trying to fix everything late.
+
 ## Step 1: Separate baseline loads from comfort loads
 
 Start by splitting your routine into two buckets:
@@ -119,13 +124,20 @@ Not always, but shore can be the fastest stability reset during extended low-sun
 ### What is the biggest cloudy-week mistake?
 Waiting too long to switch into recovery mode.
 
+Next step: choose today’s refill move here: [Recovery Window Priority Map](/recovery-window-priority-map/).
+On the starter tier, use this playbook to stay stable: [Starter Tier Survival Plan](/starter-tier-survival-plan/).
+If this is turning into a harsh week on Tier 2, use this protocol: [Tier 2 Bad Week Protocol](/tier-2-bad-week-protocol/).
+If parking limits are part of the problem, use this plan: [Parking Constraints Van Power Recovery](/parking-constraints-van-power-recovery/).
+To improve solar-day planning without overpromising, use this: [Solar Capture Window Plan](/solar-capture-window-plan/).
+If heat and clouds are compounding drift, use this condition plan: [Hot + Cloudy Van Power Recovery](/hot-and-cloudy-van-power-recovery/).
+If cold and clouds are compounding drift, use this condition plan: [Cold + Cloudy Van Power Recovery](/cold-and-cloudy-van-power-recovery/).
+
 ## Related reads
 
-- [Van Power Planning Mistakes](/van-power-planning-mistakes/)
-- [What 700Wh Actually Runs](/what-700wh-actually-runs/)
+- [Van Power Recovery Stack](/van-power-recovery-stack/)
+- [Recovery Window Priority Map](/recovery-window-priority-map/)
+- [Shore Power Recovery Routine for Van Life](/shore-power-recovery-routine/)
 - [Solar vs Alternator Charging](/solar-vs-alternator-charging/)
-- [BLUETTI Fast Charging for Van Life](/bluetti-fast-charging/)
+- [Heat-Wave Van Power Recovery](/heat-wave-van-power-recovery/)
+- [Quiet Hours Recovery Plan](/quiet-hours-recovery-plan/)
 - [Portable Power Stations Under $500](/best-of/power-stations-under-500/)
-- [BLUETTI Hub](/bluetti/)
-- [BLUETTI Elite 200 V2 Review](/gear/bluetti-elite-200-v2-power-station-review/)
-- [BLUETTI Charger 1 Alternator Charger Review](/gear/bluetti-charger-1-alternator-charger-review/)

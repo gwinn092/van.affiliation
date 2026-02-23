@@ -70,15 +70,14 @@ Both matter, but routine often determines whether a system feels stable day to d
 ### How does this help during cloudy weeks?
 It preserves margin so weak recovery days don’t compound as quickly.
 
+Next step: start tomorrow with this reset: [Morning Van Power Check](/morning-van-power-check/).
+
 ## Related reads
 
-- [Should You Leave Your Inverter On in Van Life?](/inverter-on-or-off-workflow/)
-- [DC vs AC in Van Life Workflows](/dc-vs-ac-in-van-life-workflows/)
-- [How to Survive a Cloudy Week in Van Life](/cloudy-week-power-recovery-plan/)
-- [Shore Power Recovery Routine for Van Life](/shore-power-recovery-routine/)
-- [Van Power Planning Mistakes](/van-power-planning-mistakes/)
-- [What 700Wh Actually Runs](/what-700wh-actually-runs/)
-- [BLUETTI Fast Charging for Van Life](/bluetti-fast-charging/)
-- [Solar vs Alternator Charging](/solar-vs-alternator-charging/)
-- [Portable Power Stations Under $500](/best-of/power-stations-under-500/)
-- [BLUETTI Hub](/bluetti/)
+- [Van Power Recovery Stack](/van-power-recovery-stack/)
+- [Morning Van Power Check](/morning-van-power-check/)
+- [Midday Van Power Check](/midday-power-check/)
+- [Recovery Window Priority Map](/recovery-window-priority-map/)
+- [Humidity Night Power Stability](/humidity-night-power-stability/)
+- [Quiet Hours Recovery Plan](/quiet-hours-recovery-plan/)
+- [Recovery Mode Load Priorities](/recovery-mode-load-priorities/)

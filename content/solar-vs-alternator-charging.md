@@ -24,6 +24,11 @@ Alternator charging is a **recovery** strategy. It works when you drive.
 
 That difference matters in real van life. Heat and humidity can raise daily loads. Cloudy stretches and seasonal sun angle can reduce harvest right when you need to refill the most. Recovery planning is what keeps your system usable through those swings.
 
+### CALV Field Notes (real-world experience)
+- In Florida-like humidity, comfort loads can stay active longer and reduce margin faster than people expect.
+- Heat plus clouds is often where systems feel tight, because harvest weakens while baseline pressure stays high.
+- A recovery-first choice made early usually prevents late-day stress and decision conflict.
+
 ## When solar wins (and when it doesn’t)
 
 Solar wins when:
@@ -107,6 +112,8 @@ Read next:
 
 ## Safety notes (high level)
 
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
+
 Keep alternator charging planning safety-forward:
 - Overcurrent protection and proper fusing
 - Appropriate wire quality and routing
@@ -150,6 +157,13 @@ Start with your real routine: where you park, how often you drive, and how often
 - Tradeoffs stated clearly: we optimize for fit and stability, not hype.
 
 ## Related reads
+
+Need the complete step-by-step? [Van Power Recovery Stack](/van-power-recovery-stack/).
+To choose your best refill move today (shore vs drive vs solar), use: [Recovery Window Priority Map](/recovery-window-priority-map/).
+If winter conditions are shrinking recovery windows, use this plan: [Cold Weather Van Power Recovery](/cold-weather-van-power-recovery/).
+If you want a routine for using driving windows you already have, use this: [Drive Recovery Window Plan](/drive-recovery-window-plan/).
+For solar-day planning without magical thinking, use this: [Solar Capture Window Plan](/solar-capture-window-plan/).
+
 - [BLUETTI Hub](/bluetti/)
 - [BLUETTI Fast Charging for Van Life](/bluetti-fast-charging/)
 - [BLUETTI Charger 1 Alternator Charger Review](/gear/bluetti-charger-1-alternator-charger-review/)

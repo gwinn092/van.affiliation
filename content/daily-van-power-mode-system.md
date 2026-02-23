@@ -131,16 +131,17 @@ No. Larger systems benefit too, especially when conditions become unpredictable.
 ### Where should beginners start?
 Start with Normal Mode rules plus morning and overnight checklists, then practice switching earlier than you think you need to.
 
+Next step: run this midday checkpoint before drift stacks: [Midday Van Power Check](/midday-power-check/).
+For upgrade routing decisions, use: [Van Power Upgrade Decision Tree](/van-power-upgrade-decision-tree/).
+Need a quick self-audit before changing anything? Use: [Van Power Stability Scorecard](/van-power-stability-scorecard/).
+For one-page routing to today’s best refill move, use: [Recovery Moves Index](/recovery-moves-index/).
+
 ## Related reads
 
-- [Morning Van Power Check](/morning-van-power-check/)
+- [Van Power Recovery Stack](/van-power-recovery-stack/)
+- [Midday Van Power Check](/midday-power-check/)
 - [Overnight Van Power Checklist](/overnight-van-power-checklist/)
-- [How to Survive a Cloudy Week in Van Life](/cloudy-week-power-recovery-plan/)
-- [Shore Power Recovery Routine for Van Life](/shore-power-recovery-routine/)
-- [Should You Leave Your Inverter On in Van Life?](/inverter-on-or-off-workflow/)
-- [DC vs AC in Van Life Workflows](/dc-vs-ac-in-van-life-workflows/)
-- [Van Power Planning Mistakes](/van-power-planning-mistakes/)
-- [What 700Wh Actually Runs](/what-700wh-actually-runs/)
-- [BLUETTI Fast Charging for Van Life](/bluetti-fast-charging/)
-- [Solar vs Alternator Charging](/solar-vs-alternator-charging/)
-- [Portable Power Stations Under $500](/best-of/power-stations-under-500/)
+- [Recovery Mode Load Priorities](/recovery-mode-load-priorities/)
+- [Recovery Window Priority Map](/recovery-window-priority-map/)
+- [Workday Power Boundaries](/workday-power-boundaries/)
+- [Van Power Weekly Reset Routine](/van-power-weekly-reset-routine/)

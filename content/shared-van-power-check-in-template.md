@@ -94,6 +94,11 @@ It surfaces risk early (heat, clouds, schedule shifts) before small decisions co
 
 ## Related reads
 
+For the full ladder, start here: [Van Power Recovery Stack](/van-power-recovery-stack/).
+To prevent repeat fights and power drift, set a shared comfort agreement: [Van Power Comfort Budget](/van-power-comfort-budget/).
+To choose today’s refill move together without arguing, use: [Recovery Window Script for Couples](/recovery-window-script-for-couples/).
+
+
 - [Shared Van Power Rules for Couples](/shared-van-power-rules-for-couples/)
 - [Daily Van Power Mode System](/daily-van-power-mode-system/)
 - [Morning Van Power Check](/morning-van-power-check/)

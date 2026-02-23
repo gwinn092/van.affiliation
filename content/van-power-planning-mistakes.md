@@ -58,6 +58,7 @@ If cooking is central to your routine, plan for it as a design requirement, not 
 ## Mistake #6: Thinking alternator charging is plug-and-play
 
 Driving recovery can be powerful, but results depend on vehicle behavior and install quality. Some platforms behave differently, especially with smart charging systems.
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
 
 This is not a wiring tutorial. Keep installation planning safety-forward and use qualified resources where needed.
 
@@ -133,6 +134,11 @@ Sometimes in ideal conditions, but many routines need backup recovery for poor-w
 Designing for ideal days instead of real weather and real routine variability.
 
 ## Related reads
+
+Use the full system here: [Van Power Recovery Stack](/van-power-recovery-stack/).
+For ongoing stability, add this once-a-week routine: [Van Power Weekly Reset Routine](/van-power-weekly-reset-routine/).
+Need upgrade timing guardrails? Use this: [Van Power Upgrade Planning Mistakes](/van-power-upgrade-planning-mistakes/).
+
 
 - [What 700Wh Actually Runs](/what-700wh-actually-runs/)
 - [BLUETTI Fast Charging for Van Life](/bluetti-fast-charging/)

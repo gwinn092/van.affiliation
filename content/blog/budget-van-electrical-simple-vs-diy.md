@@ -12,6 +12,7 @@ The right electrical strategy depends on your actual usage, not social media bui
 ## Simple System (Power Station)
 
 Best if you want fast setup, low risk, and minimal wiring. Cost is predictable and troubleshooting is easier.
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
 
 ## Full DIY System
 

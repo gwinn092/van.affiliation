@@ -13,6 +13,7 @@ Portable power stations under $500 are one of the smartest entry points into van
 After 8 years full-time living in a van through Colorado winters, Florida humidity, Arizona sun, and long cross-country seasons, here’s the honest truth:
 
 A budget power station can absolutely work — but only if your daily usage and recharge strategy match reality.
+Start with the buyer routing hub, then diagnose drift before upgrading: [Fast-Charging Buyer Guides](/fast-charging-buyer-guides/) and [Van Battery Drift Diagnosis](/van-battery-drift-diagnosis/).
 
 {{< callout title="Quick Answer" >}}
 If you're starting van life today, I would not go below **700Wh in modern LiFePO4 chemistry**.  
@@ -21,13 +22,45 @@ If you're starting van life today, I would not go below **700Wh in modern LiFePO
 700Wh is where van life starts feeling stable instead of stressful.
 {{< /callout >}}
 
-{{< comparetable >}}
-product_key | Best For | Price | Pros | Cons | Merchant
-ecoflow_river_2_pro | Beginner + remote work | $$ | Fast recharge, compact | Limited reserve in hot climates | amazon
-anker_solix_c1000 | Strong daily work loads | $$$ | Excellent recharge speed | Heavier | amazon
-bluetti_elite_200_v2 | Upgrade margin tier | $$$ | Larger reserve, strong outputs | Above $500 unless on sale | bluetti
-jackery_1000_v2 | Weekend + flexible use | $$$ | Mature ecosystem | Higher cost per Wh | amazon
-{{< /comparetable >}}
+{{< callout title="Price Drift Policy" >}}
+- We only label a pick as **Under $500 right now** when it is currently at or below that threshold.
+- If a model moves above that threshold, it goes to the **Watch list** section.
+- We do not make exact price promises inside rankings; price status is updated as market pricing changes.
+{{< /callout >}}
+
+## Under $500 right now (700Wh+ floor)
+
+### EcoFlow River 2 Pro
+Status: Under $500 right now
+
+Why it can fit this tier:
+- 700Wh+ class starter option for lighter routines
+- Compact format with practical recharge behavior
+- Good fit for recovery-first beginners who can refill consistently
+
+## Watch list (often under $500)
+
+### Anker SOLIX C1000
+Status: Watch for sale
+
+Why it is here:
+- Strong step-up option when pricing dips
+- Better as a margin play than a fixed under-$500 assumption
+
+### BLUETTI AC70 (768Wh)
+Status: Watch for sale
+
+Why it is here:
+- Clears CALV's 700Wh+ floor for budget-tier planning
+- Manufacturer-listed fast charging and AC input specs support recovery-first shopping comparisons
+- Included as a sale-watch candidate, not a fixed under-$500 recommendation
+
+### Jackery 1000 v2
+Status: Watch for sale
+
+Why it is here:
+- Established platform with periodic deal windows
+- Included as a sale-watch candidate, not a fixed under-$500 recommendation
 
 {{< disclosure >}}
 
@@ -157,9 +190,20 @@ Scale gradually — but design your system so you can grow without replacing eve
 
 ---
 
+Next step: pick your best recovery move for tomorrow: [Recovery Moves Index](/recovery-moves-index/).
+For recovery-first fast charging picks (700Wh+), see: [Best Fast-Charging Power Stations](/best-fast-charging-power-stations/).
+If you want recovery-first fast-charging picks with a budget cap, see: [Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/).
+Not sure what to upgrade next? Use this ladder: [Van Power Upgrade Paths](/van-power-upgrade-paths/).
+Before you buy, run this quick guardrail: [Van Power Upgrade Checklist](/van-power-upgrade-checklist/).
+Not sure if the starter tier is enough? Use this guide: [Starter Tier vs Upgrade Tier](/starter-tier-vs-upgrade-tier/).
+On the starter tier, use this playbook to stay stable: [Starter Tier Survival Plan](/starter-tier-survival-plan/).
+If you are moving from starter tier to Tier 2, use this bridge: [Under-$500 to Tier 2 Upgrade Bridge](/under-500-to-tier-2-upgrade-bridge/).
+
 ## Related Guides
 
-- [Best High-Capacity Portable Power Stations for Van Life](/best-of/high-capacity-power-stations/)
-- [Bluetti Elite 200 V2 Review](/gear/bluetti-elite-200-v2-power-station-review/)
-- [EcoFlow River 2 Pro Review](/gear/ecoflow-river-2-pro-review/)
-- [Goal Zero Yeti 1400 Legacy Review](/gear/goal-zero-yeti-1400-legacy-review/)
+- [Fast-Charging Buyer Guides](/fast-charging-buyer-guides/)
+- [Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)
+- [Van Battery Drift Diagnosis](/van-battery-drift-diagnosis/)
+- [Recovery Moves Index](/recovery-moves-index/)
+- [Van Power Recovery Stack](/van-power-recovery-stack/)
+- [What 700Wh Actually Runs](/what-700wh-actually-runs/)

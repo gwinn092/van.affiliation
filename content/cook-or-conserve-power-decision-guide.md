@@ -105,6 +105,8 @@ Bigger systems add buffer, but routine still decides whether your week feels sta
 
 ## Related reads
 
+Heat can make cooking decisions harder; use this first: [Heat-Wave Van Power Recovery](/heat-wave-van-power-recovery/).
+
 - [Daily Van Power Mode System](/daily-van-power-mode-system/)
 - [Morning Van Power Check](/morning-van-power-check/)
 - [Overnight Van Power Checklist](/overnight-van-power-checklist/)

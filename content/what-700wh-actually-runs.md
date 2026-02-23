@@ -151,6 +151,9 @@ Sizing for ideal days and ignoring poor-weather recovery.
 
 ## Related reads
 
+For the full ladder, start here: [Van Power Recovery Stack](/van-power-recovery-stack/).
+
+
 - [BLUETTI Hub](/bluetti/)
 - [BLUETTI Fast Charging for Van Life](/bluetti-fast-charging/)
 - [Solar vs Alternator Charging](/solar-vs-alternator-charging/)

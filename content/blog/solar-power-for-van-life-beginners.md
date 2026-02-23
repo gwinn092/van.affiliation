@@ -40,6 +40,8 @@ Portable stations are often simpler and lower risk for new builders.
 
 ## Installation Tips That Prevent Headaches
 
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
+
 - Mount where shade impact is minimal.
 - Fuse close to battery sources.
 - Label wiring for future troubleshooting.

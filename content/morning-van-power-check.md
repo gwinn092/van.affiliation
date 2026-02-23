@@ -70,16 +70,14 @@ Switch to baseline-first mode immediately and prioritize the nearest reliable re
 ### Does this routine still matter if I have a bigger system?
 Yes. Bigger systems hide mistakes longer, but routine still determines day-to-day stability.
 
+Next step: do this at midday to catch drift early: [Midday Van Power Check](/midday-power-check/).
+
 ## Related reads
 
+- [Van Power Recovery Stack](/van-power-recovery-stack/)
+- [Daily Van Power Mode System](/daily-van-power-mode-system/)
+- [Midday Van Power Check](/midday-power-check/)
 - [Overnight Van Power Checklist](/overnight-van-power-checklist/)
-- [How to Survive a Cloudy Week in Van Life](/cloudy-week-power-recovery-plan/)
-- [Shore Power Recovery Routine for Van Life](/shore-power-recovery-routine/)
-- [Should You Leave Your Inverter On in Van Life?](/inverter-on-or-off-workflow/)
-- [DC vs AC in Van Life Workflows](/dc-vs-ac-in-van-life-workflows/)
-- [Van Power Planning Mistakes](/van-power-planning-mistakes/)
-- [What 700Wh Actually Runs](/what-700wh-actually-runs/)
-- [BLUETTI Fast Charging for Van Life](/bluetti-fast-charging/)
-- [Solar vs Alternator Charging](/solar-vs-alternator-charging/)
-- [Portable Power Stations Under $500](/best-of/power-stations-under-500/)
-- [BLUETTI Hub](/bluetti/)
+- [Recovery Window Priority Map](/recovery-window-priority-map/)
+- [Workday Power Boundaries](/workday-power-boundaries/)
+- [Cloudy Week Power Recovery Plan](/cloudy-week-power-recovery-plan/)

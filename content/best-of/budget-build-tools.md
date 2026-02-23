@@ -15,6 +15,8 @@ You do not need a garage full of tools for a strong first build. You need a smal
 Buy fewer tools but buy reliable core tools: drill/driver, jigsaw, rivnut tool, crimper, torque wrench, and safety gear.
 {{< /callout >}}
 
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
+
 {{< comparetable >}}
 product_key | Best For | Price | Pros | Cons | Merchant
 drill_driver_combo | Nearly every build task | $$ | Highest utility per dollar | Battery ecosystem lock-in | amazon

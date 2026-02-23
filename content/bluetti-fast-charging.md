@@ -43,6 +43,7 @@ Solar works well when you get consistent sun and can actually park for harvest. 
 
 ### Driving recovery: what it is + why install/vehicle matters
 Driving recovery means using vehicle runtime to rebuild usable power. It can be a major stability upgrade, but outcomes depend on install quality, wiring path, protection choices, and vehicle charging behavior.
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
 
 Related:
 - [Solar vs Alternator Charging](/solar-vs-alternator-charging/)
@@ -161,6 +162,10 @@ Often yes for mixed use, but daily high-draw cooking is a system-level planning 
 No. The recovery-first framework applies broadly. This page is BLUETTI-focused so it can support the brand cluster and internal linking.
 
 ## How we evaluate (CALV standard)
+
+Need the complete step-by-step? [Van Power Recovery Stack](/van-power-recovery-stack/).
+If you need the fastest "plug in and recover" picks (700Wh+), see: [Best Fast-Charging Power Stations](/best-fast-charging-power-stations/).
+
 - Climate-tested lens: heat, humidity, cloud cover, and seasonality are core planning factors.
 - Recovery-first: time-to-recover is prioritized over raw spec-sheet posturing.
 - Transparent labeling: manufacturer claims, third-party results, and lived experience are separated clearly.

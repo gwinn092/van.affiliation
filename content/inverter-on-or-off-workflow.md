@@ -114,6 +114,9 @@ Use routine triggers: check inverter state before bed and before leaving camp.
 
 ## Related reads
 
+Need the complete step-by-step? [Van Power Recovery Stack](/van-power-recovery-stack/).
+
+
 - [DC vs AC in Van Life Workflows](/dc-vs-ac-in-van-life-workflows/)
 - [Van Power Planning Mistakes](/van-power-planning-mistakes/)
 - [How to Survive a Cloudy Week in Van Life](/cloudy-week-power-recovery-plan/)

@@ -25,6 +25,7 @@ Alternator charging can fix one of the biggest van life pain points: cloudy-day 
 - Install complexity is higher than plug-and-play solutions.
 - Requires confidence in wiring and fuse planning.
 - Value depends heavily on driving frequency.
+We’re keeping this high-level—no wiring instructions here. For installs, follow manufacturer guidance or work with a qualified installer.
 
 ## Who It’s For
 
