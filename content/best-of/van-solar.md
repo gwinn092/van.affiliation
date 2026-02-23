@@ -88,6 +88,9 @@ It can work for light loads, but roof-mounted solar is usually better for conven
 ### Should I start with lithium batteries?
 If budget allows, lithium often wins long-term. But a phased system is better than waiting forever for a perfect system.
 
+Next step: use the recovery-first onboarding flow here: [Start Here](/start-here/).
+If you are weighing solar against fast charging for drift control, use this comparison: [Solar vs Fast Charging for Van Life](/solar-vs-fast-charging-for-van-life/).
+
 ## Related Reading
 
 - [How Much Solar Do You Need in a Van?](/blog/how-much-solar-do-you-need-in-a-van/)

@@ -6,11 +6,24 @@ date: 2026-02-22
 draft: false
 categories: ["Power"]
 tags: ["van life", "power planning", "recovery", "workflow", "portable power station"]
+params:
+  hero_kicker: "What this page gives you"
+  bullets:
+    - "A calm recovery-first stack for heat, humidity, cold, and cloudy weeks"
+    - "A simple way to prioritize time-to-recover so bad weeks don’t spiral"
+    - "Links into conditions + recovery windows so you’re never guessing"
+  next_step: "Start with **/daily-van-power-mode-system/**, then use **/fast-charging-power-station-buyer-checklist/** when you’re ready to shop."
 ---
 
 # Van Power Recovery Stack: A Step-by-Step System for Stable Van Life Power
 
 Most van power stress is not one big failure. It is small recovery misses that stack across weather, routines, and comfort habits. This page gives you one ladder to follow so you can stop reacting and run power with a repeatable system.
+
+{{< calvbox kicker="What you’ll get" >}}
+- A calm recovery-first stack you can use across heat, humidity, cold, and cloudy weeks  
+- How to prioritize time-to-recover so bad weeks don’t spiral  
+- Links into conditions + recovery-window plans so you’re never guessing  
+{{< /calvbox >}}
 
 **Recovery-first rule:** prioritize time-to-recover over raw capacity claims.
 
@@ -62,6 +75,10 @@ Build your plan with:
 Cloudy stretches, heat, humidity, and weak sun expose weak routines fast. Do not wait until you are already behind.
 
 Switch early into tighter behavior and protect baseline loads first.
+
+{{< fieldnote >}}
+In our experience, long overnight roof-fan runtime in salty ocean air can increase moisture/salt exposure risk for electronics/control boards. Frame this as “increased risk,” use moisture control (e.g., DampRid), and follow manufacturer care guidance.
+{{< /fieldnote >}}
 
 Protocol:
 - [How to Survive a Cloudy Week in Van Life](/cloudy-week-power-recovery-plan/)
@@ -132,6 +149,7 @@ If you want recovery-first fast-charging picks with a budget cap, see: [Best Fas
 Not sure what to upgrade next? Use this ladder: [Van Power Upgrade Paths](/van-power-upgrade-paths/).
 Need a fast self-audit first? Use the Stability Scorecard: [Van Power Stability Scorecard](/van-power-stability-scorecard/).
 Need a scenario-based route first? Use: [Van Power Conditions Index](/van-power-conditions-index/).
+New to CALV? Use the universal onboarding flow: [Start Here](/start-here/).
 
 ## Related reads
 

@@ -138,6 +138,7 @@ Designing for ideal days instead of real weather and real routine variability.
 Use the full system here: [Van Power Recovery Stack](/van-power-recovery-stack/).
 For ongoing stability, add this once-a-week routine: [Van Power Weekly Reset Routine](/van-power-weekly-reset-routine/).
 Need upgrade timing guardrails? Use this: [Van Power Upgrade Planning Mistakes](/van-power-upgrade-planning-mistakes/).
+For non-wiring gear that helps reduce drift, see: [Gear That Improves Van Power Stability](/gear-that-improves-van-power-stability/).
 
 
 - [What 700Wh Actually Runs](/what-700wh-actually-runs/)

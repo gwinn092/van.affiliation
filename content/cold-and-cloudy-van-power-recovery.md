@@ -71,6 +71,7 @@ Use:
 ## Next step
 
 Next step: pick tomorrow’s best recovery window: **[Recovery Window Priority Map](/recovery-window-priority-map/)**.
+If you need winter-focused fast-charging picks, use: **[Best Fast-Charging Power Stations for Cold Weather](/best-fast-charging-power-stations-for-cold-weather/)**.
 
 ## Related reads
 

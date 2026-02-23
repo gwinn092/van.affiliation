@@ -22,7 +22,29 @@
 &lt;/ul&gt;
 &lt;p&gt;Use:&lt;/p&gt;</description></item><item><title>Coastal Humidity Electronics Care: Reduce Moisture/Salt Risk in Van Life</title><link>https://example.com/coastal-humidity-electronics-care/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/coastal-humidity-electronics-care/</guid><description>&lt;p&gt;Coastal humidity is different. Moisture plus salt air can be harder on electronics than inland humidity alone.&lt;/p&gt;
 &lt;p&gt;In our experience, risk can increase in very humid and salty conditions. Always follow manufacturer care guidance for your specific equipment.&lt;/p&gt;
-&lt;p&gt;Start here:&lt;/p&gt;</description></item><item><title>Heat + Humidity Van Power Recovery: Stay Stable When Everything Runs</title><link>https://example.com/heat-and-humidity-van-power-recovery/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/heat-and-humidity-van-power-recovery/</guid><description>&lt;p&gt;Hot and humid weeks can break a power plan fast.&lt;/p&gt;
+&lt;p&gt;Start here:&lt;/p&gt;</description></item><item><title>Gear That Improves Van Power Stability (No Wiring Required)</title><link>https://example.com/gear-that-improves-van-power-stability/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/gear-that-improves-van-power-stability/</guid><description>&lt;p&gt;This page is about reducing drift without rewiring your rig.
+The goal is to lower baseline pressure and prevent bad-week spirals before they start.&lt;/p&gt;
+&lt;p&gt;Start with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://example.com/van-power-stability-scorecard/" &gt;Van Power Stability Scorecard&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://example.com/recovery-moves-index/" &gt;Recovery Moves Index&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;Humidity control (protect electronics + comfort)
+ &lt;div id="humidity-control-protect-electronics--comfort" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#humidity-control-protect-electronics--comfort" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Moisture absorbers (DampRid-style products) in appropriate storage areas.&lt;/li&gt;
+&lt;li&gt;A small hygrometer so you can see humidity trends and adjust habits.&lt;/li&gt;
+&lt;li&gt;Storage habits that keep sensitive gear dry and away from direct damp airflow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For coastal caution and electronics-risk framing, use:&lt;/p&gt;</description></item><item><title>Heat + Humidity Van Power Recovery: Stay Stable When Everything Runs</title><link>https://example.com/heat-and-humidity-van-power-recovery/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/heat-and-humidity-van-power-recovery/</guid><description>&lt;p&gt;Hot and humid weeks can break a power plan fast.&lt;/p&gt;
 &lt;p&gt;When both conditions hit at once, comfort loads run longer, sleep gets worse, and your recovery options can shrink right when you need them most.&lt;/p&gt;
 &lt;p&gt;This page is a calm, recovery-first plan for combo weeks: protect baseline, stop leaks, choose realistic recovery windows, and avoid panic upgrades.&lt;/p&gt;</description></item><item><title>Humidity Night Power Stability: When Heat Won’t Let Your Van Recover</title><link>https://example.com/humidity-night-power-stability/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/humidity-night-power-stability/</guid><description>&lt;p&gt;Humid nights are a special kind of hard.&lt;/p&gt;
 &lt;p&gt;In dry heat, you can sometimes cool down after sunset. In humidity, the night can stay sticky and loud—your body never fully resets, and your power system doesn’t either.&lt;/p&gt;
@@ -48,7 +70,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://example.com/van-power-stability-scorecard/" &gt;Van Power Stability Scorecard&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://example.com/recovery-moves-index/" &gt;Recovery Moves Index&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://example.com/van-power-upgrade-decision-tree/" &gt;Van Power Upgrade Decision Tree&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://example.com/van-power-upgrade-decision-tree/" &gt;Van Power Upgrade Decision Tree&lt;/a&gt;&lt;/strong&gt;
+For non-wiring gear that helps reduce drift, use: &lt;strong&gt;&lt;a href="https://example.com/gear-that-improves-van-power-stability/" &gt;Gear That Improves Van Power Stability&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 class="relative group"&gt;Heat + humidity
@@ -160,4 +183,8 @@
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://example.com/van-battery-drift-diagnosis/" &gt;Van Battery Drift Diagnosis&lt;/a&gt;&lt;/strong&gt; — Fix-order guide for mystery drain weeks.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://example.com/van-power-stability-scorecard/" &gt;Van Power Stability Scorecard&lt;/a&gt;&lt;/strong&gt; — Quick self-audit to choose what to fix first.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Next step: run the scorecard, then pick today’s refill path: &lt;strong&gt;&lt;a href="https://example.com/van-power-stability-scorecard/" &gt;Van Power Stability Scorecard&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://example.com/recovery-moves-index/" &gt;Recovery Moves Index&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Next step: run the scorecard, then pick today’s refill path: &lt;strong&gt;&lt;a href="https://example.com/van-power-stability-scorecard/" &gt;Van Power Stability Scorecard&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://example.com/recovery-moves-index/" &gt;Recovery Moves Index&lt;/a&gt;&lt;/strong&gt;.
+If you are shopping, start with &lt;strong&gt;&lt;a href="https://example.com/fast-charging-buyer-guides/" &gt;Fast-Charging Buyer Guides&lt;/a&gt;&lt;/strong&gt; and then route to &lt;strong&gt;&lt;a href="https://example.com/best-fast-charging-power-stations-under-1000/" &gt;Best Fast-Charging Power Stations Under $1000&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href="https://example.com/best-fast-charging-power-stations-for-essentials/" &gt;Best Fast-Charging Power Stations for Essentials&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href="https://example.com/best-fast-charging-power-stations-for-work/" &gt;Best Fast-Charging Power Stations for Work&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href="https://example.com/best-fast-charging-power-stations-for-heat-and-humidity/" &gt;Best Fast-Charging Power Stations for Heat + Humidity&lt;/a&gt;&lt;/strong&gt;, and &lt;strong&gt;&lt;a href="https://example.com/best-fast-charging-power-stations-for-cold-weather/" &gt;Best Fast-Charging Power Stations for Cold Weather&lt;/a&gt;&lt;/strong&gt;.
+Budget ladder routes: &lt;strong&gt;&lt;a href="https://example.com/best-of/power-stations-under-500/" &gt;Portable Power Stations Under $500&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href="https://example.com/under-500-to-tier-2-upgrade-bridge/" &gt;Under-$500 to Tier 2 Upgrade Bridge&lt;/a&gt;&lt;/strong&gt;, and methodology at &lt;strong&gt;&lt;a href="https://example.com/how-we-test-and-source-van-power/" &gt;How We Test and Source Van Power&lt;/a&gt;&lt;/strong&gt;.
+If you want the full onboarding flow first, use: &lt;strong&gt;&lt;a href="https://example.com/start-here/" &gt;Start Here&lt;/a&gt;&lt;/strong&gt;.
+Need a single index of all major guides? Use: &lt;strong&gt;&lt;a href="https://example.com/site-map/" &gt;Site Map: All Guides&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>

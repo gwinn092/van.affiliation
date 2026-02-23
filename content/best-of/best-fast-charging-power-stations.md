@@ -1,6 +1,6 @@
 ---
-title: "Best Fast-Charging Power Stations for Van Life (700Wh+ Recovery-First Picks)"
-description: "Recovery-first picks for van life: portable power stations that recharge fast (700Wh+ minimum), with clear sourcing on manufacturer claims vs third-party tests."
+title: "Best Fast-Charging Power Stations for Van Life (Recovery-First, 700Wh+)"
+description: "Recovery-first fast-charging picks for van life with clear claim labels, sourcing, and routing so you can choose a stable refill path without guesswork."
 slug: "best-fast-charging-power-stations"
 date: 2026-02-22
 draft: false
@@ -14,9 +14,17 @@ If you can refill quickly when the weather turns, you miss a day of solar, or yo
 
 CALV rule: we only recommend **700Wh+** power stations, and we prioritize **time-to-recover** over raw storage.
 
+<div class="calv-cta-module">
+  <div class="calv-cta-row">
+    <a class="calv-cta" href="/fast-charging-power-station-buyer-checklist/">Buyer Checklist</a>
+    <a class="calv-cta calv-cta-secondary" href="/fast-charging-buyer-guides/">Buyer Guides</a>
+  </div>
+</div>
+
 Next step: choose your best refill move today (shore vs drive vs solar): **[Recovery Window Priority Map](/recovery-window-priority-map/)**.
 Before you shop, use the **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then compare **[Under-$1000 Picks](/best-fast-charging-power-stations-under-1000/)** and **[Essentials Picks](/best-fast-charging-power-stations-for-essentials/)**.
 For a single routing hub across all fast-charging buyer guides, use: **[Fast-Charging Buyer Guides](/fast-charging-buyer-guides/)**.
+For sourcing standards and ranking rules, see: **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
 
 If you're new to the framework, start here:
 - **[Van Power Recovery Stack](/van-power-recovery-stack/)**

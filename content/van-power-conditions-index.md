@@ -14,6 +14,7 @@ Start here:
 - **[Van Power Stability Scorecard](/van-power-stability-scorecard/)**
 - **[Recovery Moves Index](/recovery-moves-index/)**
 - **[Van Power Upgrade Decision Tree](/van-power-upgrade-decision-tree/)**
+For non-wiring gear that helps reduce drift, use: **[Gear That Improves Van Power Stability](/gear-that-improves-van-power-stability/)**.
 
 ## Heat + humidity
 
@@ -63,6 +64,10 @@ Start here:
 - **[Van Power Stability Scorecard](/van-power-stability-scorecard/)** — Quick self-audit to choose what to fix first.
 
 Next step: run the scorecard, then pick today’s refill path: **[Van Power Stability Scorecard](/van-power-stability-scorecard/)** and **[Recovery Moves Index](/recovery-moves-index/)**.
+If you are shopping, start with **[Fast-Charging Buyer Guides](/fast-charging-buyer-guides/)** and then route to **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**, **[Best Fast-Charging Power Stations for Essentials](/best-fast-charging-power-stations-for-essentials/)**, **[Best Fast-Charging Power Stations for Work](/best-fast-charging-power-stations-for-work/)**, **[Best Fast-Charging Power Stations for Heat + Humidity](/best-fast-charging-power-stations-for-heat-and-humidity/)**, and **[Best Fast-Charging Power Stations for Cold Weather](/best-fast-charging-power-stations-for-cold-weather/)**.
+Budget ladder routes: **[Portable Power Stations Under $500](/best-of/power-stations-under-500/)**, **[Under-$500 to Tier 2 Upgrade Bridge](/under-500-to-tier-2-upgrade-bridge/)**, and methodology at **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
+If you want the full onboarding flow first, use: **[Start Here](/start-here/)**.
+Need a single index of all major guides? Use: **[Site Map: All Guides](/site-map/)**.
 
 ## Related reads
 

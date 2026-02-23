@@ -56,6 +56,8 @@ Most people do fine with one quality fan plus crossflow windows.
 ### Can I skip a roof fan and use portable fans?
 Portable fans help, but they are not a full replacement for extraction airflow.
 
+Next step: use the recovery-first onboarding flow here: [Start Here](/start-here/).
+
 ## Related Reading
 
 - [Ventilation Mistakes New Van Lifers Make](/blog/ventilation-mistakes-new-van-lifers-make/)

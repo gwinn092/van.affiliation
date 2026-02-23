@@ -71,6 +71,7 @@ Use:
 
 Next step: run the **[Van Power Stability Scorecard](/van-power-stability-scorecard/)**, then use the **[Van Power Upgrade Decision Tree](/van-power-upgrade-decision-tree/)**.
 If cold and weak solar are stacking, use this condition plan: **[Cold + Cloudy Van Power Recovery](/cold-and-cloudy-van-power-recovery/)**.
+If you want recovery-first fast-charging picks for winter conditions, use: **[Best Fast-Charging Power Stations for Cold Weather](/best-fast-charging-power-stations-for-cold-weather/)**.
 
 ## Related reads
 

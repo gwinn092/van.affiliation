@@ -1,0 +1,6 @@
+<div class="calv-box {{ with .Get "variant" }}calv-box--{{ . }}{{ end }}">
+  {{ with .Get "kicker" }}<div class="calv-kicker">{{ . }}</div>{{ end }}
+  <div>
+    {{ .Inner | markdownify }}
+  </div>
+</div>

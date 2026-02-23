@@ -1,0 +1,29 @@
+{{- $kicker := .Params.hero_kicker | default "Quick take" -}}
+{{- $desc := .Description -}}
+{{- $bullets := .Params.bullets -}}
+{{- $next := .Params.next_step -}}
+
+{{- if or $desc $bullets $next -}}
+<div class="calv-box" style="margin-top:1rem;">
+  <div class="calv-kicker">{{ $kicker }}</div>
+
+  {{- if $desc -}}
+  <p style="margin:0.25rem 0 0.75rem 0; opacity:.92;">{{ $desc }}</p>
+  {{- end -}}
+
+  {{- with $bullets -}}
+  <ul style="margin:0.4rem 0 0.8rem 1.2rem;">
+    {{- range . -}}
+      <li>{{ . | markdownify }}</li>
+    {{- end -}}
+  </ul>
+  {{- end -}}
+
+  {{- with $next -}}
+  <div class="calv-box calv-box--next" style="margin:0.8rem 0 0 0;">
+    <div class="calv-kicker">Next step</div>
+    <div>{{ . | markdownify }}</div>
+  </div>
+  {{- end -}}
+</div>
+{{- end -}}

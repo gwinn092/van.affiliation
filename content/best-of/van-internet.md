@@ -59,6 +59,8 @@ No. Many remote workers operate fine with cellular-first systems.
 ### What matters more: router or antenna?
 Both matter, but placement and carrier strategy often matter most.
 
+Next step: use the recovery-first onboarding flow here: [Start Here](/start-here/).
+
 ## Related Reading
 
 - [Van Internet: What Actually Works Off-Grid](/blog/van-internet-what-actually-works-off-grid/)

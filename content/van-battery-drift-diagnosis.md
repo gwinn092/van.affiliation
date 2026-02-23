@@ -72,6 +72,7 @@ Use:
 - **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
 
 Next step: run the Stability Scorecard and pick today’s recovery move: **[Van Power Stability Scorecard](/van-power-stability-scorecard/)** and **[Recovery Moves Index](/recovery-moves-index/)**.
+If you're deciding between adding solar or fast charging, use this comparison: **[Solar vs Fast Charging for Van Life](/solar-vs-fast-charging-for-van-life/)**.
 If CPAP is part of the baseline you must protect, use this safety-first plan: **[CPAP Power Stability in Van Life](/cpap-power-stability-van-life/)**.
 If cooking and hot-water spikes are causing drift, use this guide: **[Cooking + Hot Water Power Stability](/cooking-and-hot-water-power-stability/)**.
 

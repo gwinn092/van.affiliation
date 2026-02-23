@@ -1,8 +1,8 @@
 ---
-title: "Portable Power Stations Under $500 for Van Life"
+title: "Portable Power Stations Under $500 for Van Life (Recovery-First)"
 slug: "power-stations-under-500"
 date: 2026-02-21
-description: "Best portable power stations under $500 for van life. Real-world guidance based on 8 years full-time living and daily 600–1000Wh usage."
+description: "Recovery-first guidance for portable power stations under $500 in van life, with price-drift-safe routing and a clear path to Tier 2 when drift repeats."
 featured_image: "/images/featured/power-stations.svg"
 categories: ["best-of"]
 tags: ["power", "battery", "budget", "van life", "portable power"]
@@ -13,7 +13,12 @@ Portable power stations under $500 are one of the smartest entry points into van
 After 8 years full-time living in a van through Colorado winters, Florida humidity, Arizona sun, and long cross-country seasons, here’s the honest truth:
 
 A budget power station can absolutely work — but only if your daily usage and recharge strategy match reality.
-Start with the buyer routing hub, then diagnose drift before upgrading: [Fast-Charging Buyer Guides](/fast-charging-buyer-guides/) and [Van Battery Drift Diagnosis](/van-battery-drift-diagnosis/).
+<div class="calv-cta-module">
+  <div class="calv-cta-row">
+    <a class="calv-cta" href="/fast-charging-power-station-buyer-checklist/">Buyer Checklist</a>
+    <a class="calv-cta calv-cta-secondary" href="/fast-charging-buyer-guides/">Buyer Guides</a>
+  </div>
+</div>
 
 {{< callout title="Quick Answer" >}}
 If you're starting van life today, I would not go below **700Wh in modern LiFePO4 chemistry**.  
@@ -198,6 +203,7 @@ Before you buy, run this quick guardrail: [Van Power Upgrade Checklist](/van-pow
 Not sure if the starter tier is enough? Use this guide: [Starter Tier vs Upgrade Tier](/starter-tier-vs-upgrade-tier/).
 On the starter tier, use this playbook to stay stable: [Starter Tier Survival Plan](/starter-tier-survival-plan/).
 If you are moving from starter tier to Tier 2, use this bridge: [Under-$500 to Tier 2 Upgrade Bridge](/under-500-to-tier-2-upgrade-bridge/).
+Compare starter vs Tier 2 directly here: [Under-$500 vs Under-$1000 Van Power](/under-500-vs-under-1000-van-power/).
 
 ## Related Guides
 

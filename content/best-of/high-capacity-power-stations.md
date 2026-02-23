@@ -69,6 +69,8 @@ Not always. If you need integrated solar, large inverter loads, and multi-day au
 
 It can still work, but modern LiFePO4 options generally win on cycle life, recharge behavior, and long-run value. See [Goal Zero Yeti 1400 Legacy Review](/gear/goal-zero-yeti-1400-legacy-review/).
 
+Next step: use the recovery-first onboarding flow here: [Start Here](/start-here/).
+
 ## Related Cluster Guides
 
 - [Portable Power Stations Under $500](/best-of/power-stations-under-500/)

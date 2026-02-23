@@ -59,6 +59,8 @@ Use:
 ## Next step
 
 Next step: run **[Van Power Upgrade Checklist](/van-power-upgrade-checklist/)**, then **[Van Power Upgrade Paths](/van-power-upgrade-paths/)**.
+Buyer routing: start with **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)** and **[Fast-Charging Buyer Guides](/fast-charging-buyer-guides/)**, then compare **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**, **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**, **[Best Fast-Charging Power Stations for Essentials](/best-fast-charging-power-stations-for-essentials/)**, **[Best Fast-Charging Power Stations for Work](/best-fast-charging-power-stations-for-work/)**, **[Best Fast-Charging Power Stations for Heat + Humidity](/best-fast-charging-power-stations-for-heat-and-humidity/)**, and **[Best Fast-Charging Power Stations for Cold Weather](/best-fast-charging-power-stations-for-cold-weather/)**.
+Entry ladder and method routes: **[Portable Power Stations Under $500](/best-of/power-stations-under-500/)**, **[Under-$500 to Tier 2 Upgrade Bridge](/under-500-to-tier-2-upgrade-bridge/)**, **[Recovery Moves Index](/recovery-moves-index/)**, and **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
 For a single hub across fast-charging buyer paths, use: **[Fast-Charging Buyer Guides](/fast-charging-buyer-guides/)**.
 
 ## Related reads

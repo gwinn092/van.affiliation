@@ -1,6 +1,6 @@
 ---
-title: "Fast-Charging Power Station Buyer Checklist (Van Life, Recovery-First)"
-description: "A calm, recovery-first checklist for choosing a fast-charging power station for van life—prioritize time-to-recover, verify real-world charging paths, and avoid spec-trap mistakes."
+title: "Fast-Charging Power Station Buyer Checklist for Van Life"
+description: "A calm, recovery-first checklist to choose a fast-charging power station for van life based on real recovery windows, claim labels, and routine fit."
 slug: "fast-charging-power-station-buyer-checklist"
 date: 2026-02-22
 draft: false
@@ -10,8 +10,20 @@ tags: ["van life", "power stations", "fast charging", "buyer checklist", "recove
 
 This is how to choose fast-charging power stations without hype.
 
+{{< calvbox kicker="How to use this checklist" >}}
+- Choose the smallest fast-charging tier that keeps you out of drift  
+- Treat recharge time as the primary constraint (recovery-first)  
+- Truth-label claims: manufacturer vs third-party vs lived experience  
+{{< /calvbox >}}
+
 Rule: only consider **700Wh+**.
 Priority: **time-to-recover** over raw Wh.
+<div class="calv-cta-module">
+  <div class="calv-cta-row">
+    <a class="calv-cta" href="/fast-charging-power-station-buyer-checklist/">Buyer Checklist</a>
+    <a class="calv-cta calv-cta-secondary" href="/fast-charging-buyer-guides/">Buyer Guides</a>
+  </div>
+</div>
 
 Start here:
 - **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**
@@ -36,6 +48,10 @@ Use:
 - **[Shore Power Recovery Routine](/shore-power-recovery-routine/)**
 - **[Solar vs Alternator Charging](/solar-vs-alternator-charging/)**
 - **[Cloudy Week Power Recovery Plan](/cloudy-week-power-recovery-plan/)**
+
+{{< fieldnote >}}
+If you camp near the ocean, moisture/salt exposure can add risk for electronics over time. In our experience, long overnight fan runtime can contribute to that exposure. Use moisture control and follow manufacturer guidance.
+{{< /fieldnote >}}
 
 ## Step 3 — Avoid the spec traps (what to verify)
 
@@ -74,7 +90,9 @@ For a single hub that routes all fast-charging buyer paths, use: **[Fast-Chargin
 If your baseline includes CPAP, fridge, pets, or cooling, use this buyer guide: **[Best Fast-Charging Power Stations for Essentials](/best-fast-charging-power-stations-for-essentials/)**.
 If work reliability is your baseline, use this buyer guide: **[Best Fast-Charging Power Stations for Work](/best-fast-charging-power-stations-for-work/)**.
 If heat and humidity are your main stressor, use this buyer guide: **[Best Fast-Charging Power Stations for Heat + Humidity](/best-fast-charging-power-stations-for-heat-and-humidity/)**.
+If cold weather is your main stressor, use this buyer guide: **[Best Fast-Charging Power Stations for Cold Weather](/best-fast-charging-power-stations-for-cold-weather/)**.
 Still deciding between charging speed and added storage? Use this: [Fast Charging vs a Bigger Battery](/fast-charging-vs-bigger-battery/).
+For sourcing standards and claim labels, see: **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
 
 ## Related reads
 

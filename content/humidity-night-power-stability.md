@@ -6,6 +6,13 @@ date: 2026-02-22
 draft: false
 categories: ["Power"]
 tags: ["van life", "humidity", "heat", "sleep", "recovery", "power planning"]
+params:
+  hero_kicker: "Fast stability plan"
+  bullets:
+    - "How to stay cool without drifting into panic charging"
+    - "Recovery moves when humidity doesn’t let up"
+    - "Field notes on coastal moisture risk (framed cautiously)"
+  next_step: "If this keeps happening, use **/heat-and-humidity-van-power-recovery/** and keep the buyer route handy: **/fast-charging-power-station-buyer-checklist/**."
 ---
 
 Humid nights are a special kind of hard.

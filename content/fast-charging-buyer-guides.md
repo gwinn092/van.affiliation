@@ -1,6 +1,6 @@
 ---
-title: "Fast-Charging Buyer Guides: Pick the Right Power Station Path (700Wh+)"
-description: "A calm routing hub for CALV fast-charging buyer guides—start with the checklist, then choose the guide that matches your real-world scenario."
+title: "Fast-Charging Buyer Guides for Van Life (700Wh+)"
+description: "A calm routing hub for fast-charging buyer guides. Start with the checklist, then choose the guide that matches your real-world van life scenario."
 slug: "fast-charging-buyer-guides"
 date: 2026-02-22
 draft: false
@@ -9,6 +9,12 @@ tags: ["van life", "fast charging", "buyer guide", "power stations", "recovery"]
 ---
 
 CALV rule: recommendations start at **700Wh+**.
+<div class="calv-cta-module">
+  <div class="calv-cta-row">
+    <a class="calv-cta" href="/fast-charging-power-station-buyer-checklist/">Buyer Checklist</a>
+    <a class="calv-cta calv-cta-secondary" href="/fast-charging-buyer-guides/">Buyer Guides</a>
+  </div>
+</div>
 
 Start with:
 - **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
@@ -24,6 +30,7 @@ Start with:
 - **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**
 - **[Under-$1000 Upgrade Plan](/under-1000-upgrade-plan/)**
 - **[Under-$500 to Tier 2 Upgrade Bridge](/under-500-to-tier-2-upgrade-bridge/)** — when starter tier limits become consistent.
+- **[Portable Power Stations Under $500](/best-of/power-stations-under-500/)** — starter-tier entry path before Tier 2.
 
 ## If you have baseline essentials
 
@@ -51,9 +58,19 @@ Support pages:
 - **[Van Cooling Power Stability](/van-cooling-power-stability/)**
 - **[Coastal Humidity Electronics Care](/coastal-humidity-electronics-care/)**
 
+## If you’re in cold weather
+
+- **[Best Fast-Charging Power Stations for Cold Weather](/best-fast-charging-power-stations-for-cold-weather/)**
+
 ## Next step
 
 Next step: pick your recovery move for tomorrow: **[Recovery Moves Index](/recovery-moves-index/)**.
+For a direct budget-tier comparison, use: **[Under-$500 vs Under-$1000 Van Power](/under-500-vs-under-1000-van-power/)**.
+If you're deciding between solar and fast charging, use: **[Solar vs Fast Charging for Van Life](/solar-vs-fast-charging-for-van-life/)**.
+If you are unsure what to fix first before shopping, run **[Van Power Stability Scorecard](/van-power-stability-scorecard/)**.
+For sourcing standards and ranking rules, see: **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
+If you want the full onboarding path first, use: **[Start Here](/start-here/)**.
+Need a single index of major CALV guides? Use: **[Site Map: All Guides](/site-map/)**.
 
 ## Related reads
 

@@ -57,6 +57,8 @@ Rent or borrow when usage is rare.
 ### What tool is most underrated?
 A good crimper. Bad crimps cause hidden electrical failures.
 
+Next step: use the recovery-first onboarding flow here: [Start Here](/start-here/).
+
 ## Related Reading
 
 - [Tools You’ll Actually Use in a First Build](/blog/tools-youll-actually-use-in-a-first-build/)

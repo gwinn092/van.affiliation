@@ -56,6 +56,8 @@ No, many people use portable water setups effectively.
 ### Is propane safe in a van?
 It can be, with proper storage, leak checks, and ventilation.
 
+Next step: use the recovery-first onboarding flow here: [Start Here](/start-here/).
+
 ## Related Reading
 
 - [Budget Kitchen Setup for Van Life](/blog/budget-kitchen-setup-for-van-life/)

@@ -789,3 +789,1119 @@ a[role="button"]:hover,
     letter-spacing: 0.03em;
   }
 }
+
+/* Readability + layout overrides (minimal, reversible) */
+:root {
+  --calv-text: #10243d;
+  --calv-text-strong: #0a1627;
+  --calv-accent: #2563eb;
+  --calv-accent-hover: #1d4ed8;
+  --calv-cta-text: #ffffff;
+  --calv-border: rgba(15, 23, 42, 0.12);
+  --calv-surface: rgba(15, 23, 42, 0.03);
+  --calv-accent-2: #5a4480;
+  --calv-focus: rgba(37, 99, 235, 0.35);
+  --calv-link: #0b4f91;
+  --calv-link-hover: #083f73;
+  --calv-link-visited: #6b3fa0;
+  --calv-muted: #334b68;
+}
+
+body {
+  color: var(--calv-text);
+}
+
+a {
+  color: var(--calv-accent);
+}
+
+a:hover {
+  color: var(--calv-link-hover);
+}
+
+a:visited {
+  color: var(--calv-accent-2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: var(--calv-text-strong);
+}
+
+.text-neutral-500,
+.text-neutral-600,
+.text-neutral-700,
+.prose p,
+.prose li {
+  color: var(--calv-text);
+}
+
+.text-neutral-400 {
+  color: var(--calv-muted);
+}
+
+.home-shell {
+  max-width: min(108rem, 100%) !important;
+}
+
+#main-content {
+  max-width: min(112rem, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  #main-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+#main-content .article-content {
+  max-width: 78ch !important;
+}
+
+/* Homepage hierarchy: guide-first routing block */
+.calv-home-hero {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  padding: 1.25rem clamp(1rem, 4vw, 3rem) !important;
+  background: linear-gradient(180deg, #ffffff, #f8fbff);
+}
+
+.calv-home-hero > * {
+  max-width: min(108rem, 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calv-home-hubs {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.calv-home-card {
+  margin: 0;
+}
+
+.calv-home-card a {
+  display: block;
+  padding: 14px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.02);
+  text-decoration: none;
+  transition: transform 0.16s ease;
+}
+
+.calv-home-card a:hover {
+  transform: translateY(-1px);
+}
+
+.calv-home-card a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+@media (min-width: 768px) {
+  .calv-home-hubs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .calv-home-hero {
+    padding-top: 1.65rem !important;
+    padding-bottom: 1.65rem !important;
+  }
+}
+
+/* Typography + spacing polish (minimal, reversible) */
+body {
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+.prose,
+.article-content {
+  line-height: 1.65;
+}
+
+.prose p,
+.prose li {
+  max-width: 72ch;
+  line-height: 1.72;
+}
+
+.prose h2,
+.article-content h2 {
+  margin-top: 2.35rem;
+  margin-bottom: 0.72rem;
+  line-height: 1.26;
+}
+
+.prose h3,
+.article-content h3 {
+  margin-top: 1.7rem;
+  margin-bottom: 0.58rem;
+  line-height: 1.3;
+}
+
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid var(--calv-focus);
+  outline-offset: 2px;
+}
+
+.prose pre,
+pre {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+}
+
+.prose pre code,
+pre code {
+  color: #e6edf6;
+}
+
+.prose :not(pre) > code,
+.article-content :not(pre) > code {
+  color: #0f172a;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.12rem 0.35rem;
+  font-weight: 650;
+}
+
+/* Link/button hierarchy polish (minimal, homepage-focused) */
+.prose a {
+  text-decoration-thickness: 2.2px;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(11, 79, 145, 0.5);
+}
+
+.prose a:hover {
+  color: #083f73;
+  text-decoration-color: rgba(8, 63, 115, 0.9);
+}
+
+.prose a:focus-visible {
+  border-radius: 6px;
+}
+
+.calv-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.calv-cta-module {
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--calv-border);
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.02);
+}
+
+.calv-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.56rem 0.78rem;
+  border-radius: 10px;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  background: var(--calv-accent);
+  color: var(--calv-cta-text) !important;
+  text-decoration: none !important;
+  font-weight: 650;
+  font-size: 0.92rem;
+  line-height: 1.15;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.calv-cta:hover {
+  background: var(--calv-accent-hover);
+  border-color: rgba(29, 78, 216, 0.32);
+  transform: translateY(-1px);
+}
+
+.calv-cta:focus-visible {
+  outline: 3px solid var(--calv-focus);
+  outline-offset: 3px;
+}
+
+.calv-cta-secondary {
+  background: #ffffff;
+  color: var(--calv-accent) !important;
+  border: 1px solid rgba(37, 99, 235, 0.35);
+}
+
+.calv-cta-secondary:hover {
+  background: rgba(37, 99, 235, 0.08);
+  border-color: rgba(37, 99, 235, 0.5);
+}
+
+.home-hero a[role="button"],
+.main-menu a[role="button"],
+.calv-home-hero a[role="button"] {
+  color: #ffffff !important;
+  background: var(--calv-accent);
+  border: 1px solid rgba(11, 79, 145, 0.35);
+  box-shadow: 0 10px 22px rgba(15, 94, 138, 0.2);
+}
+
+.home-hero a[role="button"]:hover,
+.main-menu a[role="button"]:hover,
+.calv-home-hero a[role="button"]:hover {
+  background: var(--calv-accent-hover);
+  transform: translateY(-1px);
+}
+
+.home-hero a[role="button"]:focus-visible,
+.main-menu a[role="button"]:focus-visible,
+.calv-home-hero a[role="button"]:focus-visible {
+  outline: 3px solid var(--calv-focus);
+  outline-offset: 2px;
+}
+
+.calv-home-hero {
+  background: linear-gradient(180deg, #ffffff, #f8fbff);
+  border-top: 1px solid #dbe7f3;
+  border-bottom: 1px solid #dbe7f3;
+}
+
+.trust-strip {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid #d6e0ec;
+  border-radius: 14px;
+  padding: 0.75rem;
+}
+
+/* Full-bleed shell cleanup (remove outer site card feel) */
+html,
+body {
+  background: #ffffff !important;
+}
+
+#main-content,
+main,
+.container,
+.wrapper,
+.page,
+.content-wrapper {
+  max-width: none;
+}
+
+.calv-shell,
+.home-shell,
+.content-wrapper,
+.main-wrapper,
+#main-content {
+  width: 100%;
+}
+
+body.max-w-7xl {
+  max-width: none !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+body.max-w-7xl.px-6 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media (min-width: 640px) {
+  body.max-w-7xl.sm\:px-14 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  body.max-w-7xl.md\:px-24 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  body.max-w-7xl.lg\:px-32 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.relative.m-auto.leading-7.max-w-7xl.px-6.sm\:px-14.md\:px-24.lg\:px-32 {
+  max-width: none !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+@media (min-width: 1024px) {
+  .relative.m-auto.leading-7.max-w-7xl.px-6.sm\:px-14.md\:px-24.lg\:px-32 {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+}
+
+#menu-blur {
+  background: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.main-menu {
+  border-radius: 0 !important;
+  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.08) !important;
+  background: #ffffff !important;
+}
+
+.calv-home-hero,
+.calv-home-hubs,
+.calv-home-top-picks,
+.calv-home-featured {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 1024px) {
+  .calv-home-hero,
+  .calv-home-hubs,
+  .calv-home-top-picks,
+  .calv-home-featured {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* =========================
+   CALV Article Refresh
+   ========================= */
+
+.prose {
+  max-width: 74ch;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.prose h1 { letter-spacing: -0.02em; }
+.prose h2 {
+  margin-top: 2.2em;
+  padding-top: 0.2em;
+  letter-spacing: -0.01em;
+}
+.prose h3 { margin-top: 1.6em; }
+
+.prose p { margin-top: 1.1em; }
+.prose ul, .prose ol { margin-top: 1em; }
+.prose li { margin-top: 0.45em; }
+
+.prose blockquote {
+  border-left-width: 4px;
+  padding: 0.8em 1em;
+  border-radius: 12px;
+}
+
+/* Inline code: less “tech doc”, more readable */
+.prose code {
+  padding: 0.15em 0.35em;
+  border-radius: 8px;
+  background: rgba(0,0,0,.06);
+}
+
+/* Reusable module boxes */
+.calv-box {
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 16px;
+  padding: 1rem 1rem;
+  margin: 1.2rem 0;
+  background: rgba(0,0,0,.02);
+}
+
+.calv-kicker {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+}
+
+.calv-box--next {
+  background: rgba(0,0,0,.03);
+  border-width: 2px;
+}
+
+.calv-box--field {
+  background: rgba(0,0,0,.02);
+}
+
+.calv-box--warning {
+  background: rgba(0,0,0,.035);
+}
+
+/* Subtle divider */
+.calv-divider {
+  margin: 2rem 0;
+  border-top: 1px solid rgba(0,0,0,.08);
+}
+
+/* =========================
+   CALV Related Reads Cards
+   ========================= */
+
+.calv-related {
+  margin-top: 2rem;
+}
+
+.calv-related__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+}
+
+@media (min-width: 900px) {
+  .calv-related__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.calv-related__card {
+  display: block;
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 16px;
+  padding: 0.95rem 1rem;
+  background: rgba(0,0,0,.015);
+  text-decoration: none;
+}
+
+.calv-related__card:hover {
+  background: rgba(0,0,0,.03);
+}
+
+.calv-related__title {
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  line-height: 1.25;
+}
+
+.calv-related__desc {
+  opacity: 0.85;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* Adapter selectors for existing markdown "Related reads" lists */
+.article-content h2#related-reads + ul,
+.article-content h2#related-reading + ul,
+.article-content h2#related-guides + ul,
+.article-content h2#related + ul,
+.article-content h2:has(> div#related-reads) + ul,
+.article-content h2:has(> div#related-reading) + ul,
+.article-content h2:has(> div#related-guides) + ul,
+.article-content h2:has(> div#related) + ul,
+.article-content h2#related-reads + p + ul,
+.article-content h2#related-reading + p + ul,
+.article-content h2#related-guides + p + ul,
+.article-content h2#related + p + ul,
+.article-content h2:has(> div#related-reads) + p + ul,
+.article-content h2:has(> div#related-reading) + p + ul,
+.article-content h2:has(> div#related-guides) + p + ul,
+.article-content h2:has(> div#related) + p + ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+@media (min-width: 900px) {
+  .article-content h2#related-reads + ul,
+  .article-content h2#related-reading + ul,
+  .article-content h2#related-guides + ul,
+  .article-content h2#related + ul,
+  .article-content h2:has(> div#related-reads) + ul,
+  .article-content h2:has(> div#related-reading) + ul,
+  .article-content h2:has(> div#related-guides) + ul,
+  .article-content h2:has(> div#related) + ul,
+  .article-content h2#related-reads + p + ul,
+  .article-content h2#related-reading + p + ul,
+  .article-content h2#related-guides + p + ul,
+  .article-content h2#related + p + ul,
+  .article-content h2:has(> div#related-reads) + p + ul,
+  .article-content h2:has(> div#related-reading) + p + ul,
+  .article-content h2:has(> div#related-guides) + p + ul,
+  .article-content h2:has(> div#related) + p + ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.article-content h2#related-reads + ul > li,
+.article-content h2#related-reading + ul > li,
+.article-content h2#related-guides + ul > li,
+.article-content h2#related + ul > li,
+.article-content h2:has(> div#related-reads) + ul > li,
+.article-content h2:has(> div#related-reading) + ul > li,
+.article-content h2:has(> div#related-guides) + ul > li,
+.article-content h2:has(> div#related) + ul > li,
+.article-content h2#related-reads + p + ul > li,
+.article-content h2#related-reading + p + ul > li,
+.article-content h2#related-guides + p + ul > li,
+.article-content h2#related + p + ul > li,
+.article-content h2:has(> div#related-reads) + p + ul > li,
+.article-content h2:has(> div#related-reading) + p + ul > li,
+.article-content h2:has(> div#related-guides) + p + ul > li,
+.article-content h2:has(> div#related) + p + ul > li {
+  margin-top: 0;
+}
+
+.article-content h2#related-reads + ul > li > a,
+.article-content h2#related-reading + ul > li > a,
+.article-content h2#related-guides + ul > li > a,
+.article-content h2#related + ul > li > a,
+.article-content h2:has(> div#related-reads) + ul > li > a,
+.article-content h2:has(> div#related-reading) + ul > li > a,
+.article-content h2:has(> div#related-guides) + ul > li > a,
+.article-content h2:has(> div#related) + ul > li > a,
+.article-content h2#related-reads + p + ul > li > a,
+.article-content h2#related-reading + p + ul > li > a,
+.article-content h2#related-guides + p + ul > li > a,
+.article-content h2#related + p + ul > li > a,
+.article-content h2:has(> div#related-reads) + p + ul > li > a,
+.article-content h2:has(> div#related-reading) + p + ul > li > a,
+.article-content h2:has(> div#related-guides) + p + ul > li > a,
+.article-content h2:has(> div#related) + p + ul > li > a {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 0.95rem 1rem;
+  background: rgba(0, 0, 0, 0.015);
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.article-content h2#related-reads + ul > li > a:hover,
+.article-content h2#related-reading + ul > li > a:hover,
+.article-content h2#related-guides + ul > li > a:hover,
+.article-content h2#related + ul > li > a:hover,
+.article-content h2:has(> div#related-reads) + ul > li > a:hover,
+.article-content h2:has(> div#related-reading) + ul > li > a:hover,
+.article-content h2:has(> div#related-guides) + ul > li > a:hover,
+.article-content h2:has(> div#related) + ul > li > a:hover,
+.article-content h2#related-reads + p + ul > li > a:hover,
+.article-content h2#related-reading + p + ul > li > a:hover,
+.article-content h2#related-guides + p + ul > li > a:hover,
+.article-content h2#related + p + ul > li > a:hover,
+.article-content h2:has(> div#related-reads) + p + ul > li > a:hover,
+.article-content h2:has(> div#related-reading) + p + ul > li > a:hover,
+.article-content h2:has(> div#related-guides) + p + ul > li > a:hover,
+.article-content h2:has(> div#related) + p + ul > li > a:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.article-content h2#related-reads + ul > li > a:focus-visible,
+.article-content h2#related-reading + ul > li > a:focus-visible,
+.article-content h2#related-guides + ul > li > a:focus-visible,
+.article-content h2#related + ul > li > a:focus-visible,
+.article-content h2:has(> div#related-reads) + ul > li > a:focus-visible,
+.article-content h2:has(> div#related-reading) + ul > li > a:focus-visible,
+.article-content h2:has(> div#related-guides) + ul > li > a:focus-visible,
+.article-content h2:has(> div#related) + ul > li > a:focus-visible,
+.article-content h2#related-reads + p + ul > li > a:focus-visible,
+.article-content h2#related-reading + p + ul > li > a:focus-visible,
+.article-content h2#related-guides + p + ul > li > a:focus-visible,
+.article-content h2#related + p + ul > li > a:focus-visible,
+.article-content h2:has(> div#related-reads) + p + ul > li > a:focus-visible,
+.article-content h2:has(> div#related-reading) + p + ul > li > a:focus-visible,
+.article-content h2:has(> div#related-guides) + p + ul > li > a:focus-visible,
+.article-content h2:has(> div#related) + p + ul > li > a:focus-visible {
+  outline: 3px solid var(--calv-focus);
+  outline-offset: 2px;
+}
+
+/* =========================
+   CALV Article Layout Polish
+   ========================= */
+
+/* Center the whole article+TOC area so we don't get a giant "dead zone" */
+.calv-article-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Grid that keeps content + TOC close and intentional */
+.calv-article-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+/* Desktop: add TOC column */
+@media (min-width: 1100px) {
+  .calv-article-grid {
+    grid-template-columns: minmax(0, 1fr) 320px;
+    align-items: start;
+    gap: 2rem;
+  }
+}
+
+/* Make TOC feel like a designed card */
+.calv-toc-card {
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 16px;
+  padding: 1rem 1rem;
+  background: rgba(0,0,0,.015);
+}
+
+/* Sticky TOC on desktop */
+@media (min-width: 1100px) {
+  .calv-toc-card {
+    position: sticky;
+    top: 1.25rem;
+  }
+}
+
+/* Optional: calm down taxonomy chips so it feels less "archive" */
+.calv-taxonomy {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* If theme uses many pill chips, soften them a bit */
+.calv-taxonomy a {
+  font-size: 0.85rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  opacity: 0.9;
+}
+
+/* =========================
+   CALV De-Archive Header Polish
+   ========================= */
+
+/* Make modules feel like modern surfaces (less “outlined card”) */
+.calv-box {
+  border: 0;
+  background: rgba(0,0,0,.02);
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  padding: 1.1rem 1.15rem;
+}
+
+.calv-kicker {
+  font-size: 0.82rem;
+  letter-spacing: 0.10em;
+  opacity: 0.75;
+}
+
+.calv-box--next {
+  border: 0;
+  background: rgba(0,0,0,.03);
+  box-shadow: 0 10px 30px rgba(0,0,0,.07);
+}
+
+/* Chips: calmer + more modern */
+.calv-taxonomy {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.calv-taxonomy a {
+  font-size: 0.85rem;
+  padding: 0.22rem 0.55rem;
+  border-radius: 999px;
+  border: 0;
+  background: rgba(0,0,0,.04);
+  text-decoration: none;
+  opacity: 0.95;
+}
+
+.calv-taxonomy a:hover {
+  background: rgba(0,0,0,.07);
+}
+
+/* Tighten title rhythm on big screens */
+@media (min-width: 1100px) {
+  .calv-title h1 {
+    font-size: 2.35rem;
+    line-height: 1.08;
+  }
+}
+
+/* Reduce the “giant boxed header” feel if theme wraps title/meta in a card */
+.calv-article-shell .calv-header-surface {
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+/* =========================
+   CALV Modern Typography + Links
+   ========================= */
+
+/* Modern system font stacks (no external requests) */
+:root {
+  --calv-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  --calv-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+/* Apply modern sans broadly */
+body, button, input, select, textarea {
+  font-family: var(--calv-sans);
+}
+
+/* Optional: keep headings slightly “editorial” without looking old-school */
+h1, h2, h3 {
+  font-family: var(--calv-sans);
+  letter-spacing: -0.015em;
+}
+
+/* Stronger hierarchy */
+.prose h1 { margin-bottom: 0.4rem; }
+.prose h2 { margin-top: 2.4em; margin-bottom: 0.6rem; }
+.prose h3 { margin-top: 1.6em; margin-bottom: 0.35rem; }
+
+/* Nicer links: intentional underline */
+.prose a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* If theme uses very light borders everywhere, soften inside article shell */
+.calv-article-shell hr {
+  opacity: 0.7;
+}
+
+/* Make lists feel less “documentation” */
+.prose ul {
+  padding-left: 1.2rem;
+}
+.prose li::marker {
+  opacity: 0.65;
+}
+
+/* Slightly more comfortable paragraph width on very large screens */
+@media (min-width: 1400px) {
+  .prose { max-width: 78ch; }
+}
+
+/* =========================
+   CALV De-Card Article Shell (Scoped)
+   ========================= */
+
+/* Tighten top whitespace inside article shell */
+.calv-article-shell {
+  padding-top: 0.75rem;
+}
+
+/* Many themes wrap title/meta in a large rounded container — flatten it in article shell */
+.calv-article-shell .calv-title,
+.calv-article-shell header,
+.calv-article-shell .header {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Reduce large rounded borders on generic theme card containers inside article pages */
+.calv-article-shell .rounded,
+.calv-article-shell .rounded-lg,
+.calv-article-shell .rounded-xl,
+.calv-article-shell .shadow,
+.calv-article-shell .shadow-lg,
+.calv-article-shell .shadow-xl {
+  box-shadow: none !important;
+}
+
+/* If theme adds borders around big blocks, soften them */
+.calv-article-shell .border,
+.calv-article-shell [class*="border-"] {
+  border-color: rgba(0,0,0,.08) !important;
+}
+
+/* Make the hero feel integrated (less like a separate card floating) */
+.calv-article-shell .calv-box {
+  margin-top: 0.9rem;
+}
+
+/* Tighten meta row spacing if it’s tall */
+.calv-article-shell .calv-taxonomy {
+  margin-top: 0.45rem;
+}
+
+/* TOC card: keep it a card, but reduce visual weight */
+.calv-article-shell .calv-toc-card {
+  box-shadow: none;
+  background: rgba(0,0,0,.012);
+  border: 1px solid rgba(0,0,0,.10);
+}
+
+/* Reduce excessive padding around article body wrapper if present */
+.calv-article-shell main,
+.calv-article-shell article {
+  padding-top: 0.25rem;
+}
+
+/* =========================
+   CALV Color System
+   ========================= */
+
+:root {
+  /* Brand accents (calm ocean/sky) */
+  --calv-accent: #2563eb;        /* modern blue */
+  --calv-accent-2: #0ea5a4;      /* teal */
+  --calv-accent-soft: rgba(37, 99, 235, 0.10);
+  --calv-accent-soft-2: rgba(14, 165, 164, 0.12);
+
+  /* Surfaces/borders */
+  --calv-border: rgba(15, 23, 42, 0.12);
+  --calv-surface: rgba(15, 23, 42, 0.03);
+  --calv-surface-2: rgba(15, 23, 42, 0.05);
+
+  /* Text */
+  --calv-text: rgba(15, 23, 42, 0.92);
+  --calv-muted: rgba(15, 23, 42, 0.70);
+}
+
+/* Prefer these tokens inside article pages */
+.calv-article-shell {
+  color: var(--calv-text);
+}
+
+/* Scoped to prose so nav doesn't unexpectedly change */
+.calv-article-shell .prose a {
+  color: var(--calv-accent);
+  text-decoration-color: rgba(37, 99, 235, 0.40);
+}
+
+.calv-article-shell .prose a:hover {
+  color: #1d4ed8; /* slightly deeper */
+  text-decoration-color: rgba(37, 99, 235, 0.70);
+}
+
+.calv-article-shell .calv-box {
+  background: linear-gradient(180deg, var(--calv-accent-soft), rgba(15,23,42,0.02));
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  border: 1px solid var(--calv-border);
+}
+
+.calv-article-shell .calv-kicker {
+  color: var(--calv-muted);
+}
+
+.calv-article-shell .calv-box--next {
+  background: linear-gradient(180deg, var(--calv-accent-soft-2), rgba(15,23,42,0.02));
+  border: 1px solid var(--calv-border);
+}
+
+.calv-article-shell .calv-taxonomy a {
+  background: var(--calv-surface);
+  border: 1px solid var(--calv-border);
+  color: var(--calv-text);
+}
+
+.calv-article-shell .calv-taxonomy a:hover {
+  background: var(--calv-accent-soft);
+  border-color: rgba(37, 99, 235, 0.25);
+  color: var(--calv-accent);
+}
+
+.calv-article-shell .calv-toc-card {
+  background: rgba(15,23,42,0.02);
+  border: 1px solid var(--calv-border);
+}
+
+.calv-article-shell .calv-toc-card a {
+  color: var(--calv-accent);
+}
+
+/* Try to target existing CTA buttons without breaking theme classes */
+.calv-article-shell a.button,
+.calv-article-shell .btn,
+.calv-article-shell a[class*="btn"],
+.calv-article-shell a[class*="button"] {
+  border-color: rgba(37, 99, 235, 0.35) !important;
+}
+
+/* =========================
+   CALV TOC Redesign (Scoped)
+   ========================= */
+
+.calv-article-shell .calv-toc-card {
+  padding: 1rem 1rem;
+  border-radius: 18px;
+}
+
+/* If the TOC has a heading ("On this page") inside the card, style it */
+.calv-article-shell .calv-toc-card h2,
+.calv-article-shell .calv-toc-card h3,
+.calv-article-shell .calv-toc-card .toc-title,
+.calv-article-shell .calv-toc-card .title {
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Normalize TOC list spacing */
+.calv-article-shell .calv-toc-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.calv-article-shell .calv-toc-card li {
+  margin: 0.15rem 0;
+}
+
+/* The key fix: TOC links should NOT look like default blue underlined links */
+.calv-article-shell .calv-toc-card a {
+  display: block;
+  padding: 0.45rem 0.55rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--calv-text);
+  border: 1px solid transparent;
+  line-height: 1.25;
+  font-size: 0.95rem;
+}
+
+/* Subtle hover/focus treatment + left accent feel */
+.calv-article-shell .calv-toc-card a:hover {
+  background: var(--calv-accent-soft);
+  border-color: rgba(37, 99, 235, 0.18);
+  color: var(--calv-accent);
+}
+
+.calv-article-shell .calv-toc-card a:focus-visible {
+  outline: 2px solid rgba(37, 99, 235, 0.35);
+  outline-offset: 2px;
+  background: var(--calv-accent-soft);
+}
+
+/* If the TOC has nested sections, indent them slightly and soften */
+.calv-article-shell .calv-toc-card ul ul a {
+  padding-left: 0.85rem;
+  font-size: 0.92rem;
+  opacity: 0.92;
+}
+
+/* Optional: make the TOC card feel lighter */
+.calv-article-shell .calv-toc-card {
+  background: rgba(15,23,42,0.018);
+  border: 1px solid var(--calv-border);
+  box-shadow: none;
+}
+
+/* =========================
+   CALV Hero + Module Premium Polish (Scoped)
+   ========================= */
+
+/* Add a left accent bar to all CALV modules in article pages */
+.calv-article-shell .calv-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.calv-article-shell .calv-box::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--calv-accent), var(--calv-accent-2));
+  opacity: 0.9;
+}
+
+/* Give content breathing room from the accent bar */
+.calv-article-shell .calv-box > div,
+.calv-article-shell .calv-box p,
+.calv-article-shell .calv-box ul {
+  margin-left: 0.35rem;
+}
+
+/* Kicker + body rhythm */
+.calv-article-shell .calv-kicker {
+  margin-bottom: 0.55rem;
+}
+
+.calv-article-shell .calv-box p {
+  margin-top: 0.35rem;
+}
+
+/* Next step module slightly stronger */
+.calv-article-shell .calv-box--next::before {
+  opacity: 1;
+}
+
+/* Optional: make the "Quick take" hero feel a touch more elevated without being loud */
+.calv-article-shell .calv-title + .calv-box,
+.calv-article-shell .calv-box:first-of-type {
+  box-shadow: 0 14px 40px rgba(15, 23, 42, 0.10);
+}
+
+/* =========================
+   CALV TOC Density + Title (Scoped)
+   ========================= */
+
+.calv-article-shell .calv-toc-card {
+  padding: 0.9rem 0.9rem;
+}
+
+.calv-article-shell .calv-toc-card a {
+  padding: 0.38rem 0.5rem;
+  font-size: 0.93rem;
+}
+
+.calv-article-shell .calv-toc-card li {
+  margin: 0.08rem 0;
+}
+
+/* =========================
+   CALV Start Band
+   ========================= */
+.calv-article-shell .calv-startband ul {
+  margin: 0.4rem 0 0 1.1rem;
+}
+
+.calv-article-shell .calv-startband strong {
+  font-weight: 700;
+}

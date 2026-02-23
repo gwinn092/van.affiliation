@@ -9,12 +9,17 @@ tags: ["van life", "fast charging", "battery capacity", "recovery", "power stati
 ---
 
 Most van power instability is a recovery problem, not a storage problem.
+If you're shopping, start with the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then pick the guide that matches your situation in **[Fast-Charging Buyer Guides](/fast-charging-buyer-guides/)**.
 
 Before you upgrade, verify what is actually failing:
 - **[Van Power Stability Scorecard](/van-power-stability-scorecard/)**
 - **[Van Power Upgrade Decision Tree](/van-power-upgrade-decision-tree/)**
 
-## When fast charging is the right fix (recovery speed problem)
+## The real question (time-to-recover)
+
+The decision is usually about recoverability: how consistently you can refill in real conditions without adding stress.
+
+## When fast charging wins
 
 - You cannot reliably refill during your real recovery windows.
 - You keep surviving today but drifting downward across the week.
@@ -26,7 +31,7 @@ Use:
 - **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
 - **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**
 
-## When more capacity is the right fix (true margin problem)
+## When bigger capacity wins
 
 - Your routine is solid and refill windows are reliable, but baseline plus work still runs out of margin.
 - You already fixed leaks and still cannot hold overnight stability.
@@ -48,7 +53,7 @@ Use:
 - **[Van Power Comfort Budget](/van-power-comfort-budget/)**
 - **[Van Power Upgrade Mistakes](/van-power-upgrade-mistakes/)**
 
-## A simple decision rule (repeat CALV ladder)
+## The calm decision rule (fix leaks -> protect baseline -> improve recovery speed -> then add capacity)
 
 Fix leaks, protect baseline, improve recovery speed, then add capacity.
 
@@ -58,14 +63,14 @@ Use:
 
 ## Next step
 
-Use the **[Van Power Upgrade Decision Tree](/van-power-upgrade-decision-tree/)** first, then run the **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**.
+Next step: use the **[Van Power Upgrade Decision Tree](/van-power-upgrade-decision-tree/)**.
 
 ## Related reads
 
-- **[Van Power Stability Scorecard](/van-power-stability-scorecard/)**
+- **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**
+- **[Van Battery Drift Diagnosis](/van-battery-drift-diagnosis/)**
+- **[Van Power Upgrade Mistakes](/van-power-upgrade-mistakes/)**
 - **[Van Power Upgrade Decision Tree](/van-power-upgrade-decision-tree/)**
 - **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
-- **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**
 - **[Van Power Upgrade Checklist](/van-power-upgrade-checklist/)**
-- **[Inverter On or Off Workflow](/inverter-on-or-off-workflow/)**
 - **[Tier 2 Bad Week Protocol](/tier-2-bad-week-protocol/)**

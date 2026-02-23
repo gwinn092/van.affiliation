@@ -1,23 +1,19 @@
 ---
-title: "About"
-description: "Why Create A Van Life exists and how we review gear after 7 years of full-time van living."
-featureimage: "/images/hero/van-sunrise.svg"
-keywords: ["about create a van life", "van life reviewer"]
+title: "About CALV"
+description: "What Create A Van Life is and how we think about recovery-first van power."
+slug: "about"
+date: 2026-02-22
+draft: false
 ---
 
-I have lived full-time in a van for 7 years. The first build was expensive, overcomplicated, and full of purchases I did not need. The second build was different: budget-first, modular, and tested by actual daily use.
+Create A Van Life (CALV) is a practical van power resource built around one core goal: stay stable in real conditions.
 
-Create A Van Life exists for people who want practical guidance without influencer hype. We focus on gear that solves real problems: airflow, power reliability, cooking, connectivity, and comfort.
+Our framework is recovery-first. We focus on time-to-recover, daily routines, and clear decision paths instead of chasing ideal-day setups.
 
-## What You Can Expect
+Climate matters. Heat, humidity, cold, clouds, quiet hours, and parking constraints can change what works, so our guidance is written for those reality checks.
 
-- Honest tradeoffs, including when a product is outdated.
-- Budget-first picks before premium upgrades.
-- Alternative recommendations when a product is discontinued.
-- Clear affiliate disclosures and no fake urgency.
+We keep electrical guidance high-level. We do not publish wiring tutorials or installation walkthroughs. For install work, follow manufacturer guidance or use a qualified installer.
 
-## How We Make Money
+The easiest way to use CALV is to start with the hubs: run the Stability Scorecard, choose a Recovery Move, then use the Decision Tree and Buyer Checklist if you still need to upgrade.
 
-Some links are affiliate links. If you buy through those links, we may earn a commission at no extra cost to you. That revenue keeps this site running and funds testing.
-
-Our rule is simple: we only recommend gear we would use ourselves.
+For sourcing standards and how we label claims, see **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.

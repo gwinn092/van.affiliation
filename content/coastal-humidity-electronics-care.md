@@ -42,6 +42,7 @@ Use:
 
 Next step: use the humidity-night plan to stay stable without over-running everything: **[Humidity Night Power Stability](/humidity-night-power-stability/)**.
 For heat/humidity-focused fast-charging station picks, use this buyer guide: **[Best Fast-Charging Power Stations for Heat + Humidity](/best-fast-charging-power-stations-for-heat-and-humidity/)**.
+For non-wiring gear that supports humidity resilience, see: **[Gear That Improves Van Power Stability](/gear-that-improves-van-power-stability/)**.
 
 ## Related reads
 

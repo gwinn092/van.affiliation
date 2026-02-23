@@ -1,6 +1,6 @@
 ---
-title: "Best Fast-Charging Power Stations Under $1000 (700Wh+ Recovery-First Picks)"
-description: "Price-drift safe fast-charging picks for van life under $1000: 700Wh+ minimum, recovery-first ranking, and clear separation between current-under vs watch list."
+title: "Best Fast-Charging Power Stations Under $1000 for Van Life (700Wh+)"
+description: "Price-drift safe, recovery-first fast-charging picks under $1000 for van life, with clear under-now vs watch-list routing and a stable upgrade path."
 slug: "best-fast-charging-power-stations-under-1000"
 date: 2026-02-22
 draft: false
@@ -21,6 +21,19 @@ If you want the fully sourced deep-dive buyer page (manufacturer claims + third-
 If you want the system behind the picks:
 - **[Van Power Recovery Stack](/van-power-recovery-stack/)**
 - **[Recovery Window Priority Map](/recovery-window-priority-map/)**
+
+{{< startband >}}
+- **If you want the deep-dive picks:** start with **/best-of/best-fast-charging-power-stations/**  
+- **If you’re choosing fast:** use **/fast-charging-power-station-buyer-checklist/**  
+- **If you’re unsure about tiers:** compare **/under-500-vs-under-1000-van-power/**  
+{{< /startband >}}
+
+<div class="calv-cta-module">
+  <div class="calv-cta-row">
+    <a class="calv-cta" href="/fast-charging-power-station-buyer-checklist/">Buyer Checklist</a>
+    <a class="calv-cta calv-cta-secondary" href="/fast-charging-buyer-guides/">Buyer Guides</a>
+  </div>
+</div>
 
 ---
 
@@ -147,6 +160,7 @@ Baseline context:
 ## Related reads
 
 Next step: pick your recovery move for today: **[Recovery Window Priority Map](/recovery-window-priority-map/)**.
+For a direct budget-tier comparison, use: **[Under-$500 vs Under-$1000 Van Power](/under-500-vs-under-1000-van-power/)**.
 
 - **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
 - **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**
