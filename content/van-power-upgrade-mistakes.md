@@ -118,7 +118,7 @@ Use:
 
 Next step: run the **[Van Power Upgrade Checklist](/van-power-upgrade-checklist/)**, then compare **[Van Power Upgrade Paths](/van-power-upgrade-paths/)**.
 
-## CALV Field Notes (real-world experience)
+## CAVL Field Notes (real-world experience)
 
 - Most upgrade regret starts when decisions happen mid-stress instead of from routine data.
 - The fastest relief usually comes from better recovery behavior, not a bigger spec sheet.

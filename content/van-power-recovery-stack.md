@@ -39,7 +39,7 @@ Mode choice prevents decision chaos and gives you clear rules for the day.
 Start here:
 - [Daily Van Power Mode System](/daily-van-power-mode-system/)
 
-### CALV Field Notes (real-world experience)
+### CAVL Field Notes (real-world experience)
 - In humid heat, drift usually starts with overnight comfort pressure, not one dramatic daytime mistake.
 - Cloudy stretches feel harder in hot weather because refill windows shrink while core loads keep running.
 - Choosing a refill move early is one of the fastest ways to lower stress across the whole rig.
@@ -107,7 +107,7 @@ Use these pages as your communication layer:
 
 Do not use new hardware to patch a broken routine. First prove your recovery workflow, then upgrade with intent.
 
-Global rule at CALV: recommended power stations start at **700Wh minimum**.
+Global rule at CAVL: recommended power stations start at **700Wh minimum**.
 
 Use these to choose your next step:
 - [Van Power Planning Mistakes](/van-power-planning-mistakes/)
@@ -149,7 +149,7 @@ If you want recovery-first fast-charging picks with a budget cap, see: [Best Fas
 Not sure what to upgrade next? Use this ladder: [Van Power Upgrade Paths](/van-power-upgrade-paths/).
 Need a fast self-audit first? Use the Stability Scorecard: [Van Power Stability Scorecard](/van-power-stability-scorecard/).
 Need a scenario-based route first? Use: [Van Power Conditions Index](/van-power-conditions-index/).
-New to CALV? Use the universal onboarding flow: [Start Here](/start-here/).
+New to CAVL? Use the universal onboarding flow: [Start Here](/start-here/).
 
 ## Related reads
 

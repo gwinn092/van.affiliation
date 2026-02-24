@@ -864,8 +864,11 @@ strong {
   }
 }
 
-#main-content .article-content {
-  max-width: 78ch !important;
+#main-content .calv-article-shell .article-content {
+  max-width: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /* Homepage hierarchy: guide-first routing block */
@@ -1204,7 +1207,7 @@ body.max-w-7xl.px-6 {
 }
 
 /* =========================
-   CALV Article Refresh
+   CAVL Article Refresh
    ========================= */
 
 .prose {
@@ -1275,7 +1278,7 @@ body.max-w-7xl.px-6 {
 }
 
 /* =========================
-   CALV Related Reads Cards
+   CAVL Related Reads Cards
    ========================= */
 
 .calv-related {
@@ -1450,7 +1453,7 @@ body.max-w-7xl.px-6 {
 }
 
 /* =========================
-   CALV Article Layout Polish
+   CAVL Article Layout Polish
    ========================= */
 
 /* Center the whole article+TOC area so we don't get a giant "dead zone" */
@@ -1460,21 +1463,8 @@ body.max-w-7xl.px-6 {
   padding: 0 1rem;
 }
 
-/* Grid that keeps content + TOC close and intentional */
-.calv-article-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 1.5rem;
-}
-
-/* Desktop: add TOC column */
-@media (min-width: 1100px) {
-  .calv-article-grid {
-    grid-template-columns: minmax(0, 1fr) 320px;
-    align-items: start;
-    gap: 2rem;
-  }
-}
+/* Grid that keeps content + TOC close and intentional *//* Desktop: add TOC column */
+@media (min-width: 1100px) {}
 
 /* Make TOC feel like a designed card */
 .calv-toc-card {
@@ -1509,7 +1499,7 @@ body.max-w-7xl.px-6 {
 }
 
 /* =========================
-   CALV De-Archive Header Polish
+   CAVL De-Archive Header Polish
    ========================= */
 
 /* Make modules feel like modern surfaces (less “outlined card”) */
@@ -1571,7 +1561,7 @@ body.max-w-7xl.px-6 {
 }
 
 /* =========================
-   CALV Modern Typography + Links
+   CAVL Modern Typography + Links
    ========================= */
 
 /* Modern system font stacks (no external requests) */
@@ -1622,7 +1612,7 @@ h1, h2, h3 {
 }
 
 /* =========================
-   CALV De-Card Article Shell (Scoped)
+   CAVL De-Card Article Shell (Scoped)
    ========================= */
 
 /* Tighten top whitespace inside article shell */
@@ -1678,7 +1668,7 @@ h1, h2, h3 {
 }
 
 /* =========================
-   CALV Color System
+   CAVL Color System
    ========================= */
 
 :root {
@@ -1759,7 +1749,7 @@ h1, h2, h3 {
 }
 
 /* =========================
-   CALV TOC Redesign (Scoped)
+   CAVL TOC Redesign (Scoped)
    ========================= */
 
 .calv-article-shell .calv-toc-card {
@@ -1830,10 +1820,10 @@ h1, h2, h3 {
 }
 
 /* =========================
-   CALV Hero + Module Premium Polish (Scoped)
+   CAVL Hero + Module Premium Polish (Scoped)
    ========================= */
 
-/* Add a left accent bar to all CALV modules in article pages */
+/* Add a left accent bar to all CAVL modules in article pages */
 .calv-article-shell .calv-box {
   position: relative;
   overflow: hidden;
@@ -1879,7 +1869,7 @@ h1, h2, h3 {
 }
 
 /* =========================
-   CALV TOC Density + Title (Scoped)
+   CAVL TOC Density + Title (Scoped)
    ========================= */
 
 .calv-article-shell .calv-toc-card {
@@ -1896,7 +1886,7 @@ h1, h2, h3 {
 }
 
 /* =========================
-   CALV Start Band
+   CAVL Start Band
    ========================= */
 .calv-article-shell .calv-startband ul {
   margin: 0.4rem 0 0 1.1rem;
@@ -1904,4 +1894,860 @@ h1, h2, h3 {
 
 .calv-article-shell .calv-startband strong {
   font-weight: 700;
+}
+
+/* =========================
+   CAVL Buyer Pick Cards
+   ========================= */
+
+.calv-picks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+@media (min-width: 900px) {
+  .calv-picks {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.calv-pick {
+  border: 1px solid var(--calv-border);
+  border-radius: 18px;
+  background: rgba(15,23,42,0.02);
+  padding: 1rem 1rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.calv-pick::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--calv-accent), var(--calv-accent-2));
+  opacity: 0.9;
+}
+
+.calv-pick__inner { margin-left: 0.35rem; }
+
+.calv-pick__title {
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  margin: 0 0 0.35rem 0;
+}
+
+.calv-pick__meta {
+  font-size: 0.92rem;
+  opacity: 0.80;
+  margin-bottom: 0.65rem;
+}
+
+.calv-pick__lines {
+  margin: 0.6rem 0 0.7rem 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.calv-pick__line {
+  font-size: 0.95rem;
+  opacity: 0.92;
+}
+
+.calv-pick__label {
+  font-weight: 700;
+  opacity: 0.85;
+  margin-right: 0.35rem;
+}
+
+.calv-pick__truth {
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  opacity: 0.82;
+}
+
+.calv-pick__truth code {
+  background: rgba(0,0,0,.05);
+  padding: 0.12rem 0.3rem;
+  border-radius: 8px;
+}
+
+.calv-pick__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.calv-pick__actions a {
+  text-decoration: none;
+}
+
+/* TOC fallback title when theme TOC lacks an explicit heading */
+.calv-article-shell .calv-toc-card nav::before,
+.calv-article-shell .calv-toc-card .toc::before,
+.calv-article-shell .calv-toc-card .table-of-contents::before {
+  content: "On this page";
+  display: block;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--calv-muted);
+  margin: 0 0 0.55rem 0.15rem;
+}
+
+/* =========================
+   CAVL Article Density Pass (Scoped)
+   ========================= */
+
+.calv-article-shell {
+  /* Slightly wider on large screens to reduce “empty margins” */
+  max-width: 1200px;
+}
+
+/* Tighten main vertical rhythm */
+.calv-article-shell .prose > * + * {
+  margin-top: 0.85rem;
+}
+
+/* Headings: reduce big gaps */
+.calv-article-shell .prose h2 { margin-top: 1.6rem; margin-bottom: 0.55rem; }
+.calv-article-shell .prose h3 { margin-top: 1.15rem; margin-bottom: 0.45rem; }
+.calv-article-shell .prose h4 { margin-top: 1.0rem; margin-bottom: 0.35rem; }
+
+/* Lists: reduce extra air */
+.calv-article-shell .prose ul,
+.calv-article-shell .prose ol {
+  margin-top: 0.55rem;
+  margin-bottom: 0.75rem;
+}
+
+.calv-article-shell .prose li { margin: 0.25rem 0; }
+
+/* Horizontal rules often create “double spacing” */
+.calv-article-shell .prose hr {
+  margin: 1.25rem 0;
+}
+
+/* Tighten card-like modules */
+.calv-article-shell .calv-box {
+  padding: 0.95rem 1rem;
+  margin: 0.95rem 0;
+}
+
+/* Tighten Start band */
+.calv-article-shell .calv-startband ul { margin-top: 0.35rem; }
+.calv-article-shell .calv-startband li { margin: 0.22rem 0; }
+
+/* Pick cards: reduce padding a touch */
+.calv-article-shell .calv-pick {
+  padding: 0.9rem 0.95rem;
+}
+.calv-article-shell .calv-picks { margin: 0.85rem 0 1.15rem 0; }
+
+/* Related reads block: make it compact */
+.calv-article-shell #related,
+.calv-article-shell .related,
+.calv-article-shell .related-content,
+.calv-article-shell .related-posts {
+  margin-top: 1.15rem;
+}
+
+.calv-article-shell #related .calv-box,
+.calv-article-shell .related .calv-box {
+  padding: 0.85rem 0.95rem;
+}
+
+/* If related reads renders as a big padded box, tighten typical wrappers */
+.calv-article-shell .related-posts,
+.calv-article-shell .related-content {
+  padding: 0.85rem 0.95rem;
+  border-radius: 18px;
+}
+
+/* Author box: reduce height */
+.calv-article-shell .author,
+.calv-article-shell .author-card,
+.calv-article-shell .about-author {
+  padding: 0.85rem 0.95rem;
+  margin-top: 1.15rem;
+}
+
+.calv-article-shell .author-box {
+  padding: 0.85rem 0.95rem;
+  margin-top: 1.15rem;
+}
+
+.calv-article-shell #related-reads + ul {
+  margin-top: 0.75rem;
+  margin-bottom: 0.95rem;
+}
+
+/* Footer disclosure bar (if it’s taking space) — make it slimmer */
+.calv-article-shell .disclosure,
+.calv-article-shell .affiliate-disclosure,
+.calv-article-shell .site-disclosure {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.92rem;
+}
+
+/* =========================
+   CAVL Chrome Tighten (Scoped)
+   ========================= */
+
+/* Reduce top/bottom padding around the whole article area */
+.calv-article-shell {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+/* If grid has gap that feels too wide, tighten slightly */
+
+
+/* Reduce extra bottom space before footer if present */
+.calv-article-shell .prose {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* =========================
+   CAVL Professional Density v2 (Scoped)
+   ========================= */
+
+/* 1) Widen the usable canvas on desktop */
+.calv-article-shell{
+  max-width: 1400px;                 /* wider = less “empty margins” */
+  width: min(1400px, calc(100% - 2.5rem));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 2) Remove theme prose caps inside our shell */
+.calv-article-shell .prose{
+  max-width: none !important;        /* Blowfish often caps prose width */
+}
+
+/* 3) Tighten global top/bottom chrome around article content */
+.calv-article-shell{
+  padding-top: 0.85rem !important;
+  padding-bottom: 0.85rem !important;
+}
+
+/* 4) Tighten section rhythm (this is where the “report spacing” comes from) */
+.calv-article-shell .prose > * + *{ margin-top: 0.75rem; }
+.calv-article-shell .prose h2{ margin-top: 1.35rem; margin-bottom: 0.5rem; }
+.calv-article-shell .prose h3{ margin-top: 1.05rem; margin-bottom: 0.4rem; }
+.calv-article-shell .prose hr{ margin: 1.05rem 0; }
+
+/* 5) Grid gap between main + TOC (reduce “air”) */
+
+
+/* 6) If TOC column is stealing space, cap it */
+@media (min-width: 1024px){
+  .calv-article-shell .calv-toc-card{
+    max-width: 320px;
+  }
+}
+
+/* 7) Related reads: force compact grid when it renders as "Related reads" heading + UL */
+.calv-article-shell #related-reads{ margin-top: 1.1rem !important; }
+
+.calv-article-shell #related-reads + ul{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem 1rem;
+  margin-top: 0.55rem !important;
+  margin-bottom: 0.25rem !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+.calv-article-shell #related-reads + ul li{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.calv-article-shell #related-reads + ul li a{
+  display: block;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+.calv-article-shell #related-reads + ul li a:hover{
+  border-color: rgba(15, 23, 42, 0.18);
+}
+
+/* 8) Author box: compact */
+.calv-article-shell .author-box{
+  margin-top: 1rem !important;
+  padding: 0.85rem 0.95rem !important;
+}
+
+/* 9) Footer disclosure bar: slim down if it’s inside view */
+.calv-article-shell .disclosure,
+.calv-article-shell .affiliate-disclosure,
+.calv-article-shell .site-disclosure{
+  padding: 0.45rem 0.7rem !important;
+  font-size: 0.92rem;
+}
+
+/* =========================
+   CAVL Professional Density v2 (Scoped)
+   ========================= */
+
+.calv-article-shell{
+  max-width: 1400px;
+  width: min(1400px, calc(100% - 2.5rem));
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.85rem !important;
+  padding-bottom: 0.85rem !important;
+}
+
+.calv-article-shell .prose{
+  max-width: none !important;
+}
+
+.calv-article-shell .prose > * + *{ margin-top: 0.75rem; }
+.calv-article-shell .prose h2{ margin-top: 1.35rem; margin-bottom: 0.5rem; }
+.calv-article-shell .prose h3{ margin-top: 1.05rem; margin-bottom: 0.4rem; }
+.calv-article-shell .prose hr{ margin: 1.05rem 0; }
+
+
+
+@media (min-width: 1024px){
+  .calv-article-shell .calv-toc-card{
+    max-width: 320px;
+  }
+}
+
+.calv-article-shell #related-reads{ margin-top: 1.1rem !important; }
+
+.calv-article-shell #related-reads + ul{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem 1rem;
+  margin-top: 0.55rem !important;
+  margin-bottom: 0.25rem !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+.calv-article-shell #related-reads + ul li{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.calv-article-shell #related-reads + ul li a{
+  display: block;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+.calv-article-shell #related-reads + ul li a:hover{
+  border-color: rgba(15, 23, 42, 0.18);
+}
+
+.calv-article-shell .author-box{
+  margin-top: 1rem !important;
+  padding: 0.85rem 0.95rem !important;
+}
+
+.calv-article-shell .disclosure,
+.calv-article-shell .affiliate-disclosure,
+.calv-article-shell .site-disclosure{
+  padding: 0.45rem 0.7rem !important;
+  font-size: 0.92rem;
+}
+
+/* =========================
+   CAVL Related Reads Selector Fix (Scoped)
+   ========================= */
+
+/* Primary: any UL after #related-reads (not just adjacent) */
+.calv-article-shell #related-reads ~ ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem 1rem;
+  margin-top: 0.55rem !important;
+  margin-bottom: 0.25rem !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+.calv-article-shell #related-reads ~ ul li{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.calv-article-shell #related-reads ~ ul li a{
+  display: block;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+/* Common wrapper case: heading then a div wrapper that contains the UL */
+.calv-article-shell #related-reads ~ div ul{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem 1rem;
+  margin-top: 0.55rem !important;
+  margin-bottom: 0.25rem !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+/* Safety: don’t accidentally style other lists farther down the page.
+   If another H2/H3 occurs, stop styling by narrowing to the section wrapper if present. */
+.calv-article-shell section:has(#related-reads) #related-reads ~ ul,
+.calv-article-shell section:has(#related-reads) #related-reads ~ div ul{
+  /* keep as above; this line just scopes tighter when section wrapper exists */
+}
+
+/* Mobile: 1 column */
+@media (max-width: 640px){
+  .calv-article-shell #related-reads ~ ul,
+  .calv-article-shell #related-reads ~ div ul{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   CAVL Related Reads Force Grid (Scoped)
+   ========================= */
+
+/* Target ANY UL that appears after the related-reads anchor, sibling OR nested */
+.calv-article-shell :is(#related-reads, [id="related-reads"]) ~ :is(ul, div, section, nav) ul,
+.calv-article-shell :is(#related-reads, [id="related-reads"]) ~ ul{
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 0.55rem 1rem !important;
+  margin-top: 0.55rem !important;
+  margin-bottom: 0.25rem !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+.calv-article-shell :is(#related-reads, [id="related-reads"]) ~ :is(ul, div, section, nav) ul li,
+.calv-article-shell :is(#related-reads, [id="related-reads"]) ~ ul li{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.calv-article-shell :is(#related-reads, [id="related-reads"]) ~ :is(ul, div, section, nav) ul li a,
+.calv-article-shell :is(#related-reads, [id="related-reads"]) ~ ul li a{
+  display: block !important;
+  padding: 0.6rem 0.75rem !important;
+  border: 1px solid rgba(15, 23, 42, 0.10) !important;
+  border-radius: 14px !important;
+  text-decoration: none !important;
+}
+
+/* Mobile: 1 column */
+@media (max-width: 640px){
+  .calv-article-shell :is(#related-reads, [id="related-reads"]) ~ :is(ul, div, section, nav) ul,
+  .calv-article-shell :is(#related-reads, [id="related-reads"]) ~ ul{
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* =========================================================
+   CAVL Professional Density v3 (Scoped)
+   Goal: reduce “floaty” theme spacing inside article pages
+   Scope: .calv-article-shell only
+   ========================================================= */
+
+.calv-article-shell {
+  /* tighten overall vertical rhythm a bit */
+  --cavl-block-gap: 1.0rem;
+  --cavl-card-pad: 1.05rem;
+}
+
+/* --- Core typography spacing (headings, paragraphs, lists, rules) --- */
+.calv-article-shell :where(p, ul, ol) {
+  margin-block: 0.55em;
+}
+
+.calv-article-shell :where(h2, h3, h4) {
+  margin-block: 1.05em 0.45em;
+}
+
+.calv-article-shell :where(hr) {
+  margin-block: 1.05rem;
+}
+
+/* Lists often balloon: tighten item spacing */
+.calv-article-shell :where(li) {
+  margin-block: 0.25em;
+}
+
+/* --- Tighten common “card/module” containers inside shell --- */
+/* (These selectors are intentionally broad + safe; they only apply inside .calv-article-shell.) */
+.calv-article-shell :where(.calv-module, .calv-toc-card, .calv-startband, .calv-pick, .calv-picks, .calv-pickgrid, .calv-pickcard, .calv-card) {
+  padding: var(--cavl-card-pad);
+}
+
+/* Reduce gaps between stacked blocks/cards */
+.calv-article-shell :where(.calv-module, .calv-startband, .calv-toc-card, .calv-picks, .calv-pickgrid, .calv-card) {
+  margin-block: 0.85rem;
+}
+
+/* --- Related reads: make it compact and “intentional” --- */
+.calv-article-shell #related-reads {
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+/* paragraph immediately after heading */
+.calv-article-shell #related-reads + p,
+.calv-article-shell #related-reads ~ p:first-of-type {
+  margin-top: 0.4rem;
+  margin-bottom: 0.65rem;
+}
+
+/* list(s) that follow related-reads section */
+.calv-article-shell #related-reads ~ ul {
+  margin-top: 0.55rem;
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+}
+
+.calv-article-shell #related-reads ~ ul li {
+  margin-block: 0.2rem;
+}
+
+/* If Related reads is laid out as two columns by theme, reduce row spacing */
+.calv-article-shell #related-reads ~ ul :where(a) {
+  text-underline-offset: 0.15em;
+}
+
+/* --- Author box + share row: reduce padding + collapse separation --- */
+.calv-article-shell .author-box {
+  padding: 1rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+/* Share icons row often has big margins; tighten it */
+.calv-article-shell :where(.share, .share-links, .article-share, .social-share) {
+  margin-top: 0.65rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* --- Reduce bottom “dead air” before footer inside shell --- */
+.calv-article-shell :where(.article-footer, .article-ending, .article-end) {
+  padding-top: 0.75rem !important;
+  margin-top: 0.75rem !important;
+}
+
+/* --- Optional: slightly tighter grid gap on desktop (keeps TOC from feeling detached) --- */
+@media (min-width: 1024px) {
+
+}
+
+/* CAVL End-of-Article Tighten (Scoped) */
+
+/* Related reads container tightening (works whether it’s a card or not) */
+.calv-article-shell #related-reads {
+  margin-top: 1.25rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.calv-article-shell #related-reads + p {
+  margin-top: 0.35rem !important;
+  margin-bottom: 0.6rem !important;
+}
+
+/* The related list itself */
+.calv-article-shell #related-reads ~ ul {
+  margin-top: 0.4rem !important;
+  margin-bottom: 0.2rem !important;
+}
+
+/* Author box density */
+.calv-article-shell .author-box {
+  margin-top: 1rem !important;
+  padding: 0.85rem 1rem !important;
+}
+
+/* If share buttons sit under author, tighten their spacing */
+.calv-article-shell .author-box + * {
+  margin-top: 0.75rem !important;
+}
+
+/* =========================================================
+   CAVL Desktop Width + Grid Tighten (Scoped)
+   Goal: reduce “wasted space” by widening the article shell,
+   tightening the content↔TOC gap, and slimming the TOC rail.
+   Append-only, scoped to .calv-article-shell.
+   ========================================================= */
+
+@media (min-width: 1024px) {
+  /* widen overall readable area */
+  .calv-article-shell {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* tighten the 2-col layout: content + toc */
+
+
+    */
+*/
+/* If the wrapper is a CSS grid, this will take effect */
+
+  */
+*/
+}
+
+@media (min-width: 1280px) {
+  .calv-article-shell {
+    max-width: 1260px;
+  }
+
+  */
+*/
+}
+
+
+/* =========================================================
+   CAVL Outer Container Tighten (Scoped via :has)
+   Goal: reduce theme container padding/max-width around articles
+   ========================================================= */
+
+@media (min-width: 1024px) {
+  /* When a container wraps our article shell, reduce its side padding */
+  main:has(.calv-article-shell) .max-w-7xl,
+  main:has(.calv-article-shell) .max-w-6xl,
+  main:has(.calv-article-shell) .container {
+    max-width: 1400px !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+}
+
+/* ============================
+   CAVL Content Width Widen (Scoped)
+   Goal: use more laptop width to reduce scrolling
+   ============================ */
+
+@media (min-width: 1024px) {
+  /* 1) Let the shell get wider on desktop */
+  .calv-article-shell {
+    max-width: 1200px;
+  }
+
+  /* 2) Remove “prose/max-w-prose” clamps inside CAVL shell */
+  .calv-article-shell .prose,
+  .calv-article-shell .max-w-prose,
+  .calv-article-shell .article-content,
+  .calv-article-shell .article-content.prose,
+  .calv-article-shell .article-content .max-w-prose {
+    max-width: none !important;
+    width: 100%;
+  }
+
+  /* DISABLED: older CAVL width/grid overrides (they were fighting each other)
+/* 3) Ensure grid container can expand */
+
+
+  /* 4) If there’s a right rail (TOC), keep it modest so content gets space */
+
+}
+
+/* Slightly wider on very large screens */
+@media (min-width: 1280px) {
+  .calv-article-shell {
+    max-width: 1320px;
+  }
+}
+/* CAVL Content Width Widen (Scoped)
+   Widen article reading column on desktop without changing global theme widths.
+
+
+@media (min-width: 1280px) {
+  .calv-article-shell {
+    max-width: min(1440px, calc(100vw - 4rem));
+  }
+
+}
+
+
+END DISABLED */
+
+/* ============================
+   CAVL Content Width Widen v2 (Scoped)
+   Goal: widen readable article area on laptop while keeping TOC intentional.
+
+
+@media (min-width: 1280px) {
+  .calv-article-shell {
+    max-width: min(1480px, calc(100vw - 4rem));
+  }
+
+
+}
+
+/* ============================
+   CAVL Width Clamp Killer (Scoped)
+   Fix: if .prose is applied ON the grid itself (calv-article-grid), it can clamp width.
+   Scope: only inside .calv-article-shell.
+   ============================ */
+
+@media (min-width: 1024px) {
+  /* Kill Tailwind Typography max-width when prose is on the grid element */
+
+
+  /* Ensure the shell itself isn’t being constrained by a theme wrapper */
+  .calv-article-shell {
+    max-width: min(1480px, calc(100vw - 3rem)) !important;
+  }
+
+  /* Re-assert grid layout with stable TOC rail */
+
+}
+
+@media (min-width: 1280px) {
+  .calv-article-shell {
+    max-width: min(1560px, calc(100vw - 4rem)) !important;
+  }
+
+}
+
+
+/* ============================
+   CAVL Max-W-Fit Override (Scoped)
+   Fix: inner wrapper uses max-w-fit which can shrink-wrap and feel narrow.
+   Scope: only inside .calv-article-shell.
+   ============================ */
+
+@media (min-width: 1024px) {
+
+}
+
+
+/* ============================
+   CAVL Theme Wrapper Unclamp (Scoped)
+   Goal: the page still feels narrow because a parent theme wrapper is capped (max-w-*).
+   Scope: ONLY pages that contain .calv-article-shell.
+   ============================ */
+
+@media (min-width: 1024px) {
+  main:has(.calv-article-shell) :where(
+    .max-w-prose,
+    .max-w-md,
+    .max-w-lg,
+    .max-w-xl,
+    .max-w-2xl,
+    .max-w-3xl,
+    .max-w-4xl,
+    .max-w-5xl,
+    .max-w-6xl,
+    .max-w-7xl,
+    .max-w-screen-md,
+    .max-w-screen-lg,
+    .max-w-screen-xl,
+    .max-w-screen-2xl,
+    .container
+  ) {
+    max-width: none !important;
+  }
+
+  /* Keep gutters intentional (so it doesn't go edge-to-edge) */
+  main:has(.calv-article-shell) :where(
+    .max-w-md,
+    .max-w-lg,
+    .max-w-xl,
+    .max-w-2xl,
+    .max-w-3xl,
+    .max-w-4xl,
+    .max-w-5xl,
+    .max-w-6xl,
+    .max-w-7xl,
+    .max-w-screen-md,
+    .max-w-screen-lg,
+    .max-w-screen-xl,
+    .max-w-screen-2xl,
+    .container
+  ) {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+}
+
+
+/* ============================
+   CAVL Typography Width Widen (Scoped)
+   Fix: Tailwind Typography (.prose) keeps text at “book width” even when layout widens.
+   Scope: only inside .calv-article-shell.
+   ============================ */
+
+@media (min-width: 1024px) {
+  /* Expand prose line-length inside our shell (keep readable but wider) */
+  .calv-article-shell .prose {
+    max-width: none !important;
+  }
+
+  /* Some typography configs clamp children; widen those too */
+  /* Headings can be clamped in some configs */
+  .calv-article-shell .prose :where(h1, h2, h3, h4) {
+    max-width: none !important;
+  }
+}
+
+/* =========================================================
+   CAVL: Kill the paragraph line-length clamp inside articles
+   (This is what creates the “big gap” look.)
+   ========================================================= */
+@media (min-width: 1024px) {
+  .calv-article-shell .article-content.prose {
+    max-width: none !important;
+    width: 100% !important;
+  }
+
+  .calv-article-shell .article-content.prose :where(p, ul, ol, pre, blockquote, table) {
+    max-width: none !important; /* <- removes the ~733px clamp */
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .calv-article-shell .calv-article-grid:has(> .px-0 .toc.calv-toc-card) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 18rem;
+    column-gap: 1rem;
+    align-items: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .calv-article-shell .calv-toc-card {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .calv-article-shell .calv-toc-card .toc-right {
+    margin-inline-start: 0 !important;
+    padding-inline-start: 0 !important;
+    padding-inline-end: 0 !important;
+  }
+
+  .calv-article-shell .calv-toc-card .toc-right > div {
+    margin-inline-start: 0 !important;
+    padding-inline-start: 0.5rem !important;
+  }
 }

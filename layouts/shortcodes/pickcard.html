@@ -1,0 +1,64 @@
+{{- $title := .Get "title" -}}
+{{- $capacity := .Get "capacity" -}}
+{{- $bestfor := .Get "bestfor" -}}
+{{- $move := .Get "move" -}}
+{{- $truth := .Get "truth" -}}
+{{- $whyhref := .Get "whyhref" | default "/how-we-test-and-source-van-power/" -}}
+{{- $whytext := .Get "whytext" | default "Read the why" -}}
+{{- $href := .Get "href" -}}
+{{- $hrefLower := lower (printf "%v" $href) -}}
+{{- $hasHref := and
+    $href
+    (ne $href "#")
+    (not (in $href "YOUR_AFFILIATE_LINK_HERE"))
+    (not (in $hrefLower "todo"))
+    (not (in $hrefLower "tbd"))
+-}}
+{{- $btn := .Get "button" | default "Check price" -}}
+{{- $details := .Get "details" -}}
+
+<div class="calv-pick">
+  <div class="calv-pick__inner">
+    <div class="calv-pick__title">{{ $title }}</div>
+
+    {{- if or $capacity $details -}}
+      <div class="calv-pick__meta">
+        {{- if $capacity -}}<span>{{ $capacity }}</span>{{ end -}}
+        {{- if and $capacity $details -}}<span> · </span>{{ end -}}
+        {{- if $details -}}<span>{{ $details }}</span>{{ end -}}
+      </div>
+    {{- end -}}
+
+    <div class="calv-pick__lines">
+      {{- if $bestfor -}}
+        <div class="calv-pick__line"><span class="calv-pick__label">Best for:</span>{{ $bestfor }}</div>
+      {{- end -}}
+      {{- if $move -}}
+        <div class="calv-pick__line"><span class="calv-pick__label">Fast-charge move:</span>{{ $move }}</div>
+      {{- end -}}
+    </div>
+
+    {{- with .Inner -}}
+      <div class="prose" style="margin-top:0.25rem;">
+        {{ . | markdownify }}
+      </div>
+    {{- end -}}
+
+    {{- if $truth -}}
+      <div class="calv-pick__truth">
+        <span class="calv-pick__label">Truth label:</span>{{ $truth | markdownify }}
+      </div>
+    {{- end -}}
+
+    {{- if or $whyhref $hasHref -}}
+      <div class="calv-pick__actions">
+        {{- if $whyhref -}}
+          <a class="button secondary" href="{{ $whyhref }}">{{ $whytext }}</a>
+        {{- end -}}
+        {{- if $hasHref -}}
+          <a class="button" href="{{ $href }}" rel="nofollow sponsored noopener noreferrer" target="_blank">{{ $btn }}</a>
+        {{- end -}}
+      </div>
+    {{- end -}}
+  </div>
+</div>

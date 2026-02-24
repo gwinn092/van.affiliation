@@ -10,7 +10,7 @@ tags: ["van life", "budget", "starter tier", "recovery", "routines"]
 
 The starter tier can work in van life—but only if you run it like a system.
 
-This page is for people using an **under-$500** style setup (CALV floor still applies: **700Wh+**) who want stability without constantly “needing more.”
+This page is for people using an **under-$500** style setup (CAVL floor still applies: **700Wh+**) who want stability without constantly “needing more.”
 
 If you’re not sure whether starter tier is enough for you, use:
 - **[Starter Tier vs Upgrade Tier](/starter-tier-vs-upgrade-tier/)**

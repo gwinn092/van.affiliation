@@ -84,9 +84,9 @@ Use:
 Next step: use the conditions hub, then choose today’s refill move: **[Van Power Conditions Index](/van-power-conditions-index/)** and **[Recovery Moves Index](/recovery-moves-index/)**.
 If you are shopping, route through **[Fast-Charging Buyer Guides](/fast-charging-buyer-guides/)** and **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then choose **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**, **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**, **[Best Fast-Charging Power Stations for Essentials](/best-fast-charging-power-stations-for-essentials/)**, **[Best Fast-Charging Power Stations for Work](/best-fast-charging-power-stations-for-work/)**, **[Best Fast-Charging Power Stations for Heat + Humidity](/best-fast-charging-power-stations-for-heat-and-humidity/)**, and **[Best Fast-Charging Power Stations for Cold Weather](/best-fast-charging-power-stations-for-cold-weather/)**.
 Budget entries: **[Portable Power Stations Under $500](/best-of/power-stations-under-500/)** and **[Under-$500 to Tier 2 Upgrade Bridge](/under-500-to-tier-2-upgrade-bridge/)**.
-For sourcing standards behind CALV recommendations, see: **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
+For sourcing standards behind CAVL recommendations, see: **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
 For non-wiring gear that helps reduce drift, use: **[Gear That Improves Van Power Stability](/gear-that-improves-van-power-stability/)**.
-New to CALV? Start with the onboarding hub: **[Start Here](/start-here/)**.
+New to CAVL? Start with the onboarding hub: **[Start Here](/start-here/)**.
 
 ## Related reads
 

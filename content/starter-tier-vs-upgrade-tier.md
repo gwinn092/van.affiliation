@@ -20,7 +20,7 @@ Start with the ladder:
 
 ---
 
-## The CALV rule that decides everything
+## The CAVL rule that decides everything
 We prioritize **time-to-recover** over raw storage.
 
 If your life repeatedly creates “behind” days (heat, humidity, clouds, work pressure, quiet-hours constraints), you don’t just need capacity—you need a recovery window you can execute.

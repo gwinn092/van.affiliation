@@ -20,7 +20,7 @@ If you want the full ladder this fits into, start here: **[Van Power Recovery St
 
 ---
 
-## The recovery-first rule (CALV standard)
+## The recovery-first rule (CAVL standard)
 
 Priority is not “biggest battery.” Priority is **time-to-recover**:
 - the move you can actually execute

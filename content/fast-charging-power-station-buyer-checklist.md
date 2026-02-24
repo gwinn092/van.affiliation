@@ -8,6 +8,9 @@ categories: ["Power"]
 tags: ["van life", "power stations", "fast charging", "buyer checklist", "recovery"]
 ---
 
+If any terms feel fuzzy (AC input, surge, pass-through), use the **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**.
+
+
 This is how to choose fast-charging power stations without hype.
 
 {{< calvbox kicker="How to use this checklist" >}}

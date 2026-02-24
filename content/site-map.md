@@ -1,6 +1,6 @@
 ---
 title: "Site Map: All Guides"
-description: "A structured index of CALV guides—start here if you want everything in one place."
+description: "A structured index of Create A Van Life guides—start here if you want everything in one place."
 slug: "site-map"
 date: 2026-02-22
 draft: false

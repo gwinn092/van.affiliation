@@ -48,7 +48,7 @@ This unit is well above our non-negotiable 700Wh floor, and it fits a recovery-f
 - Weight: **24.2 kg / 53.35 lb**
 - Cycle life claim: **6,000+ cycles to 80%**
 
-## Our Rules (CALV)
+## Our Rules (CAVL)
 
 - We recommend **700Wh minimum** for power stations.
 - We rank by **recharge speed and recovery**, not raw Wh alone.

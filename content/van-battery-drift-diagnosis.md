@@ -8,6 +8,9 @@ categories: ["Power"]
 tags: ["van life", "battery drift", "diagnosis", "recovery", "routines", "fast charging"]
 ---
 
+If any terms feel fuzzy (AC input, surge, pass-through), use the **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**.
+
+
 Battery drift is usually a pattern, not a single event.
 
 If your power keeps sliding even when each day feels "normal," this page helps you diagnose the cause and fix it in the right order.

@@ -151,7 +151,7 @@ Use:
 - **[Van Power Planning Mistakes](/van-power-planning-mistakes/)**
 - **[What 700Wh Actually Runs](/what-700wh-actually-runs/)**
 
-If you’re starting from a budget build, keep the CALV minimum in mind:
+If you’re starting from a budget build, keep the CAVL minimum in mind:
 - **[Best Power Stations Under $500](/best-of/power-stations-under-500/)**
 
 ---

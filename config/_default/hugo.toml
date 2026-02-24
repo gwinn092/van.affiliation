@@ -42,3 +42,6 @@ weight = 70
 [[related.indices]]
 name = "keywords"
 weight = 40
+
+[params]
+plausibleDomain = "YOUR_DOMAIN_HERE"

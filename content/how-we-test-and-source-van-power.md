@@ -1,5 +1,5 @@
 ---
-title: "How We Test and Source Van Power Advice (CALV Methodology)"
+title: "How We Test and Source Van Power Advice (Create A Van Life Methodology)"
 description: "Our recovery-first methodology for van power: how we rank time-to-recover, label claims, handle price drift, and keep guidance safe and high-level."
 slug: "how-we-test-and-source-van-power"
 date: 2026-02-22
@@ -8,7 +8,9 @@ categories: ["Power"]
 tags: ["van life", "methodology", "sources", "testing", "affiliate", "recovery"]
 ---
 
-CALV is climate-tested and recovery-first. The goal is simple: keep your system recoverable under real conditions, not just on ideal days.
+Create A Van Life is climate-tested and recovery-first. The goal is simple: keep your system recoverable under real conditions, not just on ideal days.
+
+We use **CAVL** as shorthand for **Create A Van Life**.
 
 ## Our #1 ranking rule: time-to-recover beats raw capacity
 
@@ -52,7 +54,7 @@ Related:
 - **[Solar vs Alternator Charging](/solar-vs-alternator-charging/)**
 - **[Van Power Upgrade Checklist](/van-power-upgrade-checklist/)**
 
-## How to use CALV (the intended flow)
+## How to use CAVL (the intended flow)
 
 Use the framework in this order:
 - **[Van Power Stability Scorecard](/van-power-stability-scorecard/)**
@@ -76,7 +78,7 @@ Next step: start with the **[Van Power Stability Scorecard](/van-power-stability
 
 ## Site
 
-- **[About CALV](/about/)**
+- **[About Create A Van Life](/about/)**
 - **[Affiliate Disclosure](/affiliate-disclosure/)**
 - **[Privacy Policy](/privacy-policy/)**
 - **[Site Map: All Guides](/site-map/)**

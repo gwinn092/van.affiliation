@@ -10,7 +10,7 @@ tags: ["van life", "portable power station", "fast charging", "recovery", "budge
 
 Fast charging is how you **recover** when van life gets real: heat, clouds, humid nights, quiet hours, workdays, and missed solar.
 
-CALV rules for this page:
+CAVL rules for this page:
 - **700Wh+ minimum** (non-negotiable)
 - rank and frame decisions by **time-to-recover** over raw storage
 - **price-drift safe** structure (no “this is always under $1000” promises)
@@ -65,7 +65,7 @@ Frameworks:
 
 ---
 
-### CALV Field Notes (real-world experience)
+### CAVL Field Notes (real-world experience)
 
 - In hot and humid weeks, capacity mattered less than having a recovery window we could actually execute.
 - Fast charging helped most when we treated it as a planned recovery tool, not a panic button.
@@ -75,18 +75,46 @@ Frameworks:
 
 ## Under $1000 right now (700Wh+ floor)
 
-> These picks meet CALV’s non-negotiable floor (**700Wh+**) and are **currently** available at or under $1000.  
+> These picks meet CAVL’s non-negotiable floor (**700Wh+**) and are **currently** available at or under $1000.  
 > **Editor note:** verify pricing before publishing updates; if it’s over $1000 today, move it to Watch list.
 
-### EcoFlow RIVER 2 Pro (768Wh)
-**Status:** Under $1000 right now  
-**Why it’s here:** Fast “quick stop” recovery in the 700–800Wh class.  
-**Details + sourcing:** see the main buyer page section: **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**.
+{{< pickgrid >}}
 
-### BLUETTI AC70 (768Wh)
-**Status:** Under $1000 right now  
-**Why it’s here:** Recovery-first value in the 700–800Wh tier; strong for “plug in and get back to stable.”  
-**Details + sourcing:** see: **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**.
+{{< pickcard
+  title="EcoFlow RIVER 2 Pro"
+  capacity="768Wh"
+  bestfor="work + essentials when you need fast wall recharge"
+  move="Use it to refill during short shore-power windows"
+  details="700Wh+ floor: ✅"
+  truth="Capacity is a manufacturer spec; recharge timing should be verified with third-party tests when available."
+  whyhref="/how-we-test-and-source-van-power/"
+  whytext="Read the why"
+  button="Check price"
+>}}
+Why it’s here: a recovery-first pick when you want **short recharge windows** and you’re staying near the 700Wh+ minimum.
+{{< /pickcard >}}
+
+{{< pickcard
+  title="BLUETTI AC70"
+  capacity="768Wh"
+  bestfor="budget recovery + quick top-offs"
+  move="Treat it as a ‘reset tool’ for cloudy/humid stretches"
+  details="700Wh+ floor: ✅"
+  truth="Capacity is a manufacturer spec; treat fast-charge claims as manufacturer until independently verified."
+  whyhref="/how-we-test-and-source-van-power/"
+  whytext="Read the why"
+  button="Check price"
+>}}
+Why it’s here: when you need a **stable under-$1000 recovery option** without pretending price is fixed.
+{{< /pickcard >}}
+
+{{< /pickgrid >}}
+
+For sourcing standards and truth-label definitions, see **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
+
+**Shopping route:** Use the **[Fast-Charging Buyer Checklist](/fast-charging-power-station-buyer-checklist/)** to pick the smallest tier that keeps you out of drift.
+
+We may earn a commission if you buy through links on this site—see **[Affiliate Disclosure](/affiliate-disclosure/)**.
 
 ---
 

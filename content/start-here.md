@@ -1,6 +1,6 @@
 ---
 title: "Start Here: Recovery-First Van Power Flow"
-description: "New to CALV? Use this calm flow to diagnose drift, choose recovery moves, and pick the right buyer path without panic upgrades."
+description: "New to Create A Van Life? Use this calm flow to diagnose drift, choose recovery moves, and pick the right buyer path without panic upgrades."
 slug: "start-here"
 date: 2026-02-22
 draft: false
@@ -8,7 +8,9 @@ categories: ["Power"]
 tags: ["van life", "start here", "recovery", "stability", "fast charging"]
 ---
 
-CALV is a recovery-first framework for van power. The goal is to help you stay stable through real conditions, not just ideal days.
+Create A Van Life is a recovery-first framework for van power. The goal is to help you stay stable through real conditions, not just ideal days.
+
+We use **CAVL** as shorthand for **Create A Van Life**.
 
 If you follow the routing in this page, you can reduce drift, choose better refill moves, and avoid panic upgrades.
 <div class="calv-cta-module">

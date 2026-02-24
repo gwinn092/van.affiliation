@@ -30,6 +30,7 @@ weight = 60
 
 [[main]]
 name = "About"
+title = "About Create A Van Life"
 pageRef = "/about"
 weight = 70
 

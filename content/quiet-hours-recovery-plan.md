@@ -142,7 +142,7 @@ Prevention layer:
 - **[Van Power Planning Mistakes](/van-power-planning-mistakes/)**  
 - **[What 700Wh Actually Runs](/what-700wh-actually-runs/)**  
 
-Budget build starting point (CALV minimum applies):
+Budget build starting point (CAVL minimum applies):
 - **[Best Power Stations Under $500](/best-of/power-stations-under-500/)**
 
 ---

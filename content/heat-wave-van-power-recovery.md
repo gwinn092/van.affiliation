@@ -26,7 +26,7 @@ In heat, you’re not dealing with one big load decision. You’re dealing with:
 - **higher conflict risk** (because “comfort” and “fairness” blur together)
 - **recovery difficulty** (because you can’t simply “turn everything off” and wait)
 
-That’s why CALV treats heat as a **recovery problem** first, not a willpower problem.
+That’s why CAVL treats heat as a **recovery problem** first, not a willpower problem.
 
 Your north star stays the same:
 - **time-to-recover > raw capacity**
@@ -36,7 +36,7 @@ Framework pages that make this click:
 - **[Daily Van Power Mode System](/daily-van-power-mode-system/)**
 - **[Van Power Recovery Stack](/van-power-recovery-stack/)**
 
-### CALV Field Notes (real-world experience)
+### CAVL Field Notes (real-world experience)
 - In Florida-style heat and humidity, comfort loads tend to run longer and drift often starts overnight.
 - Heat plus cloudy stretches feels harder because recovery windows shrink right when demand stays high.
 - Choosing a refill move early usually lowers stress and prevents avoidable conflict later in the day.
@@ -173,8 +173,8 @@ After you regain stability, use these to prevent a repeat:
 - **[Van Power Planning Mistakes](/van-power-planning-mistakes/)** (root causes)
 - **[What 700Wh Actually Runs](/what-700wh-actually-runs/)** (baseline floor context)
 
-If you’re building a starter setup with a budget constraint, keep the CALV minimum in mind:
-- CALV shopping floor is **700Wh+** (non-negotiable baseline)
+If you’re building a starter setup with a budget constraint, keep the CAVL minimum in mind:
+- CAVL shopping floor is **700Wh+** (non-negotiable baseline)
 - Start here: **[Best Power Stations Under $500](/best-of/power-stations-under-500/)**
 
 And remember: in heat, reliability often comes from **recovery speed** and routines—not just bigger numbers.

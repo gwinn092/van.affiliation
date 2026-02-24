@@ -24,7 +24,7 @@ Alternator charging is a **recovery** strategy. It works when you drive.
 
 That difference matters in real van life. Heat and humidity can raise daily loads. Cloudy stretches and seasonal sun angle can reduce harvest right when you need to refill the most. Recovery planning is what keeps your system usable through those swings.
 
-### CALV Field Notes (real-world experience)
+### CAVL Field Notes (real-world experience)
 - In Florida-like humidity, comfort loads can stay active longer and reduce margin faster than people expect.
 - Heat plus clouds is often where systems feel tight, because harvest weakens while baseline pressure stays high.
 - A recovery-first choice made early usually prevents late-day stress and decision conflict.
@@ -101,7 +101,7 @@ If you can’t answer those, your next upgrade may feel great for a week… then
 
 ## What this means for power station buyers (recovery-first lens)
 
-For CALV recommendations, keep the floor at **700Wh minimum** for power stations. Below that, systems often become too tight once weather and real loads stack up.
+For CAVL recommendations, keep the floor at **700Wh minimum** for power stations. Below that, systems often become too tight once weather and real loads stack up.
 
 Prioritize recharge behavior before chasing raw capacity alone. Fast refill usually creates better day-to-day stability than capacity without a recovery path.
 
@@ -149,7 +149,7 @@ No. The harvest-vs-recovery framework applies broadly. We use BLUETTI pages as p
 ### Where should I start if I’m unsure?
 Start with your real routine: where you park, how often you drive, and how often you can plug in. Then choose charging layers that match that reality.
 
-## How we evaluate (CALV standard)
+## How we evaluate (CAVL standard)
 
 - Climate-tested lens: heat, humidity, cloud cover, and seasonal sun are core planning inputs.
 - Recovery-first: time-to-recover is prioritized over spec-sheet marketing.

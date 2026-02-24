@@ -12,7 +12,7 @@ Fast charging is not a luxury in van life. It's **margin**.
 
 If you can refill quickly when the weather turns, you miss a day of solar, or you hit a string of humid nights, your whole system feels calmer.
 
-CALV rule: we only recommend **700Wh+** power stations, and we prioritize **time-to-recover** over raw storage.
+CAVL rule: we only recommend **700Wh+** power stations, and we prioritize **time-to-recover** over raw storage.
 
 <div class="calv-cta-module">
   <div class="calv-cta-row">
@@ -57,7 +57,7 @@ You'll see both called out below.
 
 ---
 
-### CALV Field Notes (real-world experience)
+### CAVL Field Notes (real-world experience)
 
 - In hot and humid weeks, capacity mattered less than having a recovery window we could actually execute.
 - Fast charging helped most when we treated it as a planned recovery tool, not a panic button.
@@ -65,67 +65,71 @@ You'll see both called out below.
 
 ---
 
-## The picks (700Wh+ minimum)
+## Picks: fastest recovery-first options (700Wh+)
 
-### 1) Anker SOLIX C1000 Gen 2 (approx. 1kWh class, extreme AC recharge)
-**Why it's here:** If you want the shortest "plug in and recover" window in the approx. 1kWh class, this is one of the most aggressive AC-recharge units right now.
+Our picks prioritize **time-to-recover** (fast recharge) over raw capacity. Specs are labeled as manufacturer / third-party / field notes.
 
-- **Manufacturer claim:** Anker markets "100% in 49 minutes" with HyperFlash at up to 1,600W AC input (app-enabled) ([Anker SOLIX](https://www.ankersolix.com/products/c1000-gen2)).
-- **Third-party test:** The Technology Man reports a full charge in 47 minutes in testing with HyperFlash enabled ([Review](https://thetechnologyman.com/record-breaking-charge-speed-anker-solix-c1000-gen-2-power-station-review/)).
+{{< pickgrid >}}
 
-**CALV reality check:** Ultra-fast modes can be loud/hot and are often best used as a **recovery tool**, not an always-on habit. If you want a routine around this, use:
-- **[Shore Power Recovery Routine](/shore-power-recovery-routine/)**
-- **[Van Power Weekly Reset Routine](/van-power-weekly-reset-routine/)**
+{{< pickcard
+  title="Fast-recovery 700–800Wh class"
+  capacity="700Wh+"
+  bestfor="work + essentials when you get short shore-power windows"
+  move="Refill fast during small plug-ins, then run stable loads"
+  details="700Wh+ floor: ✅"
+  truth="Capacity is a manufacturer spec. Treat recharge claims as manufacturer unless verified by third-party tests."
+  whyhref="/how-we-test-and-source-van-power/"
+  whytext="Read the why"
+>}}
+Why it’s here: this is the smallest tier we recommend when recharge speed is the difference between stability and drift.
+{{< /pickcard >}}
 
----
+{{< pickcard
+  title="Budget recovery pick (still fast-recharge focused)"
+  capacity="700Wh+"
+  bestfor="staying stable through cloudy/humid stretches"
+  move="Use it as a reset tool to prevent bad-week spirals"
+  details="Price-drift safe: ✅"
+  truth="Keep speed statements truth-labeled; avoid hard promises about price."
+  whyhref="/fast-charging-power-station-buyer-checklist/"
+  whytext="Use the checklist"
+>}}
+Why it’s here: you’re choosing *recovery speed* and routines, not chasing the biggest battery.
+{{< /pickcard >}}
 
-### 2) EcoFlow RIVER 2 Pro (768Wh, fast "quick stop" recovery)
-**Why it's here:** This is a clean "get back to stable fast" unit in the 700-800Wh class for people who don't need a full approx. 1kWh box.
+{{< pickcard
+  title="~1kWh class with fast recovery"
+  capacity="~1000Wh class"
+  bestfor="more headroom for heat + work stability"
+  move="Treat bigger capacity as comfort buffer, not a substitute for recharge speed"
+  details="700Wh+ floor: ✅"
+  truth="Use manufacturer specs for capacity. Verify recharge performance via third-party testing before making speed claims."
+  whyhref="/fast-charging-vs-bigger-battery/"
+  whytext="Read the why"
+>}}
+Why it’s here: when you need more buffer but still want a recovery-first system.
+{{< /pickcard >}}
 
-- **Manufacturer claim:** EcoFlow claims 0-100% in 70 minutes ([EcoFlow US](https://us.ecoflow.com/collections/river-2-series/products/river-2-pro-portable-power-station)).
-- **Third-party tests:**
-  - AppleInsider reports confirming about 70 minutes using the included AC charging ([AppleInsider](https://appleinsider.com/articles/23/05/10/ecoflow-river-2-pro-review-compact-design-with-expansive-power)).
-  - OutdoorGearLab measured a full charge in about 75 minutes ([OutdoorGearLab](https://www.outdoorgearlab.com/reviews/camping-and-hiking/power-station/ecoflow-river-2-pro)).
+{{< pickcard
+  title="High-output lane (only if you have real recovery windows)"
+  capacity="700Wh+"
+  bestfor="occasional higher loads without routine collapse"
+  move="Plan recharge windows first, then decide what loads you can afford"
+  details="Safety-first: ✅"
+  truth="Avoid step-by-step electrical advice; keep this high-level and routine-based."
+  whyhref="/van-power-recovery-stack/"
+  whytext="See the recovery stack"
+>}}
+Why it’s here: higher output only helps if your recharge plan is real.
+{{< /pickcard >}}
 
-**CALV note:** This class of unit pairs well with **tight inverter discipline** and **DC-first workflows**:
-- **[Inverter On or Off Workflow](/inverter-on-or-off-workflow/)**
-- **[DC vs AC in Van Life Workflows](/dc-vs-ac-in-van-life-workflows/)**
+{{< /pickgrid >}}
 
----
+For sourcing standards and truth-label definitions, see **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
 
-### 3) Jackery Explorer 1000 v2 (1070Wh, "emergency charge" option)
-**Why it's here:** For van lifers who want approx. 1kWh with a "fast refill when you're behind" mode.
+**Shopping route:** Use the **[Fast-Charging Buyer Checklist](/fast-charging-power-station-buyer-checklist/)** to pick the smallest tier that keeps you out of drift.
 
-- **Manufacturer claim:** Jackery markets emergency super charge 0-100% in 1 hour (app-enabled) ([Jackery US](https://www.jackery.com/products/jackery-explorer-1000-v2)).
-- **Third-party test:** TechRadar reports a full charge in 1 hour using emergency charge mode (with standard charge around 1 hour 40 minutes) ([TechRadar](https://www.techradar.com/pro/jackery-explorer-1000-v2-portable-power-station-review)).
-
-**CALV reality check:** If fast mode is "emergency," treat it like one. Keep your normal system stable with:
-- **[Midday Van Power Check](/midday-power-check/)**
-- **[Overnight Van Power Checklist](/overnight-van-power-checklist/)**
-
----
-
-### 4) BLUETTI AC70 (768Wh, solid fast-charge value in the 700-800Wh class)
-**Why it's here:** A strong recovery-first option in the 700-800Wh tier with a clear, high AC input ceiling for its class.
-
-- **Manufacturer claim:** BLUETTI lists up to 950W AC input, 0-80% in 45 minutes, and about 1.3-1.6 hours for AC charging in Turbo mode ([BLUETTI](https://www.bluettipower.com/products/ac70)).
-- **Third-party test:** Trusted Reviews measured a full charge in 86 minutes in Turbo mode (and 2 hours 13 minutes in Standard mode) ([Trusted Reviews](https://www.trustedreviews.com/reviews/bluetti-ac70)).
-
-**CALV tie-in:** This is the "budget recovery-first" kind of pick that can pair with your daily mode system:
-- **[Daily Van Power Mode System](/daily-van-power-mode-system/)**
-
----
-
-### 5) EcoFlow DELTA 2 (1024Wh, fast "household-style" refill)
-**Why it's here:** A mainstream approx. 1kWh class unit with a very clear fast AC charging narrative.
-
-- **Manufacturer claim:** EcoFlow markets 0-80% in 50 minutes and 0-100% in 80 minutes ([EcoFlow US](https://www.ecoflow.com/us/delta-2-portable-power-station)).
-- **Third-party test:** GreenCitizen reports reaching 80% in 53 minutes in AC wall testing ([GreenCitizen](https://greencitizen.com/blog/ecoflow-delta-2-review/)).
-
-**CALV note:** This is a good match for people who repeatedly hit "bad conditions" days (heat, humidity, clouds) and need a strong recovery window:
-- **[Heat-Wave Van Power Recovery](/heat-wave-van-power-recovery/)**
-- **[Humidity Night Power Stability](/humidity-night-power-stability/)**
-- **[Cloudy Week Power Recovery Plan](/cloudy-week-power-recovery-plan/)**
+We may earn a commission if you buy through links on this site—see **[Affiliate Disclosure](/affiliate-disclosure/)**.
 
 ---
 
@@ -165,7 +169,7 @@ Drive recovery may matter more than "fastest wall charge":
 Start here first (price-drift safe structure):
 - **[Portable Power Stations Under $500](/best-of/power-stations-under-500/)**
 
-Baseline context (why CALV won't go smaller than 700Wh):
+Baseline context (why CAVL won't go smaller than 700Wh):
 - **[What 700Wh Actually Runs](/what-700wh-actually-runs/)**
 
 ---

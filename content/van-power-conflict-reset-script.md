@@ -110,7 +110,7 @@ If you keep repeating the same fight, read this next: **[Van Power Planning Mist
 
 A bigger battery can still fail you if you can’t **recover** fast enough from a bad day.
 
-That’s why CALV prioritizes **time-to-recover thinking** over raw storage:
+That’s why CAVL prioritizes **time-to-recover thinking** over raw storage:
 - Harvest vs recovery framework: **[Solar vs Alternator Charging](/solar-vs-alternator-charging/)**  
 - Fast-charging guide: **[Bluetti Fast Charging](/bluetti-fast-charging/)**
 

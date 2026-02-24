@@ -25,7 +25,7 @@ Heat and humidity can make this worse by pushing comfort loads higher. In winter
 
 **Cloudy-week rule:** don’t spend tomorrow’s power tonight.
 
-### CALV Field Notes (real-world experience)
+### CAVL Field Notes (real-world experience)
 - Cloudy stretches feel heavier in heat because comfort pressure stays high while recovery windows get weaker.
 - In humid climates, drift often shows up overnight, then compounds by midday if no refill move is chosen.
 - Picking one recovery move early is usually calmer than trying to fix everything late.
@@ -80,7 +80,7 @@ Read next:
 
 ## Where 700Wh fits (and when it’s not enough)
 
-At CALV, 700Wh is the minimum recommendation baseline because lower tiers often become fragile under normal van routines.
+At CAVL, 700Wh is the minimum recommendation baseline because lower tiers often become fragile under normal van routines.
 
 In cloudy periods, 700Wh can still work with disciplined usage and strong recovery habits. Larger classes usually feel calmer because they provide more buffer while you wait for the next good refill window.
 

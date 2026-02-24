@@ -142,7 +142,7 @@ It can be a strong driving-recovery layer when your route pattern supports it an
 ### What is the biggest planning mistake?
 Sizing for ideal days and ignoring poor-weather recovery.
 
-## How we evaluate (CALV standard)
+## How we evaluate (CAVL standard)
 
 - Climate-tested lens: heat, humidity, cloud cover, and seasonal shifts are planning inputs.
 - Recovery-first: time-to-recover is prioritized over raw capacity marketing.

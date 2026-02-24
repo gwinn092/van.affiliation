@@ -23,7 +23,7 @@ If you want the system spine behind everything:
 ## Before you buy (5-minute checklist)
 
 ### ✅ 1) Confirm your system is above the baseline floor
-CALV minimum for recommendations: **700Wh+**.
+CAVL minimum for recommendations: **700Wh+**.
 
 Baseline context:
 - **[What 700Wh Actually Runs](/what-700wh-actually-runs/)**

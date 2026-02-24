@@ -114,7 +114,7 @@ Sometimes, but layered recovery is usually more stable when weather or travel pa
 Waiting too long and treating recovery as an emergency instead of a routine.
 
 ### How does this relate to the 700Wh rule?
-At CALV, 700Wh is the minimum recommendation baseline for power stations. Shore routines can make that tier more viable when used intentionally.
+At CAVL, 700Wh is the minimum recommendation baseline for power stations. Shore routines can make that tier more viable when used intentionally.
 
 ### Where do I start if my system feels chaotic?
 Start with baseline-vs-comfort load separation, then schedule predictable shore recovery windows.

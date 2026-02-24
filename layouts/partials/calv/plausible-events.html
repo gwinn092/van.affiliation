@@ -1,0 +1,54 @@
+{{ with .Site.Params.plausibleDomain }}
+  {{ if ne . "YOUR_DOMAIN_HERE" }}
+  <script>
+    (function () {
+      function fire(name, props) {
+        if (typeof plausible === "function") plausible(name, { props: props || {} });
+      }
+
+      function norm(s) {
+        return (s || "").trim().toLowerCase();
+      }
+
+      document.addEventListener("click", function (e) {
+        var a = e.target && e.target.closest ? e.target.closest("a") : null;
+        if (!a) return;
+
+        var text = norm(a.textContent);
+        var href = a.getAttribute("href") || "";
+        var path = window.location && window.location.pathname ? window.location.pathname : "";
+
+        // Start band
+        if (a.closest && a.closest(".calv-startband")) {
+          fire("CTA: Start Band", { page: path, href: href });
+          return;
+        }
+
+        // Pick card internal actions (any link inside .calv-pick__actions that is NOT target=_blank)
+        if (a.closest && a.closest(".calv-pick__actions") && a.getAttribute("target") !== "_blank") {
+          fire("CTA: PickCard Internal", { page: path, text: text, href: href });
+          return;
+        }
+
+        // Buyer checklist links (anywhere)
+        if (href.indexOf("/fast-charging-power-station-buyer-checklist/") === 0 || text === "buyer checklist") {
+          fire("CTA: Buyer Checklist", { page: path, href: href });
+          return;
+        }
+
+        // Affiliate disclosure
+        if (href.indexOf("/affiliate-disclosure/") === 0 || text.indexOf("affiliate disclosure") !== -1) {
+          fire("CTA: Affiliate Disclosure", { page: path, href: href });
+          return;
+        }
+
+        // Buyer guides button text fallback (keep old behavior)
+        if (text === "buyer guides") {
+          fire("CTA: Buyer Guides", { page: path, href: href });
+          return;
+        }
+      }, true);
+    })();
+  </script>
+  {{ end }}
+{{ end }}

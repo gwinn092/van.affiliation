@@ -10,7 +10,7 @@ tags: ["van life", "power planning", "upgrades", "recovery", "portable power sta
 
 Most upgrades are purchased at the wrong moment: **mid-stress**.
 
-CALV’s approach is simple:
+CAVL’s approach is simple:
 1) stabilize your workflow and recovery routine
 2) identify the real bottleneck
 3) upgrade in the direction of **faster recovery**, not just bigger numbers
@@ -71,7 +71,7 @@ That’s an agreement layer problem:
 
 ## Step 2: Upgrade ladder (price-drift safe tiers)
 
-CALV minimum: **700Wh+**. If you’re below that, stability will be harder.
+CAVL minimum: **700Wh+**. If you’re below that, stability will be harder.
 
 Baseline context:
 - **[What 700Wh Actually Runs](/what-700wh-actually-runs/)**

@@ -14,7 +14,7 @@ If you upgrade and still feel stressed, it’s usually because:
 - you didn’t change the routine with the gear, or
 - fast charging became a panic button instead of a planned tool.
 
-This page shows how to use the under-$1000 tier the CALV way: calm, recoverable, and routine-backed.
+This page shows how to use the under-$1000 tier the CAVL way: calm, recoverable, and routine-backed.
 
 Start here for the tier:
 - **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**

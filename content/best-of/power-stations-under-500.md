@@ -33,43 +33,71 @@ If you're starting van life today, I would not go below **700Wh in modern LiFePO
 - We do not make exact price promises inside rankings; price status is updated as market pricing changes.
 {{< /callout >}}
 
-## Under $500 right now (700Wh+ floor)
+## Picks: under-$500 reality (700Wh+ only)
 
-### EcoFlow River 2 Pro
-Status: Under $500 right now
+True **700Wh+** power stations under **$500** are often limited to sales, refurb/used, or older models. This page stays **recovery-first**: we prioritize time-to-recover (fast recharge) and routines that keep you stable.
 
-Why it can fit this tier:
-- 700Wh+ class starter option for lighter routines
-- Compact format with practical recharge behavior
-- Good fit for recovery-first beginners who can refill consistently
+{{< pickgrid >}}
 
-## Watch list (often under $500)
+{{< pickcard
+  title="Best case: 700–800Wh class on sale (new)"
+  capacity="700Wh+"
+  bestfor="rare sale windows when you can buy new"
+  move="Treat fast recharge as the stabilizer; don’t rely on solar alone"
+  details="Price-drift safe: ✅"
+  truth="Pricing is variable. Capacity is a manufacturer spec; recharge claims should be third-party verified when available."
+  whyhref="/under-500-to-tier-2-upgrade-bridge/"
+  whytext="Use the bridge plan"
+>}}
+Why it’s here: if a legit 700Wh+ model drops under $500, the goal is stability—not perfection. Lock in recharge speed and keep your loads honest.
+{{< /pickcard >}}
 
-### Anker SOLIX C1000
-Status: Watch for sale
+{{< pickcard
+  title="Refurb/used lane: 700Wh+ with warranty (when available)"
+  capacity="700Wh+"
+  bestfor="stretching budget while staying in the 700Wh+ floor"
+  move="Plan a weekly reset window (shore/drive) so you aren’t gambling daily"
+  details="Risk-managed: ✅"
+  truth="Refurb availability varies. Prefer sellers that include a warranty/return window."
+  whyhref="/van-power-weekly-reset-routine/"
+  whytext="Weekly reset routine"
+>}}
+Why it’s here: under-$500 becomes realistic more often via refurb. Your routine matters more than squeezing every dollar.
+{{< /pickcard >}}
 
-Why it is here:
-- Strong step-up option when pricing dips
-- Better as a margin play than a fixed under-$500 assumption
+{{< pickcard
+  title="If nothing meets 700Wh+: don’t force it"
+  capacity="700Wh+ required"
+  bestfor="weeks where the market is too tight"
+  move="Use a recovery-first plan while you save for the next tier"
+  details="700Wh+ floor: enforced"
+  truth="We don’t recommend sub-700Wh units as ‘solutions’—they tend to increase drift risk for real van use."
+  whyhref="/under-1000-upgrade-plan/"
+  whytext="Under-$1000 upgrade plan"
+>}}
+Why it’s here: the fastest way out of drift is often a short, boring plan—save + buy the smallest fast-recovery tier that holds.
+{{< /pickcard >}}
 
-### BLUETTI AC70 (768Wh)
-Status: Watch for sale
+{{< pickcard
+  title="Decision help: under-$500 vs under-$1000"
+  capacity="comparison"
+  bestfor="choosing the least painful path"
+  move="Pick the tier that reduces time-to-recover, not the one that looks cheapest today"
+  details="Price-drift safe: ✅"
+  truth="Use this to avoid panic buys; focus on recovery windows and recharge time."
+  whyhref="/under-500-vs-under-1000-van-power/"
+  whytext="Compare tiers"
+>}}
+Why it’s here: this prevents the common trap—buying twice because the first unit can’t recover fast enough.
+{{< /pickcard >}}
 
-Why it is here:
-- Clears CALV's 700Wh+ floor for budget-tier planning
-- Manufacturer-listed fast charging and AC input specs support recovery-first shopping comparisons
-- Included as a sale-watch candidate, not a fixed under-$500 recommendation
+{{< /pickgrid >}}
 
-### Jackery 1000 v2
-Status: Watch for sale
+For sourcing standards and truth-label definitions, see **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
 
-Why it is here:
-- Established platform with periodic deal windows
-- Included as a sale-watch candidate, not a fixed under-$500 recommendation
+**Shopping route:** Use the **[Fast-Charging Buyer Checklist](/fast-charging-power-station-buyer-checklist/)** to pick the smallest tier that keeps you out of drift.
 
-{{< disclosure >}}
-
-{{< affbtn product="ecoflow_river_2_pro" merchant="amazon" text="Compare Current Budget Power Deals" >}}
+We may earn a commission if you buy through links on this site—see **[Affiliate Disclosure](/affiliate-disclosure/)**.
 
 ---
 

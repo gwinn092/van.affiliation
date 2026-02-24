@@ -8,7 +8,10 @@ categories: ["Power"]
 tags: ["van life", "fast charging", "buyer guide", "power stations", "recovery"]
 ---
 
-CALV rule: recommendations start at **700Wh+**.
+If any terms feel fuzzy (AC input, surge, pass-through), use the **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**.
+
+
+CAVL rule: recommendations start at **700Wh+**.
 <div class="calv-cta-module">
   <div class="calv-cta-row">
     <a class="calv-cta" href="/fast-charging-power-station-buyer-checklist/">Buyer Checklist</a>
@@ -70,7 +73,7 @@ If you're deciding between solar and fast charging, use: **[Solar vs Fast Chargi
 If you are unsure what to fix first before shopping, run **[Van Power Stability Scorecard](/van-power-stability-scorecard/)**.
 For sourcing standards and ranking rules, see: **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
 If you want the full onboarding path first, use: **[Start Here](/start-here/)**.
-Need a single index of major CALV guides? Use: **[Site Map: All Guides](/site-map/)**.
+Need a single index of major CAVL guides? Use: **[Site Map: All Guides](/site-map/)**.
 
 ## Related reads
 

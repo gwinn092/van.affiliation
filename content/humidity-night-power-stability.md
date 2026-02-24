@@ -48,7 +48,7 @@ If you’re already in a heat event, use:
 
 ## The humid-night rule: protect sleep, but make it recoverable
 
-CALV doesn’t treat comfort like a moral issue.  
+CAVL doesn’t treat comfort like a moral issue.  
 We treat it like a **recovery problem**.
 
 The goal is not “suffer to save power.” The goal is:
@@ -90,7 +90,7 @@ Use:
 
 If you only do one thing tonight: **stop one leak** and keep everything else simple.
 
-### CALV Field Notes (real-world experience)
+### CAVL Field Notes (real-world experience)
 
 Very humid, salty air can be rough on electronics over time. In our experience, running a roof fan for long stretches near the ocean on extremely humid nights can increase the risk of moisture/salt exposure issues (including on fan control boards). If you’re camped by the ocean, be cautious with electronics, avoid unnecessary runtimes when conditions are extreme, and consider moisture control (like DampRid) where appropriate. Always follow the manufacturer’s care guidance for your specific fan.
 
@@ -182,7 +182,7 @@ Use:
 - **[Van Power Planning Mistakes](/van-power-planning-mistakes/)**  
 - **[What 700Wh Actually Runs](/what-700wh-actually-runs/)**  
 
-If you’re building a budget starter system, keep CALV’s floor in mind:
+If you’re building a budget starter system, keep CAVL’s floor in mind:
 - **[Best Power Stations Under $500](/best-of/power-stations-under-500/)**
 
 ---

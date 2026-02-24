@@ -10,7 +10,7 @@ tags: ["van life", "power stations", "fast charging", "cpap", "fridge", "pets", 
 
 Essentials are baseline, not optional. The goal is simple: stay recoverable so critical nights and high-pressure days do not depend on luck.
 
-CALV rule for this page: only consider **700Wh+** options.
+CAVL rule for this page: only consider **700Wh+** options.
 Before you shop, use the **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then compare **[Main Fast-Charging Picks](/best-fast-charging-power-stations/)** and **[Under-$1000 Picks](/best-fast-charging-power-stations-under-1000/)**.
 
 Start here first:
@@ -56,7 +56,7 @@ Price-drift note: availability and pricing move. Treat these as recovery-first p
 - **Third-party tests:** AppleInsider reports about 70 minutes with included AC charging ([AppleInsider](https://appleinsider.com/articles/23/05/10/ecoflow-river-2-pro-review-compact-design-with-expansive-power)); OutdoorGearLab reports about 75 minutes in testing ([OutdoorGearLab](https://www.outdoorgearlab.com/reviews/camping-and-hiking/power-station/ecoflow-river-2-pro)).
 
 ### 2) BLUETTI AC70 (768Wh)
-**Why it fits essentials:** Strong budget-tier recovery-first option that still clears CALV’s 700Wh+ floor.
+**Why it fits essentials:** Strong budget-tier recovery-first option that still clears CAVL’s 700Wh+ floor.
 **Best recovery window match:** Shore windows and mixed daily routines where quick resets matter.
 **Claims & sources:**
 - **Manufacturer claim:** BLUETTI lists up to 950W AC input, 0–80% in 45 minutes, and about 1.3–1.6 hours in Turbo mode ([BLUETTI](https://www.bluettipower.com/products/ac70)).

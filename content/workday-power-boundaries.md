@@ -36,7 +36,7 @@ Mode framework:
 If you keep sliding into late-day panic, add the weekly prevention layer:
 - **[Van Power Weekly Reset Routine](/van-power-weekly-reset-routine/)**
 
-### CALV Field Notes (real-world experience)
+### CAVL Field Notes (real-world experience)
 - On humid workdays, comfort pressure can quietly extend runtimes and push drift into the evening.
 - Heat plus weak recovery windows is where remote-work stability usually breaks first.
 - Picking the refill move early on workdays tends to reduce both stress and conflict by late afternoon.
@@ -172,7 +172,7 @@ Use:
 - **[Van Power Weekly Reset Routine](/van-power-weekly-reset-routine/)**  
 - **[What 700Wh Actually Runs](/what-700wh-actually-runs/)**
 
-If you’re budget-constrained and building a starter setup, keep CALV’s floor in mind:
+If you’re budget-constrained and building a starter setup, keep CAVL’s floor in mind:
 - **[Best Power Stations Under $500](/best-of/power-stations-under-500/)**
 
 ---

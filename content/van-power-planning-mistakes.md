@@ -82,7 +82,7 @@ Many buyers try to solve everything in one purchase, then overbuy or rebuy. A ti
 - 1kWh class for more margin
 - 2kWh class for stronger stability in mixed routines
 
-At CALV, **700Wh is the minimum recommendation baseline** for power stations because lower tiers often force daily power babysitting.
+At CAVL, **700Wh is the minimum recommendation baseline** for power stations because lower tiers often force daily power babysitting.
 
 See the path:
 - [Portable Power Stations Under $500](/best-of/power-stations-under-500/)

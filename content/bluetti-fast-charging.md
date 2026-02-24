@@ -112,7 +112,7 @@ Read next:
 ## What to prioritize when choosing a Bluetti setup
 
 - Prioritize **recharge speed / time-to-recover** first.
-- Keep the CALV rule: **700Wh minimum** for recommended power stations.
+- Keep the CAVL rule: **700Wh minimum** for recommended power stations.
 - Prioritize **workflow stability** so you can stop babysitting power.
 - Apply a climate-tested lens: heat and cloudy stretches are planning inputs, not edge cases.
 
@@ -161,7 +161,7 @@ Often yes for mixed use, but daily high-draw cooking is a system-level planning 
 ### Is this page only for BLUETTI owners?
 No. The recovery-first framework applies broadly. This page is BLUETTI-focused so it can support the brand cluster and internal linking.
 
-## How we evaluate (CALV standard)
+## How we evaluate (CAVL standard)
 
 Need the complete step-by-step? [Van Power Recovery Stack](/van-power-recovery-stack/).
 If you need the fastest "plug in and recover" picks (700Wh+), see: [Best Fast-Charging Power Stations](/best-fast-charging-power-stations/).

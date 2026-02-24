@@ -24,7 +24,7 @@ If you want the full ladder this routine supports, start here: **[Van Power Reco
 ## What this routine is (and isn’t)
 
 This is not a wiring guide. It’s not a teardown of your system.  
-It’s a **workflow reset** built around CALV’s recovery-first mindset:
+It’s a **workflow reset** built around CAVL’s recovery-first mindset:
 
 - time-to-recover > raw storage
 - stability first, upgrades later
@@ -162,7 +162,7 @@ Use:
 Baseline context (why underpowered systems cause constant drift):
 - **[What 700Wh Actually Runs](/what-700wh-actually-runs/)**
 
-If you’re building a budget starter system, keep the CALV floor in mind:
+If you’re building a budget starter system, keep the CAVL floor in mind:
 - **[Best Power Stations Under $500](/best-of/power-stations-under-500/)**
 
 ---

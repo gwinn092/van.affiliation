@@ -37,7 +37,7 @@ Leaving inverter mode on can hurt stability when:
 
 In those conditions, small workflow losses compound quickly.
 
-## The CALV inverter workflow (simple routine)
+## The CAVL inverter workflow (simple routine)
 
 **Rule 1: Default OFF.** Turn AC on only when you’re actively using it.  
 **Rule 2: Use AC in planned windows.** Do the task, then return to DC-first.  
