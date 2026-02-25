@@ -6,6 +6,8 @@ date: 2026-02-23
 draft: false
 categories: ["Power"]
 tags: ["van life", "under 1000", "fast charging", "power stations", "recovery"]
+featuredImage: "/images/featured/power-stations.svg"
+featuredImageAlt: "Fast-charging power station setup for under-$1000 planning"
 ---
 If you’re shopping right now, start with the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then use the **[Buyer Guides hub](/fast-charging-buyer-guides/)** to pick your tier.  
 If any terms feel fuzzy (AC input, surge, pass-through), use the **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**.

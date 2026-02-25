@@ -6,6 +6,8 @@ date: 2026-02-23
 draft: false
 categories: ["Power"]
 tags: ["van life", "quiet hours", "fast charging", "power stations", "recovery"]
+featuredImage: "/images/featured/van-fans.svg"
+featuredImageAlt: "Quiet-hours-friendly van setup visual for recovery-first planning"
 ---
 
 If you’re shopping right now, start with the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then use the **[Buyer Guides hub](/fast-charging-buyer-guides/)** to pick your tier.

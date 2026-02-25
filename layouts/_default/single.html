@@ -19,6 +19,14 @@
       {{ if .Params.showBreadcrumbs | default (site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
+      {{ $featuredImage := .Params.featuredImage | default .Params.featureimage }}
+      {{ $featuredImageAlt := .Params.featuredImageAlt | default .Title }}
+      {{ if $featuredImage }}
+        <figure class="calv-featured-hero mt-1 mb-4 overflow-hidden rounded-2xl border border-neutral-200 shadow-sm">
+          <img src="{{ $featuredImage | relURL }}" alt="{{ $featuredImageAlt }}" class="h-32 w-full object-cover sm:h-40 md:h-48" loading="lazy">
+          <div class="calv-featured-hero__veil" aria-hidden="true"></div>
+        </figure>
+      {{ end }}
       <div class="calv-title">
         <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
           {{ .Title | emojify }}
@@ -64,13 +72,6 @@
         {{ template "SingleAuthor" . }}
       {{ end }}
     </header>
-
-    {{ $heroImage := .Params.featureimage }}
-    {{ if $heroImage }}
-      <div class="vf-single-hero mt-4 mb-5 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm">
-        <img src="{{ $heroImage | relURL }}" alt="{{ .Title }}" class="h-64 w-full object-cover md:h-80" loading="lazy">
-      </div>
-    {{ end }}
 
     {{/* Body */}}
     <section class="calv-article-grid max-w-full mt-0 lg:grid lg:grid-cols-12 lg:gap-4">
