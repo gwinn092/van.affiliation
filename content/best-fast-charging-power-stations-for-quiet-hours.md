@@ -46,7 +46,7 @@ Most quiet-hours recovery is some mix of:
 - **Shore power** windows: **[Shore Power Refill Window Plan](/shore-power-refill-window-plan/)** (high-level planning)
 - **Drive-time** windows: **[Drive Recovery Window Plan](/drive-recovery-window-plan/)** (high-level planning)
 
-This page stays high-level on purpose: no wiring, no alternator step-by-step. The goal is to help you choose a unit that fits your constraints.
+This page stays high-level on purpose: no electrical setup procedures. The goal is to help you choose a unit that fits your constraints and routine.
 
 ### 3) The 700Wh+ floor (why we keep it)
 Below ~700Wh, quiet-hours living becomes a constant “charge chase,” especially in:

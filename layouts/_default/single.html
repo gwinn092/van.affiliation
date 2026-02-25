@@ -13,9 +13,9 @@
       {{ end }}
     {{ end }}
 
-    <div class="calv-article-shell">
+    <div class="calv-article-shell w-full px-0 sm:px-0">
     {{/* Header */}}
-    <header id="single_header" class="mt-5 max-w-full calv-header-surface">
+    <header id="single_header" class="mt-0 max-w-full calv-header-surface">
       {{ if .Params.showBreadcrumbs | default (site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
@@ -81,6 +81,38 @@
       <div class="min-w-0 min-h-0 w-full flex-1 lg:col-span-10">
         {{ partial "series/series.html" . }}
         <div class="article-content max-w-full mb-12 prose dark:prose-invert">
+    <!-- CAVL Decision Header (reduces overwhelm + improves conversion) -->
+    <div class="calv-decision-header not-prose">
+      <div class="calv-decision-card">
+        <div class="calv-decision-eyebrow">QUICK TAKE</div>
+        <div class="calv-decision-text">
+          If you only read one thing: pick the smallest setup that can reliably <strong>recover fast</strong> in your real refill windows.
+        </div>
+      </div>
+
+      <div class="calv-decision-grid">
+        <div class="calv-decision-card">
+          <div class="calv-decision-eyebrow">TOP PICKS</div>
+          <ul class="calv-decision-links">
+            <li><a href="/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast">Best “bad-week recovery” pick</a></li>
+            <li><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">Best “quiet-hours” pick</a></li>
+          </ul>
+          <div class="calv-decision-note">We keep claims labeled (Spec / Reported / Measured / Estimate).</div>
+        </div>
+
+        <div class="calv-decision-card">
+          <div class="calv-decision-eyebrow">PICK YOUR CONSTRAINT</div>
+          <ul class="calv-decision-links">
+            <li><a href="/best-fast-charging-power-stations-for-quiet-hours/">Quiet hours / rules</a></li>
+            <li><a href="/best-fast-charging-power-stations-for-generator-free-van-life/">Generator-free</a></li>
+            <li><a href="/under-1000-fast-charging-watch-list/">Under-$1000 watch list</a></li>
+            <li><a href="/fast-charging-not-keeping-up-what-to-fix-first/">Still not keeping up?</a></li>
+            <li><a href="/fast-charging-power-station-buyer-checklist/">Buyer checklist</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
           {{ .Content }}
           {{ $defaultReplyByEmail := site.Params.replyByEmail }}
           {{ $replyByEmail := default $defaultReplyByEmail .Params.replyByEmail }}
@@ -108,6 +140,27 @@
         <div class="px-0 lg:col-span-2">
           <div class="toc calv-toc-card print:hidden lg:sticky {{ $topClass }}">
             {{ partial "toc.html" . }}
+  <!-- CAVL Right Rail Stack (routing + monetization-friendly space) -->
+  <div class="calv-rail-stack mt-4 space-y-4">
+    <div class="calv-rail-card">
+      <div class="calv-rail-eyebrow">NEXT STEPS</div>
+      <ul class="calv-rail-links">
+        <li><a href="/fast-charging-power-station-buyer-checklist/">Buyer Checklist</a></li>
+        <li><a href="/fast-charging-buyer-guides/">Buyer Guides hub</a></li>
+        <li><a href="/under-1000-fast-charging-watch-list/">Under-$1000 Watch List</a></li>
+        <li><a href="/best-fast-charging-power-stations-under-1000/">Best Under-$1000 picks</a></li>
+        <li><a href="/deals/">Deals</a></li>
+      </ul>
+      <div class="calv-rail-note">Keep it simple: pick one route and follow it.</div>
+    </div>
+
+    <!-- Monetization slot placeholder (safe empty box until you wire an ad/affiliate widget) -->
+    <div class="calv-rail-card calv-ad-slot" data-slot="rail-1">
+      <div class="calv-rail-eyebrow">SPONSORED</div>
+      <div class="calv-rail-note">Reserved space for ads / partner widgets (optional).</div>
+    </div>
+  </div>
+
           </div>
         </div>
       {{ end }}

@@ -8,7 +8,7 @@ categories: ["Power"]
 tags: ["van life", "conditions", "recovery", "heat", "humidity", "cloudy", "cold"]
 ---
 
-If you are unsure where to start, use the scorecard first, then pick the recovery move that matches today.
+If you are unsure where to start, use the scorecard and choose the recovery move that matches today’s conditions.
 
 Start here:
 - **[Van Power Stability Scorecard](/van-power-stability-scorecard/)**
