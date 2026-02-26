@@ -1,0 +1,25 @@
+{{- $mini := .Params.miniTopPicks -}}
+{{- if and $mini (gt (len $mini) 0) -}}
+  <div class="calv-mini-picks" aria-label="Mini top picks">
+    {{- range $mini -}}
+      <article class="calv-mini-pick-card">
+        <a class="calv-mini-pick-media" href="{{ .url }}" aria-label="{{ .cta }}">
+          <img src="{{ .image | relURL }}" alt="{{ .imageAlt | default .title }}" loading="lazy">
+        </a>
+        <div class="calv-mini-pick-body">
+          <div class="calv-mini-pick-label">{{ .label }}</div>
+          <h3 class="calv-mini-pick-title">{{ .title }}</h3>
+          <p class="calv-mini-pick-bestfor"><strong>Best for:</strong> {{ .bestFor }}</p>
+          {{- with .points -}}
+            <ul class="calv-mini-pick-points">
+              {{- range first 2 . -}}
+                <li>{{ . }}</li>
+              {{- end -}}
+            </ul>
+          {{- end -}}
+          <a class="calv-btn calv-mini-pick-cta" href="{{ .url }}">{{ .cta }}</a>
+        </div>
+      </article>
+    {{- end -}}
+  </div>
+{{- end -}}

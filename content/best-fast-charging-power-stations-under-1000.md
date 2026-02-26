@@ -6,8 +6,29 @@ date: 2026-02-23
 draft: false
 categories: ["Power"]
 tags: ["van life", "under 1000", "fast charging", "power stations", "recovery"]
-featuredImage: "/images/featured/power-stations.svg"
-featuredImageAlt: "Fast-charging power station setup for under-$1000 planning"
+featuredImage: "/img/hero/under-1000-hero.jpg"
+featuredImageAlt: "Camper van parked at sunset to represent fast recovery planning"
+miniTopPicks:
+  - label: "Top Pick — Fastest Recovery"
+    title: "Recovery-first choice for bad-week catch-up"
+    bestFor: "people who fall behind and need to catch up fast"
+    points:
+      - "Strong wall recharge when you need a reset"
+      - "Calm, reliable bad-week recovery"
+    cta: "See why it’s the Top Pick"
+    url: "/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast"
+    image: "/img/picks/under-1000-fastest-recovery.jpg"
+    imageAlt: "Camper van parked near mountains at sunset"
+  - label: "Runner-Up — Quiet Hours Friendly"
+    title: "Predictable recovery when noise rules are tight"
+    bestFor: "campgrounds or nights where quiet-hours rules matter"
+    points:
+      - "Predictable refill windows with less friction"
+      - "Good fit for quiet-hours constraints"
+    cta: "See the Quiet Hours pick"
+    url: "/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows"
+    image: "/img/picks/under-1000-quiet-hours.jpg"
+    imageAlt: "Inside of a clean camper van living area"
 ---
 If you’re shopping right now, start with the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then use the **[Buyer Guides hub](/fast-charging-buyer-guides/)** to pick your tier.  
 If any terms feel fuzzy (AC input, surge, pass-through), use the **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**.
@@ -40,6 +61,14 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
 
 ---
 
+{{< calvimg
+  src="/img/sections/under-1000-rhythm-1.jpg"
+  alt="Camper van parked outdoors during golden hour"
+  caption="Recovery-first picks should feel calm, not frantic."
+  credit="Photo source: Wikimedia Commons (User3204), CC BY 4.0."
+  style="wide"
+>}}
+
 ## Picks (700Wh+ only) — organized by recovery scenario
 
 These are **recovery-first picks**, not “best specs on paper.” Each bucket is the decision you can actually repeat.
@@ -60,6 +89,13 @@ Use this bucket when your realistic outlet window is short and you need a fast r
 Use this bucket when rules/stealth limit *when* you can charge, so you need predictable timing.
 
 **Quick chooser:** If quiet hours limit *when* you can charge, prioritize models that make your available window **predictable** — even if you’re not chasing the absolute fastest spec.
+
+{{< calvimg
+  src="/img/sections/under-1000-rhythm-2.jpg"
+  alt="Clean camper interior setup that feels quiet and orderly"
+  caption="Quiet-hours picks are about repeatable windows and low-friction routines."
+  credit="Photo source: Wikimedia Commons (Danny6060), CC BY-SA 4.0."
+>}}
 
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
@@ -105,4 +141,3 @@ If you keep missing even with “fast charging,” use: **[Fast charging not kee
 - **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)**
 - **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 - **[Recovery Moves Index](/recovery-moves-index/)**
-

@@ -1,0 +1,16 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" -}}
+{{- $credit := .Get "credit" -}}
+{{- $style := lower (.Get "style" | default "standard") -}}
+{{- if $src -}}
+  <figure class="calv-inline-image{{ if eq $style "wide" }} calv-inline-image--wide{{ end }}">
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
+    {{- if or $caption $credit -}}
+      <figcaption>
+        {{- with $caption -}}<span class="calv-inline-image__caption">{{ . }}</span>{{- end -}}
+        {{- with $credit -}}<span class="calv-inline-image__credit">{{ . }}</span>{{- end -}}
+      </figcaption>
+    {{- end -}}
+  </figure>
+{{- end -}}
