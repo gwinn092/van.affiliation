@@ -1,0 +1,76 @@
+{{- $provider := lower (default "" site.Params.analytics_provider) -}}
+{{- $siteID := default "" site.Params.analytics_site_id -}}
+{{- if and $provider $siteID -}}
+  {{- if eq $provider "plausible" -}}
+    <script defer data-domain="{{ $siteID }}" src="https://plausible.io/js/script.js"></script>
+  {{- else if eq $provider "umami" -}}
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="{{ $siteID }}"></script>
+  {{- else if eq $provider "ga4" -}}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ $siteID }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+      gtag("config", "{{ $siteID }}");
+    </script>
+  {{- end -}}
+
+  <script>
+    (function () {
+      var provider = "{{ $provider }}";
+
+      function track(name, props) {
+        if (provider === "plausible" && typeof window.plausible === "function") {
+          window.plausible(name, { props: props || {} });
+          return;
+        }
+        if (provider === "umami" && window.umami && typeof window.umami.track === "function") {
+          window.umami.track(name, props || {});
+          return;
+        }
+        if (provider === "ga4" && typeof window.gtag === "function") {
+          window.gtag("event", name, props || {});
+        }
+      }
+
+      function value(el, key) {
+        return (el && el.dataset && el.dataset[key]) ? el.dataset[key] : "";
+      }
+
+      document.addEventListener("click", function (e) {
+        var a = e.target && e.target.closest ? e.target.closest("a[data-calv-event]") : null;
+        if (!a) return;
+
+        var eventName = value(a, "calvEvent");
+        if (!eventName) return;
+
+        var props = {
+          page: window.location && window.location.pathname ? window.location.pathname : "",
+          href: a.getAttribute("href") || ""
+        };
+        var tile = value(a, "calvTile");
+        var collection = value(a, "calvCollection");
+        var pick = value(a, "calvPick");
+        var constraint = value(a, "calvConstraint");
+        var retailer = value(a, "calvRetailer");
+
+        if (tile) props.tile_label = tile;
+        if (collection) props.collection_name = collection;
+        if (pick) props.pick_name = pick;
+        if (constraint) props.constraint = constraint;
+        if (retailer) props.retailer = retailer;
+
+        if (!retailer && eventName === "outbound_affiliate_click") {
+          try {
+            var url = new URL(props.href, window.location.origin);
+            props.retailer = url.hostname.replace(/^www\./, "");
+          } catch (err) {
+            // no-op
+          }
+        }
+
+        track(eventName, props);
+      }, true);
+    })();
+  </script>
+{{- end -}}

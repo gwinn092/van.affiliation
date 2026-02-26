@@ -13,6 +13,6 @@
   {{- if or (not $url) (eq $url "REPLACE_ME") -}}
     <span class="opacity-70 text-sm">Link coming soon</span>
   {{- else -}}
-    <a href="{{ $url }}" target="_blank" rel="nofollow sponsored noopener noreferrer">{{ $text }}</a>
+    <a href="{{ $url }}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-calv-event="outbound_affiliate_click" data-calv-retailer="{{ $merchant }}">{{ $text }}</a>
   {{- end -}}
 {{- end -}}

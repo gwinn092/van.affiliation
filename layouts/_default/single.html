@@ -105,11 +105,11 @@
         <div class="calv-decision-card">
           <div class="calv-decision-eyebrow">PICK YOUR CONSTRAINT</div>
           <ul class="calv-decision-links">
-            <li><a href="/best-fast-charging-power-stations-for-quiet-hours/">Quiet hours / rules</a></li>
-            <li><a href="/best-fast-charging-power-stations-for-generator-free-van-life/">Generator-free</a></li>
-            <li><a href="/under-1000-fast-charging-watch-list/">Under-$1000 watch list</a></li>
-            <li><a href="/fast-charging-not-keeping-up-what-to-fix-first/">Still not keeping up?</a></li>
-            <li><a href="/fast-charging-power-station-buyer-checklist/">Buyer checklist</a></li>
+            <li><a href="/best-fast-charging-power-stations-for-quiet-hours/" data-calv-event="constraint_chooser_click" data-calv-constraint="quiet-hours">Quiet hours / rules</a></li>
+            <li><a href="/best-fast-charging-power-stations-for-generator-free-van-life/" data-calv-event="constraint_chooser_click" data-calv-constraint="generator-free">Generator-free</a></li>
+            <li><a href="/under-1000-fast-charging-watch-list/" data-calv-event="constraint_chooser_click" data-calv-constraint="under-1000-watch-list">Under-$1000 watch list</a></li>
+            <li><a href="/fast-charging-not-keeping-up-what-to-fix-first/" data-calv-event="constraint_chooser_click" data-calv-constraint="fix-first">Still not keeping up?</a></li>
+            <li><a href="/fast-charging-power-station-buyer-checklist/" data-calv-event="constraint_chooser_click" data-calv-constraint="buyer-checklist">Buyer checklist</a></li>
           </ul>
         </div>
       </div>
@@ -156,11 +156,11 @@
     <div class="calv-rail-card">
       <div class="calv-rail-eyebrow">PICK YOUR CONSTRAINT</div>
       <ul class="calv-rail-links">
-        <li><a href="/best-fast-charging-power-stations-for-quiet-hours/">Quiet hours / rules</a></li>
-        <li><a href="/best-fast-charging-power-stations-for-generator-free-van-life/">Generator-free</a></li>
-        <li><a href="/fast-charging-power-station-buyer-checklist/">Buyer Checklist</a></li>
-        <li><a href="/fast-charging-buyer-guides/">Buyer Guides hub</a></li>
-        <li><a href="/recovery-moves-index/">Recovery Moves Index</a></li>
+        <li><a href="/best-fast-charging-power-stations-for-quiet-hours/" data-calv-event="constraint_chooser_click" data-calv-constraint="quiet-hours">Quiet hours / rules</a></li>
+        <li><a href="/best-fast-charging-power-stations-for-generator-free-van-life/" data-calv-event="constraint_chooser_click" data-calv-constraint="generator-free">Generator-free</a></li>
+        <li><a href="/fast-charging-power-station-buyer-checklist/" data-calv-event="constraint_chooser_click" data-calv-constraint="buyer-checklist">Buyer Checklist</a></li>
+        <li><a href="/fast-charging-buyer-guides/" data-calv-event="constraint_chooser_click" data-calv-constraint="buyer-guides">Buyer Guides hub</a></li>
+        <li><a href="/recovery-moves-index/" data-calv-event="constraint_chooser_click" data-calv-constraint="recovery-moves">Recovery Moves Index</a></li>
       </ul>
     </div>
 
@@ -171,6 +171,8 @@
       </ul>
       <div class="calv-rail-note">Curated and updated for timing signals, not price promises.</div>
     </div>
+
+    {{ partial "calv/email-capture-module.html" . }}
 
     <div class="calv-rail-card calv-ad-slot" data-slot="rail-1">
       <div class="calv-rail-eyebrow">SPONSORED</div>

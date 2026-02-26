@@ -1,5 +1,1 @@
-{{ with .Params.plausibleDomain }}
-  {{ if ne . "YOUR_DOMAIN_HERE" }}
-    <script defer data-domain="{{ . }}" src="https://plausible.io/js/script.outbound-links.js"></script>
-  {{ end }}
-{{ end }}
+{{ partial "calv/analytics.html" . }}

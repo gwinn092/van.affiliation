@@ -17,9 +17,9 @@
               {{- end -}}
             </ul>
           {{- end -}}
-          <a class="calv-btn calv-mini-pick-cta" href="{{ $pick.url }}">{{ $pick.cta }}</a>
+          <a class="calv-btn calv-mini-pick-cta" href="{{ $pick.url }}" data-calv-event="top_pick_primary_click" data-calv-pick="{{ $pick.title }}">{{ $pick.cta }}</a>
           {{- with $pick.urlSecondary -}}
-            <a class="calv-btn calv-btn-ghost calv-mini-pick-cta" href="{{ . }}" target="_blank" rel="nofollow sponsored noopener noreferrer">
+            <a class="calv-btn calv-btn-ghost calv-mini-pick-cta" href="{{ . }}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-calv-event="top_pick_secondary_click" data-calv-pick="{{ $pick.title }}">
               {{ $pick.ctaSecondary | default "See availability" }}
             </a>
           {{- end -}}

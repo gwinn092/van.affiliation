@@ -47,3 +47,7 @@ weight = 40
 
 [params]
 plausibleDomain = "YOUR_DOMAIN_HERE"
+analytics_provider = ""
+analytics_site_id = ""
+email_provider = ""
+email_form_action_or_embed = ""

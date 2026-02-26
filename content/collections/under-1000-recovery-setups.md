@@ -10,6 +10,8 @@ This collection is for buyers who need a stable recovery path under a tighter bu
 
 **Last updated:** February 2026.
 
+{{< calvsignup >}}
+
 ## Start here in 60 seconds
 
 1. Open the under-$1000 buyer page and choose the bucket that matches your current recovery pressure.
@@ -18,20 +20,19 @@ This collection is for buyers who need a stable recovery path under a tighter bu
 
 ## Top 3 links
 
-- **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**
-- **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**
-- **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
+- **<a href="/best-fast-charging-power-stations-under-1000/" data-calv-event="collection_cta_click" data-calv-collection="under-1000-recovery-setups">Best Fast-Charging Power Stations Under $1000</a>**
+- **<a href="/under-1000-fast-charging-watch-list/" data-calv-event="collection_cta_click" data-calv-collection="under-1000-recovery-setups">Under-$1000 Fast-Charging Watch List</a>**
+- **<a href="/fast-charging-power-station-buyer-checklist/" data-calv-event="collection_cta_click" data-calv-collection="under-1000-recovery-setups">Fast-Charging Power Station Buyer Checklist</a>**
 
 ## Pick your constraint
 
-- **Bad-week drift now:** **[Under-$1000 Bucket A: fastest recovery](/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast)**
-- **Quiet-hours windows:** **[Under-$1000 Bucket B: predictable windows](/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows)**
-- **Need more margin, less stress:** **[Under-$1000 Bucket C: add margin](/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days)**
-- **Quiet-hours-heavy life:** **[Open Quiet Hours buyer page](/best-fast-charging-power-stations-for-quiet-hours/)**
-- **Generator-free framing:** **[Open Generator-Free buyer page](/best-fast-charging-power-stations-for-generator-free-van-life/)**
+- **Bad-week drift now:** **<a href="/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast" data-calv-event="collection_cta_click" data-calv-collection="under-1000-recovery-setups">Under-$1000 Bucket A: fastest recovery</a>**
+- **Quiet-hours windows:** **<a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows" data-calv-event="collection_cta_click" data-calv-collection="under-1000-recovery-setups">Under-$1000 Bucket B: predictable windows</a>**
+- **Need more margin, less stress:** **<a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days" data-calv-event="collection_cta_click" data-calv-collection="under-1000-recovery-setups">Under-$1000 Bucket C: add margin</a>**
+- **Quiet-hours-heavy life:** **<a href="/best-fast-charging-power-stations-for-quiet-hours/" data-calv-event="collection_cta_click" data-calv-collection="under-1000-recovery-setups">Open Quiet Hours buyer page</a>**
+- **Generator-free framing:** **<a href="/best-fast-charging-power-stations-for-generator-free-van-life/" data-calv-event="collection_cta_click" data-calv-collection="under-1000-recovery-setups">Open Generator-Free buyer page</a>**
 
 ## If you're stuck
 
 - **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-keeping-up-what-to-fix-first/)**
 - **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**
-
