@@ -4,6 +4,8 @@ description: "How affiliate links work on Create A Van Life."
 slug: "affiliate-disclosure"
 date: 2026-02-22
 draft: false
+aliases:
+  - /legal/affiliate-disclosure/
 ---
 
 Some links on Create A Van Life may be affiliate links.
