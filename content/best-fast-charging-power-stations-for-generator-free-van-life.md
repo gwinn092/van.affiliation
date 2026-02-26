@@ -6,6 +6,27 @@ date: 2026-02-23
 draft: false
 categories: ["Power"]
 tags: ["van life", "generator-free", "fast charging", "power stations", "recovery"]
+miniTopPicks:
+  - label: "Top Pick - Bad-Week Recovery"
+    title: "Fast-recovery route when generator-free weeks slip"
+    bestFor: "stopping drift quickly with realistic wall-charge windows"
+    points:
+      - "Emphasizes refill speed you can actually repeat"
+      - "Built for calm catch-up after rough days"
+    cta: "Jump to Bucket A picks"
+    url: "/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-a--recover-fast-even-on-bad-weeks"
+    image: "/img/picks/under-1000-fastest-recovery.jpg"
+    imageAlt: "Camper van parked near mountains at sunset"
+  - label: "Runner-Up - Quiet-Hours Fit"
+    title: "Dependable recovery rhythm when timing is constrained"
+    bestFor: "generator-free routines with campground or stealth-hour limits"
+    points:
+      - "Predictable refill flow beats spec-chasing"
+      - "Pairs well with strict timing windows"
+    cta: "Jump to Bucket B picks"
+    url: "/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-b--quiet-hours-friendly-recovery"
+    image: "/img/picks/under-1000-quiet-hours.jpg"
+    imageAlt: "Inside of a clean camper van living area"
 ---
 
 If you’re shopping right now, start with the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then use the **[Buyer Guides hub](/fast-charging-buyer-guides/)** to pick your tier.
@@ -17,6 +38,14 @@ Generator-free van life can work really well — **as long as your system stays 
 If your week goes sideways, the goal is simple: **recover quickly and get back to stable mode without panic upgrades**. For conditions context, read **[Generator-Free Van Power Recovery](/generator-free-van-power-recovery/)**, then map your next move in **[Recovery Moves Index](/recovery-moves-index/)**.
 
 ---
+
+{{< calvimg
+  src="/img/sections/under-1000-rhythm-1.jpg"
+  alt="Camper van parked outdoors during golden hour"
+  caption="Generator-free stability improves when recovery windows are planned and repeatable."
+  credit="Photo source: Wikimedia Commons (User3204), CC BY 4.0."
+  style="wide"
+>}}
 
 ## The generator-free “stability test” (the question that matters)
 
@@ -66,6 +95,13 @@ If you’re currently under that floor, use the bridge plan:
 Fast charging is great — but quiet hours can restrict where and when you recover.
 If camp rules are your constraint, use the dedicated guide:
 - **[Best Fast-Charging Power Stations for Quiet Hours](/best-fast-charging-power-stations-for-quiet-hours/)**
+
+{{< calvimg
+  src="/img/sections/under-1000-rhythm-2.jpg"
+  alt="Clean camper interior setup that supports low-friction routines"
+  caption="The best generator-free setup is the one you can recover consistently without noise friction."
+  credit="Photo source: Wikimedia Commons (Danny6060), CC BY-SA 4.0."
+>}}
 
 ---
 

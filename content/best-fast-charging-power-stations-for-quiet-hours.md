@@ -8,6 +8,27 @@ categories: ["Power"]
 tags: ["van life", "quiet hours", "fast charging", "power stations", "recovery"]
 featuredImage: "/img/hero/quiet-hours-hero.jpg"
 featuredImageAlt: "Quiet camper van interior for low-friction refill routines"
+miniTopPicks:
+  - label: "Top Pick - Short Windows"
+    title: "Fast refill when your quiet-hours window is tight"
+    bestFor: "short outlet sessions where you still need dependable recovery"
+    points:
+      - "Prioritizes quick AC refill over headline capacity"
+      - "Fits repeatable quiet-hours recovery routines"
+    cta: "Jump to Bucket A picks"
+    url: "/best-fast-charging-power-stations-for-quiet-hours/#bucket-a--short-repeatable-refill-windows"
+    image: "/img/picks/under-1000-fastest-recovery.jpg"
+    imageAlt: "Camper van parked near mountains at sunset"
+  - label: "Runner-Up - Predictable Routine"
+    title: "Lower-friction recovery for rule-heavy campgrounds"
+    bestFor: "quiet-hour constraints where predictable windows matter most"
+    points:
+      - "Built around stable refill rhythm, not peak claims"
+      - "Works well when access timing is inconsistent"
+    cta: "Jump to Bucket B picks"
+    url: "/best-fast-charging-power-stations-for-quiet-hours/#bucket-b--rule-heavy--inconsistent-access-predictability-first"
+    image: "/img/picks/under-1000-quiet-hours.jpg"
+    imageAlt: "Inside of a clean camper van living area"
 ---
 
 If you’re shopping right now, start with the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then use the **[Buyer Guides hub](/fast-charging-buyer-guides/)** to pick your tier.
@@ -19,6 +40,14 @@ Quiet hours don’t just limit noise — they limit **when you can recover**. Th
 We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capacity. If your week goes sideways, the goal is to recover quickly and get back to stable mode without panic upgrades. For the big picture, see **[Generator-Free Van Power Recovery](/generator-free-van-power-recovery/)** and **[Recovery Moves Index](/recovery-moves-index/)**.
 
 ---
+
+{{< calvimg
+  src="/img/sections/under-1000-rhythm-2.jpg"
+  alt="Clean camper interior setup for quiet-hours planning"
+  caption="Quiet-hours stability comes from repeatable windows, not panic charging."
+  credit="Photo source: Wikimedia Commons (Danny6060), CC BY-SA 4.0."
+  style="wide"
+>}}
 
 ## The quiet-hours stability test (the question that matters)
 
@@ -57,6 +86,13 @@ Below ~700Wh, quiet-hours living becomes a constant “charge chase,” especial
 - rule-heavy campgrounds (fewer recovery chances)
 
 If you’re under that floor, use: **[Under-$1000 Upgrade Plan](/under-1000-upgrade-plan/)**.
+
+{{< calvimg
+  src="/img/sections/under-1000-rhythm-1.jpg"
+  alt="Camper van parked outdoors during golden hour"
+  caption="Recovery-first planning should feel calm enough to repeat on normal weeks."
+  credit="Photo source: Wikimedia Commons (User3204), CC BY 4.0."
+>}}
 
 ---
 
