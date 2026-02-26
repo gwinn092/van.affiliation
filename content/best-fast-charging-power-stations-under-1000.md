@@ -81,8 +81,8 @@ Use this bucket when your realistic outlet window is short and you need a fast r
 
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
-| (Placeholder) | Under-now | Fast refill is the point. (Add the concrete pick(s) you’re confident you can keep in stock rotation.) | Spec / Reported | Bad-week recovery |
-| (Placeholder) | Watch-list | Track for price drops; only promote if speed claims are supported. | Spec / Reported | Bad-week recovery |
+| EcoFlow DELTA 2 (1024Wh) | Under-now | Fast AC refill profile that helps erase drift when your outlet window is tight. | Spec / Reported | Bad-week recovery |
+| BLUETTI AC180 (1152Wh) | Watch-list | Strong recovery class for short windows when pricing lands in-range. | Spec / Reported | Bad-week recovery |
 
 ### Bucket B — Quiet-hours recovery (predictable windows)
 
@@ -99,8 +99,8 @@ Use this bucket when rules/stealth limit *when* you can charge, so you need pred
 
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
-| (Placeholder) | Under-now | Predictable routine > headline speed. | Spec / Reported | Quiet-hours recovery |
-| (Placeholder) | Watch-list | Strong option if you can verify charge-time claims. | Spec / Reported | Quiet-hours recovery |
+| BLUETTI AC180 (1152Wh) | Under-now | Predictable refill routine that works well when charge windows are controlled by rules. | Spec / Reported | Quiet-hours recovery |
+| Jackery Explorer 1000 Plus (1264Wh) | Watch-list | Consistent recovery rhythm when access timing is constrained and you can wait for value windows. | Spec / Reported | Quiet-hours recovery |
 
 ### Bucket C — Add margin (less stress, fewer “panic days”)
 
@@ -110,8 +110,8 @@ Use this bucket when you’re mostly stable and want more buffer so one rough da
 
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
-| (Placeholder) | Under-now | Margin builder without turning into a “spec chase.” | Spec / Reported | Add margin |
-| (Placeholder) | Watch-list | Track if it becomes a clean, repeatable upgrade path. | Spec / Reported | Add margin |
+| Anker SOLIX C1000 (1056Wh) | Under-now | Adds usable margin while keeping recovery speed practical for normal weekly resets. | Spec / Reported | Add margin |
+| EcoFlow DELTA 2 Max (2048Wh) | Watch-list | Larger buffer option to track when price/stock drift opens a clean upgrade path. | Spec / Reported | Add margin |
 
 ---
 

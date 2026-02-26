@@ -9,11 +9,6 @@ pageRef = "/start-here"
 weight = 1
 
 [[main]]
-name = "Gear"
-pageRef = "/gear"
-weight = 30
-
-[[main]]
 name = "Best Of"
 pageRef = "/best-of"
 weight = 40
@@ -36,12 +31,12 @@ weight = 70
 
 [[main]]
 name = "Disclosure"
-pageRef = "/legal/affiliate-disclosure"
+pageRef = "/affiliate-disclosure"
 weight = 80
 
 [[footer]]
 name = "Affiliate Disclosure"
-pageRef = "/legal/affiliate-disclosure"
+pageRef = "/affiliate-disclosure"
 weight = 10
 
 [[footer]]
