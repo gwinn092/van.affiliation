@@ -3548,3 +3548,112 @@ END DISABLED */
     padding-top: 0 !important;
   }
 }
+
+/* =========================================================
+   Global Surface System (authoritative, final override)
+   - Mobile: flatter editorial modules, no chunky shadows
+   - Desktop: subtle border/radius for structure
+   ========================================================= */
+:root {
+  --calv-surface-border-mobile: rgba(148, 163, 184, 0.34);
+  --calv-surface-border-desktop: rgba(148, 163, 184, 0.42);
+  --calv-surface-bg-mobile: transparent;
+  --calv-surface-bg-desktop: rgba(255, 255, 255, 0.82);
+  --calv-surface-radius-mobile: 0.25rem;
+  --calv-surface-radius-desktop: 0.72rem;
+}
+
+.dark {
+  --calv-surface-border-mobile: rgba(148, 163, 184, 0.28);
+  --calv-surface-border-desktop: rgba(148, 163, 184, 0.34);
+  --calv-surface-bg-mobile: transparent;
+  --calv-surface-bg-desktop: rgba(15, 23, 42, 0.36);
+}
+
+/* Global/reusable surfaces (home/list/gear + article modules) */
+:where(
+  .vf-list-card,
+  .storefront-card,
+  .storefront-picks,
+  .storefront-trust,
+  .gear-feature-card,
+  .gear-review-card,
+  .gear-hub > section:not(.gear-disclosure),
+  .calv-article-shell .calv-box,
+  .calv-article-shell .calv-decision-card,
+  .calv-article-shell .calv-mini-pick-card,
+  .calv-article-shell .calv-rail-card,
+  .calv-article-shell .calv-toc-card
+) {
+  box-shadow: none !important;
+  background: var(--calv-surface-bg-mobile) !important;
+  border: 1px solid var(--calv-surface-border-mobile);
+  border-radius: var(--calv-surface-radius-mobile);
+}
+
+/* Keep CTA affordance obvious even while surfaces flatten */
+:where(.calv-btn, .storefront-btn, a[role="button"]) {
+  box-shadow: none;
+}
+
+/* Remove chunky hover lift on flat surfaces */
+:where(.vf-list-card, .storefront-card, .gear-feature-card, .gear-review-card):hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Mobile-first editorial separation: spacing + dividers */
+@media (max-width: 768px) {
+  :where(.vf-list-grid, .storefront-grid, .calv-mini-picks, .calv-decision-grid, .calv-rail-stack) {
+    gap: 0.72rem;
+  }
+
+  :where(
+    .vf-list-card,
+    .storefront-card,
+    .storefront-picks,
+    .storefront-trust,
+    .gear-feature-card,
+    .gear-review-card,
+    .gear-hub > section:not(.gear-disclosure),
+    .calv-article-shell .calv-box,
+    .calv-article-shell .calv-decision-card,
+    .calv-article-shell .calv-mini-pick-card,
+    .calv-article-shell .calv-rail-card,
+    .calv-article-shell .calv-toc-card
+  ) {
+    border-radius: 0.2rem;
+  }
+
+  #search-modal {
+    box-shadow: none;
+    border-radius: 0.35rem;
+  }
+}
+
+/* Desktop: subtle structure, still no heavy card effect */
+@media (min-width: 769px) {
+  :where(
+    .vf-list-card,
+    .storefront-card,
+    .storefront-picks,
+    .storefront-trust,
+    .gear-feature-card,
+    .gear-review-card,
+    .gear-hub > section:not(.gear-disclosure),
+    .calv-article-shell .calv-box,
+    .calv-article-shell .calv-decision-card,
+    .calv-article-shell .calv-mini-pick-card,
+    .calv-article-shell .calv-rail-card,
+    .calv-article-shell .calv-toc-card
+  ) {
+    background: var(--calv-surface-bg-desktop) !important;
+    border-color: var(--calv-surface-border-desktop);
+    border-radius: var(--calv-surface-radius-desktop);
+  }
+
+  #search-modal {
+    box-shadow: none;
+    border-radius: 0.65rem;
+  }
+}
