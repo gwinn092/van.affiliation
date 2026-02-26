@@ -761,6 +761,13 @@ a[role="button"]:hover,
   border-bottom: 1px solid #e2e8f0;
   padding: 0.7rem;
   vertical-align: top;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.comparetable-wrap td a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .author-box {
@@ -3328,6 +3335,7 @@ END DISABLED */
 }
 .calv-article-shell .calv-mini-pick-cta {
   width: 100%;
+  min-height: 44px;
 }
 
 .calv-article-shell .calv-decision-grid {
