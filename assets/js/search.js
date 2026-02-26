@@ -169,6 +169,43 @@ function executeQuery(term) {
     return;
   }
 
+  var basePath = wrapper.getAttribute("data-url") || "/";
+  basePath = "/" + basePath.replace(/^\/+|\/+$/g, "") + "/";
+  if (basePath === "//") {
+    basePath = "/";
+  }
+
+  function isAbsoluteHttp(url) {
+    return /^https?:\/\//i.test(url || "");
+  }
+
+  function toPathURL(url) {
+    if (!url) {
+      return "";
+    }
+    if (isAbsoluteHttp(url) || url.startsWith("/")) {
+      return url;
+    }
+    return basePath + url.replace(/^\/+/, "");
+  }
+
+  function hasDoubleHost(url) {
+    return ((url || "").match(/https?:\/\//gi) || []).length > 1;
+  }
+
+  function resolveHref(item) {
+    if (item.externalUrl && isAbsoluteHttp(item.externalUrl)) {
+      return item.externalUrl;
+    }
+    var permalink = item.permalink || item.url || item.relPermalink || "";
+    var href = toPathURL(permalink);
+    if (hasDoubleHost(href)) {
+      console.warn("Search href malformed (double host), falling back:", href);
+      href = toPathURL(item.permalink || "");
+    }
+    return href;
+  }
+
   let results = fuse.search(term);
   let resultsHTML = "";
 
@@ -184,9 +221,10 @@ function executeQuery(term) {
           value.item.externalUrl +
           "</span>"
         : value.item.title;
-      var linkconfig = value.item.externalUrl
-        ? 'target="_blank" rel="noopener" href="' + value.item.externalUrl + '"'
-        : 'href="' + value.item.permalink + '"';
+      var href = resolveHref(value.item);
+      var linkconfig = value.item.externalUrl && isAbsoluteHttp(value.item.externalUrl)
+        ? 'target="_blank" rel="noopener" href="' + href + '"'
+        : 'href="' + href + '"';
       resultsHTML =
         resultsHTML +
         `<li class="mb-2">
