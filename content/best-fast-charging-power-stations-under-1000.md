@@ -9,31 +9,52 @@ tags: ["van life", "under 1000", "fast charging", "power stations", "recovery"]
 featuredImage: "/img/hero/under-1000-hero.jpg"
 featuredImageAlt: "Camper van parked at sunset to represent fast recovery planning"
 miniTopPicks:
-  - label: "Top Pick — Fastest Recovery"
-    title: "Recovery-first choice for bad-week catch-up"
+  - label: "Fastest Recovery"
+    title: "EcoFlow DELTA 2 (1024Wh)"
     bestFor: "people who fall behind and need to catch up fast"
     points:
-      - "Strong wall recharge when you need a reset"
-      - "Calm, reliable bad-week recovery"
-    cta: "See why it’s the Top Pick"
+      - "Prioritizes fast wall recharge over bigger-battery hype"
+      - "Strong fit for short refill windows on bad weeks"
+    cta: "See recovery fit"
     url: "/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast"
+    ctaSecondary: "Check availability"
+    urlSecondary: "https://us.ecoflow.com/products/delta-2-portable-power-station"
     image: "/img/picks/under-1000-fastest-recovery.jpg"
     imageAlt: "Camper van parked near mountains at sunset"
-  - label: "Runner-Up — Quiet Hours Friendly"
-    title: "Predictable recovery when noise rules are tight"
+  - label: "Quiet-Hours Friendly Workflow"
+    title: "BLUETTI AC180 (1152Wh)"
     bestFor: "campgrounds or nights where quiet-hours rules matter"
     points:
-      - "Predictable refill windows with less friction"
-      - "Good fit for quiet-hours constraints"
-    cta: "See the Quiet Hours pick"
+      - "Predictable refill rhythm when charge timing is constrained"
+      - "Recovery-first option that stays routine-friendly"
+    cta: "See quiet-hours fit"
     url: "/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows"
+    ctaSecondary: "Check availability"
+    urlSecondary: "https://www.bluettipower.com/pages/ac180"
     image: "/img/picks/under-1000-quiet-hours.jpg"
     imageAlt: "Inside of a clean camper van living area"
+  - label: "Best Value Route"
+    title: "Anker SOLIX C1000 (1056Wh)"
+    bestFor: "buyers who want balanced recovery speed and usable margin"
+    points:
+      - "Good recovery-to-size balance for normal weekly resets"
+      - "Value-focused pick when you need calm repeatability"
+    cta: "See value route"
+    url: "/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days"
+    ctaSecondary: "Check availability"
+    urlSecondary: "https://www.anker.com/products/a1761"
+    image: "/img/picks/under-1000-fastest-recovery.jpg"
+    imageAlt: "Camper van parked near mountains at sunset"
 ---
 If you’re shopping right now, start with the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then use the **[Buyer Guides hub](/fast-charging-buyer-guides/)** to pick your tier.  
 If any terms feel fuzzy (AC input, surge, pass-through), use the **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**.
 
 We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capacity. If your week goes sideways, the goal is simple: **recover quickly and get back to stable mode without panic upgrades**. For the big picture, see **[Generator-Free Van Power Recovery](/generator-free-van-power-recovery/)** and choose your smallest next move in **[Recovery Moves Index](/recovery-moves-index/)**.
+
+**Last reviewed:** February 26, 2026.  
+**How we choose (short version):** 700Wh+ floor, recharge-speed-first, and routing by real constraint.  
+**Claim labels:** Spec / Reported / Measured / Estimate so you can separate facts from planning math.  
+**Boundary:** this page stays troubleshooting and buying-focused; we do not publish wiring procedures.
 
 ---
 
@@ -58,6 +79,88 @@ If you’re under the 700Wh floor (or you’re already drifting), use **[Under-$
 - If you’re drifting *right now*: **[Van battery drift diagnosis](/van-battery-drift-diagnosis/)** → **[Recovery Moves Index](/recovery-moves-index/)**
 
 Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-power/)**.
+
+---
+
+## Pick your constraint first (30-second chooser)
+
+- **Fastest wall recharge:** **[Go to Bucket A](/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast)**
+- **Quiet hours / rules:** **[Go to Bucket B](/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows)**
+- **Cloudy-week catch-up:** **[Go to Bucket A](/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast)**
+- **Small van / weight-conscious:** **[Go to Bucket B](/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows)**
+- **Lowest spend / best value route:** **[Go to Bucket C](/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days)**
+- **Hot nights / extra margin:** **[Go to Bucket C](/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days)**
+
+---
+
+## Under-$1000 shortlist table (quick scan)
+
+<div class="comparetable-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Best For</th>
+        <th>Price Range</th>
+        <th>Pros</th>
+        <th>Cons</th>
+        <th>CTA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>EcoFlow DELTA 2 (1024Wh)</td>
+        <td>Fastest bad-week catch-up</td>
+        <td>Under-$1000 watch for promos</td>
+        <td>Fast AC recovery class (Spec/Reported) with repeatable refill windows</td>
+        <td>Price can drift above target depending on season</td>
+        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast">See Bucket A</a></td>
+      </tr>
+      <tr>
+        <td>BLUETTI AC180 (1152Wh)</td>
+        <td>Quiet-hours routines</td>
+        <td>Under-now to watch-list range</td>
+        <td>Strong refill rhythm for constrained timing (Spec/Reported)</td>
+        <td>Heavier than ultra-compact options</td>
+        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
+      </tr>
+      <tr>
+        <td>Jackery Explorer 1000 Plus (1264Wh)</td>
+        <td>Predictable rule-heavy access</td>
+        <td>Watch-list</td>
+        <td>Routine-friendly AC refill profile (Spec/Reported)</td>
+        <td>Often better as a timing/value buy than impulse buy</td>
+        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
+      </tr>
+      <tr>
+        <td>Anker SOLIX C1000 (1056Wh)</td>
+        <td>Best value route</td>
+        <td>Under-now in promo windows</td>
+        <td>Balanced recovery speed and margin (Spec/Reported)</td>
+        <td>Not the largest buffer for multi-day misses</td>
+        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days">See Bucket C</a></td>
+      </tr>
+      <tr>
+        <td>EcoFlow DELTA 2 Max (2048Wh)</td>
+        <td>Extra margin, fewer panic days</td>
+        <td>Watch-list</td>
+        <td>Bigger margin with strong recharge behavior (Spec/Reported)</td>
+        <td>Usually outside under-now budget; wait for clean value windows</td>
+        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days">See Bucket C</a></td>
+      </tr>
+      <tr>
+        <td>BLUETTI AC200L (2048Wh)</td>
+        <td>High headroom upgrade path</td>
+        <td>Watch-list</td>
+        <td>Large recovery headroom class (Spec/Reported)</td>
+        <td>Usually above under-now tier for this page’s target budget</td>
+        <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/">Open Generator-Free guide</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+For deeper routing by constraint, use **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)** and **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**.
 
 ---
 
