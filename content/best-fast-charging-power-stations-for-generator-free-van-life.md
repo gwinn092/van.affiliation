@@ -57,6 +57,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
 **Best for generator-free recovery:** 700Wh+ floor, recharge-speed-first, and routines that erase drift in real windows.  
 **Claim labels:** Spec / Reported / Measured / Estimate so performance language stays transparent.  
 **Boundary:** this page stays troubleshooting and buying-focused; we do not publish wiring procedures.
+**Trust strip:** **[How we test + how we label claims](/how-we-test-and-label-claims/)**.
 
 ---
 

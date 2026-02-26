@@ -55,6 +55,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
 **How we choose (short version):** 700Wh+ floor, recharge-speed-first, and routing by real constraint.  
 **Claim labels:** Spec / Reported / Measured / Estimate so you can separate facts from planning math.  
 **Boundary:** this page stays troubleshooting and buying-focused; we do not publish wiring procedures.
+**Trust strip:** **[How we test + how we label claims](/how-we-test-and-label-claims/)**.
 
 ---
 

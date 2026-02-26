@@ -59,6 +59,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
 **Best for quiet hours:** 700Wh+ floor, recharge-speed-first, and routines you can repeat under timing rules.  
 **Claim labels:** Spec / Reported / Measured / Estimate so buying decisions stay calm and transparent.  
 **Boundary:** this page stays troubleshooting and buying-focused; we do not publish wiring procedures.
+**Trust strip:** **[How we test + how we label claims](/how-we-test-and-label-claims/)**.
 
 ---
 
