@@ -23,6 +23,7 @@ Use this page as a **calm timing tracker**. We do not publish price promises or 
 - **[Best Fast-Charging Power Stations for Quiet Hours](/best-fast-charging-power-stations-for-quiet-hours/)**
 - **[Best Fast-Charging Power Stations for Generator-Free Van Life](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 - **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**
+- **[Fast-AC Under-$1000 Watch List](/watch-list/fast-ac-under-1000/)**
 - **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
 
 ## Deal-Safe Picks (watch for promos, then confirm fit)

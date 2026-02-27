@@ -1,0 +1,47 @@
+{{- $requiredTags := .requiredTags | default (slice "under-1000" "fast-ac") -}}
+{{- $items := slice -}}
+{{- range $id, $product := site.Data.products -}}
+  {{- $items = $items | append $product -}}
+{{- end -}}
+{{- $filtered := where $items "tags" "intersect" $requiredTags -}}
+{{- $fitTags := slice "quiet-hours" "cloudy-weeks" "generator-free" "hot-nights" "work" "essentials" "cold-weather" "heat-humidity" "value" "heavyweight" "watch-list" -}}
+{{- $statusOrder := slice "core" "watch" "backlog" -}}
+
+<div class="calv-watch-list" data-required-tags="{{ delimit $requiredTags "," }}">
+  {{- range $status := $statusOrder -}}
+    {{- $group := sort (where $filtered "status" $status) "name" -}}
+    {{- if gt (len $group) 0 -}}
+      <h3>{{- if eq $status "core" -}}Core picks{{- else if eq $status "watch" -}}Watch now{{- else -}}Backlog research{{- end -}}</h3>
+      <div class="calv-decision-grid">
+        {{- range $product := $group -}}
+          {{- $specs := slice -}}
+          {{- with $product.wh_spec }}{{ $specs = $specs | append (printf "%vWh (Spec)" .) }}{{ end -}}
+          {{- with $product.ac_input_w_spec }}{{ $specs = $specs | append (printf "%vW AC input (Spec)" .) }}{{ end -}}
+          {{- with $product.weight_lb_spec }}{{ $specs = $specs | append (printf "%v lb (Spec)" .) }}{{ end -}}
+          {{- $fits := intersect $product.tags $fitTags -}}
+          <article class="calv-decision-card">
+            <p class="calv-decision-eyebrow">{{ upper $status }}</p>
+            <h4>
+              {{- if $product.review_url -}}
+                <a href="{{ $product.review_url }}">{{ $product.name }}</a>
+              {{- else -}}
+                {{ $product.name }}
+              {{- end -}}
+            </h4>
+            {{- if gt (len $specs) 0 -}}
+              <p><strong>Key specs:</strong> {{ delimit $specs ", " }}</p>
+            {{- else -}}
+              <p><strong>Key specs:</strong> Pending published spec verification.</p>
+            {{- end -}}
+            {{- with $product.notes_short -}}
+              <p>{{ . }}</p>
+            {{- end -}}
+            {{- if gt (len $fits) 0 -}}
+              <p class="calv-decision-note"><strong>Where it fits:</strong> {{ delimit $fits ", " }}</p>
+            {{- end -}}
+          </article>
+        {{- end -}}
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>

@@ -1,0 +1,6 @@
+{{- $tagsParam := .Get "tags" | default "under-1000,fast-ac" -}}
+{{- $requiredTags := slice -}}
+{{- range split $tagsParam "," -}}
+  {{- $requiredTags = $requiredTags | append (trim . " ") -}}
+{{- end -}}
+{{- partial "calv/watch-list.html" (dict "requiredTags" $requiredTags) -}}

@@ -164,6 +164,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
 </div>
 
 For deeper routing by constraint, use **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)** and **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**.
+If you want a broader compare queue powered by the full library, open the **[Fast-AC Under-$1000 Watch List](/watch-list/fast-ac-under-1000/)**.
 
 ---
 

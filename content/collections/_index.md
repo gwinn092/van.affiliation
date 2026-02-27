@@ -17,6 +17,7 @@ Use this page as your browse map. Pick the aisle that matches your current const
 
 - **[Best Of](/best-of/)**
 - **[Deals Tracker](/deals/)**
+- **[Fast-AC Under-$1000 Watch List](/watch-list/fast-ac-under-1000/)**
 - **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
 - **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**
 - **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-keeping-up-what-to-fix-first/)**
