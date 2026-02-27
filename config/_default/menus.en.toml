@@ -9,7 +9,7 @@ pageRef = "/start-here"
 weight = 1
 
 [[main]]
-name = "Best Of"
+name = "Best Picks"
 pageRef = "/best-of"
 weight = 40
 
