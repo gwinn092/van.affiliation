@@ -112,7 +112,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
     </thead>
     <tbody>
       <tr>
-        <td>EcoFlow DELTA 2 (1024Wh)</td>
+        <td><a href="/reviews/ecoflow-delta-2/">EcoFlow DELTA 2 (1024Wh)</a></td>
         <td>Fastest bad-week catch-up</td>
         <td>Under-$1000 watch for promos</td>
         <td>Fast AC recovery class (Spec/Reported) with repeatable refill windows</td>
@@ -120,7 +120,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast">See Bucket A</a></td>
       </tr>
       <tr>
-        <td>BLUETTI AC180 (1152Wh)</td>
+        <td><a href="/reviews/bluetti-ac180/">BLUETTI AC180 (1152Wh)</a></td>
         <td>Quiet-hours routines</td>
         <td>Under-now to watch-list range</td>
         <td>Strong refill rhythm for constrained timing (Spec/Reported)</td>
@@ -128,7 +128,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
       </tr>
       <tr>
-        <td>Jackery Explorer 1000 Plus (1264Wh)</td>
+        <td><a href="/reviews/jackery-explorer-1000-plus/">Jackery Explorer 1000 Plus (1264Wh)</a></td>
         <td>Predictable rule-heavy access</td>
         <td>Watch-list</td>
         <td>Routine-friendly AC refill profile (Spec/Reported)</td>
@@ -136,7 +136,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
       </tr>
       <tr>
-        <td>Anker SOLIX C1000 (1056Wh)</td>
+        <td><a href="/reviews/anker-solix-c1000/">Anker SOLIX C1000 (1056Wh)</a></td>
         <td>Best value route</td>
         <td>Under-now in promo windows</td>
         <td>Balanced recovery speed and margin (Spec/Reported)</td>
@@ -144,7 +144,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days">See Bucket C</a></td>
       </tr>
       <tr>
-        <td>EcoFlow DELTA 2 Max (2048Wh)</td>
+        <td><a href="/reviews/ecoflow-delta-2-max/">EcoFlow DELTA 2 Max (2048Wh)</a></td>
         <td>Extra margin, fewer panic days</td>
         <td>Watch-list</td>
         <td>Bigger margin with strong recharge behavior (Spec/Reported)</td>
@@ -152,7 +152,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days">See Bucket C</a></td>
       </tr>
       <tr>
-        <td>BLUETTI AC200L (2048Wh)</td>
+        <td><a href="/reviews/bluetti-ac200l/">BLUETTI AC200L (2048Wh)</a></td>
         <td>High headroom upgrade path</td>
         <td>Watch-list</td>
         <td>Large recovery headroom class (Spec/Reported)</td>
@@ -187,8 +187,8 @@ Use this bucket when your realistic outlet window is short and you need a fast r
 
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
-| EcoFlow DELTA 2 (1024Wh) | Under-now | Fast AC refill profile that helps erase drift when your outlet window is tight. | Spec / Reported | Bad-week recovery |
-| BLUETTI AC180 (1152Wh) | Watch-list | Strong recovery class for short windows when pricing lands in-range. | Spec / Reported | Bad-week recovery |
+| [EcoFlow DELTA 2 (1024Wh)](/reviews/ecoflow-delta-2/) | Under-now | Fast AC refill profile that helps erase drift when your outlet window is tight. | Spec / Reported | Bad-week recovery |
+| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Watch-list | Strong recovery class for short windows when pricing lands in-range. | Spec / Reported | Bad-week recovery |
 
 ### Bucket B — Quiet-hours recovery (predictable windows)
 
@@ -205,8 +205,8 @@ Use this bucket when rules/stealth limit *when* you can charge, so you need pred
 
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
-| BLUETTI AC180 (1152Wh) | Under-now | Predictable refill routine that works well when charge windows are controlled by rules. | Spec / Reported | Quiet-hours recovery |
-| Jackery Explorer 1000 Plus (1264Wh) | Watch-list | Consistent recovery rhythm when access timing is constrained and you can wait for value windows. | Spec / Reported | Quiet-hours recovery |
+| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Under-now | Predictable refill routine that works well when charge windows are controlled by rules. | Spec / Reported | Quiet-hours recovery |
+| [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | Watch-list | Consistent recovery rhythm when access timing is constrained and you can wait for value windows. | Spec / Reported | Quiet-hours recovery |
 
 ### Bucket C — Add margin (less stress, fewer “panic days”)
 
@@ -216,8 +216,8 @@ Use this bucket when you’re mostly stable and want more buffer so one rough da
 
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
-| Anker SOLIX C1000 (1056Wh) | Under-now | Adds usable margin while keeping recovery speed practical for normal weekly resets. | Spec / Reported | Add margin |
-| EcoFlow DELTA 2 Max (2048Wh) | Watch-list | Larger buffer option to track when price/stock drift opens a clean upgrade path. | Spec / Reported | Add margin |
+| [Anker SOLIX C1000 (1056Wh)](/reviews/anker-solix-c1000/) | Under-now | Adds usable margin while keeping recovery speed practical for normal weekly resets. | Spec / Reported | Add margin |
+| [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | Watch-list | Larger buffer option to track when price/stock drift opens a clean upgrade path. | Spec / Reported | Add margin |
 
 ---
 

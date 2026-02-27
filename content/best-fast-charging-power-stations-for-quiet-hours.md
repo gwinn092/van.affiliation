@@ -89,7 +89,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
     </thead>
     <tbody>
       <tr>
-        <td>EcoFlow DELTA 2 (1024Wh)</td>
+        <td><a href="/reviews/ecoflow-delta-2/">EcoFlow DELTA 2 (1024Wh)</a></td>
         <td>Short, repeatable refill windows</td>
         <td>Under-now to watch-list range</td>
         <td>Fast AC recovery class for constrained windows (Spec/Reported)</td>
@@ -97,7 +97,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
         <td><a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-a--short-repeatable-refill-windows">See Bucket A</a></td>
       </tr>
       <tr>
-        <td>Jackery Explorer 1000 Plus (1264Wh)</td>
+        <td><a href="/reviews/jackery-explorer-1000-plus/">Jackery Explorer 1000 Plus (1264Wh)</a></td>
         <td>Predictable rule-heavy routines</td>
         <td>Watch-list</td>
         <td>Routine-friendly refill class when access is consistent (Spec/Reported)</td>
@@ -105,7 +105,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
         <td><a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-a--short-repeatable-refill-windows">See Bucket A</a></td>
       </tr>
       <tr>
-        <td>BLUETTI AC180 (1152Wh)</td>
+        <td><a href="/reviews/bluetti-ac180/">BLUETTI AC180 (1152Wh)</a></td>
         <td>Quiet-hours predictability</td>
         <td>Under-now</td>
         <td>Strong refill rhythm for rule-constrained windows (Spec/Reported)</td>
@@ -121,7 +121,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
         <td><a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-b--rule-heavy--inconsistent-access-predictability-first">See Bucket B</a></td>
       </tr>
       <tr>
-        <td>EcoFlow DELTA 2 Max (2048Wh)</td>
+        <td><a href="/reviews/ecoflow-delta-2-max/">EcoFlow DELTA 2 Max (2048Wh)</a></td>
         <td>Mostly stable users adding margin</td>
         <td>Watch-list</td>
         <td>Bigger margin and strong refill behavior (Spec/Reported)</td>
@@ -223,8 +223,8 @@ We prioritize official manufacturer pages/manuals when available, and label anyt
 
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
-| EcoFlow DELTA 2 (1024Wh) | Under-now | Fast AC recovery profile for “erase drift” when you only get a short outlet window. | Spec + Reported | Short-window recovery |
-| Jackery Explorer 1000 Plus (1264Wh) | Watch-list | Strong “routine-friendly” AC refill class; good when you can reliably get ~2 hours. | Spec + Reported | Short-window recovery |
+| [EcoFlow DELTA 2 (1024Wh)](/reviews/ecoflow-delta-2/) | Under-now | Fast AC recovery profile for “erase drift” when you only get a short outlet window. | Spec + Reported | Short-window recovery |
+| [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | Watch-list | Strong “routine-friendly” AC refill class; good when you can reliably get ~2 hours. | Spec + Reported | Short-window recovery |
 
 **Quick chooser:** If your realistic outlet window is **~1 hour or less**, prioritize the fastest AC refill you can tolerate. If it’s **2+ hours**, you can trade a little speed for comfort and size.
 
@@ -234,7 +234,7 @@ We prioritize official manufacturer pages/manuals when available, and label anyt
 
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
-| BLUETTI AC180 (1152Wh) | Under-now | Solid “margin builder” with strong AC input options; useful when your access is inconsistent. | Spec + Reported | Predictable routine |
+| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Under-now | Solid “margin builder” with strong AC input options; useful when your access is inconsistent. | Spec + Reported | Predictable routine |
 | Anker SOLIX F2000 / PowerHouse 767 (2048Wh) | Watch-list | Great recovery speed class when you can access a decent outlet window; track for timing/value. | Spec + Reported | Rule-heavy recovery |
 
 Route: **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**
@@ -247,8 +247,8 @@ Route: **[Generator-free best picks](/best-fast-charging-power-stations-for-gene
 
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
-| EcoFlow DELTA 2 Max (2048Wh) | Under-now | Bigger margin with strong AC recovery class; good when you want fewer “close calls.” | Spec + Reported | Add margin |
-| BLUETTI AC200L (2048Wh) | Watch-list | Big recovery headroom; watch pricing/stock swings and only buy when it’s reasonable. | Spec + Reported | Add margin |
+| [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | Under-now | Bigger margin with strong AC recovery class; good when you want fewer “close calls.” | Spec + Reported | Add margin |
+| [BLUETTI AC200L (2048Wh)](/reviews/bluetti-ac200l/) | Watch-list | Big recovery headroom; watch pricing/stock swings and only buy when it’s reasonable. | Spec + Reported | Add margin |
 
 **Quick chooser:** If you’re already mostly stable, prioritize **margin** (less stress) and a routine you can repeat — not the largest battery you can fit.
 

@@ -87,7 +87,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
     </thead>
     <tbody>
       <tr>
-        <td>EcoFlow DELTA 2 (1024Wh)</td>
+        <td><a href="/reviews/ecoflow-delta-2/">EcoFlow DELTA 2 (1024Wh)</a></td>
         <td>Fast bad-week recovery</td>
         <td>Under-now to watch-list range</td>
         <td>Strong short-window recharge class (Spec/Reported)</td>
@@ -95,7 +95,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-a--recover-fast-even-on-bad-weeks">See Bucket A</a></td>
       </tr>
       <tr>
-        <td>BLUETTI AC200L (2048Wh)</td>
+        <td><a href="/reviews/bluetti-ac200l/">BLUETTI AC200L (2048Wh)</a></td>
         <td>High headroom recovery</td>
         <td>Watch-list</td>
         <td>Large recovery headroom class (Spec/Reported)</td>
@@ -103,7 +103,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-a--recover-fast-even-on-bad-weeks">See Bucket A</a></td>
       </tr>
       <tr>
-        <td>Jackery Explorer 1000 Plus (1264Wh)</td>
+        <td><a href="/reviews/jackery-explorer-1000-plus/">Jackery Explorer 1000 Plus (1264Wh)</a></td>
         <td>Quiet-hours-compatible generator-free routine</td>
         <td>Under-now to watch-list range</td>
         <td>Predictable refill profile for constrained windows (Spec/Reported)</td>
@@ -119,7 +119,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-b--quiet-hours-friendly-recovery">See Bucket B</a></td>
       </tr>
       <tr>
-        <td>BLUETTI AC180 (1152Wh)</td>
+        <td><a href="/reviews/bluetti-ac180/">BLUETTI AC180 (1152Wh)</a></td>
         <td>Value margin for stable weeks</td>
         <td>Under-now</td>
         <td>Balanced margin and refill class for repeatable routines (Spec/Reported)</td>
@@ -127,7 +127,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-c--if-youre-already-close-to-stable">See Bucket C</a></td>
       </tr>
       <tr>
-        <td>EcoFlow DELTA 2 Max (2048Wh)</td>
+        <td><a href="/reviews/ecoflow-delta-2-max/">EcoFlow DELTA 2 Max (2048Wh)</a></td>
         <td>Extra margin, fewer panic days</td>
         <td>Watch-list</td>
         <td>High-margin recovery behavior for rough weeks (Spec/Reported)</td>
@@ -230,8 +230,8 @@ We label claims so you can separate **verified** from **planning math**:
 
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
-| EcoFlow DELTA 2 (1024Wh) | Under-now | EcoFlow states 0–80% in ~50 minutes (lab conditions). Good “erase drift” option when time is the bottleneck. | Spec + Reported | Bad-week recovery |
-| BLUETTI AC200L (2048Wh) | Watch-list | BLUETTI states up to 80% in ~45 minutes (with high-input setup / optional plug). Big recovery headroom. | Spec + Reported | Bad-week recovery |
+| [EcoFlow DELTA 2 (1024Wh)](/reviews/ecoflow-delta-2/) | Under-now | EcoFlow states 0–80% in ~50 minutes (lab conditions). Good “erase drift” option when time is the bottleneck. | Spec + Reported | Bad-week recovery |
+| [BLUETTI AC200L (2048Wh)](/reviews/bluetti-ac200l/) | Watch-list | BLUETTI states up to 80% in ~45 minutes (with high-input setup / optional plug). Big recovery headroom. | Spec + Reported | Bad-week recovery |
 
 **What to check (Bucket A):**
 
@@ -241,7 +241,7 @@ We label claims so you can separate **verified** from **planning math**:
 
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
-| Jackery Explorer 1000 Plus (1264Wh) | Under-now | Jackery lists ~1.7 hours AC charging (standard AC adapter). Solid for rule-heavy/quiet-hour routines. | Spec + Reported | Quiet-hours recovery |
+| [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | Under-now | Jackery lists ~1.7 hours AC charging (standard AC adapter). Solid for rule-heavy/quiet-hour routines. | Spec + Reported | Quiet-hours recovery |
 | Anker SOLIX F2000 / PowerHouse 767 (2048Wh) | Watch-list | Reported widely: 0–80% in ~1.4 hours via HyperFlash (varies by settings/outlet). Great recovery speed when you can access a decent outlet window. | Spec + Reported | Quiet-hours recovery |
 
 Route: **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)**
@@ -254,8 +254,8 @@ Route: **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/
 
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
-| BLUETTI AC180 (1152Wh) | Under-now | BLUETTI lists 1440W AC input and ~1.3–1.8 hours full charge (turbo range; varies by mode). | Spec + Reported | Add margin |
-| EcoFlow DELTA 2 Max (2048Wh) | Watch-list | EcoFlow user manual indicates ~80 minutes AC charging under X-Stream conditions; good fast-recovery option if size/weight fits your setup. | Spec + Reported | Add margin |
+| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Under-now | BLUETTI lists 1440W AC input and ~1.3–1.8 hours full charge (turbo range; varies by mode). | Spec + Reported | Add margin |
+| [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | Watch-list | EcoFlow user manual indicates ~80 minutes AC charging under X-Stream conditions; good fast-recovery option if size/weight fits your setup. | Spec + Reported | Add margin |
 
 ---
 
