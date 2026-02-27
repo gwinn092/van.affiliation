@@ -3672,8 +3672,8 @@ END DISABLED */
   --calv-accent: #c87910;
   --calv-accent-hover: #a6620b;
   --calv-accent-fg: #fffaf0;
-  --calv-link: #9a5a08;
-  --calv-link-hover: #7a4305;
+  --calv-link: #1f2937;
+  --calv-link-hover: #a6620b;
   --calv-focus: rgba(200, 121, 16, 0.34);
 }
 
@@ -3786,11 +3786,72 @@ END DISABLED */
   background: var(--calv-accent-hover) !important;
 }
 
-/* Warm link hover emphasis, sparingly */
-.prose a {
+/* Global link standardization: neutral by default, amber on interaction */
+a[href]:not([role="button"]):not(.calv-btn):not(.storefront-btn) {
   color: var(--calv-link);
+  text-decoration: none;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
 }
 
-.prose a:hover {
+a[href]:not([role="button"]):not(.calv-btn):not(.storefront-btn):hover {
   color: var(--calv-link-hover);
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+a[href]:not([role="button"]):not(.calv-btn):not(.storefront-btn):focus-visible {
+  color: var(--calv-link-hover);
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  outline: 3px solid var(--calv-focus);
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+/* Keep article typography/theme rules from forcing legacy blue */
+.calv-article-shell .article-content.prose a:not([role="button"]) {
+  color: var(--calv-link) !important;
+  text-decoration: none !important;
+}
+
+.calv-article-shell .article-content.prose a:not([role="button"]):hover {
+  color: var(--calv-link-hover) !important;
+  text-decoration: underline !important;
+}
+
+.calv-article-shell .article-content.prose a:not([role="button"]):focus-visible {
+  color: var(--calv-link-hover) !important;
+  text-decoration: underline !important;
+  outline: 3px solid var(--calv-focus) !important;
+  outline-offset: 2px;
+}
+
+/* Header brand link: neutral default, hover/focus underline only */
+.main-menu > a.text-base.font-medium {
+  color: var(--calv-link) !important;
+  text-decoration: none !important;
+}
+
+.main-menu > a.text-base.font-medium:hover,
+.main-menu > a.text-base.font-medium:focus-visible {
+  color: var(--calv-link-hover) !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* Footer and home tiles/picks follow the same interaction model */
+#site-footer a,
+.storefront-card a,
+.home-storefront a {
+  color: var(--calv-link);
+  text-decoration: none;
+}
+
+#site-footer a:hover,
+.storefront-card a:hover,
+.home-storefront a:hover {
+  color: var(--calv-link-hover) !important;
+  text-decoration: underline;
 }
