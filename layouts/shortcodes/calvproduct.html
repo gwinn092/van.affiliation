@@ -1,0 +1,3 @@
+{{- $id := .Get "id" -}}
+{{- $mode := .Get "mode" | default "full" -}}
+{{- partial "calv/product-display.html" (dict "id" $id "mode" $mode) -}}

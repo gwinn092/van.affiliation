@@ -1,0 +1,30 @@
+{{- $id := .id | default .product_id -}}
+{{- $mode := .mode | default "full" -}}
+{{- $product := index site.Data.products $id -}}
+{{- if not $product -}}
+  {{- warnf "calv product-display: unknown product id %q" $id -}}
+  {{- $id -}}
+{{- else -}}
+  {{- $specs := slice -}}
+  {{- with $product.wh }}{{ $specs = $specs | append (printf "%dWh (Spec)" .) }}{{ end -}}
+  {{- with $product.ac_input_w }}{{ $specs = $specs | append (printf "%dW AC input (Spec)" .) }}{{ end -}}
+  {{- with $product.weight_lb }}{{ $specs = $specs | append (printf "%g lb (Spec)" .) }}{{ end -}}
+  {{- if eq $mode "name_link" -}}
+    {{- if $product.review_url -}}
+      <a href="{{ $product.review_url }}">{{ $product.name }}</a>
+    {{- else -}}
+      {{- $product.name -}}
+    {{- end -}}
+  {{- else -}}
+    <span class="calv-product-inline">
+      {{- if $product.review_url -}}
+        <a href="{{ $product.review_url }}">{{ $product.name }}</a>
+      {{- else -}}
+        {{- $product.name -}}
+      {{- end -}}
+      {{- if gt (len $specs) 0 -}}
+        <span> — {{ delimit $specs ", " }}</span>
+      {{- end -}}
+    </span>
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,77 @@
+ecoflow-delta-2:
+  id: "ecoflow-delta-2"
+  name: "EcoFlow DELTA 2 (1024Wh)"
+  brand: "EcoFlow"
+  wh: 1024
+  ac_input_w: 1200
+  weight_lb: 27
+  tags: ["under-1000", "quiet-hours", "cloudy-weeks", "hot-nights", "generator-free"]
+  review_url: "/reviews/ecoflow-delta-2/"
+  image_path: "/img/picks/under-1000-fastest-recovery.jpg"
+  credits_ref: "audit/pick-card-images-credits.md:under-1000-fastest-recovery"
+  notes_short: "Fast recovery anchor for short refill windows."
+
+ecoflow-delta-2-max:
+  id: "ecoflow-delta-2-max"
+  name: "EcoFlow DELTA 2 Max (2048Wh)"
+  brand: "EcoFlow"
+  wh: 2048
+  ac_input_w: 1800
+  weight_lb: 50
+  tags: ["generator-free", "cloudy-weeks", "hot-nights"]
+  review_url: "/reviews/ecoflow-delta-2-max/"
+  image_path: "/img/picks/under-1000-fastest-recovery.jpg"
+  credits_ref: "audit/pick-card-images-credits.md:under-1000-fastest-recovery"
+  notes_short: "Adds weather margin while keeping recovery-first routing."
+
+bluetti-ac180:
+  id: "bluetti-ac180"
+  name: "BLUETTI AC180 (1152Wh)"
+  brand: "BLUETTI"
+  wh: 1152
+  ac_input_w: 1440
+  weight_lb: 37
+  tags: ["under-1000", "quiet-hours", "cloudy-weeks", "hot-nights", "generator-free"]
+  review_url: "/reviews/bluetti-ac180/"
+  image_path: "/img/picks/under-1000-quiet-hours.jpg"
+  credits_ref: "audit/pick-card-images-credits.md:under-1000-quiet-hours"
+  notes_short: "Predictable refill rhythm for routine-heavy weeks."
+
+bluetti-ac200l:
+  id: "bluetti-ac200l"
+  name: "BLUETTI AC200L (2048Wh)"
+  brand: "BLUETTI"
+  wh: 2048
+  ac_input_w: 2400
+  weight_lb: 62
+  tags: ["generator-free", "cloudy-weeks"]
+  review_url: "/reviews/bluetti-ac200l/"
+  image_path: "/img/picks/under-1000-fastest-recovery.jpg"
+  credits_ref: "audit/pick-card-images-credits.md:under-1000-fastest-recovery"
+  notes_short: "High-headroom recovery tier for repeated rough stretches."
+
+anker-solix-c1000:
+  id: "anker-solix-c1000"
+  name: "Anker SOLIX C1000 (1056Wh)"
+  brand: "Anker"
+  wh: 1056
+  ac_input_w: 1300
+  weight_lb: 28
+  tags: ["under-1000", "cloudy-weeks", "hot-nights", "quiet-hours"]
+  review_url: "/reviews/anker-solix-c1000/"
+  image_path: "/img/picks/under-1000-fastest-recovery.jpg"
+  credits_ref: "audit/pick-card-images-credits.md:under-1000-fastest-recovery"
+  notes_short: "Balanced value route with practical recovery speed."
+
+jackery-explorer-1000-plus:
+  id: "jackery-explorer-1000-plus"
+  name: "Jackery Explorer 1000 Plus (1264Wh)"
+  brand: "Jackery"
+  wh: 1264
+  ac_input_w: 1260
+  weight_lb: 32
+  tags: ["quiet-hours", "under-1000", "generator-free", "hot-nights"]
+  review_url: "/reviews/jackery-explorer-1000-plus/"
+  image_path: "/img/picks/under-1000-quiet-hours.jpg"
+  credits_ref: "audit/pick-card-images-credits.md:under-1000-quiet-hours"
+  notes_short: "Routine-friendly option for timing-constrained charging windows."

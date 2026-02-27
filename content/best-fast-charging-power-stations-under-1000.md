@@ -112,7 +112,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
     </thead>
     <tbody>
       <tr>
-        <td><a href="/reviews/ecoflow-delta-2/">EcoFlow DELTA 2 (1024Wh)</a></td>
+        <td>{{< calvproduct id="ecoflow-delta-2" mode="name_link" >}}</td>
         <td>Fastest bad-week catch-up</td>
         <td>Under-$1000 watch for promos</td>
         <td>Fast AC recovery class (Spec/Reported) with repeatable refill windows</td>
@@ -120,7 +120,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast">See Bucket A</a></td>
       </tr>
       <tr>
-        <td><a href="/reviews/bluetti-ac180/">BLUETTI AC180 (1152Wh)</a></td>
+        <td>{{< calvproduct id="bluetti-ac180" mode="name_link" >}}</td>
         <td>Quiet-hours routines</td>
         <td>Under-now to watch-list range</td>
         <td>Strong refill rhythm for constrained timing (Spec/Reported)</td>
@@ -128,7 +128,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
       </tr>
       <tr>
-        <td><a href="/reviews/jackery-explorer-1000-plus/">Jackery Explorer 1000 Plus (1264Wh)</a></td>
+        <td>{{< calvproduct id="jackery-explorer-1000-plus" mode="name_link" >}}</td>
         <td>Predictable rule-heavy access</td>
         <td>Watch-list</td>
         <td>Routine-friendly AC refill profile (Spec/Reported)</td>
@@ -136,7 +136,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
       </tr>
       <tr>
-        <td><a href="/reviews/anker-solix-c1000/">Anker SOLIX C1000 (1056Wh)</a></td>
+        <td>{{< calvproduct id="anker-solix-c1000" mode="name_link" >}}</td>
         <td>Best value route</td>
         <td>Under-now in promo windows</td>
         <td>Balanced recovery speed and margin (Spec/Reported)</td>
@@ -144,7 +144,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days">See Bucket C</a></td>
       </tr>
       <tr>
-        <td><a href="/reviews/ecoflow-delta-2-max/">EcoFlow DELTA 2 Max (2048Wh)</a></td>
+        <td>{{< calvproduct id="ecoflow-delta-2-max" mode="name_link" >}}</td>
         <td>Extra margin, fewer panic days</td>
         <td>Watch-list</td>
         <td>Bigger margin with strong recharge behavior (Spec/Reported)</td>
@@ -152,7 +152,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days">See Bucket C</a></td>
       </tr>
       <tr>
-        <td><a href="/reviews/bluetti-ac200l/">BLUETTI AC200L (2048Wh)</a></td>
+        <td>{{< calvproduct id="bluetti-ac200l" mode="name_link" >}}</td>
         <td>High headroom upgrade path</td>
         <td>Watch-list</td>
         <td>Large recovery headroom class (Spec/Reported)</td>
