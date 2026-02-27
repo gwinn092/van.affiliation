@@ -285,3 +285,10 @@ If you want a calm decision in 10 minutes:
 3) If you’re already in drift, pick the smallest next move in **[Recovery Moves Index](/recovery-moves-index/)**  
 
 ---
+
+
+## Next steps (quick routes)
+
+- **[Browse all collections](/collections/)**
+- Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[Jackery Explorer 1000 Plus](/reviews/jackery-explorer-1000-plus/)**, **[BLUETTI AC180](/reviews/bluetti-ac180/)**
+- **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

@@ -48,3 +48,8 @@ weight = 20
 name = "Terms"
 pageRef = "/legal/terms"
 weight = 30
+
+[[main]]
+name = "Collections"
+pageRef = "/collections"
+weight = 45

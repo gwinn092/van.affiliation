@@ -124,3 +124,10 @@ Choose this when cloudy periods repeat often. Add margin only if you can still r
 - **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**
 - **[Best Fast-Charging Power Stations for Generator-Free Van Life](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 - **[Cloudy Week Power Recovery Plan](/cloudy-week-power-recovery-plan/)**
+
+
+## Next steps (quick routes)
+
+- **[Browse all collections](/collections/)**
+- Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[Anker SOLIX C1000](/reviews/anker-solix-c1000/)**, **[BLUETTI AC200L](/reviews/bluetti-ac200l/)**
+- **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

@@ -247,3 +247,10 @@ If you keep missing even with “fast charging,” use: **[Fast charging not kee
 - **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)**
 - **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 - **[Recovery Moves Index](/recovery-moves-index/)**
+
+
+## Next steps (quick routes)
+
+- **[Browse all collections](/collections/)**
+- Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[BLUETTI AC180](/reviews/bluetti-ac180/)**, **[Anker SOLIX C1000](/reviews/anker-solix-c1000/)**
+- **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

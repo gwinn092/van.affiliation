@@ -323,3 +323,10 @@ If you want a clean decision in 10 minutes:
 - **[Best Fast-Charging Power Stations for Quiet Hours](/best-fast-charging-power-stations-for-quiet-hours/)**
 - **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**
 - **[Tier-2 Bad Week Protocol](/tier-2-bad-week-protocol/)**
+
+
+## Next steps (quick routes)
+
+- **[Browse all collections](/collections/)**
+- Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[BLUETTI AC200L](/reviews/bluetti-ac200l/)**, **[EcoFlow DELTA 2 Max](/reviews/ecoflow-delta-2-max/)**
+- **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

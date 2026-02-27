@@ -124,3 +124,10 @@ Choose this when heat waves last several nights and you want fewer panic days. B
 - **[Quiet Hours Playbook](/quiet-hours-playbook/)**
 - **[Wall vs Car vs Solar Recharge: What Matters](/wall-vs-car-vs-solar-recharge-what-matters/)**
 - **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-keeping-up-what-to-fix-first/)**
+
+
+## Next steps (quick routes)
+
+- **[Browse all collections](/collections/)**
+- Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[BLUETTI AC180](/reviews/bluetti-ac180/)**, **[EcoFlow DELTA 2 Max](/reviews/ecoflow-delta-2-max/)**
+- **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

@@ -60,3 +60,12 @@ Use **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-keepi
 - **[How we test + how we label claims](/how-we-test-and-label-claims/)**
 - **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
 - **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**
+
+
+## Next steps (quick routes)
+
+- **[Browse all collections](/collections/)**
+- **[Generator-Free buyer page](/best-fast-charging-power-stations-for-generator-free-van-life/)**
+- **[Cloudy Weeks buyer page](/best-fast-charging-power-stations-for-cloudy-weeks/)**
+- **[Under-$1000 buyer page](/best-fast-charging-power-stations-under-1000/)**
+- **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**
