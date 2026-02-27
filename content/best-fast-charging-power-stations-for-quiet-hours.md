@@ -91,7 +91,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
       <tr>
         <td>{{< calvproduct id="ecoflow-delta-2" mode="name_link" >}}</td>
         <td>Short, repeatable refill windows</td>
-        <td>Under-now to watch-list range</td>
+        <td>Under-now to More Picks range</td>
         <td>Fast AC recovery class for constrained windows (Spec/Reported)</td>
         <td>Can drift above target pricing depending on timing</td>
         <td><a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-a--short-repeatable-refill-windows">See Bucket A</a></td>
@@ -99,7 +99,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
       <tr>
         <td>{{< calvproduct id="jackery-explorer-1000-plus" mode="name_link" >}}</td>
         <td>Predictable rule-heavy routines</td>
-        <td>Watch-list</td>
+        <td>More Picks</td>
         <td>Routine-friendly refill class when access is consistent (Spec/Reported)</td>
         <td>Often better as a timing/value purchase</td>
         <td><a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-a--short-repeatable-refill-windows">See Bucket A</a></td>
@@ -115,7 +115,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
       <tr>
         <td>{{< calvproduct id="anker-solix-f2000-767" mode="name_link" >}}</td>
         <td>Rule-heavy recovery with extra headroom</td>
-        <td>Watch-list</td>
+        <td>More Picks</td>
         <td>High recovery class when access windows are available (Spec/Reported)</td>
         <td>Large form factor for tight layouts</td>
         <td><a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-b--rule-heavy--inconsistent-access-predictability-first">See Bucket B</a></td>
@@ -123,7 +123,7 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
       <tr>
         <td>{{< calvproduct id="ecoflow-delta-2-max" mode="name_link" >}}</td>
         <td>Mostly stable users adding margin</td>
-        <td>Watch-list</td>
+        <td>More Picks</td>
         <td>Bigger margin and strong refill behavior (Spec/Reported)</td>
         <td>Can sit above quiet-hours budget target</td>
         <td><a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-c--if-youre-already-close-to-stable-add-margin-without-panic">See Bucket C</a></td>
@@ -210,7 +210,7 @@ We prioritize official manufacturer pages/manuals when available, and label anyt
 
 ## Picks (700Wh+ only) — optimized for quiet-hour reality
 
-> **How to read this section:** we use **Under-now** for options that are usually available at a reasonable value, and **Watch-list** for models worth tracking when price/stock swings. We avoid “best price” language and update as markets drift.
+> **How to read this section:** we use **Under-now** for options that are usually available at a reasonable value, and **More Picks** for models worth tracking when price/stock swings. We avoid “best price” language and update as markets drift.
 
 ### Quick picks index
 - **Bucket A (Short windows):** you often have ~1–2 hours and need fast, reliable recovery
@@ -224,7 +224,7 @@ We prioritize official manufacturer pages/manuals when available, and label anyt
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
 | [EcoFlow DELTA 2 (1024Wh)](/reviews/ecoflow-delta-2/) | Under-now | Fast AC recovery profile for “erase drift” when you only get a short outlet window. | Spec + Reported | Short-window recovery |
-| [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | Watch-list | Strong “routine-friendly” AC refill class; good when you can reliably get ~2 hours. | Spec + Reported | Short-window recovery |
+| [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | More Picks | Strong “routine-friendly” AC refill class; good when you can reliably get ~2 hours. | Spec + Reported | Short-window recovery |
 
 **Quick chooser:** If your realistic outlet window is **~1 hour or less**, prioritize the fastest AC refill you can tolerate. If it’s **2+ hours**, you can trade a little speed for comfort and size.
 
@@ -235,7 +235,7 @@ We prioritize official manufacturer pages/manuals when available, and label anyt
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
 | [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Under-now | Solid “margin builder” with strong AC input options; useful when your access is inconsistent. | Spec + Reported | Predictable routine |
-| Anker SOLIX F2000 / PowerHouse 767 (2048Wh) | Watch-list | Great recovery speed class when you can access a decent outlet window; track for timing/value. | Spec + Reported | Rule-heavy recovery |
+| Anker SOLIX F2000 / PowerHouse 767 (2048Wh) | More Picks | Great recovery speed class when you can access a decent outlet window; track for timing/value. | Spec + Reported | Rule-heavy recovery |
 
 Route: **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 
@@ -248,7 +248,7 @@ Route: **[Generator-free best picks](/best-fast-charging-power-stations-for-gene
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
 | [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | Under-now | Bigger margin with strong AC recovery class; good when you want fewer “close calls.” | Spec + Reported | Add margin |
-| [BLUETTI AC200L (2048Wh)](/reviews/bluetti-ac200l/) | Watch-list | Big recovery headroom; watch pricing/stock swings and only buy when it’s reasonable. | Spec + Reported | Add margin |
+| [BLUETTI AC200L (2048Wh)](/reviews/bluetti-ac200l/) | More Picks | Big recovery headroom; watch pricing/stock swings and only buy when it’s reasonable. | Spec + Reported | Add margin |
 
 **Quick chooser:** If you’re already mostly stable, prioritize **margin** (less stress) and a routine you can repeat — not the largest battery you can fit.
 
@@ -260,7 +260,7 @@ If quiet hours are your constraint and budget is tight, don’t “win” by buy
 
 1) Use the **[Under-$1000 Upgrade Plan](/under-1000-upgrade-plan/)**  
 2) Pick from **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**  
-3) Keep a calm tracker: **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**  
+3) Keep a calm tracker: **[Under-$1000 Fast-Charging More Picks](/under-1000-fast-charging-watch-list/)**  
 
 ---
 
@@ -289,6 +289,6 @@ If you want a calm decision in 10 minutes:
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[Jackery Explorer 1000 Plus](/reviews/jackery-explorer-1000-plus/)**, **[BLUETTI AC180](/reviews/bluetti-ac180/)**
 - **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

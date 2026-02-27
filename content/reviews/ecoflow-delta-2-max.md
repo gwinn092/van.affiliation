@@ -46,7 +46,7 @@ tags: ["review", "fast charging", "generator-free", "cloudy-weeks", "high-margin
 
 ## What to watch
 
-- Often a watch-list purchase where timing matters more than impulse urgency.
+- Often a More Picks purchase where timing matters more than impulse urgency.
 - Bigger reserve can hide poor habits, so pair this with a clear recovery routine.
 
 ## Alternatives
@@ -68,7 +68,7 @@ Review **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-ke
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - **[Generator-Free buyer page](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 - **[Cloudy Weeks buyer page](/best-fast-charging-power-stations-for-cloudy-weeks/)**
 - **[Hot Nights buyer page](/best-fast-charging-power-stations-for-hot-nights/)**

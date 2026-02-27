@@ -46,7 +46,7 @@ tags: ["review", "fast charging", "generator-free", "cloudy-weeks", "high-headro
 
 ## What to watch
 
-- Usually a watch-list buy where timing and availability matter.
+- Usually a More Picks buy where timing and availability matter.
 - Added headroom helps only when paired with stable load and recovery habits.
 
 ## Alternatives
@@ -68,7 +68,7 @@ Use **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-keepi
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - **[Generator-Free buyer page](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 - **[Cloudy Weeks buyer page](/best-fast-charging-power-stations-for-cloudy-weeks/)**
 - **[Under-$1000 buyer page](/best-fast-charging-power-stations-under-1000/)**

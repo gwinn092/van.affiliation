@@ -29,7 +29,7 @@ If you're starting van life today, I would not go below **700Wh in modern LiFePO
 
 {{< callout title="Price Drift Policy" >}}
 - We only label a pick as **Under $500 right now** when it is currently at or below that threshold.
-- If a model moves above that threshold, it goes to the **Watch list** section.
+- If a model moves above that threshold, it goes to the **More Picks** section.
 - We do not make exact price promises inside rankings; price status is updated as market pricing changes.
 {{< /callout >}}
 

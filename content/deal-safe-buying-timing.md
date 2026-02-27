@@ -28,7 +28,7 @@ A good deal only helps if the product still fits your recovery reality. Use this
 - **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**
 - **[Best Fast-Charging Power Stations for Quiet Hours](/best-fast-charging-power-stations-for-quiet-hours/)**
 - **[Best Fast-Charging Power Stations for Generator-Free Van Life](/best-fast-charging-power-stations-for-generator-free-van-life/)**
-- **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**
+- **[Under-$1000 Fast-Charging More Picks](/under-1000-fast-charging-watch-list/)**
 
 ## If you're stuck
 

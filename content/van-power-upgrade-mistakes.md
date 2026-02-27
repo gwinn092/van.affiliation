@@ -102,7 +102,7 @@ Why it backfires:
 - Real-world pricing moves, and “always under” assumptions break quickly.
 
 Do this instead:
-- Use an “under now” vs “watch list” mindset and check current status before buying.
+- Use an “under now” vs “more picks” mindset and check current status before buying.
 
 Use:
 - **[Portable Power Stations Under $500](/best-of/power-stations-under-500/)**

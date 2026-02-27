@@ -1,10 +1,10 @@
 ---
 title: "Quiet Hours Survival Kit"
-description: "Constraint-first quiet-hours collection for repeatable recovery without noise-driven stress."
+description: "Constraint-first quiet-hours Browse route for repeatable recovery without noise-driven stress."
 date: 2026-02-26
 slug: "quiet-hours-survival-kit"
 ---
-This collection is for campers and stealth setups where timing rules shape every refill decision. You are choosing for predictable recovery windows, not perfect lab conditions.
+This Browse route is for campers and stealth setups where timing rules shape every refill decision. You are choosing for predictable recovery windows, not perfect lab conditions.
 
 **Trust link:** **[How we test + how we label claims](/how-we-test-and-label-claims/)**.
 

@@ -1,12 +1,12 @@
 ---
-title: "Collections"
+title: "Browse"
 description: "Curated fast-charging aisles so you can route by constraint instead of hunting through disconnected pages."
 date: 2026-02-27
 draft: false
 ---
 Use this page as your browse map. Pick the aisle that matches your current constraint, then follow the shortest path to a recovery-first decision.
 
-## Core collections
+## Core Browse routes
 
 - **[Fast Charging by Constraint](/collections/fast-charging-by-constraint/)**: master chooser that routes by budget, quiet-hours limits, and generator-free recovery pressure.
 - **[Under-$1000 Recovery Setups](/collections/under-1000-recovery-setups/)**: budget-first routing for fast refill behavior and low-drama weekly resets.
@@ -17,7 +17,7 @@ Use this page as your browse map. Pick the aisle that matches your current const
 
 - **[Best Of](/best-of/)**
 - **[Deals Tracker](/deals/)**
-- **[Fast-AC Under-$1000 Watch List](/watch-list/fast-ac-under-1000/)**
+- **[Fast-AC Under-$1000 More Picks](/watch-list/fast-ac-under-1000/)**
 - **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
 - **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**
 - **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-keeping-up-what-to-fix-first/)**

@@ -97,7 +97,7 @@ Cloudy weeks are usually a recovery-window problem, not a “buy the biggest bat
       <tr>
         <td>{{< calvproduct id="bluetti-ac200l" mode="name_link" >}}</td>
         <td>High headroom route</td>
-        <td>Useful watch-list option when you need large weather buffer.</td>
+        <td>Useful More Picks option when you need large weather buffer.</td>
         <td>Spec / Reported</td>
         <td><a href="/best-fast-charging-power-stations-for-cloudy-weeks/#bucket-c--add-weather-margin-without-overbuying">See Bucket C</a></td>
       </tr>
@@ -128,6 +128,6 @@ Choose this when cloudy periods repeat often. Add margin only if you can still r
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[Anker SOLIX C1000](/reviews/anker-solix-c1000/)**, **[BLUETTI AC200L](/reviews/bluetti-ac200l/)**
 - **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

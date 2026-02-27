@@ -77,7 +77,7 @@ If you’re under the 700Wh floor (or you’re already drifting), use **[Under-$
 
 - If **quiet hours / rules** limit *when* you can charge: **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)**  
 - If you want the **generator-free framing + recovery buckets**: **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**  
-- If you want a “don’t-buy-yet” tracker: **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**  
+- If you want a “don’t-buy-yet” tracker: **[Under-$1000 Fast-Charging More Picks](/under-1000-fast-charging-watch-list/)**  
 - If “fast charging” still isn’t keeping up: **[Fast charging not keeping up: what to fix first](/fast-charging-not-keeping-up-what-to-fix-first/)**  
 - If you’re drifting *right now*: **[Van battery drift diagnosis](/van-battery-drift-diagnosis/)** → **[Recovery Moves Index](/recovery-moves-index/)**
 
@@ -122,7 +122,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
       <tr>
         <td>{{< calvproduct id="bluetti-ac180" mode="name_link" >}}</td>
         <td>Quiet-hours routines</td>
-        <td>Under-now to watch-list range</td>
+        <td>Under-now to More Picks range</td>
         <td>Strong refill rhythm for constrained timing (Spec/Reported)</td>
         <td>Heavier than ultra-compact options</td>
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
@@ -130,7 +130,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
       <tr>
         <td>{{< calvproduct id="jackery-explorer-1000-plus" mode="name_link" >}}</td>
         <td>Predictable rule-heavy access</td>
-        <td>Watch-list</td>
+        <td>More Picks</td>
         <td>Routine-friendly AC refill profile (Spec/Reported)</td>
         <td>Often better as a timing/value buy than impulse buy</td>
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
@@ -146,7 +146,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
       <tr>
         <td>{{< calvproduct id="ecoflow-delta-2-max" mode="name_link" >}}</td>
         <td>Extra margin, fewer panic days</td>
-        <td>Watch-list</td>
+        <td>More Picks</td>
         <td>Bigger margin with strong recharge behavior (Spec/Reported)</td>
         <td>Usually outside under-now budget; wait for clean value windows</td>
         <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days">See Bucket C</a></td>
@@ -154,7 +154,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
       <tr>
         <td>{{< calvproduct id="bluetti-ac200l" mode="name_link" >}}</td>
         <td>High headroom upgrade path</td>
-        <td>Watch-list</td>
+        <td>More Picks</td>
         <td>Large recovery headroom class (Spec/Reported)</td>
         <td>Usually above under-now tier for this page’s target budget</td>
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/">Open Generator-Free guide</a></td>
@@ -164,7 +164,7 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
 </div>
 
 For deeper routing by constraint, use **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)** and **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**.
-If you want a broader compare queue powered by the full library, open the **[Fast-AC Under-$1000 Watch List](/watch-list/fast-ac-under-1000/)**.
+If you want a broader compare queue powered by the full library, open the **[Fast-AC Under-$1000 More Picks](/watch-list/fast-ac-under-1000/)**.
 
 ---
 
@@ -189,7 +189,7 @@ Use this bucket when your realistic outlet window is short and you need a fast r
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
 | [EcoFlow DELTA 2 (1024Wh)](/reviews/ecoflow-delta-2/) | Under-now | Fast AC refill profile that helps erase drift when your outlet window is tight. | Spec / Reported | Bad-week recovery |
-| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Watch-list | Strong recovery class for short windows when pricing lands in-range. | Spec / Reported | Bad-week recovery |
+| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | More Picks | Strong recovery class for short windows when pricing lands in-range. | Spec / Reported | Bad-week recovery |
 
 ### Bucket B — Quiet-hours recovery (predictable windows)
 
@@ -207,7 +207,7 @@ Use this bucket when rules/stealth limit *when* you can charge, so you need pred
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
 | [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Under-now | Predictable refill routine that works well when charge windows are controlled by rules. | Spec / Reported | Quiet-hours recovery |
-| [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | Watch-list | Consistent recovery rhythm when access timing is constrained and you can wait for value windows. | Spec / Reported | Quiet-hours recovery |
+| [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | More Picks | Consistent recovery rhythm when access timing is constrained and you can wait for value windows. | Spec / Reported | Quiet-hours recovery |
 
 ### Bucket C — Add margin (less stress, fewer “panic days”)
 
@@ -218,7 +218,7 @@ Use this bucket when you’re mostly stable and want more buffer so one rough da
 | Pick | Status | Why it fits | Claim label | Recovery scenario |
 |---|---|---|---|---|
 | [Anker SOLIX C1000 (1056Wh)](/reviews/anker-solix-c1000/) | Under-now | Adds usable margin while keeping recovery speed practical for normal weekly resets. | Spec / Reported | Add margin |
-| [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | Watch-list | Larger buffer option to track when price/stock drift opens a clean upgrade path. | Spec / Reported | Add margin |
+| [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | More Picks | Larger buffer option to track when price/stock drift opens a clean upgrade path. | Spec / Reported | Add margin |
 
 ---
 
@@ -227,7 +227,7 @@ Use this bucket when you’re mostly stable and want more buffer so one rough da
 If you want a calm decision in 10 minutes:
 1) Use the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)** to pick your bucket  
 2) If you’re already drifting, do **[Van battery drift diagnosis](/van-battery-drift-diagnosis/)** and pick the smallest next move in **[Recovery Moves Index](/recovery-moves-index/)**  
-3) If you want a “watch + wait” tracker, use **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**
+3) If you want a “watch + wait” tracker, use **[Under-$1000 Fast-Charging More Picks](/under-1000-fast-charging-watch-list/)**
 
 ---
 
@@ -244,7 +244,7 @@ If you keep missing even with “fast charging,” use: **[Fast charging not kee
 ## Related reads
 
 - **[Under-$1000 Upgrade Plan](/under-1000-upgrade-plan/)**
-- **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**
+- **[Under-$1000 Fast-Charging More Picks](/under-1000-fast-charging-watch-list/)**
 - **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)**
 - **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 - **[Recovery Moves Index](/recovery-moves-index/)**
@@ -252,6 +252,6 @@ If you keep missing even with “fast charging,” use: **[Fast charging not kee
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[BLUETTI AC180](/reviews/bluetti-ac180/)**, **[Anker SOLIX C1000](/reviews/anker-solix-c1000/)**
 - **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

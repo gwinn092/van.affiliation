@@ -50,6 +50,6 @@ pageRef = "/legal/terms"
 weight = 30
 
 [[main]]
-name = "Collections"
+name = "Browse"
 pageRef = "/collections"
 weight = 45

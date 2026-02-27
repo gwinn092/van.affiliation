@@ -1,6 +1,6 @@
 ---
 title: "Best Fast-Charging Power Stations Under $1000 for Van Life (700Wh+)"
-description: "Price-drift safe, recovery-first fast-charging picks under $1000 for van life, with clear under-now vs watch-list routing and a stable upgrade path."
+description: "Price-drift safe, recovery-first fast-charging picks under $1000 for van life, with clear under-now vs More Picks routing and a stable upgrade path."
 slug: "best-fast-charging-power-stations-under-1000"
 date: 2026-02-22
 draft: false
@@ -40,7 +40,7 @@ If you want the system behind the picks:
 > **Price drift policy (read this first)**  
 > Portable power station pricing moves constantly (sales, coupons, bundles, retailer swings).  
 > - We only label a pick **“Under $1000 right now”** when it’s currently available at or under $1000 from at least one mainstream retailer or the manufacturer store.  
-> - If a pick is **above $1000 today**, we move it to **Watch list (often under $1000)** and explain why it’s still worth watching.  
+> - If a pick is **above $1000 today**, we move it to **More Picks (often under $1000)** and explain why it’s still worth watching.  
 > - We don’t promise exact prices inside the rankings. This page is updated as pricing shifts.
 
 Before you shop, use the **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then compare **[Main Fast-Charging Picks](/best-fast-charging-power-stations/)** and **[Essentials Picks](/best-fast-charging-power-stations-for-essentials/)**.
@@ -76,7 +76,7 @@ Frameworks:
 ## Under $1000 right now (700Wh+ floor)
 
 > These picks meet CAVL’s non-negotiable floor (**700Wh+**) and are **currently** available at or under $1000.  
-> **Editor note:** verify pricing before publishing updates; if it’s over $1000 today, move it to Watch list.
+> **Editor note:** verify pricing before publishing updates; if it’s over $1000 today, move it to More Picks.
 
 {{< pickgrid >}}
 
@@ -118,7 +118,7 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
 
 ---
 
-## Watch list (often under $1000)
+## More Picks (often under $1000)
 
 > These picks are **worth watching** because they often land under $1000, but may be above $1000 today.  
 > If you see one above $1000 right now, treat it as “wait for a sale”—not a budget lock.

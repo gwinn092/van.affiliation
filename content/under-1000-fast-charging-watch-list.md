@@ -1,11 +1,11 @@
 ---
-title: "Under-$1000 Fast-Charging Watch List (700Wh+)"
-description: "A calm, recovery-first watch list for under-$1000 fast charging: track the right models so you can buy when pricing dips without doom-scrolling."
+title: "Under-$1000 Fast-Charging More Picks (700Wh+)"
+description: "A calm, recovery-first More Picks tracker for under-$1000 fast charging so you can buy when pricing dips without doom-scrolling."
 slug: "under-1000-fast-charging-watch-list"
 date: 2026-02-23
 draft: false
 categories: ["Power"]
-tags: ["van life", "under 1000", "watch list", "fast charging", "power stations", "recovery"]
+tags: ["van life", "under 1000", "more picks", "fast charging", "power stations", "recovery"]
 ---
 If you’re shopping right now, start with the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then use the **[Buyer Guides hub](/fast-charging-buyer-guides/)**.
 If any terms feel fuzzy (AC input, surge, pass-through), use the **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**.
@@ -20,7 +20,7 @@ We keep a **700Wh+ minimum** floor because below that, bad weeks can turn into c
 
 ---
 
-## What this watch list is (and isn’t)
+## What these More Picks are (and aren’t)
 
 **This is:**
 - A calm shortlist of models worth watching for the under-$1000 tier
@@ -53,9 +53,9 @@ We label claims so you can separate **verified** from **planning math**:
 - **Rules constraint** (quiet hours / stealth timing)
 - **Drift constraint** (you’re already falling behind)
 
-2) Check the watch list table for:
+2) Check the more picks table for:
 - “Under-now” options that fit your constraint
-- “Watch-list” options that become worth it only under a certain price
+- “More Picks” options that become worth it only under a certain price
 
 3) If you’re drifting, route immediately:
 - **[Fast charging not keeping up: what to fix first](/fast-charging-not-keeping-up-what-to-fix-first/)**  
@@ -63,7 +63,7 @@ We label claims so you can separate **verified** from **planning math**:
 
 ---
 
-## Watch list (under-$1000 tier, 700Wh+)
+## More Picks (under-$1000 tier, 700Wh+)
 
 Use this table as a **shortlist**. Don’t obsess over capacity — prioritize **time-to-recover** and a repeatable routine.
 
@@ -71,13 +71,13 @@ Use this table as a **shortlist**. Don’t obsess over capacity — prioritize *
 |---|---|---|---|---|
 | EcoFlow DELTA 2 (1024Wh) | Under-now | Strong fast-AC recovery profile for short outlet windows; commonly fits bad-week recovery planning. | Spec / Reported | A |
 | BLUETTI AC180 (1152Wh) | Under-now | Good balance of capacity and refill speed for people who are close to stable and want margin. | Spec / Reported | C |
-| Jackery Explorer 1000 Plus (1264Wh) | Watch-list | Often a routine-friendly choice for predictable charging behavior when rules/timing are constrained. | Spec / Reported | B/C |
-| BLUETTI AC200L (2048Wh) | Watch-list | Large recovery headroom when price drops into a reasonable range for under-$1000 tracking. | Spec / Reported | A |
-| Anker SOLIX F2000 / PowerHouse 767 (2048Wh) | Watch-list | Strong charging performance class, but value swings make it a monitor-first candidate. | Reported | A/B |
+| Jackery Explorer 1000 Plus (1264Wh) | More Picks | Often a routine-friendly choice for predictable charging behavior when rules/timing are constrained. | Spec / Reported | B/C |
+| BLUETTI AC200L (2048Wh) | More Picks | Large recovery headroom when price drops into a reasonable range for under-$1000 tracking. | Spec / Reported | A |
+| Anker SOLIX F2000 / PowerHouse 767 (2048Wh) | More Picks | Strong charging performance class, but value swings make it a monitor-first candidate. | Reported | A/B |
 
 **How to use “Status”:**
 - **Under-now** = currently worth considering in your price band
-- **Watch-list** = only worth it if price drops or your constraint changes
+- **More Picks** = only worth it if price drops or your constraint changes
 
 **Quick chooser:**
 - **Bucket A (bad-week recovery):** prioritize fastest repeatable refill when your outlet window is ~1 hour

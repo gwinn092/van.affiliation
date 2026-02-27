@@ -90,7 +90,7 @@ Hot nights increase fan runtime and shrink margin fast. This page is for recover
       <tr>
         <td>{{< calvproduct id="ecoflow-delta-2-max" mode="name_link" >}}</td>
         <td>Heat-wave margin</td>
-        <td>Larger buffer for multi-night heat events; usually a watch-list move.</td>
+        <td>Larger buffer for multi-night heat events; usually a More Picks move.</td>
         <td>Spec / Reported</td>
         <td><a href="/best-fast-charging-power-stations-for-hot-nights/#bucket-c--add-margin-for-multi-night-heat">See Bucket C</a></td>
       </tr>
@@ -128,6 +128,6 @@ Choose this when heat waves last several nights and you want fewer panic days. B
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[BLUETTI AC180](/reviews/bluetti-ac180/)**, **[EcoFlow DELTA 2 Max](/reviews/ecoflow-delta-2-max/)**
 - **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

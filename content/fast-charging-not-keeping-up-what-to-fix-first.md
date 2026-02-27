@@ -132,7 +132,7 @@ Use the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, th
 - Quiet-hours constraint: **[Best Fast-Charging Power Stations for Quiet Hours](/best-fast-charging-power-stations-for-quiet-hours/)**
 - Generator-free framing: **[Best Fast-Charging Power Stations for Generator-Free Van Life](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 - Budget-first path: **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**
-- Tracker path for price drift: **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**
+- Tracker path for price drift: **[Under-$1000 Fast-Charging More Picks](/under-1000-fast-charging-watch-list/)**
 
 Upgrade triggers (all should be true before buying):
 - You tested routine fixes first.
@@ -160,5 +160,5 @@ Upgrade triggers (all should be true before buying):
 - **[Best Fast-Charging Power Stations for Quiet Hours](/best-fast-charging-power-stations-for-quiet-hours/)**
 - **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**
 - **[Best Fast-Charging Power Stations for Generator-Free Van Life](/best-fast-charging-power-stations-for-generator-free-van-life/)**
-- **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**
+- **[Under-$1000 Fast-Charging More Picks](/under-1000-fast-charging-watch-list/)**
 - **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**

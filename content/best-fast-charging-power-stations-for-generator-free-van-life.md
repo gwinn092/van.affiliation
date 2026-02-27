@@ -89,7 +89,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
       <tr>
         <td>{{< calvproduct id="ecoflow-delta-2" mode="name_link" >}}</td>
         <td>Fast bad-week recovery</td>
-        <td>Under-now to watch-list range</td>
+        <td>Under-now to More Picks range</td>
         <td>Strong short-window recharge class (Spec/Reported)</td>
         <td>May drift above budget target during high-demand windows</td>
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-a--recover-fast-even-on-bad-weeks">See Bucket A</a></td>
@@ -97,7 +97,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
       <tr>
         <td>{{< calvproduct id="bluetti-ac200l" mode="name_link" >}}</td>
         <td>High headroom recovery</td>
-        <td>Watch-list</td>
+        <td>More Picks</td>
         <td>Large recovery headroom class (Spec/Reported)</td>
         <td>Often above under-now budget for this tier</td>
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-a--recover-fast-even-on-bad-weeks">See Bucket A</a></td>
@@ -105,7 +105,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
       <tr>
         <td>{{< calvproduct id="jackery-explorer-1000-plus" mode="name_link" >}}</td>
         <td>Quiet-hours-compatible generator-free routine</td>
-        <td>Under-now to watch-list range</td>
+        <td>Under-now to More Picks range</td>
         <td>Predictable refill profile for constrained windows (Spec/Reported)</td>
         <td>Not the fastest class for very short windows</td>
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-b--quiet-hours-friendly-recovery">See Bucket B</a></td>
@@ -113,7 +113,7 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
       <tr>
         <td>{{< calvproduct id="anker-solix-f2000-767" mode="name_link" >}}</td>
         <td>Quiet-hours recovery with extra buffer</td>
-        <td>Watch-list</td>
+        <td>More Picks</td>
         <td>Strong reported recovery class for refill windows (Spec/Reported)</td>
         <td>Large size for tight builds</td>
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-b--quiet-hours-friendly-recovery">See Bucket B</a></td>
@@ -129,9 +129,9 @@ If your week goes sideways, the goal is simple: **recover quickly and get back t
       <tr>
         <td>{{< calvproduct id="ecoflow-delta-2-max" mode="name_link" >}}</td>
         <td>Extra margin, fewer panic days</td>
-        <td>Watch-list</td>
+        <td>More Picks</td>
         <td>High-margin recovery behavior for rough weeks (Spec/Reported)</td>
-        <td>Often a watch-list purchase instead of under-now buy</td>
+        <td>Often a More Picks purchase instead of under-now buy</td>
         <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-c--if-youre-already-close-to-stable">See Bucket C</a></td>
       </tr>
     </tbody>
@@ -217,7 +217,7 @@ We label claims so you can separate **verified** from **planning math**:
 
 ## Picks (700Wh+ only) — organized by recovery scenario
 
-> **How to read this section:** we use **Under-now** for options that are usually available at a reasonable value, and **Watch-list** for models worth tracking when price/stock swings. We avoid “best price” language and update as markets drift.
+> **How to read this section:** we use **Under-now** for options that are usually available at a reasonable value, and **More Picks** for models worth tracking when price/stock swings. We avoid “best price” language and update as markets drift.
 
 ### Quick picks index
 - **Bucket A (Recover fast on bad weeks):** short, repeatable refill windows
@@ -231,7 +231,7 @@ We label claims so you can separate **verified** from **planning math**:
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
 | [EcoFlow DELTA 2 (1024Wh)](/reviews/ecoflow-delta-2/) | Under-now | EcoFlow states 0–80% in ~50 minutes (lab conditions). Good “erase drift” option when time is the bottleneck. | Spec + Reported | Bad-week recovery |
-| [BLUETTI AC200L (2048Wh)](/reviews/bluetti-ac200l/) | Watch-list | BLUETTI states up to 80% in ~45 minutes (with high-input setup / optional plug). Big recovery headroom. | Spec + Reported | Bad-week recovery |
+| [BLUETTI AC200L (2048Wh)](/reviews/bluetti-ac200l/) | More Picks | BLUETTI states up to 80% in ~45 minutes (with high-input setup / optional plug). Big recovery headroom. | Spec + Reported | Bad-week recovery |
 
 **What to check (Bucket A):**
 
@@ -242,7 +242,7 @@ We label claims so you can separate **verified** from **planning math**:
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
 | [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | Under-now | Jackery lists ~1.7 hours AC charging (standard AC adapter). Solid for rule-heavy/quiet-hour routines. | Spec + Reported | Quiet-hours recovery |
-| Anker SOLIX F2000 / PowerHouse 767 (2048Wh) | Watch-list | Reported widely: 0–80% in ~1.4 hours via HyperFlash (varies by settings/outlet). Great recovery speed when you can access a decent outlet window. | Spec + Reported | Quiet-hours recovery |
+| Anker SOLIX F2000 / PowerHouse 767 (2048Wh) | More Picks | Reported widely: 0–80% in ~1.4 hours via HyperFlash (varies by settings/outlet). Great recovery speed when you can access a decent outlet window. | Spec + Reported | Quiet-hours recovery |
 
 Route: **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)**
 
@@ -255,7 +255,7 @@ Route: **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/
 | Pick | Status | Why it fits (1–2 lines) | Claim label | Best for |
 |---|---|---|---|---|
 | [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Under-now | BLUETTI lists 1440W AC input and ~1.3–1.8 hours full charge (turbo range; varies by mode). | Spec + Reported | Add margin |
-| [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | Watch-list | EcoFlow user manual indicates ~80 minutes AC charging under X-Stream conditions; good fast-recovery option if size/weight fits your setup. | Spec + Reported | Add margin |
+| [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | More Picks | EcoFlow user manual indicates ~80 minutes AC charging under X-Stream conditions; good fast-recovery option if size/weight fits your setup. | Spec + Reported | Add margin |
 
 ---
 
@@ -286,8 +286,8 @@ Instead, build a plan around **fast recovery** and **repeatable routines**:
 1) Use the **[Under-$1000 Upgrade Plan](/under-1000-upgrade-plan/)** (recovery-first)
 2) Pick from the **Under-$1000 fast-charging list**:
    - **[Best Fast-Charging Power Stations Under $1000](/best-fast-charging-power-stations-under-1000/)**
-3) Keep a “watch list” so you can buy when pricing dips without doom-scrolling:
-   - **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)**
+3) Keep a “more picks” so you can buy when pricing dips without doom-scrolling:
+   - **[Under-$1000 Fast-Charging More Picks](/under-1000-fast-charging-watch-list/)**
 
 ---
 
@@ -314,7 +314,7 @@ Then choose the calm next move:
 If you want a clean decision in 10 minutes:
 1) Open the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
 2) Pick your bucket (A/B/C) based on your recovery window
-3) Choose “Under-now” if available — otherwise use the Watch-list and move on with your day
+3) Choose “Under-now” if available — otherwise use the More Picks and move on with your day
 
 ---
 
@@ -327,6 +327,6 @@ If you want a clean decision in 10 minutes:
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - Top review routes: **[EcoFlow DELTA 2](/reviews/ecoflow-delta-2/)**, **[BLUETTI AC200L](/reviews/bluetti-ac200l/)**, **[EcoFlow DELTA 2 Max](/reviews/ecoflow-delta-2-max/)**
 - **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, **[Glossary](/fast-charging-power-station-glossary/)**, **[Fix-first](/fast-charging-not-keeping-up-what-to-fix-first/)**

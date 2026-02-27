@@ -1,17 +1,17 @@
 ---
-title: "Fast-AC Under-$1000 Watch List"
-description: "A product-library-powered watch list for under-$1000 fast-AC options, organized by fit and status without price promises."
+title: "Fast-AC Under-$1000 More Picks"
+description: "A product-library-powered More Picks page for under-$1000 fast-AC options, organized by fit and status without price promises."
 slug: "fast-ac-under-1000"
 date: 2026-02-27
 draft: false
 categories: ["Power"]
-tags: ["watch-list", "under-1000", "fast charging", "van life"]
+tags: ["more picks", "under-1000", "fast charging", "van life"]
 ---
 Use this page as a compare-and-decide queue, not a panic-buy list. We do not make price promises, and we keep this route focused on stable recovery planning.
 
 **Trust strip:** **[How we test + how we label claims](/how-we-test-and-label-claims/)**.
 
-## How to use this watch list
+## How to use these More Picks
 
 1. Pick your constraint first (quiet-hours, cloudy weeks, work pressure, essentials).
 2. Start with `core` picks, then scan `watch` options before considering `backlog`.

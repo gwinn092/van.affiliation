@@ -4,7 +4,7 @@ description: "Curated generator-free recovery workflow for dependable refill rhy
 date: 2026-02-26
 slug: "generator-free-workflow"
 ---
-This collection is for van lifers running without a generator who still need a dependable recovery rhythm. The goal is simple: erase drift quickly enough to stay stable through normal and rough weeks.
+This Browse route is for van lifers running without a generator who still need a dependable recovery rhythm. The goal is simple: erase drift quickly enough to stay stable through normal and rough weeks.
 
 **Trust link:** **[How we test + how we label claims](/how-we-test-and-label-claims/)**.
 

@@ -48,7 +48,7 @@ tags: ["review", "fast charging", "quiet-hours", "under-1000", "generator-free"]
 ## What to watch
 
 - Fast enough recharge does not replace a poor nightly routine if loads are unmanaged.
-- Availability and promos can move this model between under-now and watch-list categories.
+- Availability and promos can move this model between under-now and More Picks categories.
 
 ## Alternatives
 
@@ -69,7 +69,7 @@ Start with **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-no
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - **[Quiet Hours buyer page](/best-fast-charging-power-stations-for-quiet-hours/)**
 - **[Under-$1000 buyer page](/best-fast-charging-power-stations-under-1000/)**
 - **[Generator-Free buyer page](/best-fast-charging-power-stations-for-generator-free-van-life/)**

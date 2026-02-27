@@ -25,7 +25,7 @@ This page is for buyers who want a simple under-$1000 route without decision fat
 
 ## Deal-safe next step
 
-Track timing before buying in **[Under-$1000 Fast-Charging Watch List](/under-1000-fast-charging-watch-list/)** and **[Deal-Safe Buying Timing](/deal-safe-buying-timing/)**.
+Track timing before buying in **[Under-$1000 Fast-Charging More Picks](/under-1000-fast-charging-watch-list/)** and **[Deal-Safe Buying Timing](/deal-safe-buying-timing/)**.
 
 ## If you're stuck
 

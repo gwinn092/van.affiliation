@@ -5,7 +5,7 @@ slug: "jackery-explorer-1000-plus"
 date: 2026-02-26
 draft: false
 categories: ["Power"]
-tags: ["review", "fast charging", "quiet-hours", "generator-free", "watch-list"]
+tags: ["review", "fast charging", "quiet-hours", "generator-free", "more picks"]
 ---
 
 **Verdict:** Jackery Explorer 1000 Plus is a useful fit for rule-constrained routines where predictable recovery matters more than chasing the absolute fastest claim.
@@ -46,7 +46,7 @@ tags: ["review", "fast charging", "quiet-hours", "generator-free", "watch-list"]
 
 ## What to watch
 
-- Often strongest as a watch-list pick rather than an urgent buy.
+- Often strongest as a More Picks pick rather than an urgent buy.
 - If you frequently miss refill windows, routine changes may outperform hardware upgrades.
 
 ## Alternatives
@@ -68,7 +68,7 @@ Go to **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-kee
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - **[Quiet Hours buyer page](/best-fast-charging-power-stations-for-quiet-hours/)**
 - **[Generator-Free buyer page](/best-fast-charging-power-stations-for-generator-free-van-life/)**
 - **[Hot Nights buyer page](/best-fast-charging-power-stations-for-hot-nights/)**

@@ -68,7 +68,7 @@ Use **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-keepi
 
 ## Next steps (quick routes)
 
-- **[Browse all collections](/collections/)**
+- **[Browse all routes](/collections/)**
 - **[Under-$1000 buyer page](/best-fast-charging-power-stations-under-1000/)**
 - **[Cloudy Weeks buyer page](/best-fast-charging-power-stations-for-cloudy-weeks/)**
 - **[Hot Nights buyer page](/best-fast-charging-power-stations-for-hot-nights/)**

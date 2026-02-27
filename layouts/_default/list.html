@@ -10,7 +10,7 @@
   <section class="vf-list-wrap mx-auto w-full max-w-7xl space-y-8 py-6">
     <header class="vf-collection-hero overflow-hidden rounded-2xl border border-neutral-200 bg-gradient-to-r from-slate-900 via-slate-800 to-cyan-900 p-7 text-white shadow-xl md:p-10">
       <p class="mb-2 inline-flex rounded-full border border-white/30 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-cyan-200">
-        {{ if .IsSection }}{{ .Section }}{{ else if .IsTaxonomy }}{{ .Type }}{{ else if .IsTerm }}{{ .Data.Singular }}{{ else }}Collection{{ end }}
+        {{ if .IsSection }}{{ .Section }}{{ else if .IsTaxonomy }}{{ .Type }}{{ else if .IsTerm }}{{ .Data.Singular }}{{ else }}Browse{{ end }}
       </p>
       <h1 class="text-3xl font-extrabold leading-tight md:text-4xl">{{ .Title }}</h1>
       {{ if .Description }}

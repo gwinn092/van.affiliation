@@ -39,7 +39,7 @@ Why it backfires:
 - Price-only decisions ignore whether your refill plan is actually executable.
 
 Do this instead:
-- Use price-drift-safe thinking: under now vs watch list, then match your routine.
+- Use price-drift-safe thinking: under now vs more picks, then match your routine.
 
 Use:
 - **[Portable Power Stations Under $500](/best-of/power-stations-under-500/)**

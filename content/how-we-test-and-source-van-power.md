@@ -39,7 +39,7 @@ Context:
 
 ## Price drift policy
 
-Pricing changes often, so we use an “under now” vs “watch list” structure.
+Pricing changes often, so we use an “under now” vs “more picks” structure.
 We do not promise a model will always stay under a fixed price cap.
 
 Example:
