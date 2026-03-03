@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gwinn092.github.io/van.affiliation/sitemap.xml
