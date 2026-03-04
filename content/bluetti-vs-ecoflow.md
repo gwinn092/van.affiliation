@@ -1,6 +1,6 @@
 ---
 title: "BLUETTI vs EcoFlow for Van Life"
-description: "A practical comparison framework for BLUETTI and EcoFlow portable power setups."
+description: "BLUETTI vs EcoFlow for van life: a recovery-first comparison covering fast-charging performance, real-world reliability, and which brand fits your setup."
 slug: "bluetti-vs-ecoflow"
 date: 2026-02-22
 draft: false

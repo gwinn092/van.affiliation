@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "How we handle privacy and data on Create A Van Life."
+description: "How Create A Van Life handles your data: affiliate link disclosure, analytics tools, cookies, and your privacy rights as a reader."
 slug: "privacy-policy"
 date: 2026-02-22
 draft: false

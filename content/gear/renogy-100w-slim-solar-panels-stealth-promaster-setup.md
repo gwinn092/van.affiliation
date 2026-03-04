@@ -1,7 +1,7 @@
 ---
 title: "Renogy 100W Slim Solar Panel Review (Stealth Build Angle)"
 date: 2026-02-21
-description: "Review of Renogy 100W slim panels for stealth van builds with practical install and value notes."
+description: "Renogy 100W slim panel review for van life: real install notes from a ProMaster stealth build, practical output expectations, and honest value assessment."
 featureimage: "/images/gear/renogy-100w-slim-panel/hero.svg"
 featured_image: "/images/gear/renogy-100w-slim-panel/hero.svg"
 categories: ["gear"]
