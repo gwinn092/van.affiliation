@@ -21,11 +21,26 @@
       {{ end }}
       {{ $featuredImage := .Params.featuredImage | default .Params.featureimage }}
       {{ $featuredImageAlt := .Params.featuredImageAlt | default .Title }}
-      {{ if $featuredImage }}
-        <figure class="calv-featured-hero mt-1 mb-4 overflow-hidden rounded-2xl border border-neutral-200 shadow-sm">
-          <img src="{{ $featuredImage | relURL }}" alt="{{ $featuredImageAlt }}" class="h-32 w-full object-cover sm:h-40 md:h-48" loading="lazy">
-          <div class="calv-featured-hero__veil" aria-hidden="true"></div>
+      {{ $isSVG := and $featuredImage (or (strings.HasSuffix (string $featuredImage) ".svg") (strings.HasPrefix (string $featuredImage) "/images/featured/")) }}
+      {{ if and $featuredImage (not $isSVG) }}
+        <figure class="calv-article-photo-hero mt-0 mb-5 overflow-hidden rounded-2xl shadow-md">
+          <img src="{{ $featuredImage | relURL }}" alt="{{ $featuredImageAlt }}" loading="lazy">
         </figure>
+      {{ else }}
+        {{/* Styled gradient banner replaces flat SVG */}}
+        {{ $kicker := "" }}
+        {{ if eq .Section "blog" }}{{ $kicker = "Van Life" }}{{ end }}
+        {{ if eq .Section "gear" }}{{ $kicker = "Gear & Reviews" }}{{ end }}
+        {{ if eq .Section "best-of" }}{{ $kicker = "Best Picks" }}{{ end }}
+        {{ if eq .Section "reviews" }}{{ $kicker = "Product Review" }}{{ end }}
+        {{ if .Params.hero_kicker }}{{ $kicker = .Params.hero_kicker }}{{ end }}
+        {{ range .GetTerms "tags" }}
+          {{ if in (slice "van-life-reality" "couples" "lifestyle" "mental-health") (lower .Title) }}{{ $kicker = "8 Years in the Van" }}{{ end }}
+          {{ if in (slice "measured") (lower .Title) }}{{ $kicker = "Real Data" }}{{ end }}
+        {{ end }}
+        <div class="calv-article-banner mb-5">
+          {{ if $kicker }}<span class="calv-article-banner-kicker">{{ $kicker }}</span>{{ end }}
+        </div>
       {{ end }}
       <div class="calv-title">
         <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">

@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="calv-about-page">
+
+  {{/* ── PHOTO HERO ── */}}
+  <section class="calv-about-hero" style="background-image: url('/images/photos/white-van-sunset.jpg');">
+    <div class="calv-about-hero__overlay" aria-hidden="true"></div>
+    <div class="calv-about-hero__inner">
+      <p class="calv-about-hero__kicker">8 years · ProMaster 2500 · Full-time</p>
+      <h1 class="calv-about-hero__h1">{{ .Title }}</h1>
+      <p class="calv-about-hero__sub">Real gear. Real numbers. Built by people who actually live this.</p>
+    </div>
+  </section>
+
+  {{/* ── CONTENT ── */}}
+  <div class="calv-about-body">
+    <div class="calv-about-content prose">
+      {{ .Content }}
+    </div>
+
+    {{/* ── GEAR SIDEBAR ── */}}
+    <aside class="calv-about-gear">
+      <div class="calv-about-gear__card">
+        <div class="calv-about-gear__label">Current Setup</div>
+        <ul class="calv-about-gear__list">
+          <li><strong>Station</strong> Bluetti Elite 200V2</li>
+          <li><strong>Solar</strong> 3× 100W Renogy Slim</li>
+          <li><strong>Charger</strong> Bluetti Charger 2</li>
+          <li><strong>Fridge</strong> Dometic CFX65DZ</li>
+          <li><strong>Fans</strong> Maxxair 7500 + 4500</li>
+          <li><strong>Van</strong> 2017 Ram ProMaster 2500</li>
+        </ul>
+        <div class="calv-about-gear__note">Running 24/7. Tested across AZ, CO, FL, CA, NY.</div>
+      </div>
+
+      <div class="calv-about-gear__card calv-about-gear__card--stat">
+        <div class="calv-about-gear__stat-grid">
+          <div><span class="calv-about-stat-num">8</span><span class="calv-about-stat-label">years full-time</span></div>
+          <div><span class="calv-about-stat-num">5</span><span class="calv-about-stat-label">states tested</span></div>
+          <div><span class="calv-about-stat-num">2</span><span class="calv-about-stat-label">people, 1 van</span></div>
+          <div><span class="calv-about-stat-num">8mo</span><span class="calv-about-stat-label">SE Asia trip</span></div>
+        </div>
+      </div>
+
+      <div class="calv-about-gear__card">
+        <div class="calv-about-gear__label">Measured Data</div>
+        <ul class="calv-about-gear__list calv-about-gear__list--data">
+          <li><span class="calv-about-data-label">Fridge (FL summer)</span><span class="calv-about-data-val">20–25W/hr</span></li>
+          <li><span class="calv-about-data-label">Fridge (mild)</span><span class="calv-about-data-val">10–12W/hr</span></li>
+          <li><span class="calv-about-data-label">Bluetti 200V2 charge</span><span class="calv-about-data-val">~1hr to full</span></li>
+          <li><span class="calv-about-data-label">Solar (300W, good day)</span><span class="calv-about-data-val">adequate</span></li>
+          <li><span class="calv-about-data-label">Solar (CO winter)</span><span class="calv-about-data-val">tight</span></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+</div>
+{{ end }}

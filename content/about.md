@@ -4,6 +4,7 @@ description: "8 years full-time in a van. Real gear, real measurements, and hone
 slug: "about"
 date: 2026-03-04
 draft: false
+layout: "about"
 ---
 
 We didn't quit tech jobs to do this. We worked — restaurants, bartending, construction — saved money, and built a life around freedom instead of stuff. Eight years in a van, season to season, region to region. San Diego winters, Colorado summers, Florida when we needed warmth, New York when we needed family. We just got back from eight months in Southeast Asia. Now we're building this — because after all of it, we actually have something worth saying.

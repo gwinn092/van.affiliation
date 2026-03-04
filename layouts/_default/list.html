@@ -22,8 +22,14 @@
 
     {{ if gt (len $pages) 0 }}
       <div class="vf-list-grid grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        {{ $sectionPhotos := dict "blog" "/images/photos/van-parked-road.jpg" "gear" "/images/photos/van-interior.jpg" "best-of" "/img/home/buyer-guides.jpg" "reviews" "/images/photos/van-interior.jpg" "collections" "/images/photos/van-dirt-road.jpg" }}
         {{ range $pages.ByDate.Reverse }}
-          {{ $img := .Params.featureimage | default "/img/gear/van-hero-camper.jpg" }}
+          {{ $raw := .Params.featureimage | default .Params.featuredImage }}
+          {{ $isSVG := or (not $raw) (strings.HasSuffix (string $raw) ".svg") (strings.HasPrefix (string $raw) "/images/featured/") }}
+          {{ $img := $raw }}
+          {{ if $isSVG }}
+            {{ $img = index $sectionPhotos .Section | default "/images/photos/van-parked-road.jpg" }}
+          {{ end }}
           <article class="vf-list-card overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
             <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
               <img src="{{ $img | relURL }}" alt="{{ .Title }}" class="h-52 w-full object-cover" loading="lazy">

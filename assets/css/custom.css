@@ -5250,3 +5250,237 @@ h1 {
   color: rgba(248,245,240,.5);
   margin-top: .25rem;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   SPRINT 18 — VISUAL IMPROVEMENTS
+   Article banners, photo heroes, list cards, About page
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Article gradient banner (replaces flat SVG hero) ── */
+.calv-article-banner {
+  background: linear-gradient(135deg, #0a1d36 0%, #0f5e8a 58%, #0b6b72 100%);
+  border-radius: var(--vf-radius);
+  padding: 2rem 1.75rem 1.5rem;
+  margin-bottom: 1.25rem;
+  min-height: 88px;
+  display: flex;
+  align-items: flex-end;
+}
+.calv-article-banner-kicker {
+  display: inline-block;
+  background: rgba(255,255,255,0.14);
+  color: #bfdbfe;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  padding: 0.22rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.22);
+}
+
+/* ── Real photo hero (when article has an actual photo) ── */
+.calv-article-photo-hero img {
+  display: block;
+  height: 280px;
+  max-height: 380px;
+  width: 100%;
+  object-fit: cover;
+  filter: saturate(1.05) contrast(1.02);
+  border-radius: var(--vf-radius);
+}
+@media (min-width: 640px) {
+  .calv-article-photo-hero img { height: 340px; }
+}
+
+/* ── List cards: taller images ── */
+.vf-list-card img {
+  height: 210px !important;
+  object-fit: cover;
+  filter: saturate(1.04) contrast(1.02);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ABOUT PAGE LAYOUT
+   ═══════════════════════════════════════════════════════════════ */
+.calv-about-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 3rem;
+}
+
+/* Photo hero */
+.calv-about-hero {
+  position: relative;
+  height: 340px;
+  border-radius: var(--vf-radius);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center 40%;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: flex-end;
+}
+@media (min-width: 640px) {
+  .calv-about-hero { height: 420px; }
+}
+.calv-about-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(8,18,32,0.88) 0%, rgba(8,18,32,0.42) 55%, rgba(8,18,32,0.12) 100%);
+}
+.calv-about-hero__inner {
+  position: relative;
+  z-index: 2;
+  padding: 2rem 2rem 2.25rem;
+  color: #f8fbff;
+}
+.calv-about-hero__kicker {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #93c5fd;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  margin-bottom: 0.6rem;
+}
+.calv-about-hero__h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #f8fbff;
+  margin: 0 0 0.4rem;
+}
+@media (min-width: 640px) {
+  .calv-about-hero__h1 { font-size: 2.6rem; }
+}
+.calv-about-hero__sub {
+  font-size: 0.95rem;
+  color: rgba(248,251,255,0.8);
+  margin: 0;
+  max-width: 520px;
+}
+
+/* Body layout: content + sidebar */
+.calv-about-body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+@media (min-width: 900px) {
+  .calv-about-body {
+    grid-template-columns: 1fr 300px;
+    align-items: start;
+  }
+}
+
+/* Prose content side */
+.calv-about-content.prose {
+  max-width: none;
+}
+.calv-about-content.prose h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0b1324;
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 2px solid #e2eaf6;
+}
+
+/* Gear sidebar cards */
+.calv-about-gear {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.calv-about-gear__card {
+  background: #ffffff;
+  border: 1px solid #d6e0ec;
+  border-radius: 14px;
+  padding: 1.1rem 1.25rem;
+  box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+}
+.calv-about-gear__card--stat {
+  background: linear-gradient(135deg, #0a1d36, #0f5e8a);
+  border-color: transparent;
+}
+.calv-about-gear__label {
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #64748b;
+  margin-bottom: 0.6rem;
+}
+.calv-about-gear__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  color: #1a2f49;
+}
+.calv-about-gear__list li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #f0f4fa;
+  display: flex;
+  gap: 0.4rem;
+}
+.calv-about-gear__list li:last-child { border-bottom: 0; }
+.calv-about-gear__list strong {
+  color: #64748b;
+  font-weight: 600;
+  min-width: 54px;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.calv-about-gear__note {
+  font-size: 0.73rem;
+  color: #64748b;
+  margin-top: 0.65rem;
+  line-height: 1.5;
+}
+
+/* Stat grid */
+.calv-about-gear__stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.calv-about-stat-num {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #f8fbff;
+  line-height: 1;
+}
+.calv-about-stat-label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(248,251,255,0.65);
+  margin-top: 0.1rem;
+}
+
+/* Data list variant */
+.calv-about-gear__list--data li {
+  justify-content: space-between;
+  align-items: center;
+}
+.calv-about-data-label {
+  color: #41546d;
+  font-size: 0.8rem;
+}
+.calv-about-data-val {
+  font-weight: 700;
+  color: #0f5e8a;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
