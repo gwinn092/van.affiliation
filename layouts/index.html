@@ -1,89 +1,144 @@
 {{ define "main" }}
-  <section class="home-shell home-storefront mx-auto w-full max-w-7xl space-y-7 py-6 md:space-y-8 md:py-9">
-    <header class="storefront-hero">
-      <p class="storefront-kicker">Honest guides for budget van life</p>
-      <h1>Find the right van power setup — without overbuilding or overspending.</h1>
-      <p class="storefront-subhead">Real-world gear guides, a free power calculator, and beginner-to-full-time advice from 7+ years of full-time van life. Every spec labeled so you can compare clearly.</p>
-      <div class="storefront-cta-row">
-        <a href="{{ "/van-power-calculator/" | relLangURL }}" class="storefront-btn storefront-btn-primary" role="button">Size my system →</a>
-        <a href="{{ "/start-here/" | relLangURL }}" class="storefront-btn storefront-btn-ghost" role="button">Start Here</a>
+<div class="calv-home">
+
+  {{/* ── HERO ── */}}
+  <section class="calv-home-hero" style="background-image:url('/img/home/hero.jpg');">
+    <div class="calv-home-hero__overlay" aria-hidden="true"></div>
+    <div class="calv-home-hero__inner">
+      <p class="calv-home-hero__kicker">Honest guides for budget van life</p>
+      <h1 class="calv-home-hero__h1">Find the right van power setup — without overbuilding or overspending.</h1>
+      <p class="calv-home-hero__sub">Real-world gear guides, a free power calculator, and beginner-to-full-time advice from 7+ years of full-time van life. Every spec labeled so you can compare clearly.</p>
+      <div class="calv-home-hero__ctas">
+        <a href="{{ "/van-power-calculator/" | relLangURL }}" class="calv-home-btn calv-home-btn--primary">Size my system →</a>
+        <a href="{{ "/start-here/" | relLangURL }}" class="calv-home-btn calv-home-btn--ghost">Start Here</a>
       </div>
-      <p class="storefront-search-note">Already know what you need? Use the search icon in the header for instant results.</p>
-    </header>
-
-    <section id="shop-by-category" class="storefront-grid-wrap">
-      <h2>Shop by category</h2>
-      <div class="storefront-grid">
-        <article class="storefront-card">
-          <a href="{{ "/collections/under-1000-recovery-setups/" | relLangURL }}" data-calv-event="homepage_tile_click" data-calv-tile="Under-$1000 Best Picks">
-            <img src="{{ "/img/home/under-1000.jpg" | relURL }}" alt="Camper van near mountains for under-$1000 picks" loading="eager">
-            <span class="storefront-card-title">Under-$1000 Best Picks</span>
-            <span class="storefront-card-bestfor">Best for: budget-bound upgrades with fast recovery.</span>
-          </a>
-        </article>
-        <article class="storefront-card">
-          <a href="{{ "/collections/quiet-hours-survival-kit/" | relLangURL }}" data-calv-event="homepage_tile_click" data-calv-tile="Quiet Hours">
-            <img src="{{ "/img/home/quiet-hours.jpg" | relURL }}" alt="Calm camper interior for quiet-hours planning" loading="eager">
-            <span class="storefront-card-title">Quiet Hours</span>
-            <span class="storefront-card-bestfor">Best for: campgrounds and timing-restricted refills.</span>
-          </a>
-        </article>
-        <article class="storefront-card">
-          <a href="{{ "/collections/generator-free-workflow/" | relLangURL }}" data-calv-event="homepage_tile_click" data-calv-tile="Generator-Free">
-            <img src="{{ "/img/home/generator-free.jpg" | relURL }}" alt="Van parked in open landscape for generator-free setup" loading="lazy">
-            <span class="storefront-card-title">Generator-Free</span>
-            <span class="storefront-card-bestfor">Best for: no-generator routines with repeatable windows.</span>
-          </a>
-        </article>
-        <article class="storefront-card">
-          <a href="{{ "/under-1000-fast-charging-watch-list/" | relLangURL }}" data-calv-event="homepage_tile_click" data-calv-tile="More Picks">
-            <img src="{{ "/img/home/watch-list.jpg" | relURL }}" alt="Remote work setup in van for more picks tracking" loading="lazy">
-            <span class="storefront-card-title">More Picks</span>
-            <span class="storefront-card-bestfor">Best for: tracking price drift without panic buying.</span>
-          </a>
-        </article>
-        <article class="storefront-card">
-          <a href="{{ "/fast-charging-power-station-buyer-checklist/" | relLangURL }}" data-calv-event="homepage_tile_click" data-calv-tile="Buyer Checklist">
-            <img src="{{ "/img/home/buyer-checklist.jpg" | relURL }}" alt="Van workstation and checklist planning" loading="lazy">
-            <span class="storefront-card-title">Buyer Checklist</span>
-            <span class="storefront-card-bestfor">Best for: fast decisions before you spend.</span>
-          </a>
-        </article>
-        <article class="storefront-card">
-          <a href="{{ "/collections/fast-charging-by-constraint/" | relLangURL }}" data-calv-event="homepage_tile_click" data-calv-tile="Buyer Guides">
-            <img src="{{ "/img/home/buyer-guides.jpg" | relURL }}" alt="Camper interior and guide routing overview" loading="lazy">
-            <span class="storefront-card-title">Buyer Guides</span>
-            <span class="storefront-card-bestfor">Best for: routing by real constraints, not hype specs.</span>
-          </a>
-        </article>
-        <article class="storefront-card">
-          <a href="{{ "/fast-charging-not-keeping-up-what-to-fix-first/" | relLangURL }}" data-calv-event="homepage_tile_click" data-calv-tile="Fix-First (When Behind)">
-            <img src="{{ "/img/home/fix-first.jpg" | relURL }}" alt="Van parked at dusk representing troubleshooting mode" loading="lazy">
-            <span class="storefront-card-title">Fix-First (When Behind)</span>
-            <span class="storefront-card-bestfor">Best for: stopping drift before upgrading gear.</span>
-          </a>
-        </article>
-        <article class="storefront-card">
-          <a href="{{ "/deals/" | relLangURL }}" data-calv-event="homepage_tile_click" data-calv-tile="Deals">
-            <img src="{{ "/img/home/deals.jpg" | relURL }}" alt="Open-road van scene for curated deals tracker" loading="lazy">
-            <span class="storefront-card-title">Deals</span>
-            <span class="storefront-card-bestfor">Best for: timing buys without chasing fake urgency.</span>
-          </a>
-        </article>
-      </div>
-    </section>
-
-    <section class="storefront-picks">
-      <h2>Top Picks Right Now</h2>
-      <ul>
-        <li><a href="{{ "/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast" | relLangURL }}">Top Pick: Fastest recovery bucket</a></li>
-        <li><a href="{{ "/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows" | relLangURL }}">Runner-Up: Quiet-hours bucket</a></li>
-        <li><a href="{{ "/under-1000-fast-charging-watch-list/" | relLangURL }}">More Picks route for price drift</a></li>
-      </ul>
-    </section>
-
-    <section class="storefront-trust">
-      <p>We keep claims labeled (Spec / Reported / Measured / Estimate) so you can compare calmly. Need term clarity? <a href="{{ "/fast-charging-power-station-glossary/" | relLangURL }}">Open the glossary</a>.</p>
-    </section>
+    </div>
   </section>
+
+  {{/* ── TRUST STRIP ── */}}
+  <div class="calv-home-trust-strip">
+    <span>7+ years full-time van life</span>
+    <span class="calv-home-trust-dot" aria-hidden="true">·</span>
+    <span>Every spec labeled: Spec / Reported / Measured / Estimate</span>
+    <span class="calv-home-trust-dot" aria-hidden="true">·</span>
+    <span>No fake urgency. Ever.</span>
+  </div>
+
+  {{/* ── CATEGORY GRID ── */}}
+  <section class="calv-home-grid-section" id="shop-by-category">
+    <div class="calv-home-grid-inner">
+      <h2 class="calv-home-section-title">Browse by goal</h2>
+      <p class="calv-home-section-sub">Not sure which page you need? <a href="{{ "/start-here/" | relLangURL }}">Start Here</a> or <a href="{{ "/van-power-calculator/" | relLangURL }}">use the calculator</a>.</p>
+
+      <div class="calv-home-grid">
+
+        <a href="{{ "/collections/under-1000-recovery-setups/" | relLangURL }}" class="calv-home-tile" data-calv-event="homepage_tile_click" data-calv-tile="Under-$1000 Best Picks">
+          <div class="calv-home-tile__img">
+            <img src="/img/home/under-1000.jpg" alt="Van parked on mountain road" loading="eager">
+          </div>
+          <div class="calv-home-tile__body">
+            <span class="calv-home-tile__title">Under-$1000 Best Picks</span>
+            <span class="calv-home-tile__sub">Budget-bound upgrades with fast recovery</span>
+          </div>
+        </a>
+
+        <a href="{{ "/collections/quiet-hours-survival-kit/" | relLangURL }}" class="calv-home-tile" data-calv-event="homepage_tile_click" data-calv-tile="Quiet Hours">
+          <div class="calv-home-tile__img">
+            <img src="/img/home/quiet-hours.jpg" alt="Van parked in forest, quiet setup" loading="eager">
+          </div>
+          <div class="calv-home-tile__body">
+            <span class="calv-home-tile__title">Quiet Hours</span>
+            <span class="calv-home-tile__sub">Campgrounds and timing-restricted refills</span>
+          </div>
+        </a>
+
+        <a href="{{ "/collections/generator-free-workflow/" | relLangURL }}" class="calv-home-tile" data-calv-event="homepage_tile_click" data-calv-tile="Generator-Free">
+          <div class="calv-home-tile__img">
+            <img src="/img/home/generator-free.jpg" alt="Van on open dirt road, no generator" loading="lazy">
+          </div>
+          <div class="calv-home-tile__body">
+            <span class="calv-home-tile__title">Generator-Free</span>
+            <span class="calv-home-tile__sub">No-generator routines with repeatable windows</span>
+          </div>
+        </a>
+
+        <a href="{{ "/under-1000-fast-charging-watch-list/" | relLangURL }}" class="calv-home-tile" data-calv-event="homepage_tile_click" data-calv-tile="More Picks">
+          <div class="calv-home-tile__img">
+            <img src="/img/home/watch-list.jpg" alt="Working remotely from van" loading="lazy">
+          </div>
+          <div class="calv-home-tile__body">
+            <span class="calv-home-tile__title">More Picks</span>
+            <span class="calv-home-tile__sub">Track price drift without panic buying</span>
+          </div>
+        </a>
+
+        <a href="{{ "/fast-charging-power-station-buyer-checklist/" | relLangURL }}" class="calv-home-tile" data-calv-event="homepage_tile_click" data-calv-tile="Buyer Checklist">
+          <div class="calv-home-tile__img">
+            <img src="/img/home/buyer-checklist.jpg" alt="Van interior for planning" loading="lazy">
+          </div>
+          <div class="calv-home-tile__body">
+            <span class="calv-home-tile__title">Buyer Checklist</span>
+            <span class="calv-home-tile__sub">Fast decisions before you spend</span>
+          </div>
+        </a>
+
+        <a href="{{ "/collections/fast-charging-by-constraint/" | relLangURL }}" class="calv-home-tile" data-calv-event="homepage_tile_click" data-calv-tile="Buyer Guides">
+          <div class="calv-home-tile__img">
+            <img src="/img/home/buyer-guides.jpg" alt="Teal conversion van, buyer guides" loading="lazy">
+          </div>
+          <div class="calv-home-tile__body">
+            <span class="calv-home-tile__title">Buyer Guides</span>
+            <span class="calv-home-tile__sub">Routing by real constraints, not hype specs</span>
+          </div>
+        </a>
+
+        <a href="{{ "/fast-charging-not-keeping-up-what-to-fix-first/" | relLangURL }}" class="calv-home-tile" data-calv-event="homepage_tile_click" data-calv-tile="Fix-First">
+          <div class="calv-home-tile__img">
+            <img src="/img/home/fix-first.jpg" alt="Van at dusk, troubleshooting mode" loading="lazy">
+          </div>
+          <div class="calv-home-tile__body">
+            <span class="calv-home-tile__title">Fix-First (When Behind)</span>
+            <span class="calv-home-tile__sub">Stop drift before upgrading gear</span>
+          </div>
+        </a>
+
+        <a href="{{ "/deals/" | relLangURL }}" class="calv-home-tile" data-calv-event="homepage_tile_click" data-calv-tile="Deals">
+          <div class="calv-home-tile__img">
+            <img src="/img/home/deals.jpg" alt="Van at sunset, deals tracker" loading="lazy">
+          </div>
+          <div class="calv-home-tile__body">
+            <span class="calv-home-tile__title">Deals</span>
+            <span class="calv-home-tile__sub">Time buys without chasing fake urgency</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  {{/* ── TOP PICKS ── */}}
+  <section class="calv-home-picks">
+    <div class="calv-home-picks__inner">
+      <h2 class="calv-home-section-title" style="color:#f8f5f0;">Top Picks Right Now</h2>
+      <div class="calv-home-picks__grid">
+        <a href="{{ "/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast" | relLangURL }}" class="calv-home-pick-card">
+          <span class="calv-home-pick-card__label">Top Pick</span>
+          <span class="calv-home-pick-card__title">Fastest recovery bucket</span>
+          <span class="calv-home-pick-card__arrow">→</span>
+        </a>
+        <a href="{{ "/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows" | relLangURL }}" class="calv-home-pick-card">
+          <span class="calv-home-pick-card__label">Runner-Up</span>
+          <span class="calv-home-pick-card__title">Quiet-hours bucket</span>
+          <span class="calv-home-pick-card__arrow">→</span>
+        </a>
+        <a href="{{ "/under-1000-fast-charging-watch-list/" | relLangURL }}" class="calv-home-pick-card">
+          <span class="calv-home-pick-card__label">More Picks</span>
+          <span class="calv-home-pick-card__title">Price drift watch list</span>
+          <span class="calv-home-pick-card__arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</div>
 {{ end }}
