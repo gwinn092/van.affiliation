@@ -1,9 +1,8 @@
 ---
 title: "Van Life Blog"
-description: "Evergreen van life advice for budget builds, electrical choices, remote work, and daily living."
+description: "Eight years of van life across every climate — power, build decisions, real stories, and what we'd do differently."
 url: "/blog/"
 featureimage: "/images/featured/build-tools.svg"
 keywords: ["van life blog", "van conversion advice"]
 ---
 
-Actionable tutorials and realistic planning posts for first-time van builders.
