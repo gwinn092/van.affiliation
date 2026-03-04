@@ -1,62 +1,80 @@
 ---
-title: "About Create A Van Life"
-description: "How Create A Van Life works, what recovery-first means, and how we evaluate van power gear honestly."
+title: "About This Site"
+description: "8 years full-time in a van. Real gear, real measurements, and honest recommendations."
 slug: "about"
-date: 2026-02-22
+date: 2026-03-04
 draft: false
 ---
 
-## Who writes this
+I've been living full-time in a van for 8 years. Not weekends. Not a gap year. Eight years straight, in a black 2017 Ram ProMaster 2500, across Colorado, Arizona, Florida, California, and New York.
 
-Seven years ago I moved into a secondhand cargo van with a half-finished electrical plan, a borrowed drill, and a deadline for remote work starting in four days. The first month covered a lot of ground fast.
+When I started in 2018, there were maybe three power stations worth buying. The choices were simple — good products or bad products, not much in between. Today there are dozens of brands, hundreds of models, and most of the review sites covering them have never spent a night in a van.
 
-I overloaded an inverter in a Walmart parking lot trying to run a space heater. I spent a week diagnosing a slow drain in the Pacific Northwest that turned out to be a loose ground connection I had touched six times before finding it. I learned that remote work deadlines and cloudy stretches are exactly the wrong combination when your power system is marginal — not because the gear was bad, but because I had built for ideal days and was living through the other kind.
+This site exists because I have.
 
-Most of what you will read on this site came from that period: seven years of full-time van living through Colorado winters, Arizona summers, Florida humidity, and long cloudy Northwest seasons where you learn to think about recovery windows before you think about anything else.
+## What I Actually Run
 
-CAVL is shorthand for **Create A Van Life**. It is a one-person site. No editorial team, no PR relationships with brands, no gear sent for free in exchange for coverage.
+- **Bluetti Elite 200V2** — current station, switched 5 months ago
+- **Goal Zero Yeti 1400** — ran it for 6 years before upgrading; it held up well
+- **3x 100W Renogy slim panels** — roof-mounted on the ProMaster
+- **Bluetti Charger 2** — for both alternator and solar input
+- **Dometic CFX65DZ** — chest fridge running 24/7
+- **2x Maxxair fans** — the 7500 and the 4500
+- 6 LED lights, water pump, and all standard electronics
 
-## What "recovery-first" means
+This isn't aspirational gear. It's what I've actually run for years, what I've measured, and what I'd recommend — or wouldn't — based on how it held up in the real world.
+
+## What "Recovery-First" Means
 
 Recovery-first is a framing choice, not a slogan.
 
-Most gear guides are written for good conditions: clear skies, access to outlets, stable temperatures, and a relaxed build timeline. That is not most van life. What actually happens is cloudy stretches, campground quiet hours, work sprints that burn reserves faster than planned, and parking constraints that limit when and where you can recharge.
+Most gear guides are written for good conditions: clear skies, outlet access, stable temperatures. That is not most van life. What actually happens is cloudy stretches that wipe out three days of solar, campground quiet hours that cut your recovery window, work sprints that burn reserves faster than planned, and parking constraints that limit when and where you can recharge.
 
-A recovery-first approach asks a different question: not "what is the best setup on a perfect day?" but "what keeps you stable through the worst week of the month?"
+The question I ask isn't "what is the best setup on a perfect day?" It's "what keeps you stable through the worst week of the month?"
 
-That shifts what you prioritize. Recharge speed matters more than peak capacity when your windows are short and unpredictable. A fast-recovery system that keeps you stable through a four-day cloudy stretch is more useful than a larger system with slow charging that leaves you babysitting a percentage bar. Recovery speed, real-world charging windows, and honest load accounting are the metrics that matter.
+That shifts what you prioritize. A fast-recovery system that gets you back to full in a two-hour coffee shop window is more useful than a larger, slower system that requires an overnight hookup to recover. Recharge speed, real-world charging windows, and honest load accounting are the metrics that matter.
 
 This site is written for the bad week, not the ideal one.
 
-## How we evaluate gear
+## What the Spec Sheet Doesn't Tell You
+
+The spec sheet doesn't tell you what it's like to run a fridge through a Florida summer, or charge your station at a coffee shop when three cloudy days wipe you out, or figure out why your fan squeaks after two years of desert dust.
+
+Some things I've learned that I couldn't have learned from a spec sheet:
+
+**Charging speed matters as much as capacity.** A 2,000Wh station that takes 12 hours to recharge can strand you on a cloudy week. Always check input wattage, not just storage.
+
+**Portable beats fixed when things go wrong.** Three times in 8 years I've pulled the station out and charged it at a coffee shop or hotel lobby. You cannot do that with a hardwired system.
+
+**More solar is almost always the right call.** I ran 300W for years because that's what made sense in 2018. If I were building the same system today, I'd go 500–600W minimum — modern slim panels pack significantly more output in the same footprint for similar prices.
+
+**Upright fridges win on practicality.** Chest fridges are more efficient on paper. But reaching into a chest fridge every single day for years gets old fast. Factor in real daily usability, not just watt draw.
+
+**Fans degrade.** Maxxair fans develop squeaks over time and are difficult to clean thoroughly. Brushless motor options are quieter and lower-maintenance — worth considering if longevity matters.
+
+## How We Evaluate Gear
 
 Every specific number on this site carries a label:
 
 - **Spec** — manufacturer-published figure from product page or datasheet
 - **Reported** — cited from a third-party source (reviewer, journalist, independent test)
-- **Measured** — data from a controlled test; source cited
+- **Measured** — direct observation from our own testing; noted where it appears
 - **Estimate** — reasoned approximation, not a hard claim
 
-If a watt-hour figure is a manufacturer claim, it says Spec. If a recharge time came from a YouTube test, it says Reported with a citation. We do not fabricate test data or combine spec numbers in ways that imply performance we cannot verify.
+If a watt-hour figure is a manufacturer claim, it says Spec. If a recharge time is my own observation from the van, it says Measured. We do not fabricate test data or imply performance we cannot verify.
 
-We do not accept gear for free in exchange for coverage. We do not have paid placement arrangements. We use affiliate links — if you buy through a link, we may earn a small commission at no additional cost to you. That relationship is disclosed on every page where it applies.
+## What This Site Does Not Do
 
-When we say a product is a strong pick, it is because it fits the recovery-first framework and the real constraints of budget van life — not because someone asked us to say so.
+We do not accept gear for free in exchange for coverage. We are not affiliated with any brand. We use affiliate links — if you buy through a link, we may earn a small commission at no additional cost to you. That relationship is disclosed where it applies.
 
-## What this site does not do
+We do not publish wiring diagrams or step-by-step installation guides. Vehicle electrical systems carry real safety stakes. Follow manufacturer instructions or hire a qualified installer.
 
-We do not publish wiring diagrams, step-by-step installation guides, or battery sizing calculations that require knowing your specific vehicle wiring. Vehicle electrical systems carry real safety stakes — undersized wire, wrong fuse placement, and poor connections cause fires and failures on the road. That is not a space for general tutorials.
+We do not manufacture urgency. If a price window is real, we note it with a date. We do not use "limited time" language to pressure buying decisions.
 
-If you need install guidance, follow manufacturer instructions or hire a qualified installer.
+## Where to Start
 
-We do not review gear we have not researched. If a product is not on this site, it is either outside the scope of what we cover or we do not have enough sourced information to write about it honestly.
+If you are new here, start with **[Start Here](/start-here/)** — it walks through the recovery-first framework and helps you figure out where your current setup falls short before looking at any products.
 
-We do not manufacture urgency on the Deals page. If a price window is real, we note it with a date. We do not use "limited time" language to pressure buying decisions.
-
-## Where to start
-
-If you are new here, the clearest starting point is the **[Start Here](/start-here/)** page. It walks through the recovery-first framework in order: diagnose your current situation, pick a recovery move, and use the buyer path only if an upgrade is actually warranted.
-
-If you want to know whether your current setup is stable, the **[Van Power Stability Scorecard](/van-power-stability-scorecard/)** takes five minutes and gives you a clear answer.
+If you want to understand how and why we test the way we do, read **[How We Test](/how-we-test-and-label-claims/)**.
 
 Both are free. Neither requires you to buy anything.
