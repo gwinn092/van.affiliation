@@ -5484,3 +5484,59 @@ h1 {
   font-size: 0.82rem;
   white-space: nowrap;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Sprint 18c — Collection hero photo background (list pages)
+   ═══════════════════════════════════════════════════════════════ */
+
+.vf-collection-hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--vf-radius, 16px);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 8px 32px rgba(10,29,54,0.22);
+  min-height: 200px;
+}
+.vf-collection-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(10,29,54,0.82) 0%, rgba(15,94,138,0.68) 100%);
+}
+.vf-collection-hero__inner {
+  position: relative;
+  z-index: 1;
+  padding: 2rem 1.75rem 2rem;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .vf-collection-hero__inner { padding: 2.75rem 2.5rem; }
+}
+.vf-collection-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.28);
+  border-radius: 999px;
+  padding: 0.22rem 0.85rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #bae6fd;
+  margin-bottom: 0.85rem;
+}
+.vf-collection-hero__h1 {
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: #f8fbff;
+  margin: 0 0 0.5rem 0;
+}
+.vf-collection-hero__desc {
+  margin: 0.6rem 0 0;
+  max-width: 40rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: rgba(248,251,255,0.85);
+}
