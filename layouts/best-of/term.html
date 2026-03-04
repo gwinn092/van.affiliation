@@ -18,8 +18,14 @@
 
     {{ if gt (len $pages) 0 }}
       <div class="vf-list-grid grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        {{ $bestofPhotos := dict "power-stations-under-500" "/img/home/under-1000.jpg" "best-fast-charging-power-stations-under-1000" "/img/home/under-1000.jpg" "best-fast-charging-power-stations" "/img/home/buyer-guides.jpg" "high-capacity-power-stations" "/img/home/buyer-guides.jpg" "van-solar" "/img/gear/van-solar-roof.webp" "van-internet" "/img/gear/van-workstation.jpg" "van-kitchen" "/img/gear/van-cook-stove.jpg" "budget-build-tools" "/images/photos/van-interior.jpg" "best-van-fans" "/images/photos/van-interior.jpg" "best-van-insulation" "/img/gear/van-insulation.jpg" "best-van-lighting" "/images/photos/van-interior.jpg" }}
         {{ range $pages.ByDate.Reverse }}
-          {{ $img := .Params.featured_image | default (.Params.featureimage | default "/images/featured/van-solar.svg") }}
+          {{ $raw := .Params.featured_image | default .Params.featureimage }}
+          {{ $isSVG := or (not $raw) (strings.HasSuffix (string $raw) ".svg") (strings.HasPrefix (string $raw) "/images/featured/") }}
+          {{ $img := $raw }}
+          {{ if $isSVG }}
+            {{ $img = index $bestofPhotos .File.ContentBaseName | default "/img/home/buyer-guides.jpg" }}
+          {{ end }}
           <article class="vf-list-card overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
             <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
               <img src="{{ $img | relURL }}" alt="{{ .Title }}" class="h-52 w-full object-cover" loading="lazy">
