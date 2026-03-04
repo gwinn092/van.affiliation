@@ -1,1 +1,13 @@
 <p class="mx-auto mt-4 max-w-7xl rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-center text-xs text-amber-900">{{ site.Data.affiliates.global.disclosure }}</p>
+<script>
+(function(){
+  var map = { measured:'measured', spec:'spec', reported:'reported', estimate:'estimate' };
+  document.querySelectorAll('.article-content code, .prose code').forEach(function(el){
+    var t = el.textContent.trim().toLowerCase();
+    if(map[t]){
+      el.classList.add('calv-label','calv-label--'+map[t]);
+      el.textContent = el.textContent.trim();
+    }
+  });
+})();
+</script>

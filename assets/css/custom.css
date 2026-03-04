@@ -5540,3 +5540,145 @@ h1 {
   line-height: 1.65;
   color: rgba(248,251,255,0.85);
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Sprint 19 — Article reading experience polish
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Claim label badges (applied via JS on inline code) ── */
+code.calv-label {
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 0.18em 0.65em;
+  border: 1.5px solid transparent;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+code.calv-label--measured {
+  background: #dcfce7;
+  color: #14532d;
+  border-color: #86efac;
+}
+code.calv-label--spec {
+  background: #dbeafe;
+  color: #1e3a5f;
+  border-color: #93c5fd;
+}
+code.calv-label--reported {
+  background: #fef9c3;
+  color: #713f12;
+  border-color: #fde047;
+}
+code.calv-label--estimate {
+  background: #f3e8ff;
+  color: #4a1d96;
+  border-color: #c4b5fd;
+}
+
+/* ── Blockquote → pull quote ── */
+.prose blockquote {
+  position: relative;
+  border-left: 4px solid #0f5e8a;
+  background: linear-gradient(135deg, #f0f7ff 0%, #e8f4fb 100%);
+  border-radius: 0 12px 12px 0;
+  padding: 1.1rem 1.4rem 1rem 1.6rem;
+  margin: 1.75rem 0;
+  font-style: normal;
+  color: #1a3049;
+}
+.prose blockquote::before {
+  content: '\201C';
+  position: absolute;
+  top: -0.2rem;
+  left: 0.85rem;
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  line-height: 1;
+  color: #0f5e8a;
+  opacity: 0.35;
+}
+.prose blockquote p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+/* ── H2 section accents ── */
+.article-content h2,
+.prose h2 {
+  position: relative;
+  padding-left: 0;
+  border-top: 2px solid #e2eaf6;
+  padding-top: 1.4rem;
+  margin-top: 2.5rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0b1324;
+  letter-spacing: -0.015em;
+}
+.article-content h3,
+.prose h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a2f49;
+}
+
+/* ── Data tables ── */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 6px rgba(10,29,54,0.08);
+}
+.prose table thead th {
+  background: #0a1d36;
+  color: #bae6fd;
+  font-weight: 700;
+  text-align: left;
+  padding: 0.65rem 1rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  border: none;
+}
+.prose table tbody tr:nth-child(even) td {
+  background: #f0f7ff;
+}
+.prose table tbody tr:nth-child(odd) td {
+  background: #ffffff;
+}
+.prose table tbody tr:hover td {
+  background: #e0f0fa;
+}
+.prose table td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #e2eaf6;
+  color: #1a2f49;
+  vertical-align: top;
+}
+.prose table td strong {
+  color: #0a1d36;
+}
+
+/* ── Lead paragraph (first p in article body) ── */
+.article-content > p:first-of-type,
+.prose > p:first-of-type {
+  font-size: 1.1rem;
+  line-height: 1.72;
+  color: #1a2f49;
+}
+
+/* ── Strong/bold polish ── */
+.prose strong {
+  color: #0b1324;
+  font-weight: 700;
+}
+
