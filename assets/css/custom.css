@@ -4672,6 +4672,10 @@ h1 {
   color: #f8f5f0;
   padding: 5rem 1.5rem 4.5rem;
   text-align: center;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .calv-sh-hero__overlay {
   position: absolute;
@@ -4706,6 +4710,10 @@ h1 {
 .calv-sh-paths {
   background: #f4f1ec;
   padding: 3rem 1.25rem;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .calv-sh-paths__grid {
   display: grid;
@@ -4753,6 +4761,10 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   height: 220px;
   overflow: hidden;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .calv-sh-photo-strip img {
   width: 100%;
@@ -4823,6 +4835,10 @@ h1 {
 .calv-sh-trust {
   background: #1a3c2e;
   padding: 2rem 1.5rem;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .calv-sh-trust__inner {
   max-width: 800px;
@@ -4864,6 +4880,10 @@ h1 {
 .calv-sh-framework {
   padding: 3.5rem 1.5rem;
   background: #fff;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .calv-sh-framework__inner {
   max-width: 1000px;
@@ -4947,6 +4967,10 @@ h1 {
 .calv-sh-topics {
   background: #f4f1ec;
   padding: 3rem 1.5rem;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .calv-sh-topics__h2 {
   font-size: 1.35rem;
@@ -5013,7 +5037,10 @@ h1 {
 /* Hero */
 .calv-home-hero {
   position: relative;
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   background-color: #0f2318;
   background-size: cover;
   background-position: center 35%;
@@ -5092,7 +5119,10 @@ h1 {
   justify-content: center;
   gap: .75rem;
   flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .calv-home-trust-dot { color: #e8a020; font-size: 1.2rem; line-height: 1; }
 
@@ -5100,7 +5130,10 @@ h1 {
 .calv-home-grid-section {
   background: #f4f1ec;
   padding: 3.5rem 1.25rem;
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .calv-home-grid-inner { max-width: 1100px; margin: 0 auto; }
 .calv-home-section-title {
@@ -5173,7 +5206,10 @@ h1 {
 .calv-home-picks {
   background: #1a3c2e;
   padding: 3rem 1.5rem;
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .calv-home-picks__inner { max-width: 900px; margin: 0 auto; }
 .calv-home-picks__grid {
