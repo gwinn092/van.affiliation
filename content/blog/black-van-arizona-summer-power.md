@@ -64,4 +64,4 @@ The good news: modern power stations handle heat well within their designed rang
 - [How Much Power Does a Van Fridge Really Use?](/blog/van-fridge-real-power-draw/)
 - [Staying Cool in a Van Without AC](/blog/van-life-summer-heat-no-ac/)
 - [Power Station Charging Speed Explained](/blog/power-station-charging-speed-explained/)
-- [I Ran 300W Solar for 6 Years — Here's What I'd Do Differently](/blog/i-ran-300w-solar-for-6-years/)
+- [I Ran 300W Solar for 6 Years — Here's What I'd Do Differently](/blog/i-ran-300w-solar-for-6-years/)\n- [Best Fast-Charging Power Stations for Van Life](/best-of/best-fast-charging-power-stations/) — recovery matters more in extreme heat\n- [High Capacity Power Stations](/best-of/high-capacity-power-stations/) — if desert summers are a regular part of your route

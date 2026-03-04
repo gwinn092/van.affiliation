@@ -84,4 +84,4 @@ Upgrade only when your current setup consistently bothers you, not because a bui
 
 Related reads:
 - [How to Start Van Life on a Budget](/blog/how-to-start-van-life-on-a-budget/)
-- [Budget Kitchen Setup for Van Life](/blog/budget-kitchen-setup-for-van-life/)
+- [Budget Kitchen Setup for Van Life](/blog/budget-kitchen-setup-for-van-life/)\n- [Van Power Calculator](/van-power-calculator/) — size your pump and water heater load before buying\n- [Power Stations Under $500](/best-of/power-stations-under-500/) — for Tier 1 budget builds

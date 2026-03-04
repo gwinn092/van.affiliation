@@ -137,4 +137,5 @@ The setup that works: carrier diversity, one good hotspot with an external anten
 
 - [Best Internet Setup for Van Life](/best-of/van-internet/)
 - [How Many Watt-Hours Do I Need?](/blog/how-many-watt-hours-do-i-need/)
+- [Best Fast-Charging Power Stations for Van Life](/best-of/best-fast-charging-power-stations/) — stable power is what makes remote work actually work
 - [How to Start Van Life on a Budget](/blog/how-to-start-van-life-on-a-budget/)

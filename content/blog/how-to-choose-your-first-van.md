@@ -91,4 +91,6 @@ A van is a meaningful purchase. The decision you make here follows you for years
 Related reads:
 - [How to Start Van Life on a Budget](/blog/how-to-start-van-life-on-a-budget/)
 - [Budget Van Electrical: Simple vs DIY](/blog/budget-van-electrical-simple-vs-diy/)
+- [Van Power Calculator](/van-power-calculator/) — size your system before you spend anything
+- [Power Stations Under $500](/best-of/power-stations-under-500/) — the starting point for most first builds
 - [Tools You'll Actually Use in a First Build](/blog/tools-youll-actually-use-in-a-first-build/)

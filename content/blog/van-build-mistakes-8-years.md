@@ -81,4 +81,4 @@ Most van build mistakes come from optimizing for the build day rather than the d
 - [The 9-Foot Van Rule](/blog/the-9-foot-van-rule/)
 - [Ventilation Mistakes New Van Lifers Make](/blog/ventilation-mistakes-new-van-lifers-make/)
 - [Is the Ram ProMaster Reliable for Van Life?](/blog/promaster-reliable-van-life-review/)
-- [Why I'll Never Go Back to a Fixed Van Battery System](/blog/why-ill-never-go-back-to-a-fixed-van-battery/)
+- [Why I'll Never Go Back to a Fixed Van Battery System](/blog/why-ill-never-go-back-to-a-fixed-van-battery/)\n- [Best Fast-Charging Power Stations for Van Life](/best-of/best-fast-charging-power-stations/) — the portable power approach we'd choose again\n- [Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/) — what to check before buying

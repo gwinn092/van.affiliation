@@ -65,4 +65,4 @@ The power station didn't fail permanently. The calibration cycle fixed it, and w
 - [Why Your Power Station Battery Percentage Lies To You (And How To Fix It)](/blog/power-station-battery-percentage-lies/)
 - [Alternator Charging for Portable Power Stations](/blog/alternator-charging-for-power-stations/)
 - [Why I'll Never Go Back to a Fixed Van Battery System](/blog/why-ill-never-go-back-to-a-fixed-van-battery/)
-- [Goal Zero Yeti 1400 Review: 6 Years Full-Time](/gear/goal-zero-yeti-1400-legacy-review/)
+- [Goal Zero Yeti 1400 Review: 6 Years Full-Time](/gear/goal-zero-yeti-1400-legacy-review/)\n- [Best Fast-Charging Power Stations for Van Life](/best-of/best-fast-charging-power-stations/) — what we'd pick knowing what we know now\n- [Power Stations Under $500](/best-of/power-stations-under-500/) — if you're starting over on a tighter budget
