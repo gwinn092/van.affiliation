@@ -45,5 +45,9 @@ weight = 70
 name = "keywords"
 weight = 40
 
+[services]
+  [services.googleAnalytics]
+    ID = "" # Add your G-XXXXXXXXXX ID here when ready
+
 [params]
 plausibleDomain = ""
