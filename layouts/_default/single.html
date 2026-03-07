@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{ .Scratch.Set "scope" "single" }}
+  <div class="calv-read-progress" id="calv-read-progress" aria-hidden="true"></div>
   <article>
     {{/* Hero */}}
     {{ if .Params.showHero | default (site.Params.article.showHero | default false) }}
@@ -22,24 +23,45 @@
       {{ $featuredImage := .Params.featuredImage | default .Params.featureimage }}
       {{ $featuredImageAlt := .Params.featuredImageAlt | default .Title }}
       {{ $isSVG := and $featuredImage (or (strings.HasSuffix (string $featuredImage) ".svg") (strings.HasPrefix (string $featuredImage) "/images/featured/")) }}
-      {{ if and $featuredImage (not $isSVG) }}
+      {{ if eq .Section "blog" }}
+        {{/* Blog posts: photo hero — use featuredImage or default van photo */}}
+        {{ $heroPhoto := "/images/photos/white-van-sunset.jpg" }}
+        {{ if and $featuredImage (not $isSVG) }}{{ $heroPhoto = $featuredImage }}{{ end }}
+        {{ $kicker := "Van Life" }}
+        {{ if .Params.hero_kicker }}{{ $kicker = .Params.hero_kicker }}{{ end }}
+        {{ range .GetTerms "tags" }}
+          {{ if in (slice "van-life-reality" "couples" "lifestyle" "mental-health") (lower .Title) }}{{ $kicker = "8 Years in the Van" }}{{ end }}
+        {{ end }}
+        <div class="calv-blog-hero mb-5" style="background-image: url('{{ $heroPhoto | relURL }}');">
+          <div class="calv-blog-hero__overlay" aria-hidden="true"></div>
+          <span class="calv-blog-hero__kicker">{{ $kicker }}</span>
+        </div>
+      {{ else if and $featuredImage (not $isSVG) }}
         <figure class="calv-article-photo-hero mt-0 mb-5 overflow-hidden rounded-2xl shadow-md">
           <img src="{{ $featuredImage | relURL }}" alt="{{ $featuredImageAlt }}" loading="lazy">
         </figure>
       {{ else }}
-        {{/* Styled gradient banner replaces flat SVG */}}
+        {{/* Gear/buyer pages: photo hero mapped by slug */}}
+        {{ $heroPhoto := "/img/home/under-1000.jpg" }}
+        {{ $slug := .RelPermalink }}
+        {{ if strings.Contains $slug "quiet-hours" }}{{ $heroPhoto = "/img/home/quiet-hours.jpg" }}{{ end }}
+        {{ if strings.Contains $slug "generator-free" }}{{ $heroPhoto = "/img/home/generator-free.jpg" }}{{ end }}
+        {{ if strings.Contains $slug "buyer-checklist" }}{{ $heroPhoto = "/img/home/buyer-checklist.jpg" }}{{ end }}
+        {{ if strings.Contains $slug "buyer-guide" }}{{ $heroPhoto = "/img/home/buyer-guides.jpg" }}{{ end }}
+        {{ if strings.Contains $slug "fix-first" }}{{ $heroPhoto = "/img/home/fix-first.jpg" }}{{ end }}
+        {{ if strings.Contains $slug "watch-list" }}{{ $heroPhoto = "/img/home/watch-list.jpg" }}{{ end }}
+        {{ if strings.Contains $slug "deals" }}{{ $heroPhoto = "/img/home/deals.jpg" }}{{ end }}
         {{ $kicker := "" }}
-        {{ if eq .Section "blog" }}{{ $kicker = "Van Life" }}{{ end }}
         {{ if eq .Section "gear" }}{{ $kicker = "Gear & Reviews" }}{{ end }}
         {{ if eq .Section "best-of" }}{{ $kicker = "Best Picks" }}{{ end }}
         {{ if eq .Section "reviews" }}{{ $kicker = "Product Review" }}{{ end }}
         {{ if .Params.hero_kicker }}{{ $kicker = .Params.hero_kicker }}{{ end }}
         {{ range .GetTerms "tags" }}
-          {{ if in (slice "van-life-reality" "couples" "lifestyle" "mental-health") (lower .Title) }}{{ $kicker = "8 Years in the Van" }}{{ end }}
           {{ if in (slice "measured") (lower .Title) }}{{ $kicker = "Real Data" }}{{ end }}
         {{ end }}
-        <div class="calv-article-banner mb-5">
-          {{ if $kicker }}<span class="calv-article-banner-kicker">{{ $kicker }}</span>{{ end }}
+        <div class="calv-blog-hero mb-5" style="background-image: url('{{ $heroPhoto | relURL }}');">
+          <div class="calv-blog-hero__overlay" aria-hidden="true"></div>
+          {{ if $kicker }}<span class="calv-blog-hero__kicker">{{ $kicker }}</span>{{ end }}
         </div>
       {{ end }}
       <div class="calv-title">
@@ -82,7 +104,7 @@
           {{- end -}}
         </div>
       </div>
-      {{ partial "calv/article-hero.html" . }}
+      {{ if ne .Section "blog" }}{{ partial "calv/article-hero.html" . }}{{ end }}
       {{ if not (.Params.showAuthorBottom | default (site.Params.article.showAuthorBottom | default false)) }}
         {{ template "SingleAuthor" . }}
       {{ end }}
@@ -97,38 +119,40 @@
       <div class="min-w-0 min-h-0 w-full flex-1 lg:col-span-10">
         {{ partial "series/series.html" . }}
         <div class="article-content max-w-full mb-12 prose dark:prose-invert">
-    <!-- CAVL Decision Header (reduces overwhelm + improves conversion) -->
-    <div class="calv-decision-header not-prose">
-      <div class="calv-decision-card">
-        <div class="calv-decision-eyebrow">QUICK TAKE</div>
-        <div class="calv-decision-text">
+    {{/* Decision header — gear/buyer pages only, not blog */}}
+    {{ if in (slice "gear" "best-of" "collections" "watch-list") .Section }}
+    <div class=”calv-decision-header not-prose”>
+      <div class=”calv-decision-card”>
+        <div class=”calv-decision-eyebrow”>QUICK TAKE</div>
+        <div class=”calv-decision-text”>
           If you only read one thing: pick the smallest setup that can reliably <strong>recover fast</strong> in your real refill windows.
         </div>
       </div>
       {{ partial "calv/mini-top-picks.html" . }}
 
-      <div class="calv-decision-grid">
-        <div class="calv-decision-card">
-          <div class="calv-decision-eyebrow">TOP PICKS</div>
-          <ul class="calv-decision-links">
-            <li><a href="/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast">Best “bad-week recovery” pick</a></li>
-            <li><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">Best “quiet-hours” pick</a></li>
+      <div class=”calv-decision-grid”>
+        <div class=”calv-decision-card”>
+          <div class=”calv-decision-eyebrow”>TOP PICKS</div>
+          <ul class=”calv-decision-links”>
+            <li><a href=”/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast”>Best “bad-week recovery” pick</a></li>
+            <li><a href=”/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows”>Best “quiet-hours” pick</a></li>
           </ul>
-          <div class="calv-decision-note">We keep claims labeled (Spec / Reported / Measured / Estimate).</div>
+          <div class=”calv-decision-note”>We keep claims labeled (Spec / Reported / Measured / Estimate).</div>
         </div>
 
-        <div class="calv-decision-card">
-          <div class="calv-decision-eyebrow">PICK YOUR CONSTRAINT</div>
-          <ul class="calv-decision-links">
-            <li><a href="/best-fast-charging-power-stations-for-quiet-hours/" data-calv-event="constraint_chooser_click" data-calv-constraint="quiet-hours">Quiet hours / rules</a></li>
-            <li><a href="/best-fast-charging-power-stations-for-generator-free-van-life/" data-calv-event="constraint_chooser_click" data-calv-constraint="generator-free">Generator-free</a></li>
-            <li><a href="/under-1000-fast-charging-watch-list/" data-calv-event="constraint_chooser_click" data-calv-constraint="under-1000-watch-list">Under-$1000 More Picks</a></li>
-            <li><a href="/fast-charging-not-keeping-up-what-to-fix-first/" data-calv-event="constraint_chooser_click" data-calv-constraint="fix-first">Still not keeping up?</a></li>
-            <li><a href="/fast-charging-power-station-buyer-checklist/" data-calv-event="constraint_chooser_click" data-calv-constraint="buyer-checklist">Buyer checklist</a></li>
+        <div class=”calv-decision-card”>
+          <div class=”calv-decision-eyebrow”>PICK YOUR CONSTRAINT</div>
+          <ul class=”calv-decision-links”>
+            <li><a href=”/best-fast-charging-power-stations-for-quiet-hours/” data-calv-event=”constraint_chooser_click” data-calv-constraint=”quiet-hours”>Quiet hours / rules</a></li>
+            <li><a href=”/best-fast-charging-power-stations-for-generator-free-van-life/” data-calv-event=”constraint_chooser_click” data-calv-constraint=”generator-free”>Generator-free</a></li>
+            <li><a href=”/under-1000-fast-charging-watch-list/” data-calv-event=”constraint_chooser_click” data-calv-constraint=”under-1000-watch-list”>Under-$1000 More Picks</a></li>
+            <li><a href=”/fast-charging-not-keeping-up-what-to-fix-first/” data-calv-event=”constraint_chooser_click” data-calv-constraint=”fix-first”>Still not keeping up?</a></li>
+            <li><a href=”/fast-charging-power-station-buyer-checklist/” data-calv-event=”constraint_chooser_click” data-calv-constraint=”buyer-checklist”>Buyer checklist</a></li>
           </ul>
         </div>
       </div>
     </div>
+    {{ end }}
 
           {{ .Content }}
           {{ $defaultReplyByEmail := site.Params.replyByEmail }}
@@ -158,8 +182,9 @@
         <div class="px-0 lg:col-span-2">
           <div class="toc calv-toc-card print:hidden lg:sticky {{ $topClass }}">
             {{ partial "toc.html" . }}
-  <!-- CAVL Right Rail Stack (routing + monetization-friendly space) -->
+  <!-- CAVL Right Rail Stack -->
   <div class="calv-rail-stack mt-4 space-y-4">
+    {{ if in (slice "gear" "best-of" "collections" "watch-list") .Section }}
     <div class="calv-rail-card">
       <div class="calv-rail-eyebrow">TOP PICKS</div>
       <ul class="calv-rail-links calv-rail-links--primary">
@@ -172,11 +197,9 @@
     <div class="calv-rail-card">
       <div class="calv-rail-eyebrow">PICK YOUR CONSTRAINT</div>
       <ul class="calv-rail-links">
-        <li><a href="/best-fast-charging-power-stations-for-quiet-hours/" data-calv-event="constraint_chooser_click" data-calv-constraint="quiet-hours">Quiet hours / rules</a></li>
-        <li><a href="/best-fast-charging-power-stations-for-generator-free-van-life/" data-calv-event="constraint_chooser_click" data-calv-constraint="generator-free">Generator-free</a></li>
-        <li><a href="/fast-charging-power-station-buyer-checklist/" data-calv-event="constraint_chooser_click" data-calv-constraint="buyer-checklist">Buyer Checklist</a></li>
-        <li><a href="/fast-charging-buyer-guides/" data-calv-event="constraint_chooser_click" data-calv-constraint="buyer-guides">Buyer Guides hub</a></li>
-        <li><a href="/recovery-moves-index/" data-calv-event="constraint_chooser_click" data-calv-constraint="recovery-moves">Recovery Moves Index</a></li>
+        <li><a href="/best-fast-charging-power-stations-for-quiet-hours/">Quiet hours / rules</a></li>
+        <li><a href="/best-fast-charging-power-stations-for-generator-free-van-life/">Generator-free</a></li>
+        <li><a href="/fast-charging-power-station-buyer-checklist/">Buyer Checklist</a></li>
       </ul>
     </div>
 
@@ -187,13 +210,9 @@
       </ul>
       <div class="calv-rail-note">Curated and updated for timing signals, not price promises.</div>
     </div>
+    {{ end }}
 
     {{ partial "calv/email-capture-module.html" . }}
-
-    <div class="calv-rail-card calv-ad-slot" data-slot="rail-1">
-      <div class="calv-rail-eyebrow">SPONSORED</div>
-      <div class="calv-rail-note">Reserved for future partner widgets.</div>
-    </div>
   </div>
 
           </div>
@@ -219,6 +238,33 @@
     </footer>
     </div>
   </article>
+
+  <script>
+  (function () {
+    /* ── Reading progress bar ── */
+    var bar = document.getElementById('calv-read-progress');
+    function updateBar() {
+      var scrolled = window.scrollY || document.documentElement.scrollTop;
+      var total = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      bar.style.width = (total > 0 ? Math.min(100, (scrolled / total) * 100) : 0) + '%';
+    }
+    if (bar) window.addEventListener('scroll', updateBar, { passive: true });
+
+    /* ── Active TOC highlight ── */
+    var headings = document.querySelectorAll('.article-content h2[id], .article-content h3[id]');
+    var tocLinks = document.querySelectorAll('.calv-toc-card a');
+    function updateTOC() {
+      var scrollY = (window.scrollY || document.documentElement.scrollTop) + 140;
+      var active = null;
+      headings.forEach(function (h) { if (h.offsetTop <= scrollY) active = h; });
+      tocLinks.forEach(function (a) {
+        var isActive = active && a.getAttribute('href') === '#' + active.id;
+        a.classList.toggle('calv-toc-active', !!isActive);
+      });
+    }
+    if (tocLinks.length) window.addEventListener('scroll', updateTOC, { passive: true });
+  })();
+  </script>
 {{ end }}
 
 {{ define "SingleAuthor" }}

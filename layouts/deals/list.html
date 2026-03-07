@@ -1,0 +1,157 @@
+{{ define "main" }}
+<div class="deals-page">
+
+  {{/* ── HERO ── */}}
+  <header class="calv-sh-hero" style="background-image: url('{{ "/img/home/deals.jpg" | relURL }}');">
+    <div class="calv-sh-hero__overlay" aria-hidden="true"></div>
+    <div class="calv-sh-hero__inner">
+      <p class="calv-sh-hero__kicker">Reviewed monthly · No urgency bait</p>
+      <h1 class="calv-sh-hero__h1">Deals</h1>
+      <p class="calv-sh-hero__sub">We track timing windows where value is more likely to appear. We don't manufacture urgency. A window is a window, not a guarantee.</p>
+    </div>
+  </header>
+
+  {{/* ── HOW IT WORKS ── */}}
+  <section class="deals-how">
+    <div class="deals-section-inner">
+      <p class="deals-how__text">The major van power brands — EcoFlow, Jackery, and BLUETTI — run meaningful promos around three windows each year. Outside those windows, model-specific sales are harder to predict. Use this page to time purchases calmly, then route into the right buyer page.</p>
+    </div>
+  </section>
+
+  {{/* ── TIMING WINDOWS ── */}}
+  <section class="deals-timing">
+    <div class="deals-section-inner">
+      <div class="deals-section-head">
+        <h2 class="deals-section-title">Current Timing Windows</h2>
+        <span class="deals-reviewed-badge">Last reviewed: March 2026</span>
+      </div>
+      <div class="deals-timing-grid">
+
+        <div class="deals-timing-card">
+          <div class="deals-timing-card__month">July</div>
+          <h3 class="deals-timing-card__title">Prime Day</h3>
+          <p class="deals-timing-card__body">Historically the strongest single window for power station promos. All three major brands typically participate with meaningful discounts — not just clearance SKUs.</p>
+        </div>
+
+        <div class="deals-timing-card">
+          <div class="deals-timing-card__month">November</div>
+          <h3 class="deals-timing-card__title">Black Friday / Cyber Monday</h3>
+          <p class="deals-timing-card__body">Most reliable for stacking deals and bundle value. Refurb channels also get restocked around this window. Widest selection, most overlap between brands.</p>
+        </div>
+
+        <div class="deals-timing-card">
+          <div class="deals-timing-card__month">May</div>
+          <h3 class="deals-timing-card__title">Spring (Memorial Day)</h3>
+          <p class="deals-timing-card__body">Secondary window that varies more by model and brand. Worth watching if you're already route-confirmed — but don't wait specifically for this one if July or November is closer.</p>
+        </div>
+
+      </div>
+      <p class="deals-timing-note">Outside these windows, new model launches can open value on prior-gen units. Refurb and restock waves are less predictable but worth monitoring if you're already confirmed on a route.</p>
+    </div>
+  </section>
+
+  {{/* ── DEAL-SAFE PICKS ── */}}
+  <section class="deals-picks">
+    <div class="deals-section-inner">
+      <h2 class="deals-section-title">Deal-Safe Picks</h2>
+      <p class="deals-section-sub">Confirm your route first. When promos hit these models, you'll know if they fit.</p>
+      <div class="deals-picks-grid">
+
+        <a href="{{ "/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast" | relLangURL }}" class="deals-pick-card">
+          <div class="deals-pick-card__label">Fastest Recovery</div>
+          <h3 class="deals-pick-card__title">EcoFlow DELTA 2</h3>
+          <p class="deals-pick-card__body">Erase a bad week fast. Highest AC input in the under-$1000 range — fills in under an hour from wall.</p>
+          <span class="deals-pick-card__link">See route →</span>
+        </a>
+
+        <a href="{{ "/best-fast-charging-power-stations-for-quiet-hours/#bucket-b--rule-heavy--inconsistent-access-predictability-first" | relLangURL }}" class="deals-pick-card">
+          <div class="deals-pick-card__label">Quiet Hours</div>
+          <h3 class="deals-pick-card__title">BLUETTI AC180</h3>
+          <p class="deals-pick-card__body">Campground and timing-restricted builds. Predictable solar intake with a small footprint.</p>
+          <span class="deals-pick-card__link">See route →</span>
+        </a>
+
+        <a href="{{ "/best-fast-charging-power-stations-for-generator-free-van-life/#bucket-b--quiet-hours-friendly-recovery" | relLangURL }}" class="deals-pick-card">
+          <div class="deals-pick-card__label">Generator-Free</div>
+          <h3 class="deals-pick-card__title">Jackery 1000 Plus</h3>
+          <p class="deals-pick-card__body">Repeatable recovery without a generator. Strong alternator compatibility and a clean recharge rhythm.</p>
+          <span class="deals-pick-card__link">See route →</span>
+        </a>
+
+        <a href="{{ "/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days" | relLangURL }}" class="deals-pick-card">
+          <div class="deals-pick-card__label">Value Under $1000</div>
+          <h3 class="deals-pick-card__title">Anker SOLIX C1000</h3>
+          <p class="deals-pick-card__body">Add margin without overspending. Good specs-per-dollar ratio — worth watching during Prime Day and BFCM.</p>
+          <span class="deals-pick-card__link">See route →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  {{/* ── BEFORE YOU BUY ── */}}
+  <section class="deals-check">
+    <div class="deals-section-inner">
+      <h2 class="deals-section-title">Before You Act on a Deal</h2>
+      <p class="deals-section-sub">Run this checklist before buying anything.</p>
+      <ul class="deals-checklist">
+        <li class="deals-checklist__item">
+          <label class="deals-checklist__label">
+            <input type="checkbox" class="deals-checklist__check">
+            <span>Is the capacity right for my <strong>real daily loads</strong> — not my ideal-day estimate?</span>
+          </label>
+        </li>
+        <li class="deals-checklist__item">
+          <label class="deals-checklist__label">
+            <input type="checkbox" class="deals-checklist__check">
+            <span>Have I completed the <a href="{{ "/fast-charging-power-station-buyer-checklist/" | relLangURL }}">Buyer Checklist</a> for this purchase?</span>
+          </label>
+        </li>
+        <li class="deals-checklist__item">
+          <label class="deals-checklist__label">
+            <input type="checkbox" class="deals-checklist__check">
+            <span>Am I buying because this gear <strong>fits my situation</strong>, or because it is on sale?</span>
+          </label>
+        </li>
+      </ul>
+      <div class="deals-check-note">
+        If the answer to that last question is mostly "it's on sale" — wait. A discounted unit that doesn't fit your recovery routine is still the wrong unit.
+      </div>
+
+      <div class="deals-check-cta" id="deals-check-cta" aria-live="polite">
+        <p class="deals-check-cta__text">You've confirmed fit. Now pick your route.</p>
+        <a href="{{ "/best-of/" | relLangURL }}" class="deals-check-cta__btn">Go to Best Picks →</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      var boxes = document.querySelectorAll('.deals-checklist__check');
+      var cta   = document.getElementById('deals-check-cta');
+      function update() {
+        var allChecked = Array.prototype.every.call(boxes, function (b) { return b.checked; });
+        cta.classList.toggle('deals-check-cta--visible', allChecked);
+      }
+      boxes.forEach(function (b) { b.addEventListener('change', update); });
+    })();
+  </script>
+
+  {{/* ── ALL ROUTES ── */}}
+  <section class="deals-routes" id="deals-routes">
+    <div class="deals-section-inner">
+      <h2 class="deals-section-title deals-section-title--light">All Buyer Routes</h2>
+      <p class="deals-section-sub deals-section-sub--light">Route yourself first, then watch timing.</p>
+      <div class="deals-routes-grid">
+        <a href="{{ "/best-fast-charging-power-stations-under-1000/" | relLangURL }}" class="deals-route-link">Best Fast-Charging Under $1000 →</a>
+        <a href="{{ "/best-fast-charging-power-stations/" | relLangURL }}" class="deals-route-link">Best Fast-Charging (all budgets) →</a>
+        <a href="{{ "/best-fast-charging-power-stations-for-quiet-hours/" | relLangURL }}" class="deals-route-link">Best for Quiet Hours →</a>
+        <a href="{{ "/best-fast-charging-power-stations-for-generator-free-van-life/" | relLangURL }}" class="deals-route-link">Best Generator-Free →</a>
+        <a href="{{ "/watch-list/fast-ac-under-1000/" | relLangURL }}" class="deals-route-link">More Picks — Price Drift Watch List →</a>
+        <a href="{{ "/fast-charging-power-station-buyer-checklist/" | relLangURL }}" class="deals-route-link">Buyer Checklist →</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+{{ end }}
