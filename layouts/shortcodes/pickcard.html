@@ -3,7 +3,7 @@
 {{- $bestfor := .Get "bestfor" -}}
 {{- $move := .Get "move" -}}
 {{- $truth := .Get "truth" -}}
-{{- $whyhref := .Get "whyhref" | default "/how-we-test-and-source-van-power/" -}}
+{{- $whyhref := .Get "whyhref" | default "" -}}
 {{- $whytext := .Get "whytext" | default "Read the why" -}}
 {{- $href := .Get "href" -}}
 {{- $hrefLower := lower (printf "%v" $href) -}}
@@ -16,6 +16,7 @@
 -}}
 {{- $btn := .Get "button" | default "Check price" -}}
 {{- $details := .Get "details" -}}
+{{- $pricehref := .Get "pricehref" -}}
 
 <div class="calv-pick">
   <div class="calv-pick__inner">
@@ -50,10 +51,13 @@
       </div>
     {{- end -}}
 
-    {{- if or $whyhref $hasHref -}}
+    {{- if or $pricehref $whyhref $hasHref -}}
       <div class="calv-pick__actions">
+        {{- if $pricehref -}}
+          <a class="btn-shortcode btn-primary" href="{{ $pricehref }}" rel="nofollow sponsored noopener noreferrer" target="_blank">{{ $btn }} →</a>
+        {{- end -}}
         {{- if $whyhref -}}
-          <a class="button secondary" href="{{ $whyhref }}">{{ $whytext }}</a>
+          <a class="calv-pick__link" href="{{ $whyhref }}">{{ $whytext }}</a>
         {{- end -}}
         {{- if $hasHref -}}
           <a class="button" href="{{ $href }}" rel="nofollow sponsored noopener noreferrer" target="_blank">{{ $btn }}</a>

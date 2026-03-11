@@ -751,7 +751,8 @@ h1,
 }
 
 .btn-shortcode {
-  display: inline-block;
+  display: inline-block !important;
+  width: auto !important;
   border-radius: 999px;
   padding: 0.6rem 1rem;
   font-size: 0.8rem;
@@ -1283,6 +1284,13 @@ pre code {
   border: 1px solid var(--calv-border);
   border-radius: 12px;
   background: rgba(15, 23, 42, 0.02);
+}
+
+.calv-cta {
+  padding: 0.45rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 0.5rem;
 }
 
 .calv-home-hero {
@@ -2150,6 +2158,8 @@ h1, h2, h3 {
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .calv-pick::before {
@@ -2164,7 +2174,16 @@ h1, h2, h3 {
   opacity: 0.9;
 }
 
-.calv-pick__inner { margin-left: 0.35rem; }
+.calv-pick__inner {
+  margin-left: 0.35rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.calv-pick__inner > .prose {
+  flex: 1;
+}
 
 .calv-pick__title {
   font-weight: 800;
@@ -2212,11 +2231,19 @@ h1, h2, h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 0.8rem;
+  margin-top: auto;
+  padding-top: 0.8rem;
 }
 
 .calv-pick__actions a {
   text-decoration: none;
+}
+
+.calv-pick__link {
+  font-size: 0.88rem;
+  color: var(--calv-link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* TOC fallback title when theme TOC lacks an explicit heading */

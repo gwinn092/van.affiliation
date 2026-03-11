@@ -83,12 +83,9 @@ Frameworks: [Shore Power Recovery Routine](/shore-power-recovery-routine/) · [S
   move="Use it to refill during short shore-power windows"
   details="700Wh+ floor: ✅"
   truth="Capacity is a manufacturer spec; recharge timing should be verified with third-party tests when available."
-  whyhref="/how-we-test-and-source-van-power/"
-  whytext="Read the why"
-  button="Check price"
+  pricehref="#"
 >}}
 Why it's here: a recovery-first pick when you want **short recharge windows** and you're staying near the 700Wh+ minimum.
-{{< button href="#" text="Check price →" >}}
 {{< /pickcard >}}
 
 {{< pickcard
@@ -98,12 +95,9 @@ Why it's here: a recovery-first pick when you want **short recharge windows** an
   move="Treat it as a 'reset tool' for cloudy/humid stretches"
   details="700Wh+ floor: ✅"
   truth="Capacity is a manufacturer spec; treat fast-charge claims as manufacturer until independently verified."
-  whyhref="/how-we-test-and-source-van-power/"
-  whytext="Read the why"
-  button="Check price"
+  pricehref="#"
 >}}
 Why it's here: when you need a **stable under-$1000 recovery option** without pretending price is fixed.
-{{< button href="#" text="Check price →" >}}
 {{< /pickcard >}}
 
 {{< /pickgrid >}}
@@ -130,8 +124,8 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
   truth="Capacity is manufacturer spec; recharge timing should be verified with third-party tests"
   whyhref="/best-of/best-fast-charging-power-stations/"
   whytext="See full breakdown"
+  pricehref="#"
 >}}
-{{< button href="#" text="Check price →" >}}
 {{< /pickcard >}}
 {{< pickcard
   title="Anker SOLIX C1000 Gen 2 (≈1kWh)"
@@ -141,8 +135,8 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
   truth="Capacity is manufacturer spec; fast-charge claims should be verified independently"
   whyhref="/best-of/best-fast-charging-power-stations/"
   whytext="See full breakdown"
+  pricehref="#"
 >}}
-{{< button href="#" text="Check price →" >}}
 {{< /pickcard >}}
 {{< pickcard
   title="Jackery Explorer 1000 v2 (1070Wh)"
@@ -152,8 +146,8 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
   truth="Capacity is manufacturer spec; treat fast-charge claims as manufacturer until independently verified"
   whyhref="/best-of/best-fast-charging-power-stations/"
   whytext="See full breakdown"
+  pricehref="#"
 >}}
-{{< button href="#" text="Check price →" >}}
 {{< /pickcard >}}
 {{< /pickgrid >}}
 
