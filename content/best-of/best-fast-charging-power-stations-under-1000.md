@@ -19,13 +19,6 @@ Fast charging is how you **recover** when van life gets real: heat, clouds, humi
 - **price-drift safe** structure (no "this is always under $1000" promises)
 {{< /fieldnote >}}
 
-If you want the fully sourced deep-dive buyer page (manufacturer claims + third-party tests), start here:
-- **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**
-
-If you want the system behind the picks:
-- **[Van Power Recovery Stack](/van-power-recovery-stack/)**
-- **[Recovery Window Priority Map](/recovery-window-priority-map/)**
-
 {{< calvbox kicker="Start here" >}}
 - **If you want the deep-dive picks:** [Best Fast-Charging Power Stations](/best-of/best-fast-charging-power-stations/)
 - **If you're choosing fast:** [Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)
