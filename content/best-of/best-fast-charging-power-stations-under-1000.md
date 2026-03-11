@@ -134,20 +134,35 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
 > These picks are **worth watching** because they often land under $1000, but may be above $1000 today.  
 > If you see one above $1000 right now, treat it as “wait for a sale”—not a budget lock.
 
-### EcoFlow DELTA 2 (1024Wh)
-**Status:** Watch for sale  
-**Why watch:** A mainstream ~1kWh class option that’s often a strong “plug in and recover” tool.  
-**Details + sourcing:** **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**.
-
-### Anker SOLIX C1000 Gen 2 (≈1kWh class)
-**Status:** Watch for sale  
-**Why watch:** Built for ultra-fast shore recovery when you need the shortest refill window.  
-**Details + sourcing:** **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**.
-
-### Jackery Explorer 1000 v2 (1070Wh)
-**Status:** Watch for sale  
-**Why watch:** ~1kWh class with a “fast mode” positioning—useful as a recovery tool when you’re behind.  
-**Details + sourcing:** **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**.
+{{< pickgrid >}}
+{{< pickcard
+  title=”EcoFlow DELTA 2 (1024Wh)”
+  details=”Watch for sale”
+  bestfor=”A mainstream ~1kWh option that’s often a strong plug-in and recover tool”
+  move=”Watch during Prime Day and BFCM”
+  truth=”Capacity is manufacturer spec; recharge timing should be verified with third-party tests”
+  whyhref=”/best-of/best-fast-charging-power-stations/”
+  whytext=”See full breakdown”
+>}}
+{{< pickcard
+  title=”Anker SOLIX C1000 Gen 2 (≈1kWh)”
+  details=”Watch for sale”
+  bestfor=”Built for ultra-fast shore recovery when you need the shortest refill window”
+  move=”Watch during Prime Day and BFCM”
+  truth=”Capacity is manufacturer spec; fast-charge claims should be verified independently”
+  whyhref=”/best-of/best-fast-charging-power-stations/”
+  whytext=”See full breakdown”
+>}}
+{{< pickcard
+  title=”Jackery Explorer 1000 v2 (1070Wh)”
+  details=”Watch for sale”
+  bestfor=”~1kWh class with fast mode positioning — useful as a recovery tool when you’re behind”
+  move=”Watch during Prime Day and BFCM”
+  truth=”Capacity is manufacturer spec; treat fast-charge claims as manufacturer until independently verified”
+  whyhref=”/best-of/best-fast-charging-power-stations/”
+  whytext=”See full breakdown”
+>}}
+{{< /pickgrid >}}
 
 ---
 
@@ -196,15 +211,6 @@ Baseline context:
 
 ---
 
-## Related reads
-
-Next step: pick your recovery move for today: **[Recovery Window Priority Map](/recovery-window-priority-map/)**.
-For a direct budget-tier comparison, use: **[Under-$500 vs Under-$1000 Van Power](/under-500-vs-under-1000-van-power/)**.
-
-- **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**
-- **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**
-- **[Van Power Upgrade Paths](/van-power-upgrade-paths/)**
-- **[Van Power Upgrade Checklist](/van-power-upgrade-checklist/)**
-- **[Starter Tier vs Upgrade Tier](/starter-tier-vs-upgrade-tier/)**
-- **[Under-$1000 Upgrade Plan](/under-1000-upgrade-plan/)**
-- **[Tier 2 Bad Week Protocol](/tier-2-bad-week-protocol/)**
+{{< nextstep >}}
+Ready to pick? Use the [Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/) to choose the smallest tier that keeps you out of drift. For a direct budget comparison, see [Under-$500 vs Under-$1000 Van Power](/under-500-vs-under-1000-van-power/).
+{{< /nextstep >}}

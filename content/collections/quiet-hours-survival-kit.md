@@ -24,13 +24,13 @@ This Browse route is for campers and stealth setups where timing rules shape eve
 - **<a href="/best-fast-charging-power-stations-under-1000/" data-calv-event="collection_cta_click" data-calv-collection="quiet-hours-survival-kit">Best Fast-Charging Power Stations Under $1000</a>**
 - **<a href="/fast-charging-power-station-buyer-checklist/" data-calv-event="collection_cta_click" data-calv-collection="quiet-hours-survival-kit">Fast-Charging Power Station Buyer Checklist</a>**
 
-## Pick your constraint
-
-- **Shortest refill windows:** **<a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-a--short-repeatable-refill-windows" data-calv-event="collection_cta_click" data-calv-collection="quiet-hours-survival-kit">Quiet Hours Bucket A</a>**
-- **Rule-heavy access:** **<a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-b--rule-heavy--inconsistent-access-predictability-first" data-calv-event="collection_cta_click" data-calv-collection="quiet-hours-survival-kit">Quiet Hours Bucket B</a>**
-- **Mostly stable, adding margin:** **<a href="/best-fast-charging-power-stations-for-quiet-hours/#bucket-c--if-youre-already-close-to-stable-add-margin-without-panic" data-calv-event="collection_cta_click" data-calv-collection="quiet-hours-survival-kit">Quiet Hours Bucket C</a>**
-- **Need budget-first alternatives:** **<a href="/best-fast-charging-power-stations-under-1000/" data-calv-event="collection_cta_click" data-calv-collection="quiet-hours-survival-kit">Open Under-$1000 buyer page</a>**
-- **Heat-heavy overnight routine:** **<a href="/best-fast-charging-power-stations-for-hot-nights/" data-calv-event="collection_cta_click" data-calv-collection="quiet-hours-survival-kit">Open Hot Nights buyer page</a>**
+{{< calvbox kicker="Pick your constraint" >}}
+- **Shortest refill windows:** [Quiet Hours Bucket A](/collections/quiet-hours-bucket-a/)
+- **Rule-heavy access:** [Quiet Hours Bucket B](/collections/quiet-hours-bucket-b/)
+- **Mostly stable, adding margin:** [Quiet Hours Bucket C](/collections/quiet-hours-bucket-c/)
+- **Need budget-first alternatives:** [Under-$1000 buyer page](/best-of/best-fast-charging-power-stations-under-1000/)
+- **Heat-heavy overnight routine:** [Hot Nights buyer page](/collections/hot-nights/)
+{{< /calvbox >}}
 
 ## Newest additions
 
@@ -42,3 +42,7 @@ This Browse route is for campers and stealth setups where timing rules shape eve
 
 - **[Fast Charging Not Keeping Up? What to Fix First](/fast-charging-not-keeping-up-what-to-fix-first/)**
 - **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**
+
+{{< nextstep >}}
+Pick your recovery move for today with the [Recovery Window Priority Map](/recovery-window-priority-map/). For a direct budget-tier comparison, use [Under-$500 vs Under-$1000 Van Power](/under-500-vs-under-1000-van-power/).
+{{< /nextstep >}}
