@@ -13,10 +13,11 @@ last_reviewed: 2026-03-03
 
 Fast charging is how you **recover** when van life gets real: heat, clouds, humid nights, quiet hours, workdays, and missed solar.
 
-CAVL rules for this page:
+{{< fieldnote >}}
 - **700Wh+ minimum** (non-negotiable)
 - rank and frame decisions by **time-to-recover** over raw storage
 - **price-drift safe** structure (no "this is always under $1000" promises)
+{{< /fieldnote >}}
 
 If you want the fully sourced deep-dive buyer page (manufacturer claims + third-party tests), start here:
 - **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**
@@ -25,11 +26,11 @@ If you want the system behind the picks:
 - **[Van Power Recovery Stack](/van-power-recovery-stack/)**
 - **[Recovery Window Priority Map](/recovery-window-priority-map/)**
 
-{{< startband >}}
-- **If you want the deep-dive picks:** start with **/best-of/best-fast-charging-power-stations/**  
-- **If you're choosing fast:** use **/fast-charging-power-station-buyer-checklist/**  
-- **If you're unsure about tiers:** compare **/under-500-vs-under-1000-van-power/**  
-{{< /startband >}}
+{{< calvbox kicker="Start here" >}}
+- **If you want the deep-dive picks:** [Best Fast-Charging Power Stations](/best-of/best-fast-charging-power-stations/)
+- **If you're choosing fast:** [Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)
+- **If you're unsure about tiers:** [Under-$500 vs Under-$1000 Van Power](/under-500-vs-under-1000-van-power/)
+{{< /calvbox >}}
 
 <div class="calv-cta-module">
   <div class="calv-cta-row">
@@ -61,18 +62,17 @@ We still prioritize:
 2) **Drive recovery** (when movement is built into your week)  
 3) **Solar behavior** (great when conditions cooperate; weak when they don't)
 
-Frameworks:
-- **[Shore Power Recovery Routine](/shore-power-recovery-routine/)**  
-- **[Solar vs Alternator Charging](/solar-vs-alternator-charging/)**  
-- **[Bluetti Fast Charging](/bluetti-fast-charging/)**  
+{{< nextstep >}}
+Frameworks: [Shore Power Recovery Routine](/shore-power-recovery-routine/) · [Solar vs Alternator Charging](/solar-vs-alternator-charging/) · [Bluetti Fast Charging](/bluetti-fast-charging/)
+{{< /nextstep >}}
 
 ---
 
-### CAVL Field Notes (real-world experience)
-
+{{< fieldnote >}}
 - In hot and humid weeks, capacity mattered less than having a recovery window we could actually execute.
 - Fast charging helped most when we treated it as a planned recovery tool, not a panic button.
 - In coastal humidity, we stay cautious with electronics exposure and lean toward simple, recoverable routines.
+{{< /fieldnote >}}
 
 ---
 
@@ -95,6 +95,7 @@ Frameworks:
   button="Check price"
 >}}
 Why it's here: a recovery-first pick when you want **short recharge windows** and you're staying near the 700Wh+ minimum.
+{{< button href="#" text="Check price →" >}}
 {{< /pickcard >}}
 
 {{< pickcard
@@ -109,6 +110,7 @@ Why it's here: a recovery-first pick when you want **short recharge windows** an
   button="Check price"
 >}}
 Why it's here: when you need a **stable under-$1000 recovery option** without pretending price is fixed.
+{{< button href="#" text="Check price →" >}}
 {{< /pickcard >}}
 
 {{< /pickgrid >}}
@@ -135,7 +137,9 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
   truth="Capacity is manufacturer spec; recharge timing should be verified with third-party tests"
   whyhref="/best-of/best-fast-charging-power-stations/"
   whytext="See full breakdown"
->}}{{< /pickcard >}}
+>}}
+{{< button href="#" text="Check price →" >}}
+{{< /pickcard >}}
 {{< pickcard
   title="Anker SOLIX C1000 Gen 2 (≈1kWh)"
   details="Watch for sale"
@@ -144,7 +148,9 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
   truth="Capacity is manufacturer spec; fast-charge claims should be verified independently"
   whyhref="/best-of/best-fast-charging-power-stations/"
   whytext="See full breakdown"
->}}{{< /pickcard >}}
+>}}
+{{< button href="#" text="Check price →" >}}
+{{< /pickcard >}}
 {{< pickcard
   title="Jackery Explorer 1000 v2 (1070Wh)"
   details="Watch for sale"
@@ -153,7 +159,9 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
   truth="Capacity is manufacturer spec; treat fast-charge claims as manufacturer until independently verified"
   whyhref="/best-of/best-fast-charging-power-stations/"
   whytext="See full breakdown"
->}}{{< /pickcard >}}
+>}}
+{{< button href="#" text="Check price →" >}}
+{{< /pickcard >}}
 {{< /pickgrid >}}
 
 ---

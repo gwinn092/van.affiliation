@@ -4201,6 +4201,7 @@ main :where(
   /* Links → green */
   --calv-link:         #1a3c2e;
   --calv-link-hover:   #122a1f;
+  --calv-link-visited: #1a3c2e;
 
   /* Override Blowfish ocean-blue primary → site green */
   --color-primary-50:  240, 247, 244;
