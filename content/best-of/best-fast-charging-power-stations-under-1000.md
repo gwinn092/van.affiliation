@@ -16,7 +16,7 @@ Fast charging is how you **recover** when van life gets real: heat, clouds, humi
 CAVL rules for this page:
 - **700Wh+ minimum** (non-negotiable)
 - rank and frame decisions by **time-to-recover** over raw storage
-- **price-drift safe** structure (no “this is always under $1000” promises)
+- **price-drift safe** structure (no "this is always under $1000" promises)
 
 ## Quick-scan comparison
 
@@ -35,8 +35,8 @@ If you want the system behind the picks:
 
 {{< startband >}}
 - **If you want the deep-dive picks:** start with **/best-of/best-fast-charging-power-stations/**  
-- **If you’re choosing fast:** use **/fast-charging-power-station-buyer-checklist/**  
-- **If you’re unsure about tiers:** compare **/under-500-vs-under-1000-van-power/**  
+- **If you're choosing fast:** use **/fast-charging-power-station-buyer-checklist/**  
+- **If you're unsure about tiers:** compare **/under-500-vs-under-1000-van-power/**  
 {{< /startband >}}
 
 <div class="calv-cta-module">
@@ -50,9 +50,9 @@ If you want the system behind the picks:
 
 > **Price drift policy (read this first)**  
 > Portable power station pricing moves constantly (sales, coupons, bundles, retailer swings).  
-> - We only label a pick **“Under $1000 right now”** when it’s currently available at or under $1000 from at least one mainstream retailer or the manufacturer store.  
-> - If a pick is **above $1000 today**, we move it to **More Picks (often under $1000)** and explain why it’s still worth watching.  
-> - We don’t promise exact prices inside the rankings. This page is updated as pricing shifts.
+> - We only label a pick **"Under $1000 right now"** when it's currently available at or under $1000 from at least one mainstream retailer or the manufacturer store.  
+> - If a pick is **above $1000 today**, we move it to **More Picks (often under $1000)** and explain why it's still worth watching.  
+> - We don't promise exact prices inside the rankings. This page is updated as pricing shifts.
 
 Before you shop, use the **[Fast-Charging Power Station Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then compare **[Main Fast-Charging Picks](/best-fast-charging-power-stations/)** and **[Essentials Picks](/best-fast-charging-power-stations-for-essentials/)**.
 For a single routing hub across all fast-charging buyer guides, use: **[Fast-Charging Buyer Guides](/fast-charging-buyer-guides/)**.
@@ -62,12 +62,12 @@ If you are moving up from under-$500, use this bridge: **[Under-$500 to Tier 2 U
 
 ## How we choose: recovery-first under a budget cap
 
-“Under $1000” isn’t a feature. It’s a constraint.
+"Under $1000" isn't a feature. It's a constraint.
 
 We still prioritize:
 1) **Shore recovery** (fastest stability reset when available)  
 2) **Drive recovery** (when movement is built into your week)  
-3) **Solar behavior** (great when conditions cooperate; weak when they don’t)
+3) **Solar behavior** (great when conditions cooperate; weak when they don't)
 
 Frameworks:
 - **[Shore Power Recovery Routine](/shore-power-recovery-routine/)**  
@@ -86,8 +86,8 @@ Frameworks:
 
 ## Under $1000 right now (700Wh+ floor)
 
-> These picks meet CAVL’s non-negotiable floor (**700Wh+**) and are **currently** available at or under $1000.  
-> **Editor note:** verify pricing before publishing updates; if it’s over $1000 today, move it to More Picks.
+> These picks meet CAVL's non-negotiable floor (**700Wh+**) and are **currently** available at or under $1000.  
+> **Editor note:** verify pricing before publishing updates; if it's over $1000 today, move it to More Picks.
 
 {{< pickgrid >}}
 
@@ -102,21 +102,21 @@ Frameworks:
   whytext="Read the why"
   button="Check price"
 >}}
-Why it’s here: a recovery-first pick when you want **short recharge windows** and you’re staying near the 700Wh+ minimum.
+Why it's here: a recovery-first pick when you want **short recharge windows** and you're staying near the 700Wh+ minimum.
 {{< /pickcard >}}
 
 {{< pickcard
   title="BLUETTI AC70"
   capacity="768Wh"
   bestfor="budget recovery + quick top-offs"
-  move="Treat it as a ‘reset tool’ for cloudy/humid stretches"
+  move="Treat it as a 'reset tool' for cloudy/humid stretches"
   details="700Wh+ floor: ✅"
   truth="Capacity is a manufacturer spec; treat fast-charge claims as manufacturer until independently verified."
   whyhref="/how-we-test-and-source-van-power/"
   whytext="Read the why"
   button="Check price"
 >}}
-Why it’s here: when you need a **stable under-$1000 recovery option** without pretending price is fixed.
+Why it's here: when you need a **stable under-$1000 recovery option** without pretending price is fixed.
 {{< /pickcard >}}
 
 {{< /pickgrid >}}
@@ -132,35 +132,35 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
 ## More Picks (often under $1000)
 
 > These picks are **worth watching** because they often land under $1000, but may be above $1000 today.  
-> If you see one above $1000 right now, treat it as “wait for a sale”—not a budget lock.
+> If you see one above $1000 right now, treat it as "wait for a sale"—not a budget lock.
 
 {{< pickgrid >}}
 {{< pickcard
-  title=”EcoFlow DELTA 2 (1024Wh)”
-  details=”Watch for sale”
-  bestfor=”A mainstream ~1kWh option that’s often a strong plug-in and recover tool”
-  move=”Watch during Prime Day and BFCM”
-  truth=”Capacity is manufacturer spec; recharge timing should be verified with third-party tests”
-  whyhref=”/best-of/best-fast-charging-power-stations/”
-  whytext=”See full breakdown”
+  title="EcoFlow DELTA 2 (1024Wh)"
+  details="Watch for sale"
+  bestfor="A mainstream ~1kWh option that's often a strong plug-in and recover tool"
+  move="Watch during Prime Day and BFCM"
+  truth="Capacity is manufacturer spec; recharge timing should be verified with third-party tests"
+  whyhref="/best-of/best-fast-charging-power-stations/"
+  whytext="See full breakdown"
 >}}
 {{< pickcard
-  title=”Anker SOLIX C1000 Gen 2 (≈1kWh)”
-  details=”Watch for sale”
-  bestfor=”Built for ultra-fast shore recovery when you need the shortest refill window”
-  move=”Watch during Prime Day and BFCM”
-  truth=”Capacity is manufacturer spec; fast-charge claims should be verified independently”
-  whyhref=”/best-of/best-fast-charging-power-stations/”
-  whytext=”See full breakdown”
+  title="Anker SOLIX C1000 Gen 2 (≈1kWh)"
+  details="Watch for sale"
+  bestfor="Built for ultra-fast shore recovery when you need the shortest refill window"
+  move="Watch during Prime Day and BFCM"
+  truth="Capacity is manufacturer spec; fast-charge claims should be verified independently"
+  whyhref="/best-of/best-fast-charging-power-stations/"
+  whytext="See full breakdown"
 >}}
 {{< pickcard
-  title=”Jackery Explorer 1000 v2 (1070Wh)”
-  details=”Watch for sale”
-  bestfor=”~1kWh class with fast mode positioning — useful as a recovery tool when you’re behind”
-  move=”Watch during Prime Day and BFCM”
-  truth=”Capacity is manufacturer spec; treat fast-charge claims as manufacturer until independently verified”
-  whyhref=”/best-of/best-fast-charging-power-stations/”
-  whytext=”See full breakdown”
+  title="Jackery Explorer 1000 v2 (1070Wh)"
+  details="Watch for sale"
+  bestfor="~1kWh class with fast mode positioning — useful as a recovery tool when you're behind"
+  move="Watch during Prime Day and BFCM"
+  truth="Capacity is manufacturer spec; treat fast-charge claims as manufacturer until independently verified"
+  whyhref="/best-of/best-fast-charging-power-stations/"
+  whytext="See full breakdown"
 >}}
 {{< /pickgrid >}}
 
@@ -174,10 +174,10 @@ Then tighten workflow leaks so the smaller class stays stable:
 - **[Inverter On or Off Workflow](/inverter-on-or-off-workflow/)**  
 - **[DC vs AC in Van Life Workflows](/dc-vs-ac-in-van-life-workflows/)**  
 
-### If you want ~1kWh and faster “plug-in recovery”
+### If you want ~1kWh and faster "plug-in recovery"
 Watch **DELTA 2**, **C1000 Gen 2**, and **Jackery 1000 v2** for sales.
 
-### If you’re not sure what recovery move you even need today
+### If you're not sure what recovery move you even need today
 Use the chooser first:
 - **[Recovery Window Priority Map](/recovery-window-priority-map/)**  
 And if you share a rig:
@@ -187,7 +187,7 @@ And if you share a rig:
 
 ## Budget reality check
 
-Under $1000 doesn’t automatically mean “easy life.”  
+Under $1000 doesn't automatically mean "easy life."  
 Stability still comes from routines:
 
 - Morning sets the plan: **[Morning Van Power Check](/morning-van-power-check/)**  
@@ -195,7 +195,7 @@ Stability still comes from routines:
 - Night protects tomorrow: **[Overnight Van Power Checklist](/overnight-van-power-checklist/)**  
 - Weekly prevents repeats: **[Van Power Weekly Reset Routine](/van-power-weekly-reset-routine/)**  
 
-If you’re constantly in Recovery mode, fix the pattern:
+If you're constantly in Recovery mode, fix the pattern:
 - **[Van Power Planning Mistakes](/van-power-planning-mistakes/)**  
 - **[Recovery Mode Load Priorities](/recovery-mode-load-priorities/)**  
 
