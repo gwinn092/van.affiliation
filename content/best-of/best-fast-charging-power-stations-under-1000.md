@@ -18,14 +18,6 @@ CAVL rules for this page:
 - rank and frame decisions by **time-to-recover** over raw storage
 - **price-drift safe** structure (no "this is always under $1000" promises)
 
-## Quick-scan comparison
-
-{{< comparetable >}}
-ecoflow_river_2_pro | Fast daily top-offs, short shore windows | $$$ | Fastest recharge in class, stays under $1000 | Smaller buffer for longer off-grid stretches | amazon
-jackery_1000_v2 | Move days, alternator-forward rigs | $$$ | ~1kWh buffer, watch for sales under $1000 | Often at or above $1000 at full price | amazon
-anker_solix_c1000 | Shortest refill window, work-heavy rigs | $$$ | Ultra-fast AC input; worth watching for sales | Often above $1000; treat as a sale-window pick | amazon
-{{< /comparetable >}}
-
 If you want the fully sourced deep-dive buyer page (manufacturer claims + third-party tests), start here:
 - **[Best Fast-Charging Power Stations](/best-fast-charging-power-stations/)**
 
@@ -166,48 +158,38 @@ We may earn a commission if you buy through links on this site—see **[Affiliat
 
 ---
 
-## How to choose in 30 seconds
+{{< calvbox kicker="How to choose in 30 seconds" >}}
+**If you want a smaller unit that still recovers fast** — Start with **RIVER 2 Pro** or **AC70** (both clear the 700Wh+ floor). Then tighten workflow leaks so the smaller class stays stable: [Inverter On or Off Workflow](/inverter-on-or-off-workflow/) · [DC vs AC in Van Life Workflows](/dc-vs-ac-in-van-life-workflows/)
 
-### If you want a smaller unit that still recovers fast
-Start with **RIVER 2 Pro** or **AC70** (both clear the 700Wh+ floor).  
-Then tighten workflow leaks so the smaller class stays stable:
-- **[Inverter On or Off Workflow](/inverter-on-or-off-workflow/)**  
-- **[DC vs AC in Van Life Workflows](/dc-vs-ac-in-van-life-workflows/)**  
+**If you want ~1kWh and faster "plug-in recovery"** — Watch **DELTA 2**, **C1000 Gen 2**, and **Jackery 1000 v2** for sales.
 
-### If you want ~1kWh and faster "plug-in recovery"
-Watch **DELTA 2**, **C1000 Gen 2**, and **Jackery 1000 v2** for sales.
-
-### If you're not sure what recovery move you even need today
-Use the chooser first:
-- **[Recovery Window Priority Map](/recovery-window-priority-map/)**  
-And if you share a rig:
-- **[Recovery Window Script for Couples](/recovery-window-script-for-couples/)**
+**If you're not sure what recovery move you even need today** — Use the chooser first: [Recovery Window Priority Map](/recovery-window-priority-map/). And if you share a rig: [Recovery Window Script for Couples](/recovery-window-script-for-couples/)
+{{< /calvbox >}}
 
 ---
 
 ## Budget reality check
 
-Under $1000 doesn't automatically mean "easy life."  
+Under $1000 doesn't automatically mean "easy life."
 Stability still comes from routines:
 
-- Morning sets the plan: **[Morning Van Power Check](/morning-van-power-check/)**  
-- Midday prevents drift: **[Midday Van Power Check](/midday-power-check/)**  
-- Night protects tomorrow: **[Overnight Van Power Checklist](/overnight-van-power-checklist/)**  
-- Weekly prevents repeats: **[Van Power Weekly Reset Routine](/van-power-weekly-reset-routine/)**  
+{{< calvbox kicker="Daily routines" >}}
+- Morning sets the plan: [Morning Van Power Check](/morning-van-power-check/)
+- Midday prevents drift: [Midday Van Power Check](/midday-power-check/)
+- Night protects tomorrow: [Overnight Van Power Checklist](/overnight-van-power-checklist/)
+- Weekly prevents repeats: [Van Power Weekly Reset Routine](/van-power-weekly-reset-routine/)
+{{< /calvbox >}}
 
-If you're constantly in Recovery mode, fix the pattern:
-- **[Van Power Planning Mistakes](/van-power-planning-mistakes/)**  
-- **[Recovery Mode Load Priorities](/recovery-mode-load-priorities/)**  
+{{< calvbox kicker="If you're constantly in recovery mode" >}}
+- [Van Power Planning Mistakes](/van-power-planning-mistakes/)
+- [Recovery Mode Load Priorities](/recovery-mode-load-priorities/)
+{{< /calvbox >}}  
 
 ---
 
-## If your budget is tighter
-
-Start here (price-drift safe and still 700Wh+):
-- **[Portable Power Stations Under $500](/best-of/power-stations-under-500/)**
-
-Baseline context:
-- **[What 700Wh Actually Runs](/what-700wh-actually-runs/)**
+{{< nextstep >}}
+**If your budget is tighter** — Start here (price-drift safe and still 700Wh+): [Portable Power Stations Under $500](/best-of/power-stations-under-500/). Baseline context: [What 700Wh Actually Runs](/what-700wh-actually-runs/).
+{{< /nextstep >}}
 
 ---
 
