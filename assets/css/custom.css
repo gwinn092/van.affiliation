@@ -5225,7 +5225,7 @@ h1 {
   aspect-ratio: 2000 / 480;
   min-height: 160px;
   background-color: rgb(15,35,24);
-  background-image: url('/img/home/promaster-tetons-hero.jpg');
+  /* background-image set via inline style in layouts/index.html using absURL */
   background-position: center 85%;
   background-size: cover;
   background-repeat: no-repeat;
