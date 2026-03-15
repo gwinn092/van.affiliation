@@ -47,18 +47,13 @@ miniTopPicks:
     image: "/img/picks/under-1000-fastest-recovery.jpg"
     imageAlt: "Camper van parked near mountains at sunset"
 ---
-If you’re shopping right now, start with the **[Buyer Checklist](/fast-charging-power-station-buyer-checklist/)**, then use the **[Buyer Guides hub](/fast-charging-buyer-guides/)** to pick your tier.  
-If any terms feel fuzzy (AC input, surge, pass-through), use the **[Fast-Charging Power Station Glossary](/fast-charging-power-station-glossary/)**.
+Most power stations under $1000 look fine on paper. Big Wh numbers, decent specs, reasonable price. The problem shows up on a bad week — when your outlet window is short, the weather killed your solar, and you’re watching your battery drift in the wrong direction.
 
-We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capacity. If your week goes sideways, the goal is simple: **recover quickly and get back to stable mode without panic upgrades**. For the big picture, see **[Generator-Free Van Power Recovery](/generator-free-van-power-recovery/)** and choose your smallest next move in **[Recovery Moves Index](/recovery-moves-index/)**.
+This page is for that moment. Not the spec sheet — the recovery.
 
-**Last reviewed:** February 26, 2026.  
-**How we choose (short version):** 700Wh+ floor, recharge-speed-first, and routing by real constraint.  
-**Claim labels:** Spec / Reported / Measured / Estimate so you can separate facts from planning math.  
-**Boundary:** this page stays troubleshooting and buying-focused; we do not publish wiring procedures.
-**Trust strip:** **[How we test + how we label claims](/how-we-test-and-label-claims/)**.
+We set a **700Wh minimum floor** and rank by **time-to-recover**, not raw capacity. The picks below are sorted into three buckets by the constraint that’s actually limiting you: short outlet windows, quiet-hours timing rules, or needing more buffer so one rough day doesn’t cascade. Find your constraint, pick your bucket, check the price. That’s the whole decision.
 
-**Scenario routes:** **[Time to Recover Explained](/time-to-recover-explained/)**, **[Under-$1000 Starter Kits](/under-1000-starter-kits/)**, **[Deal-Safe Buying Timing](/deal-safe-buying-timing/)**.
+**Last reviewed:** February 26, 2026. **Claim labels:** Spec / Reported / Measured / Estimate — so you can separate facts from planning math.
 
 ---
 
