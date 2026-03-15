@@ -1,13 +1,20 @@
 {{ define "main" }}
 <div class="calv-home">
 
+  {{/* ── PHOTO ── */}}
+  <div class="calv-home-photo" aria-hidden="true"></div>
+
   {{/* ── HERO ── */}}
-  <section class="calv-home-hero" style="background-image:url('{{ "img/home/hero.jpg" | absURL }}');">
+  <section class="calv-home-hero">
     <div class="calv-home-hero__overlay" aria-hidden="true"></div>
     <div class="calv-home-hero__inner">
-      <p class="calv-home-hero__kicker">Honest guides for budget van life</p>
-      <h1 class="calv-home-hero__h1">Find the right van power setup — without overbuilding or overspending.</h1>
-      <p class="calv-home-hero__sub">Real-world gear guides, a free power calculator, and beginner-to-full-time advice from 8+ years of full-time van life. Every spec labeled so you can compare clearly.</p>
+      <p class="calv-home-hero__kicker">8 years. One van. Everything we learned the hard way.</p>
+      <p class="calv-home-hero__hook">I didn't build this site because I had everything figured out.</p>
+      <p class="calv-home-hero__hook">I built it because I didn't — and I paid for it.</p>
+      <p class="calv-home-hero__sub">Santa Rosa Beach, Florida. Summer 2019. Seven days of clouds and heat touching 100 degrees on the Panhandle. Both of us working — restaurants, construction, bar backing. Long days, coming back to a van that was supposed to be home. The clouds knocked out about 80% of our solar. The fridge ran harder than normal. The fans ran 24/7. And my Goal Zero Yeti 1400 — 300 watts of solar, no alternator charging — had no real answer for any of it. I hauled the station into coffee shops multiple times that week. Not to charge a laptop. To keep food from going bad.</p>
+      <p class="calv-home-hero__sub">I couldn't afford to fix the system right then. And honestly, the gear back then wasn't what it is now — wall charging was slow, alternator options were limited. We just lived inside the problem for that week. All of it, on top of working full days in the Florida heat.</p>
+      <p class="calv-home-hero__sub">If someone had shown me what I actually needed before I built, I'd have built differently. That's what this site is.</p>
+      <p class="calv-home-hero__sub"><strong>Because it's not the easy days that make a minimal system hard. It's the days that aren't easy.</strong></p>
       <div class="calv-home-hero__ctas">
         <a href="{{ "/van-power-calculator/" | relLangURL }}" class="calv-home-btn calv-home-btn--primary">Size my system →</a>
         <a href="{{ "/start-here/" | relLangURL }}" class="calv-home-btn calv-home-btn--ghost">Start Here</a>
@@ -22,6 +29,11 @@
     <span>Every spec labeled: Spec / Reported / Measured / Estimate</span>
     <span class="calv-home-trust-dot" aria-hidden="true">·</span>
     <span>No fake urgency. Ever.</span>
+  </div>
+
+  {{/* ── PULL QUOTE ── */}}
+  <div class="calv-home-pullquote" aria-label="Pull quote">
+    <p class="calv-home-pullquote__text">"It's not the easy days that make a minimal system hard. It's the days that aren't easy."</p>
   </div>
 
   {{/* ── SCENARIO CHOOSER ── */}}
@@ -43,6 +55,34 @@
           <span class="calv-home-chooser-card__icon" aria-hidden="true">☀️</span>
           <span class="calv-home-chooser-card__title">I don't want to run a generator</span>
           <span class="calv-home-chooser-card__sub">Solar + alternator routines without the noise</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {{/* ── FROM THE ROAD ── */}}
+  <section class="calv-home-stories" aria-labelledby="stories-heading">
+    <div class="calv-home-stories__inner">
+      <h2 class="calv-home-section-title" id="stories-heading">From the Road</h2>
+      <p class="calv-home-section-sub">8 years of real situations. Not scenarios we imagined — things that actually happened.</p>
+      <div class="calv-home-stories__grid">
+        <a href="{{ "/blog/power-station-battery-calibration-fix/" | relLangURL }}" class="calv-home-story-card">
+          <span class="calv-home-story-card__kicker">Power Failure</span>
+          <h3 class="calv-home-story-card__title">The battery % crash that changed how we review gear</h3>
+          <p class="calv-home-story-card__body">In the mountains, our Goal Zero Yeti 1400 showed 60% — then died. We managed every watt in survival mode for days. Turns out both it and our Bluetti had the same bug. Almost no review site covers the fix.</p>
+          <span class="calv-home-story-card__link">Read the story →</span>
+        </a>
+        <a href="{{ "/blog/three-times-portability-saved-us/" | relLangURL }}" class="calv-home-story-card">
+          <span class="calv-home-story-card__kicker">The Portability Argument</span>
+          <h3 class="calv-home-story-card__title">Three times in 8 years a portable station saved us</h3>
+          <p class="calv-home-story-card__body">Electrical fault: pulled the station out. Coffee shop charging session: carried it in. Loaner to a stranded couple: unplugged and handed over. Portability isn't a spec — it's a capability that shows up at the worst times.</p>
+          <span class="calv-home-story-card__link">Read the story →</span>
+        </a>
+        <a href="{{ "/blog/goal-zero-yeti-1400-to-bluetti-elite-200-v2-upgrade/" | relLangURL }}" class="calv-home-story-card">
+          <span class="calv-home-story-card__kicker">Upgrade Lesson</span>
+          <h3 class="calv-home-story-card__title">What changed when we went from Yeti 1400 to Bluetti Elite 200V2</h3>
+          <p class="calv-home-story-card__body">Six years on the Yeti, then we upgraded. The Bluetti filled in under an hour from wall — the Yeti took most of a day. The difference wasn't capacity. It was how fast bad weeks could be erased.</p>
+          <span class="calv-home-story-card__link">Read the story →</span>
         </a>
       </div>
     </div>
@@ -143,34 +183,6 @@
   {{/* ── NEWSLETTER ── */}}
   <section class="calv-home-newsletter-wrap">
     {{ partial "home/newsletter.html" . }}
-  </section>
-
-  {{/* ── FROM THE ROAD ── */}}
-  <section class="calv-home-stories" aria-labelledby="stories-heading">
-    <div class="calv-home-stories__inner">
-      <h2 class="calv-home-section-title" id="stories-heading">From the Road</h2>
-      <p class="calv-home-section-sub">8 years of real situations. Not scenarios we imagined — things that actually happened.</p>
-      <div class="calv-home-stories__grid">
-        <a href="{{ "/blog/power-station-battery-calibration-fix/" | relLangURL }}" class="calv-home-story-card">
-          <span class="calv-home-story-card__kicker">Power Failure</span>
-          <h3 class="calv-home-story-card__title">The battery % crash that changed how we review gear</h3>
-          <p class="calv-home-story-card__body">In the mountains, our Goal Zero Yeti 1400 showed 60% — then died. We managed every watt in survival mode for days. Turns out both it and our Bluetti had the same bug. Almost no review site covers the fix.</p>
-          <span class="calv-home-story-card__link">Read the story →</span>
-        </a>
-        <a href="{{ "/blog/three-times-portability-saved-us/" | relLangURL }}" class="calv-home-story-card">
-          <span class="calv-home-story-card__kicker">The Portability Argument</span>
-          <h3 class="calv-home-story-card__title">Three times in 8 years a portable station saved us</h3>
-          <p class="calv-home-story-card__body">Electrical fault: pulled the station out. Coffee shop charging session: carried it in. Loaner to a stranded couple: unplugged and handed over. Portability isn't a spec — it's a capability that shows up at the worst times.</p>
-          <span class="calv-home-story-card__link">Read the story →</span>
-        </a>
-        <a href="{{ "/blog/goal-zero-yeti-1400-to-bluetti-elite-200-v2-upgrade/" | relLangURL }}" class="calv-home-story-card">
-          <span class="calv-home-story-card__kicker">Upgrade Lesson</span>
-          <h3 class="calv-home-story-card__title">What changed when we went from Yeti 1400 to Bluetti Elite 200V2</h3>
-          <p class="calv-home-story-card__body">Six years on the Yeti, then we upgraded. The Bluetti filled in under an hour from wall — the Yeti took most of a day. The difference wasn't capacity. It was how fast bad weeks could be erased.</p>
-          <span class="calv-home-story-card__link">Read the story →</span>
-        </a>
-      </div>
-    </div>
   </section>
 
   {{/* ── TOP PICKS ── */}}

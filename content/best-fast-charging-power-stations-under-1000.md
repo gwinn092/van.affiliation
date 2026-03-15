@@ -6,8 +6,8 @@ date: 2026-02-23
 draft: false
 categories: ["Power"]
 tags: ["van life", "under 1000", "fast charging", "power stations", "recovery"]
-featuredImage: "/img/hero/under-1000-hero.jpg"
-featuredImageAlt: "Camper van parked at sunset to represent fast recovery planning"
+featuredImage: "/img/buyer-pages/under-1000-hero.jpg"
+featuredImageAlt: "High-roof transit van with open door and warm interior light, parked in desert terrain at dusk."
 miniTopPicks:
   - label: "Fastest Recovery"
     title: "EcoFlow DELTA 2 (1024Wh)"
@@ -61,6 +61,8 @@ We recommend **700Wh+ minimum** and prioritize **time-to-recover** over raw capa
 
 ---
 
+<div class=”cavl-section-alt”>
+
 ## What “Under-$1000” really means here
 
 Under-$1000 is not a “budget flex.” It’s a **stability tier**:
@@ -70,6 +72,8 @@ Under-$1000 is not a “budget flex.” It’s a **stability tier**:
 - Your trap is chasing “biggest Wh” and still being stuck with slow refill or awkward routines.
 
 If you’re under the 700Wh floor (or you’re already drifting), use **[Under-$1000 Upgrade Plan](/under-1000-upgrade-plan/)** first.
+
+</div>
 
 ---
 
@@ -87,138 +91,127 @@ Methodology: **[How We Test and Source Van Power](/how-we-test-and-source-van-po
 
 ## Pick your constraint first (30-second chooser)
 
-- **Fastest wall recharge:** **[Go to Bucket A](/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast)**
-- **Quiet hours / rules:** **[Go to Bucket B](/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows)**
-- **Cloudy-week catch-up:** **[Go to Bucket A](/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast)**
-- **Small van / weight-conscious:** **[Go to Bucket B](/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows)**
-- **Lowest spend / best value route:** **[Go to Bucket C](/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days)**
-- **Hot nights / extra margin:** **[Go to Bucket C](/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days)**
-
----
-
-## Under-$1000 shortlist table (quick scan)
-
-<div class="comparetable-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th>Product</th>
-        <th>Best For</th>
-        <th>Price Range</th>
-        <th>Pros</th>
-        <th>Cons</th>
-        <th>CTA</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>{{< calvproduct id="ecoflow-delta-2" mode="name_link" >}}</td>
-        <td>Fastest bad-week catch-up</td>
-        <td>Under-$1000 watch for promos</td>
-        <td>Fast AC recovery class (Spec/Reported) with repeatable refill windows</td>
-        <td>Price can drift above target depending on season</td>
-        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-a--bad-week-recovery-erase-drift-fast">See Bucket A</a></td>
-      </tr>
-      <tr>
-        <td>{{< calvproduct id="bluetti-ac180" mode="name_link" >}}</td>
-        <td>Quiet-hours routines</td>
-        <td>Under-now to More Picks range</td>
-        <td>Strong refill rhythm for constrained timing (Spec/Reported)</td>
-        <td>Heavier than ultra-compact options</td>
-        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
-      </tr>
-      <tr>
-        <td>{{< calvproduct id="jackery-explorer-1000-plus" mode="name_link" >}}</td>
-        <td>Predictable rule-heavy access</td>
-        <td>More Picks</td>
-        <td>Routine-friendly AC refill profile (Spec/Reported)</td>
-        <td>Often better as a timing/value buy than impulse buy</td>
-        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-b--quiet-hours-recovery-predictable-windows">See Bucket B</a></td>
-      </tr>
-      <tr>
-        <td>{{< calvproduct id="anker-solix-c1000" mode="name_link" >}}</td>
-        <td>Best value route</td>
-        <td>Under-now in promo windows</td>
-        <td>Balanced recovery speed and margin (Spec/Reported)</td>
-        <td>Not the largest buffer for multi-day misses</td>
-        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days">See Bucket C</a></td>
-      </tr>
-      <tr>
-        <td>{{< calvproduct id="ecoflow-delta-2-max" mode="name_link" >}}</td>
-        <td>Extra margin, fewer panic days</td>
-        <td>More Picks</td>
-        <td>Bigger margin with strong recharge behavior (Spec/Reported)</td>
-        <td>Usually outside under-now budget; wait for clean value windows</td>
-        <td><a href="/best-fast-charging-power-stations-under-1000/#bucket-c--add-margin-less-stress-fewer-panic-days">See Bucket C</a></td>
-      </tr>
-      <tr>
-        <td>{{< calvproduct id="bluetti-ac200l" mode="name_link" >}}</td>
-        <td>High headroom upgrade path</td>
-        <td>More Picks</td>
-        <td>Large recovery headroom class (Spec/Reported)</td>
-        <td>Usually above under-now tier for this page’s target budget</td>
-        <td><a href="/best-fast-charging-power-stations-for-generator-free-van-life/">Open Generator-Free guide</a></td>
-      </tr>
-    </tbody>
-  </table>
+<div class="cavl-chooser">
+<div class="cavl-chooser-row">
+<span class="cavl-chooser-label">Fastest wall recharge</span>
+<a class="cavl-btn-outline" href="#bucket-a">Go to Bucket A →</a>
+</div>
+<div class="cavl-chooser-row">
+<span class="cavl-chooser-label">Quiet hours / rules</span>
+<a class="cavl-btn-outline" href="#bucket-b">Go to Bucket B →</a>
+</div>
+<div class="cavl-chooser-row">
+<span class="cavl-chooser-label">Cloudy-week catch-up</span>
+<a class="cavl-btn-outline" href="#bucket-a">Go to Bucket A →</a>
+</div>
+<div class="cavl-chooser-row">
+<span class="cavl-chooser-label">Lowest spend / best value</span>
+<a class="cavl-btn-outline" href="#bucket-c">Go to Bucket C →</a>
+</div>
 </div>
 
-For deeper routing by constraint, use **[Quiet Hours guide](/best-fast-charging-power-stations-for-quiet-hours/)** and **[Generator-free best picks](/best-fast-charging-power-stations-for-generator-free-van-life/)**.
-If you want a broader compare queue powered by the full library, open the **[Fast-AC Under-$1000 More Picks](/watch-list/fast-ac-under-1000/)**.
-
 ---
 
-{{< calvimg
-  src="/img/sections/under-1000-rhythm-1.jpg"
-  alt="Camper van parked outdoors during golden hour"
-  caption="Recovery-first picks should feel calm, not frantic."
-  credit="Photo source: Wikimedia Commons (User3204), CC BY 4.0."
-  style="wide"
->}}
+## Our picks at a glance
+
+<div class="cavl-pick-grid">
+
+<div class="cavl-pick-card top-pick">
+<span class="cavl-top-pick-badge">⚡ Top Pick</span>
+<a class="cavl-card-name" href="#bucket-a">EcoFlow DELTA 2 (1024Wh)</a>
+<span class="cavl-card-best-for">Fastest bad-week catch-up</span>
+<p class="cavl-card-why">Fast AC recovery class with repeatable refill windows — the pick when your outlet window is short and you need to stop the bleed fast.</p>
+<span class="cavl-status-now">Under-now</span>
+<a class="cavl-btn" href="#bucket-a">See Bucket A →</a>
+</div>
+
+<div class="cavl-pick-card">
+<a class="cavl-card-name" href="#bucket-b">BLUETTI AC180 (1152Wh)</a>
+<span class="cavl-card-best-for">Quiet-hours routines</span>
+<p class="cavl-card-why">Strong refill rhythm for constrained timing — works well when rules limit when you can charge.</p>
+<span class="cavl-status-now">Under-now</span>
+<a class="cavl-btn" href="#bucket-b">See Bucket B →</a>
+</div>
+
+<div class="cavl-pick-card">
+<a class="cavl-card-name" href="#bucket-b">Jackery Explorer 1000 Plus (1264Wh)</a>
+<span class="cavl-card-best-for">Predictable rule-heavy access</span>
+<p class="cavl-card-why">Routine-friendly AC refill profile — often better as a timing and value buy than an impulse purchase.</p>
+<span class="cavl-status-more">More Picks</span>
+<a class="cavl-btn" href="#bucket-b">See Bucket B →</a>
+</div>
+
+<div class="cavl-pick-card">
+<a class="cavl-card-name" href="#bucket-c">Anker SOLIX C1000 (1056Wh)</a>
+<span class="cavl-card-best-for">Best value route</span>
+<p class="cavl-card-why">Balanced recovery speed and margin — adds usable buffer while keeping recharge practical for normal weekly resets.</p>
+<span class="cavl-status-now">Under-now in promo windows</span>
+<a class="cavl-btn" href="#bucket-c">See Bucket C →</a>
+</div>
+
+<div class="cavl-pick-card">
+<a class="cavl-card-name" href="#bucket-c">EcoFlow DELTA 2 Max (2048Wh)</a>
+<span class="cavl-card-best-for">Extra margin, fewer panic days</span>
+<p class="cavl-card-why">Bigger buffer with strong recharge behavior — track for clean value windows rather than buying at full price.</p>
+<span class="cavl-status-more">More Picks</span>
+<a class="cavl-btn" href="#bucket-c">See Bucket C →</a>
+</div>
+
+<div class="cavl-pick-card">
+<a class="cavl-card-name" href="/generator-free-best-picks/">BLUETTI AC200L (2048Wh)</a>
+<span class="cavl-card-best-for">High headroom upgrade path</span>
+<p class="cavl-card-why">Large recovery headroom class — usually above this page’s target budget. Open the Generator-Free guide for the right context.</p>
+<span class="cavl-status-more">More Picks</span>
+<a class="cavl-btn" href="/generator-free-best-picks/">Open Generator-Free guide →</a>
+</div>
+
+</div>
 
 ## Picks (700Wh+ only) — organized by recovery scenario
 
 These are **recovery-first picks**, not “best specs on paper.” Each bucket is the decision you can actually repeat.
 
-### Bucket A — Bad-week recovery (erase drift fast)
+<div class="cavl-bucket-header" id="bucket-a">
+<span class="cavl-bucket-label">Bucket A</span>
+<h3>Bad-week recovery — erase drift fast</h3>
+</div>
 
 Use this bucket when your realistic outlet window is short and you need a fast refill to stop the bleed.
 
 **Quick chooser:** If your realistic outlet window is **~1 hour or less**, prioritize the fastest AC refill you can tolerate. If it’s **2+ hours**, you can trade a little speed for comfort and size.
 
-| Pick | Status | Why it fits | Claim label | Recovery scenario |
-|---|---|---|---|---|
-| [EcoFlow DELTA 2 (1024Wh)](/reviews/ecoflow-delta-2/) | Under-now | Fast AC refill profile that helps erase drift when your outlet window is tight. | Spec / Reported | Bad-week recovery |
-| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | More Picks | Strong recovery class for short windows when pricing lands in-range. | Spec / Reported | Bad-week recovery |
+| Pick | Status | Why it fits | Claim label | Recovery scenario | Buy |
+|---|---|---|---|---|---|
+| [EcoFlow DELTA 2 (1024Wh)](/reviews/ecoflow-delta-2/) | Under-now | Fast AC refill profile that helps erase drift when your outlet window is tight. | Spec / Reported | Bad-week recovery | <a class="cavl-price-btn" href="#">Check Price →</a> |
+| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | More Picks | Strong recovery class for short windows when pricing lands in-range. | Spec / Reported | Bad-week recovery | <a class="cavl-price-btn" href="#">Check Price →</a> |
 
-### Bucket B — Quiet-hours recovery (predictable windows)
+<div class="cavl-bucket-header" id="bucket-b">
+<span class="cavl-bucket-label">Bucket B</span>
+<h3>Quiet-hours recovery — predictable windows</h3>
+</div>
 
 Use this bucket when rules/stealth limit *when* you can charge, so you need predictable timing.
 
 **Quick chooser:** If quiet hours limit *when* you can charge, prioritize models that make your available window **predictable** — even if you’re not chasing the absolute fastest spec.
 
-{{< calvimg
-  src="/img/sections/under-1000-rhythm-2.jpg"
-  alt="Clean camper interior setup that feels quiet and orderly"
-  caption="Quiet-hours picks are about repeatable windows and low-friction routines."
-  credit="Photo source: Wikimedia Commons (Danny6060), CC BY-SA 4.0."
->}}
+| Pick | Status | Why it fits | Claim label | Recovery scenario | Buy |
+|---|---|---|---|---|---|
+| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Under-now | Predictable refill routine that works well when charge windows are controlled by rules. | Spec / Reported | Quiet-hours recovery | <a class="cavl-price-btn" href="#">Check Price →</a> |
+| [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | More Picks | Consistent recovery rhythm when access timing is constrained and you can wait for value windows. | Spec / Reported | Quiet-hours recovery | <a class="cavl-price-btn" href="#">Check Price →</a> |
 
-| Pick | Status | Why it fits | Claim label | Recovery scenario |
-|---|---|---|---|---|
-| [BLUETTI AC180 (1152Wh)](/reviews/bluetti-ac180/) | Under-now | Predictable refill routine that works well when charge windows are controlled by rules. | Spec / Reported | Quiet-hours recovery |
-| [Jackery Explorer 1000 Plus (1264Wh)](/reviews/jackery-explorer-1000-plus/) | More Picks | Consistent recovery rhythm when access timing is constrained and you can wait for value windows. | Spec / Reported | Quiet-hours recovery |
-
-### Bucket C — Add margin (less stress, fewer “panic days”)
+<div class=”cavl-bucket-header” id=”bucket-c”>
+<span class=”cavl-bucket-label”>Bucket C</span>
+<h3>Add margin — less stress, fewer panic days</h3>
+</div>
 
 Use this bucket when you’re mostly stable and want more buffer so one rough day doesn’t cascade.
 
 **Quick chooser:** If you’re already mostly stable, prioritize **margin** (less stress) and a routine you can repeat — not the largest battery you can fit.
 
-| Pick | Status | Why it fits | Claim label | Recovery scenario |
-|---|---|---|---|---|
-| [Anker SOLIX C1000 (1056Wh)](/reviews/anker-solix-c1000/) | Under-now | Adds usable margin while keeping recovery speed practical for normal weekly resets. | Spec / Reported | Add margin |
-| [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | More Picks | Larger buffer option to track when price/stock drift opens a clean upgrade path. | Spec / Reported | Add margin |
+| Pick | Status | Why it fits | Claim label | Recovery scenario | Buy |
+|---|---|---|---|---|---|
+| [Anker SOLIX C1000 (1056Wh)](/reviews/anker-solix-c1000/) | Under-now | Adds usable margin while keeping recovery speed practical for normal weekly resets. | Spec / Reported | Add margin | <a class="cavl-price-btn" href="#">Check Price →</a> |
+| [EcoFlow DELTA 2 Max (2048Wh)](/reviews/ecoflow-delta-2-max/) | More Picks | Larger buffer option to track when price/stock drift opens a clean upgrade path. | Spec / Reported | Add margin | <a class="cavl-price-btn" href="#">Check Price →</a> |
 
 ---
 

@@ -1,4 +1,5 @@
 html { overflow-x: hidden; }
+html, body { background-color: rgb(15,35,24); }
 
 /* Homepage: remove Blowfish's body max-width and padding so sections go full-bleed */
 body.is-home {
@@ -7,6 +8,10 @@ body.is-home {
   margin-right: 0 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+body.is-home .header-spacer {
+  min-height: 36px !important;
+  height: 36px !important;
 }
 
 :root {
@@ -5209,44 +5214,74 @@ h1 {
    HOMEPAGE
    ============================================================ */
 
-.calv-home { max-width: 100%; }
+.calv-home { max-width: 100%; position: relative; }
 
-/* Hero */
-.calv-home-hero {
+.calv-home-photo {
   position: relative;
   width: 100vw;
   max-width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  background-color: #0f2318;
+  aspect-ratio: 2000 / 480;
+  min-height: 160px;
+  background-color: rgb(15,35,24);
+  background-image: url('/img/home/promaster-tetons-hero.jpg');
+  background-position: center 85%;
   background-size: cover;
-  background-position: center 35%;
-  padding: 6rem 1.5rem 5rem;
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: 0;
+  padding: 0;
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 88%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 0%, black 88%, transparent 100%);
+}
+.calv-home-photo::after {
+  display: none;
+}
+
+/* Hero — dark green base, sits below photo */
+.calv-home-hero {
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 0;
+  background: rgb(15,35,24) !important;
+  padding: 2rem 1.5rem 2.5rem !important;
   text-align: center;
   color: #f8f5f0;
-  min-height: 520px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .calv-home-hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(10,25,15,.7) 0%, rgba(15,35,24,.85) 60%, rgba(10,25,15,.95) 100%);
+  background: transparent;
+  z-index: 1;
 }
 .calv-home-hero__inner {
   position: relative;
-  z-index: 1;
-  max-width: 720px;
+  z-index: 3;
+  padding-top: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1400px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
   margin: 0 auto;
 }
 .calv-home-hero__kicker {
-  font-size: .8rem;
-  font-weight: 700;
-  letter-spacing: .14em;
+  font-size: .875rem;
+  font-weight: 400;
+  letter-spacing: .08em;
   text-transform: uppercase;
   color: #e8a020;
-  margin-bottom: 1rem;
+  margin-bottom: .875rem;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
 }
 .calv-home-hero__h1 {
   font-size: clamp(2rem, 5vw, 3.25rem);
@@ -5256,11 +5291,10 @@ h1 {
   margin: 0 0 1.25rem;
 }
 .calv-home-hero__sub {
-  font-size: 1.05rem;
+  font-size: .95rem;
   color: rgba(248,245,240,.8);
-  line-height: 1.65;
-  max-width: 580px;
-  margin: 0 auto 2rem;
+  line-height: 1.55;
+  margin: 0 0 1rem;
 }
 .calv-home-hero__ctas {
   display: flex;
@@ -5302,6 +5336,37 @@ h1 {
   margin-right: calc(50% - 50vw);
 }
 .calv-home-trust-dot { color: #e8a020; font-size: 1.2rem; line-height: 1; }
+
+/* Hero hook lines */
+.calv-home-hero__hook {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #f8f5f0;
+  line-height: 1.5;
+  margin: 0 0 .75rem;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.7);
+}
+
+/* Pull quote */
+.calv-home-pullquote {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  border-top: 2px solid #e8a020;
+  border-bottom: 2px solid #e8a020;
+  background: #f4f1ec;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+.calv-home-pullquote__text {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #1a3c2e;
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
 
 /* Grid section */
 .calv-home-grid-section {
@@ -6621,4 +6686,225 @@ code.calv-label--estimate {
     background: rgba(26,60,46,.2);
     border-radius: 4px;
   }
+}
+
+/* =========================================================
+   CAVL Buyer Page Visual Overhaul — Sprint 26
+   ========================================================= */
+
+/* Change 1: Alternating section backgrounds */
+.cavl-section-alt {
+  background: #f2f2f0;
+  padding: 1.5rem 1.25rem;
+  margin: 1rem -1.25rem;
+  border-radius: 6px;
+}
+
+/* Change 2: Shortlist card grid */
+.cavl-pick-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 640px) {
+  .cavl-pick-grid { grid-template-columns: 1fr; }
+}
+
+.cavl-pick-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.cavl-pick-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+
+.cavl-pick-card.top-pick {
+  border-left: 3px solid #1a3c2e;
+}
+
+.cavl-pick-card__name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.cavl-pick-card__name a {
+  color: #1a3c2e;
+  text-decoration: none;
+}
+
+.cavl-pick-card__name a:hover {
+  text-decoration: underline;
+}
+
+.cavl-pick-card__best-for {
+  display: inline-block;
+  background: #e8a020;
+  color: #1a1a0a;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.cavl-pick-card__why {
+  font-size: 0.92rem;
+  color: #444;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.cavl-pick-card__price {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 0;
+}
+
+.cavl-pick-card__status {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.cavl-pick-card__status--active {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.cavl-pick-card__status--more {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+/* Change 3: Top pick banner */
+.cavl-top-pick-badge {
+  background: #1a3c2e;
+  color: #e8a020;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px 6px 0 0;
+  margin: -1.25rem -1.5rem 0.75rem -1.5rem;
+}
+
+/* CTA button */
+article .cavl-btn,
+.prose .cavl-btn {
+  display: inline-block;
+  background: #e8a020 !important;
+  color: #1a1a0a !important;
+  font-weight: 700;
+  padding: 0.6rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none !important;
+  text-align: center;
+  margin-top: auto;
+  font-size: 0.9rem;
+  transition: background 0.15s ease;
+  -webkit-text-fill-color: #1a1a0a !important;
+}
+
+article .cavl-btn:hover,
+.prose .cavl-btn:hover {
+  background: #c8880a !important;
+  color: #1a1a0a !important;
+  -webkit-text-fill-color: #1a1a0a !important;
+}
+
+/* Change 4: Bucket header banners */
+.cavl-bucket-header {
+  background: #1a3c2e;
+  color: #f8f5f0;
+  padding: 1rem 1.5rem;
+  margin: 2rem -1.25rem 1.5rem -1.25rem;
+  border-radius: 6px;
+}
+
+.cavl-bucket-header .cavl-bucket-label {
+  color: #e8a020;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+article .cavl-bucket-header h3,
+.prose .cavl-bucket-header h3 {
+  color: #f8f5f0 !important;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+/* Change 5: Chooser rows with buttons */
+.cavl-chooser-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  gap: 1rem;
+}
+
+.cavl-chooser-row:last-child {
+  border-bottom: none;
+}
+
+.cavl-chooser-label {
+  font-weight: 500;
+  color: #333;
+}
+
+article .cavl-btn-outline,
+.prose .cavl-btn-outline {
+  display: inline-block;
+  background: transparent !important;
+  border: 2px solid #1a3c2e !important;
+  border-color: #1a3c2e !important;
+  color: #1a3c2e !important;
+  font-weight: 700;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+  -webkit-text-fill-color: #1a3c2e !important;
+  outline: none;
+}
+
+article .cavl-btn-outline:focus-visible,
+.prose .cavl-btn-outline:focus-visible {
+  outline: 3px solid rgba(26, 60, 46, 0.4);
+  outline-offset: 2px;
+}
+
+article .cavl-btn-outline:hover,
+.prose .cavl-btn-outline:hover {
+  background: #1a3c2e !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
 }
