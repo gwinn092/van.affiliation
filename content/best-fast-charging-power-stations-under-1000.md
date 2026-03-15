@@ -4,6 +4,7 @@ description: "A recovery-first shortlist under $1000: prioritize fast AC chargin
 slug: "best-fast-charging-power-stations-under-1000"
 date: 2026-02-23
 draft: false
+tocCollapsed: true
 categories: ["Power"]
 tags: ["van life", "under 1000", "fast charging", "power stations", "recovery"]
 featuredImage: "/img/buyer-pages/under-1000-hero.jpg"
@@ -176,6 +177,9 @@ These are **recovery-first picks**, not “best specs on paper.” Each bucket i
 <h3>Bad-week recovery — erase drift fast</h3>
 </div>
 
+![Portable power bank unit on a flat surface, showing charge indicator lights](/img/buyer-pages/bucket-a-power-station.jpg)
+*Photo: I'M ZION / Unsplash*
+
 Use this bucket when your realistic outlet window is short and you need a fast refill to stop the bleed.
 
 **Quick chooser:** If your realistic outlet window is **~1 hour or less**, prioritize the fastest AC refill you can tolerate. If it’s **2+ hours**, you can trade a little speed for comfort and size.
@@ -190,6 +194,9 @@ Use this bucket when your realistic outlet window is short and you need a fast r
 <h3>Quiet-hours recovery — predictable windows</h3>
 </div>
 
+![Van parked next to a lake with person sitting at a table inside, working quietly](/img/buyer-pages/bucket-b-van-interior.jpg)
+*Photo: Daniel J. Schwarz / Unsplash*
+
 Use this bucket when rules/stealth limit *when* you can charge, so you need predictable timing.
 
 **Quick chooser:** If quiet hours limit *when* you can charge, prioritize models that make your available window **predictable** — even if you’re not chasing the absolute fastest spec.
@@ -203,6 +210,9 @@ Use this bucket when rules/stealth limit *when* you can charge, so you need pred
 <span class=”cavl-bucket-label”>Bucket C</span>
 <h3>Add margin — less stress, fewer panic days</h3>
 </div>
+
+![Camping gear flat lay including drone and portable power bank alongside outdoor equipment](/img/buyer-pages/bucket-c-camping-power.jpg)
+*Photo: Samsung Memory / Unsplash*
 
 Use this bucket when you’re mostly stable and want more buffer so one rough day doesn’t cascade.
 
