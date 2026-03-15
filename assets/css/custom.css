@@ -6859,12 +6859,13 @@ article .cavl-bucket-header h3,
   font-size: 1.1rem;
 }
 
-/* Bucket photos — constrain size so they don't expand full-width */
+/* Bucket photos — full-width landscape crop */
 .cavl-bucket-header + p img,
 .cavl-bucket-header + img {
-  max-width: 480px;
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
   display: block;
   border-radius: 8px;
   margin-bottom: 0.5rem;
