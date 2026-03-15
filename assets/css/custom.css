@@ -6859,6 +6859,17 @@ article .cavl-bucket-header h3,
   font-size: 1.1rem;
 }
 
+/* Bucket photos — constrain size so they don't expand full-width */
+.cavl-bucket-header + p img,
+.cavl-bucket-header + img {
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
 /* Change 5: Chooser rows with buttons */
 .cavl-chooser-row {
   display: flex;
